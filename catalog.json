@@ -206,7 +206,12 @@
       "id": "dark-vlad",
       "name": "Dark Vlad",
       "category": "characters",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/dark-vlad.gif",
+      "package": {
+        "pet.json": "b8de9a6c7f5620b06cc7de3c40e76450b7184272203ea3b74b2c3e776eaa178e",
+        "spritesheet.webp": "1a43d084a201ad90577fc4b586a7b148396122f48c92d8059bbce9c25facdadb"
+      }
     },
     {
       "id": "ush",

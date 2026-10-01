@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-left","B":"screen-right","reason":"A: nose and projecting grin form the left edge of the rider face, with the white eye behind them. B: nose and grin project from the right face edge."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A: the nose tip and tooth line point left beyond the cheek. B: the nose tip and tooth line extend right beyond the cheek."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A: the facial profile protrudes right, ahead of the white eye. B: the nose and grin protrude left, ahead of the white eye."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A: the nose and grin occupy and project from the right outline. B: their projection is on the left outline."},
+    {"pair":"horizontal-5","A":"screen-right","B":"screen-left","reason":"A: despite the lowered head, the nose ridge and grin end project to the right of the eye. B: the nose and grin projection is left of the eye and cheek."},
+    {"pair":"horizontal-6","A":"screen-right","B":"screen-left","reason":"A: the bent face retains a rightward nose and grin projection. B: its nose and grin protrude on the left side of the face."},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","reason":"A: the white eye sits behind a left-projecting nose and tooth line. B: the lowered face has its nose and tooth line projecting on its right outline."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A: forehead bows over the eyes and the chin tucks toward the chest. B: chin is raised strongly, showing the dark jaw underside and a long exposed neck."},
+    {"pair":"vertical-2","A":"down","B":"up","reason":"A: face is bowed toward the mount and chin tucked low. B: chin projects upward, with a visible underside and extended neck below the jaw."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A: forehead leans over the eyes and chin points toward the mount. B: face tilts back slightly, chin lifted beyond the neck with dark underside visible."},
+    {"pair":"vertical-4","A":"ambiguous","B":"down","reason":"A: the profile looks close to level; the chin and dark neck separation do not establish a clear upward or downward pitch. B: forehead bows forward and chin drops toward the mount."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A: the forehead overlaps the eye area and the chin is tucked near the chest. B: chin is lifted with a clear jaw underside and exposed extended neck."},
+    {"pair":"vertical-6","A":"ambiguous","B":"down","reason":"A: the left-facing profile has only a small chin-neck separation and looks near level; upward pitch is not clear from the jaw underside. B: head bows forward with forehead over the eyes and chin tucked toward the chest."},
+    {"pair":"vertical-7","A":"down","B":"ambiguous","reason":"A: forehead leans forward over the eye and chin is low toward the chest. B: the profile is near level, with insufficient jaw underside or chin lift to distinguish up from down confidently."}
+  ]
+}

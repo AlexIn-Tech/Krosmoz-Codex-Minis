@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-left","B":"screen-right","reason":"A: the rider's nose, grin and chin project left of the flame mass, with the exposed eye on that side. B: the nose and grin project right and the chin turns right above the extended neck."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A: the face silhouette and protruding nose are on the left edge of the head. B: the visible eye, nose tip and grin sit at the right edge of the flame-haired head."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A: the nose and grinning muzzle extend to the right of the cheek and flames. B: the nose and chin extend left, and the flame mass trails to the right."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A: the protruding nose and mouth form the right-facing silhouette. B: the exposed facial silhouette, grin and chin project left of the flame mass."},
+    {"pair":"horizontal-5","A":"screen-right","B":"screen-left","reason":"A: despite the lowered chin, the nose tip and mouth terminate on the right side of the dark face. B: the visible nose, grin and chin terminate to the left of the cheek and hair."},
+    {"pair":"horizontal-6","A":"screen-right","B":"screen-left","reason":"A: the downward-tilted face is close to frontal, but its small nose projection and far-side eye are at the right edge, with the broader cheek on the left. B: the nose and grin protrude left of the cheek beneath the white eye."},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","reason":"A: the rider's nose and mouth extend left of the cheek under the visible white eye. B: the bowed head is nearly frontal, but the nose and narrow far-side eye remain on the right edge, and the chin turns right."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A: the brow overhangs the eyes and the compressed face/chin points toward the mount. B: the face tilts back, exposing a broad underside of the chin and a long neck beneath the raised grin."},
+    {"pair":"vertical-2","A":"down","B":"up","reason":"A: the face is bowed over the mount, with the chin tucked beneath the low grin. B: the nose and grin are lifted, the chin projects upward and the neck is exposed below it."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A: the forehead overhangs the low face and the chin is tucked close to the hand/mount. B: the nose and grin tilt upward and the lifted chin leaves the neck visible beneath the jaw."},
+    {"pair":"vertical-4","A":"ambiguous","B":"down","reason":"A: the right-facing nose and grin are clear, but the facial plane appears close to level; the visible chin/neck is insufficient to distinguish a small upward pitch confidently. B: the forehead leans forward above the low eyes and the chin is tucked down toward the mount."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A: the brow projects over the low grin and the chin tucks toward the chest. B: the left-pointing nose and grin lift above the neck, with the underside of the jaw visible."},
+    {"pair":"vertical-6","A":"ambiguous","B":"down","reason":"A: the left-facing profile is clear, but the nose/grin appear close to level and the chin exposure does not establish an upward or downward pitch confidently. B: the forehead overhangs the face and the grin/chin sit low toward the chest."},
+    {"pair":"vertical-7","A":"ambiguous","B":"ambiguous","reason":"A: the face points left with a slightly tucked chin, but the small pitch is not decisive from the nose and grin geometry alone. B: the left-facing profile appears close to level; its slight chin exposure does not establish a definite up/down tilt."}
+  ]
+}

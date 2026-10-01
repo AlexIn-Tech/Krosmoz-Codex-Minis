@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-left","B":"screen-right","reason":"A rider nose, projecting grin and chin extend left of the eye and flame mass; B nose, grin and chin extend toward the right."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A has the facial leading edge and teeth on the left of the hair; B has the projecting facial edge and teeth on the right."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A rider nose and grin project right with hair behind to the left; B nose and grin project left with hair behind to the right."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A rider facial silhouette projects to the right; B facial silhouette, nose and chin project to the left."},
+    {"pair":"horizontal-5","A":"screen-right","B":"screen-left","reason":"Although A bows its head, its nose and lower face remain on the right side of the flame mass. B has its nose and grin on the left side."},
+    {"pair":"horizontal-6","A":"screen-right","B":"screen-left","reason":"A lowered rider face has the nose and grin toward the right; B lowered face has the leading facial edge and grin toward the left."},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","reason":"A rider leading brow/nose and grin are on the left of its head. B bowed face sits on the right of its flame mass with its facial projection rightward."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A face is tucked beneath an overhanging brow and flame forehead, chin close to chest. B head tips back with lifted grin and prominent exposed underside of chin and long neck."},
+    {"pair":"vertical-2","A":"down","B":"up","reason":"A rider nose and grin are lowered toward its hand and mount, with forehead overhanging. B nose and grin point upward and the lifted chin exposes the neck beneath."},
+    {"pair":"vertical-3","A":"down","B":"ambiguous","reason":"A chin is tucked and the brow overhangs the lowered nose/grin. B is mostly a sideways profile; its slight apparent chin lift is insufficient to distinguish a clear upward pitch from a nearly level head without pupils."},
+    {"pair":"vertical-4","A":"ambiguous","B":"down","reason":"A shows a nearly upright sideways facial plane, with no strong chin-underface exposure or tuck, so vertical pitch is unclear. B has the forehead over the eye and a lowered grin/chin close to the hand."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A forehead leans forward over the eye and its lower face is tucked toward the collar. B face is tilted back, nose elevated, grin raised and chin separated from the collar by exposed neck."},
+    {"pair":"vertical-6","A":"ambiguous","B":"down","reason":"A rider is a nearly level side profile with little reliable chin lift; a slight upward lean is possible but not decisive. B brow and forehead lean over the face and its nose/grin are lowered toward the chest."},
+    {"pair":"vertical-7","A":"down","B":"ambiguous","reason":"A forward brow and lowered nose/grin make a mild downward pitch visible. B face is close to upright in side profile, and its chin/neck geometry does not establish a clear upward or downward pitch."}
+  ]
+}

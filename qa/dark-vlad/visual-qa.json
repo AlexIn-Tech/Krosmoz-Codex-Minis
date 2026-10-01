@@ -1,0 +1,40 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "1a43d084a201ad90577fc4b586a7b148396122f48c92d8059bbce9c25facdadb",
+  "motion_review": "Inspected all 57 actual GIF-decoded standard frames in nine fresh final-filmstrip PNGs against the final extended contact sheet (6+8+8+4+5+8+6+6+6). Distinct run strides, waving palm lift, failed bow/recovery, waiting palm gesture and review head dip are visible. Jumping has a real frame-2 apex, not only leg pose changes. Every frame keeps full weapon, grip, rider/mount connection and uncropped extremities. Canonical base plus both original reference sheets preserve flame hair, dark rider face, red armor, purple weapon fittings, ivory blade and skeletal mount identity.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": "Viewed frames 0–5: subtle breathing/bob and flame changes; weapon blade and purple grip stay continuous, hand remains on mount, all paws and tips fit.",
+    "running-right": "Viewed frames 0–7: alternating extended and tucked skeletal legs with body bob; rider, grip and entire ivory blade remain attached; no cell clipping.",
+    "running-left": "Viewed frames 0–7: left-facing mount with alternating leg reach and recovery; full weapon sits on right side in this mirrored travel pose; rider remains seated and connected.",
+    "waving": "Viewed frames 0–3: resting hand lifts in frames 1–2 and returns in 3; other hand maintains weapon grip, torso and seat remain on mount.",
+    "jumping": "Viewed frames 0–4: crouched takeoff at 0, rise at 1, highest body and tucked feet at 2, descent at 3, lower landing at 4. This is actual vertical displacement inside the native cell, with blade and mount moving together.",
+    "failed": "Viewed frames 0–7: rider bows and mount compresses through 2–4, recovers at 5–7. Flame/head, weapon tip, teeth and feet remain present and inside bounds.",
+    "waiting": "Viewed frames 0–5: rider opens palm outward in 1–4, then rests it on mount at 5; skeletal mount subtly bobs, weapon remains in the opposite grip.",
+    "running": "Viewed frames 0–5: in-place brisk bob and flame/head changes with mounted posture maintained; feet, ivory blade and grip remain connected and complete.",
+    "review": "Viewed frames 0–5: thoughtful downward head dip at 1–2, then returns through 3–5; rider stays seated and mount/prop continuity survives each frame."
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "Inspected all 16 actual native final cells in look-directions.png plus freshly extracted ordered head strip and all four enlarged face-pair panels. 000 lifts chin centrally with exposed throat; 090 projects nose/jaw right; 180 bows centrally under flame hair with eyes/mouth still visible; 270 projects nose/jaw left. 022.5–067.5 progressively relax the upward tilt toward right; 112.5–157.5 bow progressively from right toward central down. 202.5–247.5 shift the bowed face left and straighten; 292.5–337.5 raise the left-projecting chin progressively. 337.5→000 returns the elevated left face to central raised face without reversal. Mount skull, seated torso and weapon retain their forward base orientation through the look cells; no whole-body yaw or hidden/back face.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "ff5d37b1db26c532187504435327b266959b86cd106780a7769ae4fece695d33",
+    "reason": "Viewed all 16 white-alpha silhouettes and corresponding colored cells, with alpha-topology counts treated as suspects rather than defects. Repeated gaps beneath jaw/arm are exterior negative space between projecting chin, neck/shoulder and bent arm; the mount underside openings align with separate skeletal legs and teeth. Small enclosed opening beside the purple hilt follows the ring/pommel structure; tiny mount voids follow separated bone/limb contours. Ivory blade, flame hair, skull forehead, armor and face remain solid with no visible interior material seam or arbitrary cutout. In upper-left looks the growing under-chin background gap follows the raised jaw, while the neck visibly connects the head to shoulders. Chroma report confirms alpha preserved; no hue-only repair performed."
+  },
+  "warnings": [],
+  "repair_rows": [],
+  "notes": [
+    "Independent final native inspection; no generation or artwork modifications. Fresh GIF filmstrips and ordered native head strip are review aids only.",
+    "Atlas hash and alpha-contact hash independently recomputed and match alpha-topology.json."
+  ]
+}

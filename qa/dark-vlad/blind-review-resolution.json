@@ -1,0 +1,174 @@
+{
+  "severity": "minor",
+  "decision": "accept",
+  "atlas_sha256": "1a43d084a201ad90577fc4b586a7b148396122f48c92d8059bbce9c25facdadb",
+  "basis": "Native blind cardinals passed; actual independent ordered-loop semantics have no failed direction",
+  "warnings": [
+    "vertical-4 A vertical axis is ambiguous",
+    "vertical-6 A vertical axis is ambiguous",
+    "vertical-7 B vertical axis is ambiguous"
+  ],
+  "independent_review": "Inspected all 16 actual native final cells in look-directions.png plus freshly extracted ordered head strip and all four enlarged face-pair panels. 000 lifts chin centrally with exposed throat; 090 projects nose/jaw right; 180 bows centrally under flame hair with eyes/mouth still visible; 270 projects nose/jaw left. 022.5\u2013067.5 progressively relax the upward tilt toward right; 112.5\u2013157.5 bow progressively from right toward central down. 202.5\u2013247.5 shift the bowed face left and straighten; 292.5\u2013337.5 raise the left-projecting chin progressively. 337.5\u2192000 returns the elevated left face to central raised face without reversal. Mount skull, seated torso and weapon retain their forward base orientation through the look cells; no whole-body yaw or hidden/back face.",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "reason": "Central raised face; no lateral nose displacement. Chin raised, throat long and exposed, underside of jaw prominent. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Central raised face; no lateral nose displacement.",
+      "vertical_evidence": "Chin raised, throat long and exposed, underside of jaw prominent.",
+      "coordinate_evidence": "Final native atlas row 9, column 0, cell x=0..191, y=1872..2079; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Nose and chin project right of throat. Jaw tilted up and throat exposed, less than 000. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Nose and chin project right of throat.",
+      "vertical_evidence": "Jaw tilted up and throat exposed, less than 000.",
+      "coordinate_evidence": "Final native atlas row 9, column 1, cell x=192..383, y=1872..2079; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Clear right-facing nose and jaw silhouette. Upward mouth/chin angle retained. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Clear right-facing nose and jaw silhouette.",
+      "vertical_evidence": "Upward mouth/chin angle retained.",
+      "coordinate_evidence": "Final native atlas row 9, column 2, cell x=384..575, y=1872..2079; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Clear right-facing profile. Mild upward tilt approaches horizontal 090. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Clear right-facing profile.",
+      "vertical_evidence": "Mild upward tilt approaches horizontal 090.",
+      "coordinate_evidence": "Final native atlas row 9, column 3, cell x=576..767, y=1872..2079; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "reason": "Nose and upper/lower lip edges point right. Mouth/jaw near horizontal, neutral vertical attitude. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Nose and upper/lower lip edges point right.",
+      "vertical_evidence": "Mouth/jaw near horizontal, neutral vertical attitude.",
+      "coordinate_evidence": "Final native atlas row 9, column 4, cell x=768..959, y=1872..2079; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Right-facing nose remains visible beneath bowed forehead. Forehead leans over face; chin drops toward resting hand. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Right-facing nose remains visible beneath bowed forehead.",
+      "vertical_evidence": "Forehead leans over face; chin drops toward resting hand.",
+      "coordinate_evidence": "Final native atlas row 9, column 5, cell x=960..1151, y=1872..2079; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Right-offset face under flame brow. Head bowed with reduced throat length. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Right-offset face under flame brow.",
+      "vertical_evidence": "Head bowed with reduced throat length.",
+      "coordinate_evidence": "Final native atlas row 9, column 6, cell x=1152..1343, y=1872..2079; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Small right offset of bowed chin remains before center. Deep bow, face compressed below flame brow. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Small right offset of bowed chin remains before center.",
+      "vertical_evidence": "Deep bow, face compressed below flame brow.",
+      "coordinate_evidence": "Final native atlas row 9, column 7, cell x=1344..1535, y=1872..2079; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "reason": "Centered downward face with balanced cheek edges. Central chin tucked down, face still visible below flame peak. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Centered downward face with balanced cheek edges.",
+      "vertical_evidence": "Central chin tucked down, face still visible below flame peak.",
+      "coordinate_evidence": "Final native atlas row 10, column 0, cell x=0..191, y=2080..2287; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Nose/cheek begins to project left from bowed center. Downward tilt persists while shifting left. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Nose/cheek begins to project left from bowed center.",
+      "vertical_evidence": "Downward tilt persists while shifting left.",
+      "coordinate_evidence": "Final native atlas row 10, column 1, cell x=192..383, y=2080..2287; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Left-facing cheek/nose widens relative to neck. Mild bow persists as left face becomes clearer. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Left-facing cheek/nose widens relative to neck.",
+      "vertical_evidence": "Mild bow persists as left face becomes clearer.",
+      "coordinate_evidence": "Final native atlas row 10, column 2, cell x=384..575, y=2080..2287; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Strong left profile, nose left of neck. Small down tilt approaches level 270. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Strong left profile, nose left of neck.",
+      "vertical_evidence": "Small down tilt approaches level 270.",
+      "coordinate_evidence": "Final native atlas row 10, column 3, cell x=576..767, y=2080..2287; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "reason": "Nose, mouth and chin silhouette points left. Level left-projecting face with neutral throat length. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Nose, mouth and chin silhouette points left.",
+      "vertical_evidence": "Level left-projecting face with neutral throat length.",
+      "coordinate_evidence": "Final native atlas row 10, column 4, cell x=768..959, y=2080..2287; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Nose/chin remain left while lifting. Chin rises, more throat visible than 270. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Nose/chin remain left while lifting.",
+      "vertical_evidence": "Chin rises, more throat visible than 270.",
+      "coordinate_evidence": "Final native atlas row 10, column 5, cell x=960..1151, y=2080..2287; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Left-facing nose with visible throat extension. Clear upward left tilt, elevated jaw. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Left-facing nose with visible throat extension.",
+      "vertical_evidence": "Clear upward left tilt, elevated jaw.",
+      "coordinate_evidence": "Final native atlas row 10, column 6, cell x=1152..1343, y=2080..2287; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Left-projecting raised chin and nose. Strong upward left tilt with exposed neck, approaches raised central 000. Adjacent frames retain the same ordered quarter and stationary mount orientation.",
+      "horizontal_evidence": "Left-projecting raised chin and nose.",
+      "vertical_evidence": "Strong upward left tilt with exposed neck, approaches raised central 000.",
+      "coordinate_evidence": "Final native atlas row 10, column 7, cell x=1344..1535, y=2080..2287; cues judged from rider nose/chin relative to throat and shoulders, not mount pupils."
+    }
+  ]
+}
