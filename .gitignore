@@ -1,0 +1,17 @@
+# Local generation, credentials, caches, and review artifacts never ship.
+.work/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+auth.json
+config.toml
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+*.log
