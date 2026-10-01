@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "pets": [
+    {
+      "id": "aerafal",
+      "name": "Aerafal",
+      "category": "dragons",
+      "status": "planned"
+    },
+    {
+      "id": "aguabrial",
+      "name": "Aguabrial",
+      "category": "dragons",
+      "status": "planned"
+    },
+    {
+      "id": "ignemikhal",
+      "name": "Ignemikhal",
+      "category": "dragons",
+      "status": "planned"
+    },
+    {
+      "id": "terrakourial",
+      "name": "Terrakourial",
+      "category": "dragons",
+      "status": "planned"
+    },
+    {
+      "id": "dardondakal",
+      "name": "Dardondakal",
+      "category": "dragons",
+      "status": "planned"
+    },
+    {
+      "id": "grougalorasalar",
+      "name": "Grougalorasalar",
+      "category": "dragons",
+      "status": "planned"
+    },
+    {
+      "id": "dofus-emerald",
+      "name": "Emerald Dofus",
+      "category": "eggs",
+      "status": "planned"
+    },
+    {
+      "id": "dofus-turquoise",
+      "name": "Turquoise Dofus",
+      "category": "eggs",
+      "status": "planned"
+    },
+    {
+      "id": "dofus-crimson",
+      "name": "Crimson Dofus",
+      "category": "eggs",
+      "status": "planned"
+    },
+    {
+      "id": "dofus-ochre",
+      "name": "Ochre Dofus",
+      "category": "eggs",
+      "status": "planned"
+    },
+    {
+      "id": "dofus-ivory",
+      "name": "Ivory Dofus",
+      "category": "eggs",
+      "status": "planned"
+    },
+    {
+      "id": "dofus-ebony",
+      "name": "Ebony Dofus",
+      "category": "eggs",
+      "status": "planned"
+    },
+    {
+      "id": "god-feca",
+      "name": "Feca",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-osamodas",
+      "name": "Osamodas",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-enutrof",
+      "name": "Enutrof",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-sram",
+      "name": "Sram",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-xelor",
+      "name": "Xelor",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-ecaflip",
+      "name": "Ecaflip",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-eniripsa",
+      "name": "Eniripsa",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-iop",
+      "name": "Iop",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-cra",
+      "name": "Cra",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-sadida",
+      "name": "Sadida",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-sacrier",
+      "name": "Sacrier",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "god-pandawa",
+      "name": "Pandawa",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "goddess-eliatrope",
+      "name": "Eliatrope",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "great-dragon",
+      "name": "Great Dragon",
+      "category": "gods",
+      "status": "planned"
+    },
+    {
+      "id": "goultard",
+      "name": "Goultard",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "toross-mordal",
+      "name": "Toross Mordal",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "yugo",
+      "name": "Yugo",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "adamai",
+      "name": "Adamai",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "qilby",
+      "name": "Qilby",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "nox",
+      "name": "Nox",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "ogrest",
+      "name": "Ogrest",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "dathura",
+      "name": "Dathura",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "percedal",
+      "name": "Percedal",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "evangelyne",
+      "name": "Evangelyne",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "amalia",
+      "name": "Amalia",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "ruel",
+      "name": "Ruel",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "joris",
+      "name": "Joris",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "kerubim",
+      "name": "Kerubim",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "julith",
+      "name": "Julith",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "ush",
+      "name": "Ush",
+      "category": "characters",
+      "status": "planned"
+    }
+  ]
+}
