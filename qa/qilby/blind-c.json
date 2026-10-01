@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"ambiguous","B":"ambiguous","reason":"Both faces are pitched upward and nearly frontal; the nose-to-eye offset is too slight to establish a reliable left/right direction."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A's nose projects left of its visible eye and cheek; B's nose projects right, with the eye behind it toward the left."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-right","reason":"For both, the nose/cheek contour projects right of the visible cyan eye, indicating right-facing profiles."},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"A's nose is left of the visible eye; B's nose and forward cheek contour project right of its eye."},
+    {"pair":"horizontal-5","A":"screen-right","B":"ambiguous","reason":"A's nose and front cheek project right of the visible eye; B's face is more frontal and the nose-to-eye offset is inconclusive."},
+    {"pair":"horizontal-6","A":"screen-right","B":"ambiguous","reason":"A's visible eye sits behind a nose/cheek contour projecting right; B's bowed face is near frontal and landmarks do not establish yaw."},
+    {"pair":"horizontal-7","A":"screen-right","B":"ambiguous","reason":"A's nose/cheek lead to the right of the visible eye; B's lowered face is nearly frontal with an unclear nose-to-eye offset."},
+    {"pair":"vertical-1","A":"up","B":"down","reason":"A's nose and chin are raised above the eye line; B's nose/chin angle down beneath the brow."},
+    {"pair":"vertical-2","A":"down","B":"up","reason":"A's nose and chin dip below the eye line; B's nose/chin lift above it."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A's nose and chin are lowered under the brow; B's nose and chin are lifted, exposing the underside of the face."},
+    {"pair":"vertical-4","A":"up","B":"down","reason":"A's profile nose and chin tilt upward; B's nose and chin angle down beneath the brow."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A's eyes and nose are lowered toward the cheek; B's nose/chin lift and the underside of the face is visible."},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A's nose/chin are lifted; B's eyes, nose, and chin are visibly lowered beneath the brow."},
+    {"pair":"vertical-7","A":"ambiguous","B":"down","reason":"A's profile is close to level and the nose/chin pitch is subtle; B's eyes and nose angle down beneath the brow."}
+  ]
+}

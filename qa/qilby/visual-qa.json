@@ -1,0 +1,40 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "6565a32819705da94d0ebe3e46d2f1e7044eef89b59acc71d001b85be215abea",
+  "motion_review": "Reviewed every actual frame of all nine individual preview GIFs (6 idle, 8 running-right, 8 running-left, 4 waving, 5 jumping, 8 failed, 6 waiting, 6 running, 6 review) and all 73 gallery frames. All state loops are complete and readable; body scale, hood, face, tattoo accents, turquoise eyes, gripping hand and complete connected scythe remain coherent with no clipping or detached effects. Idle includes a blink; right/left gaits visibly alternate and face opposite directions; jumping has an airborne peak and landing; running is anchored hand-at-chin thinking.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": "All 6 frames hold stable scale and full scythe; frames 1–2 show a subtle blink while body breathing stays restrained.",
+    "running-right": "All 8 frames face right and cycle alternating legs/feet; body scale and hand-to-scythe grip stay stable.",
+    "running-left": "All 8 frames face left and cycle alternating legs/feet; direction is genuinely reversed and the full scythe remains gripped.",
+    "waving": "All 4 frames retain the gripping hand and scythe while the free hand lifts in a readable greeting; loop returns cleanly.",
+    "jumping": "All 5 frames show crouch, clear airborne rise/peak and landing; body scale remains consistent and the loop lands back at baseline.",
+    "failed": "All 8 frames lower the head and shoulders into a sad slump, then recover; no detached effects or cropping.",
+    "waiting": "All 6 frames hold a distinct expectant open-hand gesture with subtle posture variation and stable proportions.",
+    "running": "All 6 frames express focused hand-at-chin thinking while the feet stay anchored; this is not foot-running.",
+    "review": "All 6 frames show attentive inspection with small coherent head/face changes, stable body and complete scythe."
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "All 16 atlas cells were visually reviewed by nose, eye line and chin, including an enlarged direction contact view. Every tile faces its expected principal quadrant; the four cardinal tiles are unambiguous. Intermediate transitions retain broad quadrant and progress coherently, including the 157.5-to-180 transition. No body-yaw pop or wrap reversal is visible. Blind-validation intermediate ambiguities are permissible warnings because visual quadrant and sequence are clear.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "0cac65f3c083e2c67fd1162fba09abcf14b81e004e63c0d2318a67a7053a8a4c",
+    "reason": "Reviewed the actual all-direction alpha contact sheet against the rendered look sheet. The silhouette keeps connected face, hood, torso, limbs, gripping hand and scythe; no unintended transparent seams or holes cross filled forms. The reported row gaps correspond to intentional negative spaces between the staff/scythe and body or between separated limbs/clothing contours, not holes inside filled anatomy. Enclosed-pixel suspects were visually checked and are intentional design openings."
+  },
+  "warnings": [
+    "direction-blind-validation reports a few intermediate-angle judgments as ambiguous and one 157.5→180 local difference outlier; all visually remain in the correct broad quadrants and the loop reads coherently.",
+    "look-continuity row-hole warnings are raw 1D alpha-gap flags; the inspected masks show legitimate negative space between adjacent forms."
+  ],
+  "repair_rows": [],
+  "notes": "Final native assets reviewed in place; no art or package files were modified."
+}

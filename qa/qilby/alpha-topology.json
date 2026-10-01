@@ -1,0 +1,103 @@
+{
+  "atlas_sha256": "6565a32819705da94d0ebe3e46d2f1e7044eef89b59acc71d001b85be215abea",
+  "alpha_sheet_sha256": "0cac65f3c083e2c67fd1162fba09abcf14b81e004e63c0d2318a67a7053a8a4c",
+  "method": "Four-neighbour flood fill of exactly alpha-zero pixels from cell boundaries; alpha sheet preserves original alpha values",
+  "directions": [
+    {
+      "label": "000",
+      "external_pixels": 24720,
+      "enclosed_pixels": 823,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "022.5",
+      "external_pixels": 25118,
+      "enclosed_pixels": 796,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "045",
+      "external_pixels": 25652,
+      "enclosed_pixels": 756,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "067.5",
+      "external_pixels": 25516,
+      "enclosed_pixels": 818,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "090",
+      "external_pixels": 25534,
+      "enclosed_pixels": 762,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "112.5",
+      "external_pixels": 25831,
+      "enclosed_pixels": 764,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "135",
+      "external_pixels": 26240,
+      "enclosed_pixels": 793,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "157.5",
+      "external_pixels": 26472,
+      "enclosed_pixels": 956,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "180",
+      "external_pixels": 25352,
+      "enclosed_pixels": 806,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "202.5",
+      "external_pixels": 25594,
+      "enclosed_pixels": 812,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "225",
+      "external_pixels": 25793,
+      "enclosed_pixels": 846,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "247.5",
+      "external_pixels": 25673,
+      "enclosed_pixels": 886,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "270",
+      "external_pixels": 25612,
+      "enclosed_pixels": 947,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "292.5",
+      "external_pixels": 26009,
+      "enclosed_pixels": 736,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "315",
+      "external_pixels": 26113,
+      "enclosed_pixels": 670,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "337.5",
+      "external_pixels": 26167,
+      "enclosed_pixels": 671,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    }
+  ]
+}

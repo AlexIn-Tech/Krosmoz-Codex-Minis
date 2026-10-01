@@ -185,7 +185,12 @@
       "id": "qilby",
       "name": "Qilby",
       "category": "characters",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/qilby.gif",
+      "package": {
+        "pet.json": "8fca55e27252b4cc1331d45e254a537b4fdd24d737710a9d45d0a14694704359",
+        "spritesheet.webp": "6565a32819705da94d0ebe3e46d2f1e7044eef89b59acc71d001b85be215abea"
+      }
     },
     {
       "id": "nox",

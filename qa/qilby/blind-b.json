@@ -1,0 +1,16 @@
+{"pairs":[
+ {"pair":"horizontal-1","A":"ambiguous","B":"screen-left","reason":"A's nose and chin are centered in a near-frontal face; B's nose/muzzle and cheek contour point left of its visible eye."},
+ {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A's muzzle projects left from the visible eye; B's nose and cheek contour project right."},
+ {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A's nose and chin extend right of the visible eye; B's muzzle contour extends left."},
+ {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"A's nose/muzzle sits left of its visible eye; B's nose and cheek contour sit to the right of its eye."},
+ {"pair":"horizontal-5","A":"screen-right","B":"screen-left","reason":"A's muzzle and cheek contour point right from the eye; B's nose/muzzle points left from its visible eye."},
+ {"pair":"horizontal-6","A":"screen-right","B":"ambiguous","reason":"A's nose lies to the right of its visible eye; B's nose and chin are centered with a near-frontal view."},
+ {"pair":"horizontal-7","A":"screen-left","B":"ambiguous","reason":"A's nose and cheek contour point left of the eye; B's centered nose/chin and visible eyes make direction unclear."},
+ {"pair":"vertical-1","A":"up","B":"down","reason":"A's nose and chin lift above the eye line; B's nose and chin drop beneath it."},
+ {"pair":"vertical-2","A":"down","B":"up","reason":"A's muzzle and chin are lowered relative to the eye; B's nose and raised chin angle upward."},
+ {"pair":"vertical-3","A":"down","B":"up","reason":"A's nose/chin angle below the eye; B's nose and chin lift above the eye line."},
+ {"pair":"vertical-4","A":"up","B":"down","reason":"A's nose and chin contour tilt upward; B's muzzle and chin angle downward."},
+ {"pair":"vertical-5","A":"down","B":"up","reason":"A's nose and chin sit below its eyes; B's nose and raised chin tilt upward."},
+ {"pair":"vertical-6","A":"up","B":"down","reason":"A's muzzle/chin contour rises above the eye; B's nose and chin are lowered."},
+ {"pair":"vertical-7","A":"ambiguous","B":"down","reason":"A's nose-to-eye line is nearly level, so pitch is unclear; B's nose and chin angle downward."}
+]}

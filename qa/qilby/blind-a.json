@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"ambiguous","B":"ambiguous","reason":"Both faces are tipped upward and nearly frontal; the nose/chin contour stays centered relative to the visible eye and cheek."},
+    {"pair":"horizontal-2","A":"screen-right","B":"screen-right","reason":"On both, the nose/muzzle edge and chin extend right of the visible eye, with the cheek contour receding left."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A's nose and chin project right of its visible eye; B's nose/muzzle and chin project left of its visible eye."},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"A's nose/chin contour projects left of its visible eye; B's nose and chin project right of the eye and cheek."},
+    {"pair":"horizontal-5","A":"screen-right","B":"ambiguous","reason":"A's nose/muzzle edge lies right of the visible eye and the cheek recedes left; B shows both eyes with a centered nose/chin."},
+    {"pair":"horizontal-6","A":"screen-left","B":"ambiguous","reason":"A's face contour and nose/chin point left of the visible eye; B's visible eyes and nose/chin are nearly centered."},
+    {"pair":"horizontal-7","A":"ambiguous","B":"ambiguous","reason":"Both are hood-obscured and nearly frontal; visible eye/cheek and nose/chin landmarks do not establish a clear sideways direction."},
+    {"pair":"vertical-1","A":"up","B":"down","reason":"A's chin is lifted and the nose sits above the eye line; B's nose/chin angle down below the visible eye line."},
+    {"pair":"vertical-2","A":"down","B":"up","reason":"A's nose points down and chin is tucked toward the chest; B's raised chin and nose above the eye line show an upward pitch."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A has a tucked chin and nose below the eye line; B's nose and chin are lifted relative to its visible eye/cheek."},
+    {"pair":"vertical-4","A":"ambiguous","B":"down","reason":"A's nose/chin follow a near-level profile; B's nose points down with the chin tucked under the cheek."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A's nose and chin are lowered beneath the eyes; B has an upturned nose and visibly raised chin."},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A's nose is above the eye line and chin raised; B's nose/chin angle down with a tucked face."},
+    {"pair":"vertical-7","A":"ambiguous","B":"down","reason":"A's side face appears close to level at the nose/chin; B's nose points downward and chin is tucked."}
+  ]
+}
