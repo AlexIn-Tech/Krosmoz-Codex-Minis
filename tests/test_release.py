@@ -7,11 +7,64 @@ import unittest
 import json
 import hashlib
 from PIL import Image, ImageDraw
+from release_fixture import make_fixture, seal_evidence, write_json
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class ReleaseTests(unittest.TestCase):
+    def validate(self, root):
+        return subprocess.run([sys.executable, str(ROOT / 'tools/validate_release.py'), '--root', str(root)], capture_output=True, text=True)
+
+    def test_complete_release_evidence_passes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            make_fixture(root)
+            result = self.validate(root)
+            self.assertEqual(result.returncode, 0, result.stderr)
+
+    def test_changing_atlas_and_catalog_cannot_reuse_old_qa(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            make_fixture(root)
+            atlas = root / 'pets/test-mini/spritesheet.webp'
+            with Image.open(atlas) as source:
+                changed = source.convert('RGBA')
+            changed.putpixel((30, 70), (255, 0, 0, 255))
+            changed.save(atlas, lossless=True)
+            catalog = json.loads((root / 'catalog.json').read_text())
+            catalog['pets'][0]['package']['spritesheet.webp'] = hashlib.sha256(atlas.read_bytes()).hexdigest()
+            write_json(root / 'catalog.json', catalog)
+            self.assertNotEqual(self.validate(root).returncode, 0)
+
+    def test_empty_direction_verdicts_are_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            make_fixture(root)
+            write_json(root / 'qa/test-mini/direction-semantics.json', {'directions': [{}] * 16})
+            seal_evidence(root)
+            self.assertNotEqual(self.validate(root).returncode, 0)
+
+    def test_duplicate_direction_verdicts_are_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            make_fixture(root)
+            path = root / 'qa/test-mini/direction-semantics.json'
+            semantics = json.loads(path.read_text())
+            semantics['directions'][1] = semantics['directions'][0]
+            write_json(path, semantics)
+            seal_evidence(root)
+            self.assertNotEqual(self.validate(root).returncode, 0)
+
+    def test_continuity_requires_valid_json_and_a_passing_report(self):
+        for content in ['not json', '{"ok": false}', '{"ok": true, "pairs": []}']:
+            with self.subTest(content=content), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                make_fixture(root)
+                (root / 'qa/test-mini/look-continuity.json').write_text(content, encoding='utf-8')
+                seal_evidence(root)
+                self.assertNotEqual(self.validate(root).returncode, 0)
+
     def test_gallery_renders_ready_names_and_animated_preview(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
