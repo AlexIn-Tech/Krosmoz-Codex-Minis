@@ -37,15 +37,15 @@ and the [GitHub CLI](https://cli.github.com/):
 
 ```sh
 gh auth login
-gh repo clone AlexIn-Tech/dofus-mini-codex-pet
-cd dofus-mini-codex-pet
+gh repo clone AlexIn-Tech/Krosmoz-Codex-Minis
+cd Krosmoz-Codex-Minis
 ```
 
 After a public release, a regular clone also works:
 
 ```sh
-git clone https://github.com/AlexIn-Tech/dofus-mini-codex-pet.git
-cd dofus-mini-codex-pet
+git clone https://github.com/AlexIn-Tech/Krosmoz-Codex-Minis.git
+cd Krosmoz-Codex-Minis
 ```
 
 List completed pets:
