@@ -152,7 +152,8 @@ def main():
             print('README gallery is stale; run python tools/gallery.py', file=sys.stderr)
             return 1
     else:
-        path.write_text(text, encoding='utf-8', newline='\n')
+        with path.open('w', encoding='utf-8', newline='\n') as output:
+            output.write(text)
     return 0
 
 

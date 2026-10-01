@@ -3,6 +3,7 @@ import hashlib
 import importlib.util
 import json
 import os
+import shutil
 from pathlib import Path
 import subprocess
 import sys
@@ -138,6 +139,42 @@ class InstallTests(unittest.TestCase):
                 module.install_pet(self.entry, files, self.dest, force=True)
         self.assertEqual((self.dest / 'pets/test-mini/pet.json').read_bytes(), old)
         self.assertEqual([p.name for p in (self.dest / 'pets').iterdir()], ['test-mini'])
+
+    def test_nonobject_catalog_has_clean_error_without_traceback(self):
+        (self.source / 'catalog.json').write_text('[]', encoding='utf-8')
+        result = self.run_install('test-mini')
+        self.assertNotEqual(result.returncode, 0)
+        self.assertNotIn('Traceback', result.stderr)
+        self.assertFalse(self.dest.exists())
+
+    def test_nonobject_manifest_has_clean_error_without_traceback(self):
+        (self.package / 'pet.json').write_text('[]', encoding='utf-8')
+        self.write_catalog()
+        result = self.run_install('test-mini')
+        self.assertNotEqual(result.returncode, 0)
+        self.assertNotIn('Traceback', result.stderr)
+        self.assertFalse(self.dest.exists())
+
+    def test_system_link_above_chosen_home_is_supported(self):
+        real = self.root / 'real-parent'
+        real.mkdir()
+        link = self.root / 'linked-parent'
+        if os.name == 'nt':
+            shell = shutil.which('pwsh') or shutil.which('powershell')
+            if not shell:
+                self.skipTest('PowerShell unavailable for junction fixture')
+            env = dict(os.environ, MINI_TEST_LINK=str(link), MINI_TEST_REAL=str(real))
+            result = subprocess.run([shell, '-NoProfile', '-Command',
+                'New-Item -ItemType Junction -Path $env:MINI_TEST_LINK -Target $env:MINI_TEST_REAL | Out-Null'],
+                env=env, capture_output=True)
+            if result.returncode:
+                self.skipTest('Junction creation unavailable')
+        else:
+            link.symlink_to(real, target_is_directory=True)
+        self.dest = link / 'codex'
+        result = self.run_install('test-mini')
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertTrue((real / 'codex/pets/test-mini/pet.json').is_file())
 
 
 if __name__ == '__main__':

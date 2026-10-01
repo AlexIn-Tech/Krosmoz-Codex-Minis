@@ -26,10 +26,12 @@ def read_json(data):
 
 
 def validate_catalog(catalog):
-    if catalog.get('schemaVersion') != 1 or not isinstance(catalog.get('pets'), list):
+    if not isinstance(catalog, dict) or catalog.get('schemaVersion') != 1 or not isinstance(catalog.get('pets'), list):
         raise ValueError('Unsupported catalog format')
     seen = set()
     for pet in catalog['pets']:
+        if not isinstance(pet, dict):
+            raise ValueError('Invalid catalog entry')
         slug = pet.get('id', '')
         if not isinstance(slug, str) or not SLUG.fullmatch(slug) or slug in seen:
             raise ValueError('Unsafe or duplicate catalog name')
@@ -69,7 +71,7 @@ def validate_package(pet, files):
         if hashlib.sha256(files[name]).hexdigest() != expected:
             raise ValueError('Checksum mismatch: ' + name)
     manifest = read_json(files['pet.json'])
-    if (manifest.get('id') != pet['id'] or manifest.get('spriteVersionNumber') != 2
+    if (not isinstance(manifest, dict) or manifest.get('id') != pet['id'] or manifest.get('spriteVersionNumber') != 2
             or manifest.get('spritesheetPath') != 'spritesheet.webp'
             or not isinstance(manifest.get('displayName'), str)
             or not manifest['displayName'].strip()
@@ -146,7 +148,9 @@ def reject_links(path):
 
 def install_pet(pet, files, codex_home, force=False, dry_run=False):
     validate_package(pet, files)
-    home = Path(codex_home).absolute()
+    # Canonicalize the user-chosen home: macOS /var is a system symlink.
+    # Links inside the resulting pets directory are still rejected.
+    home = Path(codex_home).expanduser().resolve()
     destination = home / 'pets' / pet['id']
     reject_links(destination)
     if destination.exists() and not force:
