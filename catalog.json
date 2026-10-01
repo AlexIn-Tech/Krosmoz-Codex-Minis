@@ -248,6 +248,18 @@
       "status": "planned"
     },
     {
+      "id": "goultard-dark",
+      "name": "Goultard (Dark)",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
+      "id": "dark-vlad",
+      "name": "Dark Vlad",
+      "category": "characters",
+      "status": "planned"
+    },
+    {
       "id": "ush",
       "name": "Ush",
       "category": "characters",
