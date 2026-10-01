@@ -18,6 +18,7 @@ states and sixteen look directions. Installation names match the catalog exactly
 | --- | --- | --- |
 | ![Aerafal](assets/previews/aerafal.gif) | Aerafal | `aerafal` |
 | ![Aguabrial](assets/previews/aguabrial.gif) | Aguabrial | `aguabrial` |
+| ![Turquoise Dofus](assets/previews/dofus-turquoise.gif) | Turquoise Dofus | `dofus-turquoise` |
 | ![Goultard](assets/previews/goultard.gif) | Goultard | `goultard` |
 | ![Qilby](assets/previews/qilby.gif) | Qilby | `qilby` |
 | ![Goultard (Dark)](assets/previews/goultard-dark.gif) | Goultard (Dark) | `goultard-dark` |
@@ -35,15 +36,15 @@ and the [GitHub CLI](https://cli.github.com/):
 
 ```sh
 gh auth login
-gh repo clone AlexIn-Tech/Krosmoz-Codex-Minis
-cd Krosmoz-Codex-Minis
+gh repo clone AlexIn-Tech/dofus-mini-codex-pet
+cd dofus-mini-codex-pet
 ```
 
 After a public release, a regular clone also works:
 
 ```sh
-git clone https://github.com/AlexIn-Tech/Krosmoz-Codex-Minis.git
-cd Krosmoz-Codex-Minis
+git clone https://github.com/AlexIn-Tech/dofus-mini-codex-pet.git
+cd dofus-mini-codex-pet
 ```
 
 List completed pets:
@@ -88,7 +89,7 @@ command above; no execution-policy change is required.
 ## Planned collection
 
 - **Primordial dragons:** Ignemikhal (`ignemikhal`), Terrakourial (`terrakourial`), Dardondakal (`dardondakal`), Grougalorasalar (`grougalorasalar`).
-- **Primordial Dofus:** Emerald Dofus (`dofus-emerald`), Turquoise Dofus (`dofus-turquoise`), Crimson Dofus (`dofus-crimson`), Ochre Dofus (`dofus-ochre`), Ivory Dofus (`dofus-ivory`), Ebony Dofus (`dofus-ebony`).
+- **Primordial Dofus:** Emerald Dofus (`dofus-emerald`), Crimson Dofus (`dofus-crimson`), Ochre Dofus (`dofus-ochre`), Ivory Dofus (`dofus-ivory`), Ebony Dofus (`dofus-ebony`).
 
 Planned names reserve the future installation slugs. They are not downloadable
 until their complete animations pass QA and appear in the gallery.

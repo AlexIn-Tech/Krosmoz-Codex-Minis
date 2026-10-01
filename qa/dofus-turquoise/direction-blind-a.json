@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "A's sphere is very near the glass chamber's vertical centerline; B's sphere is likewise centered beneath the apex. Their differing heights do not establish a clear horizontal offset."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "A's sphere is only slightly right of the chamber's central region, with substantial glass space on both sides; B is nearly centered beneath the apex. Neither gives a decisive horizontal offset."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "A's sphere center sits visibly to the right of the chamber centerline, leaving more glass between the sphere and the left wall. B's center stays near the chamber centerline."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's sphere center is left of the chamber's central region, nearer the left wall. B's sphere center is right of that region, nearer the right wall."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's sphere sits left of the central glass region with more open chamber on its right; B sits right of the centerline with more chamber on its left."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "The lower sphere in A is visibly left of the chamber centerline; the lower sphere in B is visibly right of it. The surrounding side walls show the opposite open-space imbalance."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "A's low sphere is essentially centered above the curved base. B's low sphere has only a small rightward displacement within the broad central region, insufficient for a decisive horizontal direction."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A's sphere lies low in the chamber close to the curved base, well below its central region; B lies high beneath the apex, leaving broad open glass below."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A's sphere lies below the chamber central region near the lower wall. B's sphere lies above that region, nearer the upper taper, with substantially more open glass below."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A's sphere is clearly low, near the rounded base. B's sphere occupies the chamber's middle region with no decisive upward or downward center offset."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A's sphere center remains within the chamber's middle region, roughly between apex and base. B's sphere is below that region, closer to the curved lower wall."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A's sphere sits high beneath the apex with a broad empty chamber below; B's sphere sits low above the base with a broad empty chamber above."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A's sphere sits below the central region toward the lower wall; B's sphere sits high in the upper taper, leaving most of the chamber below it."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A's sphere center is above the chamber's central region under the upper taper; B's sphere center is below that region, toward the rounded base."
+    }
+  ]
+}

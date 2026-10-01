@@ -1,0 +1,389 @@
+{
+  "atlas_sha256": "d16db185d469cdffe39d31ec263f007a202039668e3a7ee2bf93f47f4900e59e",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (97,68) in the full upright teal shell, near horizontal chamber axis and above broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 97; broad chamber midpoint approximately x=96. near horizontal chamber axis. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 68; central broad chamber region approximately y=116. above broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 9,
+        "column_index": 0,
+        "visually_estimated_sphere_center": [
+          97,
+          68
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (99,84) in the full upright teal shell, right of broad chamber center and above broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 99; broad chamber midpoint approximately x=96. right of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 84; central broad chamber region approximately y=116. above broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 9,
+        "column_index": 1,
+        "visually_estimated_sphere_center": [
+          99,
+          84
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (103,97) in the full upright teal shell, right of broad chamber center and above broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 103; broad chamber midpoint approximately x=96. right of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 97; central broad chamber region approximately y=116. above broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 9,
+        "column_index": 2,
+        "visually_estimated_sphere_center": [
+          103,
+          97
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (107,109) in the full upright teal shell, right of broad chamber center and above broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 107; broad chamber midpoint approximately x=96. right of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 109; central broad chamber region approximately y=116. above broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 9,
+        "column_index": 3,
+        "visually_estimated_sphere_center": [
+          107,
+          109
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (111,119) in the full upright teal shell, right of broad chamber center and near vertical chamber midline; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 111; broad chamber midpoint approximately x=96. right of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 119; central broad chamber region approximately y=116. near vertical chamber midline. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 9,
+        "column_index": 4,
+        "visually_estimated_sphere_center": [
+          111,
+          119
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (106,138) in the full upright teal shell, right of broad chamber center and below broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 106; broad chamber midpoint approximately x=96. right of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 138; central broad chamber region approximately y=116. below broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 9,
+        "column_index": 5,
+        "visually_estimated_sphere_center": [
+          106,
+          138
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (104,149) in the full upright teal shell, right of broad chamber center and below broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 104; broad chamber midpoint approximately x=96. right of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 149; central broad chamber region approximately y=116. below broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 9,
+        "column_index": 6,
+        "visually_estimated_sphere_center": [
+          104,
+          149
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (104,153) in the full upright teal shell, right of broad chamber center and below broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 104; broad chamber midpoint approximately x=96. right of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 153; central broad chamber region approximately y=116. below broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 9,
+        "column_index": 7,
+        "visually_estimated_sphere_center": [
+          104,
+          153
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (96,155) in the full upright teal shell, near horizontal chamber axis and below broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 96; broad chamber midpoint approximately x=96. near horizontal chamber axis. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 155; central broad chamber region approximately y=116. below broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 10,
+        "column_index": 0,
+        "visually_estimated_sphere_center": [
+          96,
+          155
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (94,151) in the full upright teal shell, left of broad chamber center and below broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 94; broad chamber midpoint approximately x=96. left of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 151; central broad chamber region approximately y=116. below broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 10,
+        "column_index": 1,
+        "visually_estimated_sphere_center": [
+          94,
+          151
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (84,138) in the full upright teal shell, left of broad chamber center and below broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 84; broad chamber midpoint approximately x=96. left of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 138; central broad chamber region approximately y=116. below broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 10,
+        "column_index": 2,
+        "visually_estimated_sphere_center": [
+          84,
+          138
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (82,125) in the full upright teal shell, left of broad chamber center and below broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 82; broad chamber midpoint approximately x=96. left of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 125; central broad chamber region approximately y=116. below broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 10,
+        "column_index": 3,
+        "visually_estimated_sphere_center": [
+          82,
+          125
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (82,112) in the full upright teal shell, left of broad chamber center and near vertical chamber midline; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 82; broad chamber midpoint approximately x=96. left of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 112; central broad chamber region approximately y=116. near vertical chamber midline. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 10,
+        "column_index": 4,
+        "visually_estimated_sphere_center": [
+          82,
+          112
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (90,91) in the full upright teal shell, left of broad chamber center and above broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 90; broad chamber midpoint approximately x=96. left of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 91; central broad chamber region approximately y=116. above broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 10,
+        "column_index": 5,
+        "visually_estimated_sphere_center": [
+          90,
+          91
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (94,70) in the full upright teal shell, left of broad chamber center and above broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 94; broad chamber midpoint approximately x=96. left of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 70; central broad chamber region approximately y=116. above broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 10,
+        "column_index": 6,
+        "visually_estimated_sphere_center": [
+          94,
+          70
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Actual blue sphere at approximately (95,62) in the full upright teal shell, left of broad chamber center and above broad chamber center; pale upper-left reflections and lower-right rim stay attached to stationary shell. Sphere enclosed on every side, with original practical diameter. Ordered neighbors continue clockwise internal focus arc.",
+      "horizontal_evidence": "Sphere center x approximately 95; broad chamber midpoint approximately x=96. left of broad chamber center. Near-axis compression assessed with adjacent native cells.",
+      "vertical_evidence": "Sphere center y approximately 62; central broad chamber region approximately y=116. above broad chamber center. Shell tip and baseline remain upright.",
+      "coordinate_evidence": {
+        "cell_width": 192,
+        "cell_height": 208,
+        "row_index": 10,
+        "column_index": 7,
+        "visually_estimated_sphere_center": [
+          95,
+          62
+        ],
+        "broad_chamber_landmark": [
+          96,
+          116
+        ],
+        "precision": "Approximate visual physical sphere center, +/- 3 pixels; not exact fitted-angle or brightness-centroid measurement."
+      }
+    }
+  ]
+}

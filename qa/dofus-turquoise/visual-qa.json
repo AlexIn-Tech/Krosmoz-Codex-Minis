@@ -1,0 +1,1059 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "d16db185d469cdffe39d31ec263f007a202039668e3a7ee2bf93f47f4900e59e",
+  "motion_review": "Direct fresh inspection of all 57 native standard cells from final/spritesheet-extended.webp alongside ALL ordered frames of all nine qa/final-previews state GIFs, plus the actual extended contact sheet and canonical-base.png. Complete translucent teal egg, painted blue sphere, original pale reflections and bubbles persist. No invented face, anatomy, prop, detached effect, halo, particle, streak, crack or shadow. Right/left are true whole-shell physical rocks, waving is a friendly bow, jump shows ground/lift/peak/descent/ground, failure holds a NAVY weakened core for frames 2–4 then restores bright blue, waiting pulses expectantly, work moves its original sphere internally, review dips left. Jump is uniformly modestly reduced with no within-row scale pop.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "standard_frames_reviewed": 57,
+  "state_reviews": [
+    {
+      "state": "idle",
+      "actual_frames": 6,
+      "verdict": "pass",
+      "frames_reviewed": 6,
+      "gif_frames_reviewed": 6,
+      "gif_durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "inspection_image": "qa/fresh-final-inspection/idle-all.png",
+      "frames": [
+        {
+          "index": 0,
+          "row_index": 0,
+          "column_index": 0,
+          "verdict": "pass",
+          "evidence": "Upright complete shell; low bright blue core and original bubbles/reflections.",
+          "native_alpha_bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "rgba_sha256": "404ded803f8c15e397cafd7e36b7f738fcf3a5d54ca2c69c330599c22e7b4286",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 1,
+          "row_index": 0,
+          "column_index": 1,
+          "verdict": "pass",
+          "evidence": "Same upright shell; sphere lifts slightly within glass.",
+          "native_alpha_bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "rgba_sha256": "758b0ce267c31f7286883adda45cb77689d18f5ab301665654da17bf2956dfaa",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 2,
+          "row_index": 0,
+          "column_index": 2,
+          "verdict": "pass",
+          "evidence": "Same upright shell; sphere reaches gentle raised pulse crest.",
+          "native_alpha_bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "rgba_sha256": "202b2d54bec1df2eae6eaa71fa063b05e665f990a33d177ee7b24fd166b70241",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 3,
+          "row_index": 0,
+          "column_index": 3,
+          "verdict": "pass",
+          "evidence": "Same upright shell; sphere settles from crest.",
+          "native_alpha_bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "rgba_sha256": "4de8bc1d8ea35dc12ffe3838308355cdf130a76d720d62c22a06246867516019",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 4,
+          "row_index": 0,
+          "column_index": 4,
+          "verdict": "pass",
+          "evidence": "Same upright shell; sphere settles low.",
+          "native_alpha_bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "rgba_sha256": "b28baac3dba1644c083dcebeea7c79cdfa54fe92774bbc0f3afd6334e8752ebf",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 5,
+          "row_index": 0,
+          "column_index": 5,
+          "verdict": "pass",
+          "evidence": "Same upright shell; low sphere closes the quiet pulse.",
+          "native_alpha_bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "rgba_sha256": "a4f885edac247d2a4d230bf92888aed1e8ccc1c7a27c0db21f0ec30c62473a59",
+          "ordered_gif_frame_reviewed": true
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "actual_frames": 8,
+      "verdict": "pass",
+      "frames_reviewed": 8,
+      "gif_frames_reviewed": 8,
+      "gif_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "inspection_image": "qa/fresh-final-inspection/running-right-all.png",
+      "frames": [
+        {
+          "index": 0,
+          "row_index": 1,
+          "column_index": 0,
+          "verdict": "pass",
+          "evidence": "Upright entry at common baseline.",
+          "native_alpha_bbox": [
+            21,
+            5,
+            170,
+            203
+          ],
+          "rgba_sha256": "2cecf2bc0c3f653d807b240e44f3d43d7922bdcf6f519b777340d247f4a69283",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 1,
+          "row_index": 1,
+          "column_index": 1,
+          "verdict": "pass",
+          "evidence": "Tip shifts physically right; full shell tilts right.",
+          "native_alpha_bbox": [
+            21,
+            7,
+            170,
+            203
+          ],
+          "rgba_sha256": "7442ef7fc27040546673108e973fa50091b1cb23ea26a56d8b17cffd6ffac7e5",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 2,
+          "row_index": 1,
+          "column_index": 2,
+          "verdict": "pass",
+          "evidence": "Pronounced right tilt of complete shell and attached reflections.",
+          "native_alpha_bbox": [
+            14,
+            25,
+            177,
+            202
+          ],
+          "rgba_sha256": "a6e601baa6c870155174176ea11da31460af126bc27c40b0633e9fee3fbc0a0b",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 3,
+          "row_index": 1,
+          "column_index": 3,
+          "verdict": "pass",
+          "evidence": "Right tilted held pose, sphere contained.",
+          "native_alpha_bbox": [
+            13,
+            27,
+            178,
+            202
+          ],
+          "rgba_sha256": "30a090146e93cd93087d7c2d1dfee3b136a74e897e23a8fe17352737c4747462",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 4,
+          "row_index": 1,
+          "column_index": 4,
+          "verdict": "pass",
+          "evidence": "Right tilt reduces on return.",
+          "native_alpha_bbox": [
+            19,
+            15,
+            172,
+            202
+          ],
+          "rgba_sha256": "4a440d5451fd7630349ef74ae45acead0a7a7f8dde1de453108d9a2511ffeb50",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 5,
+          "row_index": 1,
+          "column_index": 5,
+          "verdict": "pass",
+          "evidence": "Upright recovery.",
+          "native_alpha_bbox": [
+            22,
+            5,
+            168,
+            203
+          ],
+          "rgba_sha256": "5e19d6654766dabf74e046e08ff9f5be68a5ddf9ee73e8ae8eae5c4e3f682acf",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 6,
+          "row_index": 1,
+          "column_index": 6,
+          "verdict": "pass",
+          "evidence": "Visible opposing left counterrock after right-led excursion.",
+          "native_alpha_bbox": [
+            20,
+            12,
+            171,
+            203
+          ],
+          "rgba_sha256": "e229d9b49271c37de1aa39cda95a25104e41ddf7934f197b0a2c5e21a60504dc",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 7,
+          "row_index": 1,
+          "column_index": 7,
+          "verdict": "pass",
+          "evidence": "Return toward upright closes physical rock.",
+          "native_alpha_bbox": [
+            23,
+            5,
+            168,
+            203
+          ],
+          "rgba_sha256": "01a88d92df7fb50f7518f5d842cdb4d5b9b25a2c8e3666d38be31e3875b87f34",
+          "ordered_gif_frame_reviewed": true
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "actual_frames": 8,
+      "verdict": "pass",
+      "frames_reviewed": 8,
+      "gif_frames_reviewed": 8,
+      "gif_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "inspection_image": "qa/fresh-final-inspection/running-left-all.png",
+      "frames": [
+        {
+          "index": 0,
+          "row_index": 2,
+          "column_index": 0,
+          "verdict": "pass",
+          "evidence": "Upright entry.",
+          "native_alpha_bbox": [
+            23,
+            5,
+            168,
+            203
+          ],
+          "rgba_sha256": "0c69a5c47ab64b336935555e706471fc1b9803dccb6d7532bdfc4b1e6dc03b54",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 1,
+          "row_index": 2,
+          "column_index": 1,
+          "verdict": "pass",
+          "evidence": "Tip shifts physically left.",
+          "native_alpha_bbox": [
+            22,
+            6,
+            169,
+            203
+          ],
+          "rgba_sha256": "123cd1dd4978e38fdf0cd66fc2200a5ef3d0ee8c4f5d6382d54b5116af6a6b40",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 2,
+          "row_index": 2,
+          "column_index": 2,
+          "verdict": "pass",
+          "evidence": "Pronounced left tilt of whole glass shell and its reflections.",
+          "native_alpha_bbox": [
+            17,
+            12,
+            174,
+            201
+          ],
+          "rgba_sha256": "0b84ca0d61ff0559f00c7692e7d1fcaec4a0d281e5775a573089dc78870d0819",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 3,
+          "row_index": 2,
+          "column_index": 3,
+          "verdict": "pass",
+          "evidence": "Held left tilt, contained sphere.",
+          "native_alpha_bbox": [
+            19,
+            12,
+            172,
+            201
+          ],
+          "rgba_sha256": "6b11588f33f05504ef5882cef5fa9d4c7095f826499221914b93c79bb2b1d36c",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 4,
+          "row_index": 2,
+          "column_index": 4,
+          "verdict": "pass",
+          "evidence": "Left tilt reduces.",
+          "native_alpha_bbox": [
+            25,
+            6,
+            166,
+            202
+          ],
+          "rgba_sha256": "09f2269bba94147459524cee3d889b0ee1ad1646eeb43dc798bae5fc1a6f245a",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 5,
+          "row_index": 2,
+          "column_index": 5,
+          "verdict": "pass",
+          "evidence": "Upright recovery.",
+          "native_alpha_bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "rgba_sha256": "528333f8a8bb7e4cdb395071bc419623fd9a3a732ef66530177d67a9907baef6",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 6,
+          "row_index": 2,
+          "column_index": 6,
+          "verdict": "pass",
+          "evidence": "Opposing right counterrock.",
+          "native_alpha_bbox": [
+            24,
+            6,
+            167,
+            203
+          ],
+          "rgba_sha256": "f4acbbfe695f2cc72fbbdd9997e6a86edac4c9810d6595d45dd9dc77937745c2",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 7,
+          "row_index": 2,
+          "column_index": 7,
+          "verdict": "pass",
+          "evidence": "Return toward upright closes left-led rock.",
+          "native_alpha_bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "rgba_sha256": "07644092d4d552bef346d1f42faf549ea24baba05c75b8de57d40afa20d6f2cb",
+          "ordered_gif_frame_reviewed": true
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "actual_frames": 4,
+      "verdict": "pass",
+      "frames_reviewed": 4,
+      "gif_frames_reviewed": 4,
+      "gif_durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "inspection_image": "qa/fresh-final-inspection/waving-all.png",
+      "frames": [
+        {
+          "index": 0,
+          "row_index": 3,
+          "column_index": 0,
+          "verdict": "pass",
+          "evidence": "Upright greeting entry.",
+          "native_alpha_bbox": [
+            21,
+            5,
+            170,
+            203
+          ],
+          "rgba_sha256": "9b56d4a617016a50c88e46352552a3ce63477bcde6b438afdd12f33cecaf2df1",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 1,
+          "row_index": 3,
+          "column_index": 1,
+          "verdict": "pass",
+          "evidence": "Whole egg tips left into bow.",
+          "native_alpha_bbox": [
+            18,
+            6,
+            174,
+            203
+          ],
+          "rgba_sha256": "279acba2bba109fb00a29052910bccb31a24c90bafbb2efc071764ae23dbb692",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 2,
+          "row_index": 3,
+          "column_index": 2,
+          "verdict": "pass",
+          "evidence": "Deeper friendly left bow; bright original sphere, no hand or prop.",
+          "native_alpha_bbox": [
+            15,
+            10,
+            177,
+            203
+          ],
+          "rgba_sha256": "53d9db921b186398fe353ef43ed821a8c287981d2be39e846c15d1f73b9f6fe7",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 3,
+          "row_index": 3,
+          "column_index": 3,
+          "verdict": "pass",
+          "evidence": "Return upright completes greeting.",
+          "native_alpha_bbox": [
+            21,
+            5,
+            170,
+            203
+          ],
+          "rgba_sha256": "d631e982d5c596a6b454aeec4a413aa7bd35086f27042972ef424fbaf6a77aa8",
+          "ordered_gif_frame_reviewed": true
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "actual_frames": 5,
+      "verdict": "pass",
+      "frames_reviewed": 5,
+      "gif_frames_reviewed": 5,
+      "gif_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "inspection_image": "qa/fresh-final-inspection/jumping-all.png",
+      "frames": [
+        {
+          "index": 0,
+          "row_index": 4,
+          "column_index": 0,
+          "verdict": "pass",
+          "evidence": "Uniformly modest smaller shell grounded at bottom baseline.",
+          "native_alpha_bbox": [
+            29,
+            31,
+            162,
+            203
+          ],
+          "rgba_sha256": "52e7a72f7880667457e096ac6a6ad2cc4e2669a08a83db50ae2b36f290067732",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 1,
+          "row_index": 4,
+          "column_index": 1,
+          "verdict": "pass",
+          "evidence": "Same shell size lifts with lower rim visibly above ground pose.",
+          "native_alpha_bbox": [
+            29,
+            18,
+            162,
+            191
+          ],
+          "rgba_sha256": "00e9f1921fd4f6b560f39abada0be193f7591e9895c0176cfa9a81537e5fcb75",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 2,
+          "row_index": 4,
+          "column_index": 2,
+          "verdict": "pass",
+          "evidence": "Same shell size reaches highest pose; entire lower rim lifted.",
+          "native_alpha_bbox": [
+            29,
+            5,
+            162,
+            177
+          ],
+          "rgba_sha256": "1bb85c6e507bf6909a3a7a7b2c33bd137bb31b53f4957451c2d43eb27bd9b01b",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 3,
+          "row_index": 4,
+          "column_index": 3,
+          "verdict": "pass",
+          "evidence": "Same size descends to intermediate lift.",
+          "native_alpha_bbox": [
+            29,
+            18,
+            162,
+            191
+          ],
+          "rgba_sha256": "24c3f6a1eb8ea645a77e2303a40ab53fc767ff5e63e2413bd47002a7a1d6d498",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 4,
+          "row_index": 4,
+          "column_index": 4,
+          "verdict": "pass",
+          "evidence": "Same size returns to original ground pose.",
+          "native_alpha_bbox": [
+            29,
+            31,
+            162,
+            203
+          ],
+          "rgba_sha256": "e8ede6a440418251ae7952e01446103b7051a5684fa9e86cf859a9fed4d923b8",
+          "ordered_gif_frame_reviewed": true
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "actual_frames": 8,
+      "verdict": "pass",
+      "frames_reviewed": 8,
+      "gif_frames_reviewed": 8,
+      "gif_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "inspection_image": "qa/fresh-final-inspection/failed-all.png",
+      "frames": [
+        {
+          "index": 0,
+          "row_index": 5,
+          "column_index": 0,
+          "verdict": "pass",
+          "evidence": "Upright bright entry.",
+          "native_alpha_bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "rgba_sha256": "c324465ebea482ddff1895b0409aee0c35e22edcf6a27e0cdc2eb3deaf7feaaf",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 1,
+          "row_index": 5,
+          "column_index": 1,
+          "verdict": "pass",
+          "evidence": "Physical left slump begins with slightly weaker blue sphere.",
+          "native_alpha_bbox": [
+            24,
+            11,
+            168,
+            203
+          ],
+          "rgba_sha256": "f87bf5395950d64387055e2c6592608e139fddbed181384499896069b5d4727c",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 2,
+          "row_index": 5,
+          "column_index": 2,
+          "verdict": "pass",
+          "evidence": "Slumped pose with visibly NAVY weak core.",
+          "native_alpha_bbox": [
+            23,
+            13,
+            169,
+            202
+          ],
+          "rgba_sha256": "14a297ed6bcff842839d2b8c2ccb878874013bc7db656ffd3b180028686aa823",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 3,
+          "row_index": 5,
+          "column_index": 3,
+          "verdict": "pass",
+          "evidence": "NAVY weak core held in slump.",
+          "native_alpha_bbox": [
+            23,
+            13,
+            169,
+            202
+          ],
+          "rgba_sha256": "45916164847637320c8a31de069cbfae9a1dacf8466babcec8006f388d709534",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 4,
+          "row_index": 5,
+          "column_index": 4,
+          "verdict": "pass",
+          "evidence": "NAVY weak core remains held for third frame.",
+          "native_alpha_bbox": [
+            23,
+            14,
+            169,
+            202
+          ],
+          "rgba_sha256": "4a18e4294d5e4adbedf50f266de3b766e770ff697195fca3b6666518f799a8b0",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 5,
+          "row_index": 5,
+          "column_index": 5,
+          "verdict": "pass",
+          "evidence": "Sphere bright blue again as shell starts recovery.",
+          "native_alpha_bbox": [
+            24,
+            11,
+            168,
+            203
+          ],
+          "rgba_sha256": "89aa2d2eebb6da6d35c5d75e605e13703bbe47a1fdb9da924d2ee7b8609938fc",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 6,
+          "row_index": 5,
+          "column_index": 6,
+          "verdict": "pass",
+          "evidence": "Upright bright recovery.",
+          "native_alpha_bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "rgba_sha256": "d8f1a9316fd71f33e3be2eabd7b928e85aeea1094049ee909c45a2bd2169bd5e",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 7,
+          "row_index": 5,
+          "column_index": 7,
+          "verdict": "pass",
+          "evidence": "Upright bright return; no breakup, cracks or extra effects.",
+          "native_alpha_bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "rgba_sha256": "7e98180cfeb835d214b02cec685fea9072f8f6cf97a56dda7a0faaf17c2a3a0c",
+          "ordered_gif_frame_reviewed": true
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "actual_frames": 6,
+      "verdict": "pass",
+      "frames_reviewed": 6,
+      "gif_frames_reviewed": 6,
+      "gif_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "inspection_image": "qa/fresh-final-inspection/waiting-all.png",
+      "frames": [
+        {
+          "index": 0,
+          "row_index": 6,
+          "column_index": 0,
+          "verdict": "pass",
+          "evidence": "Upright expectant entry.",
+          "native_alpha_bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "rgba_sha256": "55226bf02202c1d6dff5da7ca1175245cb74a8ff1add16db8ab0d85e5d6026ca",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 1,
+          "row_index": 6,
+          "column_index": 1,
+          "verdict": "pass",
+          "evidence": "Blue sphere lifts noticeably within still glass.",
+          "native_alpha_bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "rgba_sha256": "d626a4212c0ef12710b44ed02a37a534fa7417f8b2bd6494fb64d51fbdabad30",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 2,
+          "row_index": 6,
+          "column_index": 2,
+          "verdict": "pass",
+          "evidence": "Sphere reaches higher waiting pulse position.",
+          "native_alpha_bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "rgba_sha256": "9f6318da6b4441c3da44183bb967c61798fd6df6628b57378f7a1e7e4f6fc4e0",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 3,
+          "row_index": 6,
+          "column_index": 3,
+          "verdict": "pass",
+          "evidence": "Sphere drops toward neutral.",
+          "native_alpha_bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "rgba_sha256": "ca245dd4ba5e8faaefecf18953dcc3c45648fefa1f3bc10091b22be79b0545f7",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 4,
+          "row_index": 6,
+          "column_index": 4,
+          "verdict": "pass",
+          "evidence": "Sphere rests lower in broad chamber.",
+          "native_alpha_bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "rgba_sha256": "59d9770456682b2f9196f5818019340c594ce113abdb9de1a16fa20f05ab0c16",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 5,
+          "row_index": 6,
+          "column_index": 5,
+          "verdict": "pass",
+          "evidence": "Low rest closes expectant pulse.",
+          "native_alpha_bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "rgba_sha256": "020bd6c5bef1e30d17ced1f03c694745db4c55fa686ba20e520cb0bde02bcac1",
+          "ordered_gif_frame_reviewed": true
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "actual_frames": 6,
+      "verdict": "pass",
+      "frames_reviewed": 6,
+      "gif_frames_reviewed": 6,
+      "gif_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "inspection_image": "qa/fresh-final-inspection/running-all.png",
+      "frames": [
+        {
+          "index": 0,
+          "row_index": 7,
+          "column_index": 0,
+          "verdict": "pass",
+          "evidence": "Blue sphere at lower center within fixed upright shell.",
+          "native_alpha_bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "rgba_sha256": "d34b47eb6a874c7d376d59f3d75cdd54669d59f8f0ba5a3cec50beff76b44236",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 1,
+          "row_index": 7,
+          "column_index": 1,
+          "verdict": "pass",
+          "evidence": "Blue sphere moves lower left.",
+          "native_alpha_bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "rgba_sha256": "7d86251490e2a5b3fb7be6a90d8ebe07c8cc5d5fc5595bff3f2d57551feb3973",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 2,
+          "row_index": 7,
+          "column_index": 2,
+          "verdict": "pass",
+          "evidence": "Sphere moves up left.",
+          "native_alpha_bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "rgba_sha256": "03dad5174857eb63fb07655e6e273aa06697765d8e0eb01e2d9655fcbec97edd",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 3,
+          "row_index": 7,
+          "column_index": 3,
+          "verdict": "pass",
+          "evidence": "Sphere moves high center.",
+          "native_alpha_bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "rgba_sha256": "16e179474ec15f848aa4b85fc92537823ed627b6c3a5e32e9a3cbba9e3af217f",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 4,
+          "row_index": 7,
+          "column_index": 4,
+          "verdict": "pass",
+          "evidence": "Sphere moves high right.",
+          "native_alpha_bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "rgba_sha256": "0cd9ce041ab6b55da9b7ae4575aea3e44603381ff264a79cc2b0fe1a06c1748b",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 5,
+          "row_index": 7,
+          "column_index": 5,
+          "verdict": "pass",
+          "evidence": "Sphere returns lower right, orbit closes internally with no shell spin.",
+          "native_alpha_bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "rgba_sha256": "4e42f0b69beba7f7bd004d5fbfff4e02354c452dc08fc405d88cdba711ad4011",
+          "ordered_gif_frame_reviewed": true
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "actual_frames": 6,
+      "verdict": "pass",
+      "frames_reviewed": 6,
+      "gif_frames_reviewed": 6,
+      "gif_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "inspection_image": "qa/fresh-final-inspection/review-all.png",
+      "frames": [
+        {
+          "index": 0,
+          "row_index": 8,
+          "column_index": 0,
+          "verdict": "pass",
+          "evidence": "Upright review entry.",
+          "native_alpha_bbox": [
+            23,
+            5,
+            168,
+            203
+          ],
+          "rgba_sha256": "1e26392df89e0f27250cd924298d9b3a577cc636df2c6f43cbb1cac5759d8536",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 1,
+          "row_index": 8,
+          "column_index": 1,
+          "verdict": "pass",
+          "evidence": "Full shell starts left dip.",
+          "native_alpha_bbox": [
+            20,
+            9,
+            172,
+            203
+          ],
+          "rgba_sha256": "0267db0ed8179a471a2b8687c902b61b304bb75c2ce52d9b2d9f5647ef793fa4",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 2,
+          "row_index": 8,
+          "column_index": 2,
+          "verdict": "pass",
+          "evidence": "Deeper physical left dip with sphere contained.",
+          "native_alpha_bbox": [
+            15,
+            11,
+            177,
+            203
+          ],
+          "rgba_sha256": "927943d22aa0675bba19e6d5a628b1246709b7b07f0fc534b60ef74bbd8ccbc6",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 3,
+          "row_index": 8,
+          "column_index": 3,
+          "verdict": "pass",
+          "evidence": "Held deepest left dip.",
+          "native_alpha_bbox": [
+            15,
+            15,
+            177,
+            203
+          ],
+          "rgba_sha256": "2843542473b11079e91cf2349a6d639b9055e96dff99890ea11273a9e6892016",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 4,
+          "row_index": 8,
+          "column_index": 4,
+          "verdict": "pass",
+          "evidence": "Shell begins return from left dip.",
+          "native_alpha_bbox": [
+            19,
+            8,
+            173,
+            203
+          ],
+          "rgba_sha256": "a5830a4c8d4427edcecdf244b9fa56298d36e4a2c8d414d399fcb202533d6139",
+          "ordered_gif_frame_reviewed": true
+        },
+        {
+          "index": 5,
+          "row_index": 8,
+          "column_index": 5,
+          "verdict": "pass",
+          "evidence": "Upright recovery closes review.",
+          "native_alpha_bbox": [
+            23,
+            5,
+            169,
+            203
+          ],
+          "rgba_sha256": "0f379688b2370a7c6f8b8b14e87673a797664f21c9e3a3b367d299f60c9dbce9",
+          "ordered_gif_frame_reviewed": true
+        }
+      ]
+    }
+  ],
+  "look_directions_reviewed": 16,
+  "look_review": "Directly inspected all 16 actual native direction cells and qa/look-directions.png in requested clockwise order, locating the physical blue spherical core relative to the central broad chamber near (96,116), not a made-up iris or shell rotation. UP lies high around (97,68), RIGHT lies right around (111,119), DOWN lies low around (96,155), LEFT lies left around (82,112): all four hard cardinals pass. Intermediates move through the correct quadrants; upper-right x displacement is compressed near UP and upper-left near 315/337.5 is close to the vertical axis, but ordered arc never changes to a wrong quadrant or reverses angular order. Upright full shell, upper-left reflections and lower-right rim hold stable. Original sphere remains enclosed with practical uniform diameter; no shell spin or size pop.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "dbeed4f8c29e0fd5e71cd921f060517af950dd0ce5cba41e66e96b197672cab8",
+    "reason": "Directly inspected qa/look-alpha-contact.png (all 16 solid egg silhouettes) and actual final WebP cells with every four-neighbour alpha-zero suspect marked red in qa/fresh-final-inspection/alpha-suspects-native.png. All 222–256 suspects per cell trace a thin exterior band outside the visible dark/cyan shell rim, including tip and lower contour; they are trapped exterior raster/antialias fringe gaps, not openings in the literal filled egg. No marked suspect occurs in the broad filled teal glass, painted bubbles, reflections, or blue sphere. No intentional inside opening is claimed. Original alpha preserved; no reclean performed."
+  },
+  "warnings": [
+    "Jump uses the accepted uniform approximately 13% fitting reduction relative to neighboring states. All five actual final jump poses retain one size; no conspicuous new within-action size pop. Cross-action scale difference is modest and visible on inspection.",
+    "Look orbit is angularly compressed near some axes: 022.5/202.5 and 315/337.5 can be ambiguous in isolated blind classification. Ordered native loop remains clockwise, in correct quadrants; no exact equal-degree angular claim.",
+    "GIF palette/transparent-edge approximation differs from native WebP paint detail; final native chroma/despill and preserved alpha are assessed on WebP. No fringe-driven retry or reclean.",
+    "This is direct final-art inspection. Independent blind-reader verdicts are separate reports; this record does not assert pending blind results."
+  ],
+  "repair_rows": [],
+  "inspection_provenance": {
+    "atlas": "final/spritesheet-extended.webp",
+    "native_and_gif_ordered_panels": "qa/fresh-final-inspection/*-all.png",
+    "alpha_suspect_overlay": "qa/fresh-final-inspection/alpha-suspects-native.png",
+    "canonical": "references/canonical-base.png"
+  }
+}

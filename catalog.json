@@ -57,7 +57,12 @@
       "id": "dofus-turquoise",
       "name": "Turquoise Dofus",
       "category": "eggs",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/dofus-turquoise.gif",
+      "package": {
+        "pet.json": "e3b53e0af7902ef6d4cf8697d0326b7dcf8c6e2b8ba0483c8c1c34d6d5d50f37",
+        "spritesheet.webp": "d16db185d469cdffe39d31ec263f007a202039668e3a7ee2bf93f47f4900e59e"
+      }
     },
     {
       "id": "dofus-crimson",
