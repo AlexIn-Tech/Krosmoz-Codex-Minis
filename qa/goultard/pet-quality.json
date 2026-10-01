@@ -1,0 +1,909 @@
+{
+  "ok": true,
+  "errors": [],
+  "sha256": "e09381d491d0d9bed41c6be32d24c68302c5bfd5d380f8161c677aa70ff976a6",
+  "encoded_bytes": 2875654,
+  "method": "Native Codex v2 structural and geometry QA aggregated with exact-byte-bound independent motion, semantics and alpha review",
+  "geometry": {
+    "used_cells": [
+      {
+        "row": 0,
+        "column": 0,
+        "bbox": [
+          28,
+          5,
+          164,
+          203
+        ]
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "bbox": [
+          28,
+          5,
+          164,
+          203
+        ]
+      },
+      {
+        "row": 0,
+        "column": 2,
+        "bbox": [
+          27,
+          5,
+          165,
+          203
+        ]
+      },
+      {
+        "row": 0,
+        "column": 3,
+        "bbox": [
+          27,
+          5,
+          165,
+          203
+        ]
+      },
+      {
+        "row": 0,
+        "column": 4,
+        "bbox": [
+          27,
+          5,
+          164,
+          203
+        ]
+      },
+      {
+        "row": 0,
+        "column": 5,
+        "bbox": [
+          28,
+          5,
+          164,
+          203
+        ]
+      },
+      {
+        "row": 0,
+        "column": 6,
+        "bbox": [
+          28,
+          5,
+          164,
+          203
+        ]
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "bbox": [
+          20,
+          5,
+          171,
+          203
+        ]
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "bbox": [
+          19,
+          5,
+          172,
+          203
+        ]
+      },
+      {
+        "row": 1,
+        "column": 2,
+        "bbox": [
+          21,
+          5,
+          171,
+          203
+        ]
+      },
+      {
+        "row": 1,
+        "column": 3,
+        "bbox": [
+          15,
+          5,
+          177,
+          203
+        ]
+      },
+      {
+        "row": 1,
+        "column": 4,
+        "bbox": [
+          20,
+          5,
+          172,
+          203
+        ]
+      },
+      {
+        "row": 1,
+        "column": 5,
+        "bbox": [
+          11,
+          5,
+          181,
+          203
+        ]
+      },
+      {
+        "row": 1,
+        "column": 6,
+        "bbox": [
+          19,
+          5,
+          172,
+          203
+        ]
+      },
+      {
+        "row": 1,
+        "column": 7,
+        "bbox": [
+          15,
+          5,
+          177,
+          203
+        ]
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "bbox": [
+          12,
+          5,
+          180,
+          203
+        ]
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "bbox": [
+          26,
+          5,
+          166,
+          203
+        ]
+      },
+      {
+        "row": 2,
+        "column": 2,
+        "bbox": [
+          26,
+          5,
+          165,
+          203
+        ]
+      },
+      {
+        "row": 2,
+        "column": 3,
+        "bbox": [
+          14,
+          5,
+          177,
+          203
+        ]
+      },
+      {
+        "row": 2,
+        "column": 4,
+        "bbox": [
+          19,
+          5,
+          172,
+          203
+        ]
+      },
+      {
+        "row": 2,
+        "column": 5,
+        "bbox": [
+          27,
+          5,
+          164,
+          203
+        ]
+      },
+      {
+        "row": 2,
+        "column": 6,
+        "bbox": [
+          12,
+          5,
+          179,
+          203
+        ]
+      },
+      {
+        "row": 2,
+        "column": 7,
+        "bbox": [
+          24,
+          5,
+          168,
+          203
+        ]
+      },
+      {
+        "row": 3,
+        "column": 0,
+        "bbox": [
+          23,
+          5,
+          168,
+          203
+        ]
+      },
+      {
+        "row": 3,
+        "column": 1,
+        "bbox": [
+          23,
+          5,
+          168,
+          203
+        ]
+      },
+      {
+        "row": 3,
+        "column": 2,
+        "bbox": [
+          23,
+          5,
+          168,
+          203
+        ]
+      },
+      {
+        "row": 3,
+        "column": 3,
+        "bbox": [
+          24,
+          5,
+          168,
+          203
+        ]
+      },
+      {
+        "row": 4,
+        "column": 0,
+        "bbox": [
+          37,
+          48,
+          154,
+          203
+        ]
+      },
+      {
+        "row": 4,
+        "column": 1,
+        "bbox": [
+          33,
+          29,
+          158,
+          201
+        ]
+      },
+      {
+        "row": 4,
+        "column": 2,
+        "bbox": [
+          34,
+          5,
+          157,
+          170
+        ]
+      },
+      {
+        "row": 4,
+        "column": 3,
+        "bbox": [
+          33,
+          29,
+          158,
+          202
+        ]
+      },
+      {
+        "row": 4,
+        "column": 4,
+        "bbox": [
+          37,
+          48,
+          154,
+          203
+        ]
+      },
+      {
+        "row": 5,
+        "column": 0,
+        "bbox": [
+          43,
+          5,
+          149,
+          203
+        ]
+      },
+      {
+        "row": 5,
+        "column": 1,
+        "bbox": [
+          42,
+          5,
+          149,
+          203
+        ]
+      },
+      {
+        "row": 5,
+        "column": 2,
+        "bbox": [
+          40,
+          5,
+          152,
+          203
+        ]
+      },
+      {
+        "row": 5,
+        "column": 3,
+        "bbox": [
+          29,
+          5,
+          163,
+          203
+        ]
+      },
+      {
+        "row": 5,
+        "column": 4,
+        "bbox": [
+          27,
+          5,
+          164,
+          203
+        ]
+      },
+      {
+        "row": 5,
+        "column": 5,
+        "bbox": [
+          37,
+          5,
+          155,
+          203
+        ]
+      },
+      {
+        "row": 5,
+        "column": 6,
+        "bbox": [
+          41,
+          5,
+          151,
+          203
+        ]
+      },
+      {
+        "row": 5,
+        "column": 7,
+        "bbox": [
+          41,
+          5,
+          150,
+          203
+        ]
+      },
+      {
+        "row": 6,
+        "column": 0,
+        "bbox": [
+          40,
+          5,
+          151,
+          203
+        ]
+      },
+      {
+        "row": 6,
+        "column": 1,
+        "bbox": [
+          32,
+          5,
+          160,
+          203
+        ]
+      },
+      {
+        "row": 6,
+        "column": 2,
+        "bbox": [
+          34,
+          5,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 6,
+        "column": 3,
+        "bbox": [
+          32,
+          5,
+          159,
+          203
+        ]
+      },
+      {
+        "row": 6,
+        "column": 4,
+        "bbox": [
+          32,
+          5,
+          160,
+          203
+        ]
+      },
+      {
+        "row": 6,
+        "column": 5,
+        "bbox": [
+          38,
+          5,
+          153,
+          203
+        ]
+      },
+      {
+        "row": 7,
+        "column": 0,
+        "bbox": [
+          45,
+          5,
+          146,
+          203
+        ]
+      },
+      {
+        "row": 7,
+        "column": 1,
+        "bbox": [
+          44,
+          5,
+          147,
+          203
+        ]
+      },
+      {
+        "row": 7,
+        "column": 2,
+        "bbox": [
+          44,
+          5,
+          147,
+          203
+        ]
+      },
+      {
+        "row": 7,
+        "column": 3,
+        "bbox": [
+          44,
+          5,
+          147,
+          203
+        ]
+      },
+      {
+        "row": 7,
+        "column": 4,
+        "bbox": [
+          42,
+          5,
+          150,
+          203
+        ]
+      },
+      {
+        "row": 7,
+        "column": 5,
+        "bbox": [
+          44,
+          5,
+          147,
+          203
+        ]
+      },
+      {
+        "row": 8,
+        "column": 0,
+        "bbox": [
+          41,
+          5,
+          150,
+          203
+        ]
+      },
+      {
+        "row": 8,
+        "column": 1,
+        "bbox": [
+          40,
+          5,
+          151,
+          203
+        ]
+      },
+      {
+        "row": 8,
+        "column": 2,
+        "bbox": [
+          39,
+          5,
+          152,
+          203
+        ]
+      },
+      {
+        "row": 8,
+        "column": 3,
+        "bbox": [
+          34,
+          5,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 8,
+        "column": 4,
+        "bbox": [
+          36,
+          5,
+          156,
+          203
+        ]
+      },
+      {
+        "row": 8,
+        "column": 5,
+        "bbox": [
+          41,
+          5,
+          151,
+          203
+        ]
+      },
+      {
+        "row": 9,
+        "column": 0,
+        "bbox": [
+          32,
+          9,
+          156,
+          203
+        ]
+      },
+      {
+        "row": 9,
+        "column": 1,
+        "bbox": [
+          34,
+          10,
+          156,
+          203
+        ]
+      },
+      {
+        "row": 9,
+        "column": 2,
+        "bbox": [
+          34,
+          5,
+          156,
+          203
+        ]
+      },
+      {
+        "row": 9,
+        "column": 3,
+        "bbox": [
+          34,
+          5,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 9,
+        "column": 4,
+        "bbox": [
+          34,
+          9,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 9,
+        "column": 5,
+        "bbox": [
+          34,
+          9,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 9,
+        "column": 6,
+        "bbox": [
+          34,
+          10,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 9,
+        "column": 7,
+        "bbox": [
+          34,
+          9,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 10,
+        "column": 0,
+        "bbox": [
+          38,
+          13,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 10,
+        "column": 1,
+        "bbox": [
+          35,
+          11,
+          158,
+          203
+        ]
+      },
+      {
+        "row": 10,
+        "column": 2,
+        "bbox": [
+          35,
+          13,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 10,
+        "column": 3,
+        "bbox": [
+          35,
+          11,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 10,
+        "column": 4,
+        "bbox": [
+          35,
+          11,
+          157,
+          203
+        ]
+      },
+      {
+        "row": 10,
+        "column": 5,
+        "bbox": [
+          35,
+          12,
+          158,
+          203
+        ]
+      },
+      {
+        "row": 10,
+        "column": 6,
+        "bbox": [
+          35,
+          9,
+          156,
+          203
+        ]
+      },
+      {
+        "row": 10,
+        "column": 7,
+        "bbox": [
+          35,
+          8,
+          156,
+          203
+        ]
+      }
+    ],
+    "unique_frames_per_state": {
+      "idle": 6,
+      "running-right": 8,
+      "running-left": 8,
+      "waving": 4,
+      "jumping": 5,
+      "failed": 8,
+      "waiting": 6,
+      "running": 6,
+      "review": 6
+    },
+    "jump_feet": [
+      203,
+      201,
+      170,
+      202,
+      203
+    ],
+    "jump_arc": 33,
+    "landing_delta": 0,
+    "alpha_topology": {
+      "atlas_sha256": "e09381d491d0d9bed41c6be32d24c68302c5bfd5d380f8161c677aa70ff976a6",
+      "alpha_sheet_sha256": "b60def1c85aca1fa344d8d681d42f11a07f9af995d764ee6439d6d881b17697d",
+      "method": "Four-neighbour flood fill of exactly alpha-zero pixels from cell boundaries; alpha sheet preserves original alpha values",
+      "directions": [
+        {
+          "label": "000",
+          "external_pixels": 24155,
+          "enclosed_pixels": 561,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "022.5",
+          "external_pixels": 24213,
+          "enclosed_pixels": 561,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "045",
+          "external_pixels": 23883,
+          "enclosed_pixels": 565,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "067.5",
+          "external_pixels": 23520,
+          "enclosed_pixels": 573,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "090",
+          "external_pixels": 23482,
+          "enclosed_pixels": 500,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "112.5",
+          "external_pixels": 23393,
+          "enclosed_pixels": 563,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "135",
+          "external_pixels": 23462,
+          "enclosed_pixels": 591,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "157.5",
+          "external_pixels": 23589,
+          "enclosed_pixels": 587,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "180",
+          "external_pixels": 24245,
+          "enclosed_pixels": 509,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "202.5",
+          "external_pixels": 23646,
+          "enclosed_pixels": 538,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "225",
+          "external_pixels": 23757,
+          "enclosed_pixels": 517,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "247.5",
+          "external_pixels": 23522,
+          "enclosed_pixels": 558,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "270",
+          "external_pixels": 23633,
+          "enclosed_pixels": 530,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "292.5",
+          "external_pixels": 23678,
+          "enclosed_pixels": 503,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "315",
+          "external_pixels": 23937,
+          "enclosed_pixels": 484,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        },
+        {
+          "label": "337.5",
+          "external_pixels": 23794,
+          "enclosed_pixels": 493,
+          "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+        }
+      ]
+    }
+  },
+  "native_continuity_warnings_preserved": [
+    "000 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "022.5 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "045 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "067.5 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "090 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "112.5 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "135 has transparent interior hole rows (y=176, y=177, y=178, y=179, +19 more)",
+    "157.5 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "180 has transparent interior hole rows (y=176, y=177, y=178, y=179, +19 more)",
+    "202.5 has transparent interior hole rows (y=176, y=177, y=178, y=179, +19 more)",
+    "225 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "247.5 has transparent interior hole rows (y=176, y=177, y=178, y=179, +19 more)",
+    "270 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "292.5 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "315 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "337.5 has transparent interior hole rows (y=177, y=178, y=179, y=180, +18 more)",
+    "157.5->180 diff is a local outlier (3173 pixels vs neighbor average 1920)",
+    "292.5->315 diff is a local outlier (2148 pixels vs neighbor average 1388)",
+    "337.5->000 diff is a local outlier (3784 pixels vs neighbor average 1716)"
+  ],
+  "independent_transparency_review": {
+    "verdict": "pass",
+    "sheet_sha256": "b60def1c85aca1fa344d8d681d42f11a07f9af995d764ee6439d6d881b17697d",
+    "reason": "Inspected qa/look-alpha-contact.png and qa/alpha-topology.json. The enclosed transparent regions repeat across the direction row and visually align with the chain ring and deliberate gaps between limbs/weapon components; no accidental hole cuts through the filled face or body silhouette."
+  },
+  "reports": {
+    "atlas": "5aa1aadb1acbf61e222af16e1bc4ecd8d09436becec52790933eb4157a97bbd2",
+    "chroma": "082c9d9b05a9049189fbb3f37b003406b07e02de41f01d46688332f45cf3651d",
+    "frames": "84f97c8cfc501fa8614a749d8c77a09904ffb1a6301d24839aa2a1af7d88f17e",
+    "blind": "af94ec31b980bded69409e21cfafd16ad6f6e27fce1207f8c5fe9540d9f62e5d",
+    "continuity": "4f31dcd3fffd01940695a7e47884ad4921d1f7e3a72a739b4ff47f9a805165cd",
+    "semantics": "cc93ba096b44f55d30ef149b4d382d3dacd94b755c83536e467808f69e97b8ba",
+    "visual": "55db23af1029d6668c888cfb428540b4ba501056f1119d2f0246f5638726cec2"
+  }
+}

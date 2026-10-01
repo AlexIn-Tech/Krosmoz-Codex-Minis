@@ -161,7 +161,12 @@
       "id": "goultard",
       "name": "Goultard",
       "category": "characters",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/goultard.gif",
+      "package": {
+        "pet.json": "1c65df6020ce8a361e9854b6b83a3800164a057cbae95f66adc8fe53d96c659d",
+        "spritesheet.webp": "e09381d491d0d9bed41c6be32d24c68302c5bfd5d380f8161c677aa70ff976a6"
+      }
     },
     {
       "id": "toross-mordal",

@@ -1,0 +1,44 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "e09381d491d0d9bed41c6be32d24c68302c5bfd5d380f8161c677aa70ff976a6",
+  "motion_review": "pass; reviewed every frame of all nine final GIFs (gallery includes all 73 frames). Cycles retain their intended poses and facial/prop identity, with no visible scale popping, reversal, detachment, or conspicuous loop snap.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": "pass — all 6 frames show a quiet breathing/eye-blink cycle; loop closure is compatible.",
+    "running-right": "pass — all 8 frames face right with alternating run phases and stable character/weapon scale.",
+    "running-left": "pass — all 8 frames face left with alternating phases opposite running-right; identity and scale hold.",
+    "waving": "pass — all 4 frames raise and lower the free hand in a readable wave; the loop returns cleanly.",
+    "jumping": "pass — all 5 frames form a crouch, rise, airborne apex, descent and landing sequence.",
+    "failed": "pass — all 8 frames show a dejected crouch and recovery while retaining the held weapon and attached parts.",
+    "waiting": "pass — all 6 frames show an expectant open-hand gesture and return to the starting stance.",
+    "running": "pass — all 6 frames read as a thinking/hand-to-face state with feet planted, distinct from foot-running.",
+    "review": "pass — all 6 frames read as sword inspection and a free-hand gesture, returning coherently to attentive stance."
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "pass — reviewed neutral plus all 16 labeled directions in exact clockwise order. Cardinal axes are clear, intermediate yaw progresses without reversal, and head turns/pitches while torso, feet and weapon stay anchored. Mild pitch ambiguities at 045, 067.5, 292.5, 315 and 337.5 are recorded as warnings; normal-size ordered review shows their broad quadrants and smooth progression. Continuity metric outliers at 157.5→180, 292.5→315 and 337.5→000 do not appear as visible snaps, scale changes, or semantic reversals.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "b60def1c85aca1fa344d8d681d42f11a07f9af995d764ee6439d6d881b17697d",
+    "reason": "Inspected qa/look-alpha-contact.png and qa/alpha-topology.json. The enclosed transparent regions repeat across the direction row and visually align with the chain ring and deliberate gaps between limbs/weapon components; no accidental hole cuts through the filled face or body silhouette."
+  },
+  "warnings": [
+    "Intermediate vertical pitch is mild and blind-review ambiguity remains for 045, 067.5, 292.5, 315 and 337.5; direct ordered normal-size inspection found coherent broad quadrants and no reversal.",
+    "Continuity metrics flag 157.5→180, 292.5→315 and 337.5→000; visual review found expected pose transitions without a conspicuous snap or pop."
+  ],
+  "repair_rows": [],
+  "notes": [
+    "The checked final/spritesheet-extended.webp SHA-256 equals the requested atlas hash.",
+    "Reviewed qa/contact-sheet-extended.png, qa/look-directions.png, qa/look-alpha-contact.png, qa/alpha-topology.json, qa/direction-blind-validation.json, qa/look-continuity.json, qa/look-mechanics.md, and references/canonical-base.png.",
+    "Chroma despill/native validator results were treated as authoritative; no visual fringe rejection was applied."
+  ]
+}

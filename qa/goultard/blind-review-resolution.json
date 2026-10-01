@@ -1,0 +1,177 @@
+{
+  "severity": "minor",
+  "decision": "accept",
+  "atlas_sha256": "e09381d491d0d9bed41c6be32d24c68302c5bfd5d380f8161c677aa70ff976a6",
+  "basis": "Native blind cardinals passed; actual independent ordered-loop semantics have no failed direction",
+  "warnings": [
+    "vertical-3 A vertical axis is ambiguous",
+    "vertical-4 B vertical axis is ambiguous",
+    "vertical-5 B vertical axis is ambiguous",
+    "vertical-6 A vertical axis is ambiguous",
+    "vertical-7 A vertical axis is ambiguous",
+    "vertical-7 B vertical axis is ambiguous"
+  ],
+  "independent_review": "pass \u2014 reviewed neutral plus all 16 labeled directions in exact clockwise order. Cardinal axes are clear, intermediate yaw progresses without reversal, and head turns/pitches while torso, feet and weapon stay anchored. Mild pitch ambiguities at 045, 067.5, 292.5, 315 and 337.5 are recorded as warnings; normal-size ordered review shows their broad quadrants and smooth progression. Continuity metric outliers at 157.5\u2192180, 292.5\u2192315 and 337.5\u2192000 do not appear as visible snaps, scale changes, or semantic reversals.",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up; face pitched back, chin raised and nose points upward",
+      "verdict": "pass",
+      "reason": "Unmistakable upward face pitch; body and weapon remain anchored.",
+      "horizontal_evidence": "Frontal face; no lateral turn beyond the neutral construction.",
+      "vertical_evidence": "Raised chin and visible underside of jaw make the up pitch clear.",
+      "coordinate_evidence": "Within the direction cell, nose tip sits above the chin line; head landmarks change while torso centerline, feet and ring/weapon anchor stay fixed."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right; slight upward pitch with a clear rightward turn",
+      "verdict": "pass",
+      "reason": "Both neighboring axes are readable and the first clockwise turn from up is consistent.",
+      "horizontal_evidence": "Nose and exposed cheek shift toward screen-right from 000.",
+      "vertical_evidence": "Chin remains raised relative to the down-facing half of the loop.",
+      "coordinate_evidence": "Nose tip moves right from 000 while remaining above the mouth/chin line; body and weapon anchors do not rotate."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right; rightward yaw clear, upward pitch mild",
+      "verdict": "warning",
+      "reason": "Correct broad quadrant and ordered progression; vertical pitch is mild, matching the blind reviewer ambiguity without indicating a wrong quadrant.",
+      "horizontal_evidence": "Nose, cheek and beard face screen-right between frontal 000 and profile 090.",
+      "vertical_evidence": "Face sits slightly lifted relative to 090, though the upward component is subtle at this intermediate step.",
+      "coordinate_evidence": "Nose tip lies on the screen-right side of the face and above the down-pitched 135/180 progression; shoulders, belt, feet and weapon remain aligned."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right; near-right-facing with a mild upward pitch",
+      "verdict": "warning",
+      "reason": "Ordered loop stays in the up-right quadrant; upward pitch is subtle, corresponding to the blind ambiguity.",
+      "horizontal_evidence": "Nose and beard point screen-right and approach the 090 profile.",
+      "vertical_evidence": "Chin is modestly raised compared with 090, but the distinction is soft.",
+      "coordinate_evidence": "Nose tip remains above the down-right sequence's face axis; fixed torso and weapon landmarks rule out whole-body rotation."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right; readable profile facing screen-right",
+      "verdict": "pass",
+      "reason": "Clear rightward cardinal with a stable body and weapon.",
+      "horizontal_evidence": "Nose projects to the right edge and the exposed face reads in profile.",
+      "vertical_evidence": "Head is near level, separating it from the clearly raised 000 and bowed 180 cardinals.",
+      "coordinate_evidence": "Nose tip is at the right side of the head silhouette; torso center, feet and chain/ring positions remain in their shared construction."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right; right-facing with a downward pitch",
+      "verdict": "pass",
+      "reason": "The head keeps rightward yaw while beginning the down pitch in clockwise order.",
+      "horizontal_evidence": "Nose and beard remain directed screen-right from 090.",
+      "vertical_evidence": "Forehead leads and chin lowers relative to 090.",
+      "coordinate_evidence": "Nose tip sits below the 090 face axis; body stance and held weapon anchor are fixed."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right; clear three-quarter right and bowed",
+      "verdict": "pass",
+      "reason": "Both axes are readable and progression toward down is smooth.",
+      "horizontal_evidence": "Nose and cheek remain to the screen-right side of the head.",
+      "vertical_evidence": "Brow/forehead leads downward and the chin tucks.",
+      "coordinate_evidence": "Nose tip is below its level-right position and right of the frontal head axis; body and weapon remain unchanged in orientation."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right; strongly bowed with residual rightward yaw",
+      "verdict": "pass",
+      "reason": "Still on the down-right side immediately before the down cardinal; no reversal or body turn.",
+      "horizontal_evidence": "Visible face and nose retain a small screen-right bias relative to 180.",
+      "vertical_evidence": "Chin is lowered and forehead leads into the down cardinal.",
+      "coordinate_evidence": "Face landmarks sit below the neutral head axis; torso, feet and ring/weapon stay anchored. The following 180 pose continues the bow."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down; frontal head bowed",
+      "verdict": "pass",
+      "reason": "Unmistakable down-facing cardinal.",
+      "horizontal_evidence": "Face is broadly frontal without a left/right profile bias.",
+      "vertical_evidence": "Forehead leads, chin lowers, and the face points down.",
+      "coordinate_evidence": "Nose/chin axis points down in the head while torso and weapon remain in their fixed screen orientation."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left; bowed with a clear leftward turn",
+      "verdict": "pass",
+      "reason": "Clockwise continuation from down into the lower-left quadrant.",
+      "horizontal_evidence": "Nose and beard turn toward screen-left from 180.",
+      "vertical_evidence": "Chin stays lowered relative to the up-left half of the loop.",
+      "coordinate_evidence": "Nose tip moves left and below the frontal axis; torso/feet/weapon remain fixed."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left; clear three-quarter left and bowed",
+      "verdict": "pass",
+      "reason": "Both axes are readable and the sequence continues smoothly toward left.",
+      "horizontal_evidence": "Nose, cheek and beard face screen-left.",
+      "vertical_evidence": "Forehead leads and chin remains tucked.",
+      "coordinate_evidence": "Nose tip is left of the frontal axis and below the level-left head axis; the body and sword construction do not rotate."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left; near-left-facing with a mild downward pitch",
+      "verdict": "pass",
+      "reason": "Broad quadrant remains readable and carries the bow toward the left cardinal.",
+      "horizontal_evidence": "Nose faces screen-left, approaching the 270 profile.",
+      "vertical_evidence": "Head remains slightly bowed relative to the up-left sequence after 270.",
+      "coordinate_evidence": "Nose tip remains below the level-left face axis; fixed feet, belt and weapon anchors show head-led motion."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left; readable profile facing screen-left",
+      "verdict": "pass",
+      "reason": "Clear leftward cardinal with stable body and weapon orientation.",
+      "horizontal_evidence": "Nose projects to screen-left and exposed face reads in profile.",
+      "vertical_evidence": "Head is near level, distinct from the bowed 180 and lifted 000 cardinals.",
+      "coordinate_evidence": "Nose tip lies at the left side of the head silhouette; torso center, feet and chain/ring remain fixed."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left; leftward yaw clear, upward pitch mild",
+      "verdict": "warning",
+      "reason": "The ordered turn returns through the up-left quadrant; pitch is subtle, consistent with the blind vertical ambiguity.",
+      "horizontal_evidence": "Nose and beard continue screen-left from 270.",
+      "vertical_evidence": "Chin lifts slightly relative to 270, but the vertical change remains mild.",
+      "coordinate_evidence": "Nose tip lies left of the head axis and modestly above the level-left face line; torso, feet and weapon anchors remain fixed."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left; leftward yaw clear, upward pitch mild",
+      "verdict": "warning",
+      "reason": "Broad up-left quadrant and clockwise progression hold; vertical pitch remains a reviewed warning rather than a wrong quadrant.",
+      "horizontal_evidence": "Profile/three-quarter face remains directed to screen-left.",
+      "vertical_evidence": "Chin is raised from the down-left sequence, though the upward component is subtle at pet scale.",
+      "coordinate_evidence": "Nose/face axis sits slightly above the level-left 270 axis; body silhouette and weapon do not rotate."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left; near-frontal-left with a mild upward pitch into 000",
+      "verdict": "warning",
+      "reason": "The loop closes in the expected up-left quadrant; subtle pitch and the measured closure outlier are visible as a smooth, small head change without a snap or reversal.",
+      "horizontal_evidence": "Nose and exposed cheek remain left of frontal, approaching 000 in clockwise order.",
+      "vertical_evidence": "Face is lifted relative to 270 and leads into the obvious raised-chin 000 pose, but the intermediate lift is modest.",
+      "coordinate_evidence": "Nose tip is left of the head axis and above the level-left profile; torso, feet and weapon retain their positions."
+    }
+  ]
+}

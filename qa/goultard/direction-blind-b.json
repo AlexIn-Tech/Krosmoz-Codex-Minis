@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-left","B":"screen-right","reason":"A's nose and beard project to screen-left; B's nose and beard project to screen-right."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A's nose points left and the near facial profile is on the left; B's nose points right."},
+    {"pair":"horizontal-3","A":"screen-left","B":"screen-right","reason":"A's nose tip is at the left of its face; B's nose tip is at the right."},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"A shows its left-pointing nose profile; B shows the mirrored right-pointing profile."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"A's nose and beard point left; B's nose and beard point right."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"A's brow, nose, and beard face left; B's corresponding facial landmarks face right."},
+    {"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"A's nose projects toward the right; B's nose projects toward the left."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A's brow and gaze angle down toward its nose; B's chin is raised and the face angles upward."},
+    {"pair":"vertical-2","A":"down","B":"up","reason":"A's brow-to-nose line slopes down; B's chin is lifted and its face tilts upward."},
+    {"pair":"vertical-3","A":"ambiguous","B":"down","reason":"A's facial axis appears near level; B's nose and brow angle down relative to the head."},
+    {"pair":"vertical-4","A":"down","B":"ambiguous","reason":"A's face is visibly pitched down; B's profile is close to level with no clear vertical pitch."},
+    {"pair":"vertical-5","A":"down","B":"ambiguous","reason":"A's eye and nose angle toward the ground; B's side profile is approximately level."},
+    {"pair":"vertical-6","A":"ambiguous","B":"down","reason":"A's profile is close to level; B's brow, eye, and nose line slope downward."},
+    {"pair":"vertical-7","A":"ambiguous","B":"ambiguous","reason":"Both profiles appear nearly level, with no clear up or down pitch from the visible nose and chin landmarks."}
+  ]
+}

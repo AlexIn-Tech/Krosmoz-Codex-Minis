@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose and beard project left of the face; B nose and beard project right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose points left; B nose points right, with the visible eye and brow on opposite sides."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose/beard extend left; B nose/beard extend right."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose points left and B nose points right; their eyes sit toward the corresponding front side."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A profile nose and beard point left; B profile nose and beard point right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose projects left of the eye; B nose projects right of the eye."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A nose/beard point right; B nose/beard point left."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A brow and face angle toward the chest; B face is tipped back with the chin lifted."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A eye and nose angle downward; B face tilts back and the chin lifts."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A face is tipped back with the chin raised; B eye, nose, and beard angle downward."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A face angles down toward the chest; B head is tipped back with its chin lifted."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A is clearly bowed with the eye and nose angled down; B is near level with only a slight upward tilt."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A face is close to level with a slight upward suggestion; B eye and nose angle distinctly down."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "down",
+      "reason": "Both faces have the nose and beard angled downward rather than lifted."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose and beard project left; B nose and beard project right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose points left of the brow; B nose points right."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A visible nose tip lies left of the eye; B lies right of the eye."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose/chin profile faces left; B nose/chin profile faces right."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose and beard face left; B nose and beard face right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose tip projects left; B nose tip projects right."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A nose projects to the right of the face; B nose projects left."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A chin tucks toward the chest; B lifts the chin and exposes more underside of the beard."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A brow and nose angle downward with a tucked chin; B face and chin are tipped upward."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A face has no clear vertical tilt; B brow, nose, and beard angle downward."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Both faces are near level; visible brow-to-nose and chin landmarks do not establish a clear tilt."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A brow and nose tip downward; B is a near-level side profile without a clear vertical tilt."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A side profile is near level; B brow and nose angle down toward the chin."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Both side profiles are close to level, with no decisive nose-to-chin vertical angle."
+    }
+  ]
+}
