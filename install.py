@@ -18,7 +18,7 @@ import urllib.parse
 import urllib.request
 import uuid
 
-REPOSITORY = 'AlexIn-Tech/dofus-mini-codex-pet'
+REPOSITORY = 'AlexIn-Tech/Krosmoz-Codex-Minis'
 SLUG = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*\Z')
 MAX_DOWNLOAD = 32 * 1024 * 1024
 
