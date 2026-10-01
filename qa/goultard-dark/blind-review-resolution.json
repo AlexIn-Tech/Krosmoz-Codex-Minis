@@ -1,0 +1,278 @@
+{
+  "severity": "minor",
+  "decision": "accept",
+  "atlas_sha256": "18127cb27a2a69ea7ba65013523079b1d45ff3d5113f2f2b5a426419b6910e3a",
+  "basis": "Native blind cardinals passed; actual independent ordered-loop semantics have no failed direction",
+  "warnings": [
+    "horizontal-5 B horizontal axis is ambiguous",
+    "horizontal-6 B horizontal axis is ambiguous",
+    "horizontal-7 A horizontal axis is ambiguous",
+    "vertical-4 A vertical axis is ambiguous",
+    "vertical-7 A vertical axis is ambiguous"
+  ],
+  "independent_review": {
+    "method": "Viewed all 16 actual final WebP full cells at native and 2x size, the labeled look sheet, and the ordered nearest-enlarged head contacts.",
+    "ordered_sequence": [
+      {
+        "label": "000",
+        "evidence": "Face broadly centered; both eyes visible; Chin raised, underside of jaw and elongated neck exposed; nose aims upward"
+      },
+      {
+        "label": "022.5",
+        "evidence": "Nose and exposed cheek orient toward screen-right; Raised chin and eye line, neck exposed below jaw"
+      },
+      {
+        "label": "045",
+        "evidence": "Visible cheek and nose remain screen-right; Upward pitch retained with raised jaw"
+      },
+      {
+        "label": "067.5",
+        "evidence": "Rightward nose profile advances beneath forelock; Raised chin reduces toward level but nose remains above neutral pitch"
+      },
+      {
+        "label": "090",
+        "evidence": "Nose profile points toward right cell edge; Near-level jaw and side-facing eye line; no bow or skyward pitch"
+      },
+      {
+        "label": "112.5",
+        "evidence": "Face offset right with nose directed right; Head begins bowing, brow leading and chin lowering"
+      },
+      {
+        "label": "135",
+        "evidence": "Bowed face retains rightward nose/cheek bias; Forehead and crown lead downward; chin closer to chest"
+      },
+      {
+        "label": "157.5",
+        "evidence": "Nose below right side of forehead, retaining right bias; Deepest rightward bow, nose lowered toward chest"
+      },
+      {
+        "label": "180",
+        "evidence": "Face returns near center with both eyes visible; Centered head bowed over chest, forehead leads and neck occluded"
+      },
+      {
+        "label": "202.5",
+        "evidence": "Nose projects screen-left beneath left forelock; Bowed head, nose down near chest"
+      },
+      {
+        "label": "225",
+        "evidence": "Exposed cheek and nose point left; Low chin and forward crown maintain downward pitch"
+      },
+      {
+        "label": "247.5",
+        "evidence": "Left profile strengthens, forelock on right side of face; Downward pitch diminishes but chin still lowered"
+      },
+      {
+        "label": "270",
+        "evidence": "Nose clearly projects toward left cell edge; Near-level left profile and horizontal neck/jaw relation"
+      },
+      {
+        "label": "292.5",
+        "evidence": "Leftward nose and visible cheek retained; Chin begins rising with neck newly exposed"
+      },
+      {
+        "label": "315",
+        "evidence": "Left profile retained during upward pitch; Raised chin and exposed jaw underside strengthen"
+      },
+      {
+        "label": "337.5",
+        "evidence": "Nose angles upper-left with exposed jaw underside; Strongly raised chin, long exposed neck and upward nose"
+      }
+    ],
+    "continuity": "000 raises the central head; 022.5/045/067.5 retain the upper-right family while pitch settles toward right 090. 112.5/135/157.5 bow toward lower-right, then 180 centers the bowed head. 202.5/225/247.5 turn the bowed head left, reaching level left 270. 292.5/315/337.5 raise the left profile, then 000 centers the raised head. Several adjacent intermediate cues are modest, but no opposite quadrant or reversal is visible. Both 157.5 to 180 and 337.5 to 000 continue the intended pitch family.",
+    "anchors": "Torso/sash, sword-gripping arm, full down-left blade and both planted feet retain their orientation throughout; head, ears and attached hair follow the turn. No whole-body yaw, clipping or conspicuous registration jump observed.",
+    "minor_ambiguities": [
+      {
+        "label": "112.5",
+        "axis": "horizontal",
+        "verdict": "minor",
+        "actual_ordered_review": "The first downward head pitch retains a modest screen-right nose/cheek bias relative to the torso; it follows the right cardinal and leads the deeper rightward bow. The cue is weaker than 090 but does not point left."
+      },
+      {
+        "label": "135",
+        "axis": "horizontal",
+        "verdict": "minor",
+        "actual_ordered_review": "The lowered head is more frontal than 090; the exposed face and nose retain a slight screen-right bias in the actual full cell and the descending right-side family. No opposite horizontal turn was observed."
+      },
+      {
+        "label": "157.5",
+        "axis": "horizontal",
+        "verdict": "minor",
+        "actual_ordered_review": "The deeply bowed head approaches the central down pose, so its remaining rightward component is weak. The nose/face remains on the right side of its forehead/torso reference before centering at 180; this is a coherent approach to down."
+      },
+      {
+        "label": "067.5",
+        "axis": "vertical",
+        "verdict": "minor",
+        "actual_ordered_review": "The upward pitch is modest near the right cardinal. The chin remains raised with neck visible and then settles toward the more level 090 pose; the actual sequence does not bow downward early."
+      },
+      {
+        "label": "292.5",
+        "axis": "vertical",
+        "verdict": "minor",
+        "actual_ordered_review": "The first left-to-up intermediate has a modest upward pitch. Relative to 270, the chin begins rising and more neck is exposed; 315 and 337.5 strengthen that same pitch. No downward reversal was observed."
+      }
+    ]
+  },
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Face broadly centered; both eyes visible; Chin raised, underside of jaw and elongated neck exposed; nose aims upward.",
+      "horizontal_evidence": "Face broadly centered; both eyes visible",
+      "vertical_evidence": "Chin raised, underside of jaw and elongated neck exposed; nose aims upward",
+      "coordinate_evidence": "Final WebP cell row 9, column 0; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Nose and exposed cheek orient toward screen-right; Raised chin and eye line, neck exposed below jaw.",
+      "horizontal_evidence": "Nose and exposed cheek orient toward screen-right",
+      "vertical_evidence": "Raised chin and eye line, neck exposed below jaw",
+      "coordinate_evidence": "Final WebP cell row 9, column 1; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Visible cheek and nose remain screen-right; Upward pitch retained with raised jaw.",
+      "horizontal_evidence": "Visible cheek and nose remain screen-right",
+      "vertical_evidence": "Upward pitch retained with raised jaw",
+      "coordinate_evidence": "Final WebP cell row 9, column 2; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Rightward nose profile advances beneath forelock; Raised chin reduces toward level but nose remains above neutral pitch.",
+      "horizontal_evidence": "Rightward nose profile advances beneath forelock",
+      "vertical_evidence": "Raised chin reduces toward level but nose remains above neutral pitch",
+      "coordinate_evidence": "Final WebP cell row 9, column 3; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Nose profile points toward right cell edge; Near-level jaw and side-facing eye line; no bow or skyward pitch.",
+      "horizontal_evidence": "Nose profile points toward right cell edge",
+      "vertical_evidence": "Near-level jaw and side-facing eye line; no bow or skyward pitch",
+      "coordinate_evidence": "Final WebP cell row 9, column 4; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Face offset right with nose directed right; Head begins bowing, brow leading and chin lowering.",
+      "horizontal_evidence": "Face offset right with nose directed right",
+      "vertical_evidence": "Head begins bowing, brow leading and chin lowering",
+      "coordinate_evidence": "Final WebP cell row 9, column 5; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Bowed face retains rightward nose/cheek bias; Forehead and crown lead downward; chin closer to chest.",
+      "horizontal_evidence": "Bowed face retains rightward nose/cheek bias",
+      "vertical_evidence": "Forehead and crown lead downward; chin closer to chest",
+      "coordinate_evidence": "Final WebP cell row 9, column 6; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Nose below right side of forehead, retaining right bias; Deepest rightward bow, nose lowered toward chest.",
+      "horizontal_evidence": "Nose below right side of forehead, retaining right bias",
+      "vertical_evidence": "Deepest rightward bow, nose lowered toward chest",
+      "coordinate_evidence": "Final WebP cell row 9, column 7; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Face returns near center with both eyes visible; Centered head bowed over chest, forehead leads and neck occluded.",
+      "horizontal_evidence": "Face returns near center with both eyes visible",
+      "vertical_evidence": "Centered head bowed over chest, forehead leads and neck occluded",
+      "coordinate_evidence": "Final WebP cell row 10, column 0; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Nose projects screen-left beneath left forelock; Bowed head, nose down near chest.",
+      "horizontal_evidence": "Nose projects screen-left beneath left forelock",
+      "vertical_evidence": "Bowed head, nose down near chest",
+      "coordinate_evidence": "Final WebP cell row 10, column 1; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Exposed cheek and nose point left; Low chin and forward crown maintain downward pitch.",
+      "horizontal_evidence": "Exposed cheek and nose point left",
+      "vertical_evidence": "Low chin and forward crown maintain downward pitch",
+      "coordinate_evidence": "Final WebP cell row 10, column 2; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Left profile strengthens, forelock on right side of face; Downward pitch diminishes but chin still lowered.",
+      "horizontal_evidence": "Left profile strengthens, forelock on right side of face",
+      "vertical_evidence": "Downward pitch diminishes but chin still lowered",
+      "coordinate_evidence": "Final WebP cell row 10, column 3; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Nose clearly projects toward left cell edge; Near-level left profile and horizontal neck/jaw relation.",
+      "horizontal_evidence": "Nose clearly projects toward left cell edge",
+      "vertical_evidence": "Near-level left profile and horizontal neck/jaw relation",
+      "coordinate_evidence": "Final WebP cell row 10, column 4; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Leftward nose and visible cheek retained; Chin begins rising with neck newly exposed.",
+      "horizontal_evidence": "Leftward nose and visible cheek retained",
+      "vertical_evidence": "Chin begins rising with neck newly exposed",
+      "coordinate_evidence": "Final WebP cell row 10, column 5; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Left profile retained during upward pitch; Raised chin and exposed jaw underside strengthen.",
+      "horizontal_evidence": "Left profile retained during upward pitch",
+      "vertical_evidence": "Raised chin and exposed jaw underside strengthen",
+      "coordinate_evidence": "Final WebP cell row 10, column 6; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Actual final full cell and ordered head sequence support the required screen-coordinate direction. Nose angles upper-left with exposed jaw underside; Strongly raised chin, long exposed neck and upward nose.",
+      "horizontal_evidence": "Nose angles upper-left with exposed jaw underside",
+      "vertical_evidence": "Strongly raised chin, long exposed neck and upward nose",
+      "coordinate_evidence": "Final WebP cell row 10, column 7; screen-right is increasing x, up is decreasing y. Face direction is judged relative to the anchored torso, not camera-facing terminology."
+    }
+  ]
+}

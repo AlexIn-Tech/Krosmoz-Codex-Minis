@@ -1,0 +1,426 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "18127cb27a2a69ea7ba65013523079b1d45ff3d5113f2f2b5a426419b6910e3a",
+  "motion_review": "Viewed all 57 actual frames decoded from the nine final-previews GIFs as ordered nearest-neighbour 2x frame contacts; cross-checked the final atlas contact. No claim of real-time playback is used in place of frame inspection. All 57 frames across all nine standard states were inspected; per-frame concrete evidence is retained in state_reviews. Canonical base and both original reference-layout images inspected. Dark warm skin, ivory hair, white pupil-free eyes, pointed ears, ivory lightning torso marking, red sash, olive trousers, bare feet and broad sword with red guard/ring/chain remain recognizable across all 57 frames. Idle blink recovers; both directional gaits alternate extended and tucked limbs; waving returns arm to rest; jump rises above baseline and returns to its crouch; failure slumps then recovers; waiting, focused work and review have distinct attached-hand/head gestures. No missing frame, blade truncation, unexplained size pop or detached effect observed.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": {
+      "verdict": "pass",
+      "frame_count": 6,
+      "frames": [
+        {
+          "frame": 0,
+          "evidence": "frontal resting stance, blade down-left"
+        },
+        {
+          "frame": 1,
+          "evidence": "small chest/head rise"
+        },
+        {
+          "frame": 2,
+          "evidence": "breath settles with both eyes open"
+        },
+        {
+          "frame": 3,
+          "evidence": "both eyes close in a blink"
+        },
+        {
+          "frame": 4,
+          "evidence": "eyes reopen with slight lowered head"
+        },
+        {
+          "frame": 5,
+          "evidence": "returns toward resting height"
+        }
+      ],
+      "boundary_review": "Full head, hair, feet, attached arm and complete steel blade remain inside their cells; no detached effect or internal seam observed."
+    },
+    "running-right": {
+      "verdict": "pass",
+      "frame_count": 8,
+      "frames": [
+        {
+          "frame": 0,
+          "evidence": "right-facing tucked airborne stride, blade down behind"
+        },
+        {
+          "frame": 1,
+          "evidence": "right foot extends and blade trails left"
+        },
+        {
+          "frame": 2,
+          "evidence": "legs spread and sword swings forward-right"
+        },
+        {
+          "frame": 3,
+          "evidence": "long rightward stride, forward blade retained"
+        },
+        {
+          "frame": 4,
+          "evidence": "opposite leg extends while forward blade lowers"
+        },
+        {
+          "frame": 5,
+          "evidence": "trailing leg lifts as leading foot advances"
+        },
+        {
+          "frame": 6,
+          "evidence": "knees gather and blade swings back-left"
+        },
+        {
+          "frame": 7,
+          "evidence": "long stride recovers toward frame 0"
+        }
+      ],
+      "boundary_review": "Full head, hair, feet, attached arm and complete steel blade remain inside their cells; no detached effect or internal seam observed."
+    },
+    "running-left": {
+      "verdict": "pass",
+      "frame_count": 8,
+      "frames": [
+        {
+          "frame": 0,
+          "evidence": "left-facing extended stride, blade trails right"
+        },
+        {
+          "frame": 1,
+          "evidence": "leading left foot plants and trailing knee bends"
+        },
+        {
+          "frame": 2,
+          "evidence": "wide alternate stride toward left"
+        },
+        {
+          "frame": 3,
+          "evidence": "both knees gather in airborne recovery"
+        },
+        {
+          "frame": 4,
+          "evidence": "leftward long step with trailing right foot"
+        },
+        {
+          "frame": 5,
+          "evidence": "left foot forward and other leg tucked"
+        },
+        {
+          "frame": 6,
+          "evidence": "wide alternate step with sword still behind"
+        },
+        {
+          "frame": 7,
+          "evidence": "gathered recovery toward frame 0"
+        }
+      ],
+      "boundary_review": "Full head, hair, feet, attached arm and complete steel blade remain inside their cells; no detached effect or internal seam observed."
+    },
+    "waving": {
+      "verdict": "pass",
+      "frame_count": 4,
+      "frames": [
+        {
+          "frame": 0,
+          "evidence": "resting attached free arm"
+        },
+        {
+          "frame": 1,
+          "evidence": "free hand raised above shoulder with open fingers"
+        },
+        {
+          "frame": 2,
+          "evidence": "hand lowers slightly and open fingers change angle, smiling eyes"
+        },
+        {
+          "frame": 3,
+          "evidence": "arm returns to side"
+        }
+      ],
+      "boundary_review": "Full head, hair, feet, attached arm and complete steel blade remain inside their cells; no detached effect or internal seam observed."
+    },
+    "jumping": {
+      "verdict": "pass",
+      "frame_count": 5,
+      "frames": [
+        {
+          "frame": 0,
+          "evidence": "deep crouch at ground baseline, sword down-left"
+        },
+        {
+          "frame": 1,
+          "evidence": "body rises and sword lifts up-left, one knee tucked"
+        },
+        {
+          "frame": 2,
+          "evidence": "highest airborne pose, both feet clear resting baseline"
+        },
+        {
+          "frame": 3,
+          "evidence": "descending body, sword remains raised"
+        },
+        {
+          "frame": 4,
+          "evidence": "returns to crouched baseline and lowered sword"
+        }
+      ],
+      "boundary_review": "Full head, hair, feet, attached arm and complete steel blade remain inside their cells; no detached effect or internal seam observed."
+    },
+    "failed": {
+      "verdict": "pass",
+      "frame_count": 8,
+      "frames": [
+        {
+          "frame": 0,
+          "evidence": "upright tense face and nearly vertical sword"
+        },
+        {
+          "frame": 1,
+          "evidence": "head begins to bow and eyes narrow"
+        },
+        {
+          "frame": 2,
+          "evidence": "eyes closed, shoulders lowered"
+        },
+        {
+          "frame": 3,
+          "evidence": "deeper slump, free fist hangs"
+        },
+        {
+          "frame": 4,
+          "evidence": "deepest bowed crouch with held blade complete"
+        },
+        {
+          "frame": 5,
+          "evidence": "begins recovering from slump"
+        },
+        {
+          "frame": 6,
+          "evidence": "head rises while eyes still closed"
+        },
+        {
+          "frame": 7,
+          "evidence": "upright eyes-open recovery"
+        }
+      ],
+      "boundary_review": "Full head, hair, feet, attached arm and complete steel blade remain inside their cells; no detached effect or internal seam observed."
+    },
+    "waiting": {
+      "verdict": "pass",
+      "frame_count": 6,
+      "frames": [
+        {
+          "frame": 0,
+          "evidence": "resting expectant stance"
+        },
+        {
+          "frame": 1,
+          "evidence": "side glance and free hand at hip"
+        },
+        {
+          "frame": 2,
+          "evidence": "free hand touches chin/chest in questioning pose"
+        },
+        {
+          "frame": 3,
+          "evidence": "head looks up while free arm lowers"
+        },
+        {
+          "frame": 4,
+          "evidence": "free hand reaches behind head in uncertainty"
+        },
+        {
+          "frame": 5,
+          "evidence": "returns to expectant rest"
+        }
+      ],
+      "boundary_review": "Full head, hair, feet, attached arm and complete steel blade remain inside their cells; no detached effect or internal seam observed."
+    },
+    "running": {
+      "verdict": "pass",
+      "frame_count": 6,
+      "frames": [
+        {
+          "frame": 0,
+          "evidence": "held sword upright, planted feet"
+        },
+        {
+          "frame": 1,
+          "evidence": "free hand reaches chin"
+        },
+        {
+          "frame": 2,
+          "evidence": "chin touch and focused eyes"
+        },
+        {
+          "frame": 3,
+          "evidence": "head looks aside with hand at chin"
+        },
+        {
+          "frame": 4,
+          "evidence": "head lowers in thought, feet planted"
+        },
+        {
+          "frame": 5,
+          "evidence": "hand drops and focus returns forward"
+        }
+      ],
+      "boundary_review": "Full head, hair, feet, attached arm and complete steel blade remain inside their cells; no detached effect or internal seam observed."
+    },
+    "review": {
+      "verdict": "pass",
+      "frame_count": 6,
+      "frames": [
+        {
+          "frame": 0,
+          "evidence": "resting frontal inspection stance"
+        },
+        {
+          "frame": 1,
+          "evidence": "hand on chin and head tilted"
+        },
+        {
+          "frame": 2,
+          "evidence": "open free palm near chest, evaluative eyes"
+        },
+        {
+          "frame": 3,
+          "evidence": "free arm folds across chest and one eye closes"
+        },
+        {
+          "frame": 4,
+          "evidence": "head angles aside with hand at hip"
+        },
+        {
+          "frame": 5,
+          "evidence": "eyes close with hand at chin before return"
+        }
+      ],
+      "boundary_review": "Full head, hair, feet, attached arm and complete steel blade remain inside their cells; no detached effect or internal seam observed."
+    }
+  },
+  "look_directions_reviewed": 16,
+  "look_review": {
+    "method": "Viewed all 16 actual final WebP full cells at native and 2x size, the labeled look sheet, and the ordered nearest-enlarged head contacts.",
+    "ordered_sequence": [
+      {
+        "label": "000",
+        "evidence": "Face broadly centered; both eyes visible; Chin raised, underside of jaw and elongated neck exposed; nose aims upward"
+      },
+      {
+        "label": "022.5",
+        "evidence": "Nose and exposed cheek orient toward screen-right; Raised chin and eye line, neck exposed below jaw"
+      },
+      {
+        "label": "045",
+        "evidence": "Visible cheek and nose remain screen-right; Upward pitch retained with raised jaw"
+      },
+      {
+        "label": "067.5",
+        "evidence": "Rightward nose profile advances beneath forelock; Raised chin reduces toward level but nose remains above neutral pitch"
+      },
+      {
+        "label": "090",
+        "evidence": "Nose profile points toward right cell edge; Near-level jaw and side-facing eye line; no bow or skyward pitch"
+      },
+      {
+        "label": "112.5",
+        "evidence": "Face offset right with nose directed right; Head begins bowing, brow leading and chin lowering"
+      },
+      {
+        "label": "135",
+        "evidence": "Bowed face retains rightward nose/cheek bias; Forehead and crown lead downward; chin closer to chest"
+      },
+      {
+        "label": "157.5",
+        "evidence": "Nose below right side of forehead, retaining right bias; Deepest rightward bow, nose lowered toward chest"
+      },
+      {
+        "label": "180",
+        "evidence": "Face returns near center with both eyes visible; Centered head bowed over chest, forehead leads and neck occluded"
+      },
+      {
+        "label": "202.5",
+        "evidence": "Nose projects screen-left beneath left forelock; Bowed head, nose down near chest"
+      },
+      {
+        "label": "225",
+        "evidence": "Exposed cheek and nose point left; Low chin and forward crown maintain downward pitch"
+      },
+      {
+        "label": "247.5",
+        "evidence": "Left profile strengthens, forelock on right side of face; Downward pitch diminishes but chin still lowered"
+      },
+      {
+        "label": "270",
+        "evidence": "Nose clearly projects toward left cell edge; Near-level left profile and horizontal neck/jaw relation"
+      },
+      {
+        "label": "292.5",
+        "evidence": "Leftward nose and visible cheek retained; Chin begins rising with neck newly exposed"
+      },
+      {
+        "label": "315",
+        "evidence": "Left profile retained during upward pitch; Raised chin and exposed jaw underside strengthen"
+      },
+      {
+        "label": "337.5",
+        "evidence": "Nose angles upper-left with exposed jaw underside; Strongly raised chin, long exposed neck and upward nose"
+      }
+    ],
+    "continuity": "000 raises the central head; 022.5/045/067.5 retain the upper-right family while pitch settles toward right 090. 112.5/135/157.5 bow toward lower-right, then 180 centers the bowed head. 202.5/225/247.5 turn the bowed head left, reaching level left 270. 292.5/315/337.5 raise the left profile, then 000 centers the raised head. Several adjacent intermediate cues are modest, but no opposite quadrant or reversal is visible. Both 157.5 to 180 and 337.5 to 000 continue the intended pitch family.",
+    "anchors": "Torso/sash, sword-gripping arm, full down-left blade and both planted feet retain their orientation throughout; head, ears and attached hair follow the turn. No whole-body yaw, clipping or conspicuous registration jump observed.",
+    "minor_ambiguities": [
+      {
+        "label": "112.5",
+        "axis": "horizontal",
+        "verdict": "minor",
+        "actual_ordered_review": "The first downward head pitch retains a modest screen-right nose/cheek bias relative to the torso; it follows the right cardinal and leads the deeper rightward bow. The cue is weaker than 090 but does not point left."
+      },
+      {
+        "label": "135",
+        "axis": "horizontal",
+        "verdict": "minor",
+        "actual_ordered_review": "The lowered head is more frontal than 090; the exposed face and nose retain a slight screen-right bias in the actual full cell and the descending right-side family. No opposite horizontal turn was observed."
+      },
+      {
+        "label": "157.5",
+        "axis": "horizontal",
+        "verdict": "minor",
+        "actual_ordered_review": "The deeply bowed head approaches the central down pose, so its remaining rightward component is weak. The nose/face remains on the right side of its forehead/torso reference before centering at 180; this is a coherent approach to down."
+      },
+      {
+        "label": "067.5",
+        "axis": "vertical",
+        "verdict": "minor",
+        "actual_ordered_review": "The upward pitch is modest near the right cardinal. The chin remains raised with neck visible and then settles toward the more level 090 pose; the actual sequence does not bow downward early."
+      },
+      {
+        "label": "292.5",
+        "axis": "vertical",
+        "verdict": "minor",
+        "actual_ordered_review": "The first left-to-up intermediate has a modest upward pitch. Relative to 270, the chin begins rising and more neck is exposed; 315 and 337.5 strengthen that same pitch. No downward reversal was observed."
+      }
+    ]
+  },
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "4c468f6965364f460f605098aaee0d104d329bb1f69ea14eabac6df6849fb2b7",
+    "reason": "All 16 alpha silhouettes and corresponding full-color final cells inspected. Alpha-zero enclosed suspects in alpha-topology.json occupy the chain/ring and negative space between held sword, wrist/arm and hip; narrow hair/arm silhouette openings follow visible exterior contours. The cyan-backed enlarged 000 and 180 cells confirm these openings follow actual chain/arm separation, while chest, abdomen, sash, trousers, face and broad steel blade remain opaque and continuous. No cross-body seam, horizontal band, severed limb or accidental blade hole observed. Enclosed pixel counts alone do not establish a defect."
+  },
+  "warnings": [],
+  "repair_rows": [],
+  "notes": [
+    "Independent final review; no generation or artwork edits performed. Inspection artifacts in qa/native-final-review contain unchanged decoded pixels with nearest-neighbour enlargement only.",
+    "Exact final WebP and alpha-contact hashes recomputed from disk for this review.",
+    "Residual edge hue was not treated as a structural defect; review concerns silhouette and alpha integrity.",
+    "Five blind-review axis ambiguities are explicitly retained in look_review.minor_ambiguities: horizontal 112.5/135/157.5 and vertical 067.5/292.5. Their minor classification follows the actual full cells and ordered sequence already inspected; blind labels were not used as proof of expected direction."
+  ]
+}

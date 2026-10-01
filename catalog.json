@@ -195,7 +195,12 @@
       "id": "goultard-dark",
       "name": "Goultard (Dark)",
       "category": "characters",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/goultard-dark.gif",
+      "package": {
+        "pet.json": "3f90b0bc91620d9fd7a0c84c0ab6a89b8278dc702d21d838b9071fd4dd69c40f",
+        "spritesheet.webp": "18127cb27a2a69ea7ba65013523079b1d45ff3d5113f2f2b5a426419b6910e3a"
+      }
     },
     {
       "id": "dark-vlad",

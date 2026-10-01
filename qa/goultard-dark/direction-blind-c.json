@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A has the nose and projecting face edge on the right, with the broader cheek to its left. B has a left-projecting nose and chin with the broader cheek extending right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A exposes the left side of the cheek and a rightward nose silhouette. B has the nose at the left edge and the jaw receding toward the right hair."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has a leftward nose projection and left-facing chin ledge. B presents a rightward facial edge and nose, with the visible cheek behind it on the left."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's nose and chin protrude left of the visible cheek. B's facial outline and nose project right of the exposed cheek."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A's nose is on the left contour and its cheek recedes right. B is close to frontal with both eye shapes visible; the small nose and cheek asymmetry do not establish a reliable horizontal direction."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has a left-pointing facial contour and cheek mass to the right. B's bowed face has a narrow right cheek and its nose appears right of the broader exposed left cheek, giving a slight rightward turn."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's nose lies toward the right facial contour and the wider cheek is on the left, despite the bow. B's nose and front facial contour project left with the cheek and hair behind to the right."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A lifts the chin, exposes the underside of the jaw and an elongated throat. B tucks its pointed chin toward the chest and bows the forehead forward."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A's head is bowed forward and its chin is near the chest. B holds the chin outward and upward with visible throat beneath the jaw."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A tucks the chin and bends the head over the chest. B raises the facial plane and chin, leaving a visible neck beneath the jaw."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A's head is upright, but the face detail gives little clear jaw underside or chin lift; it may be level or mildly elevated. B visibly bows its forehead and lowers its chin toward the chest."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A angles its forehead forward and lowers the chin against the upper chest. B raises the chin and presents the underside of the jaw above an exposed throat."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A's facial plane tips toward the chest and the chin is tucked. B's chin projects upward and outward with the neck exposed underneath."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A has a largely upright left-facing profile; the chin ledge is visible but its pitch is not clearly upward. B tips the head forward with a tucked chin and a bowed facial plane."
+    }
+  ]
+}

@@ -19,6 +19,7 @@ states and sixteen look directions. Installation names match the catalog exactly
 | ![Aguabrial](assets/previews/aguabrial.gif) | Aguabrial | `aguabrial` |
 | ![Goultard](assets/previews/goultard.gif) | Goultard | `goultard` |
 | ![Qilby](assets/previews/qilby.gif) | Qilby | `qilby` |
+| ![Goultard (Dark)](assets/previews/goultard-dark.gif) | Goultard (Dark) | `goultard-dark` |
 <!-- gallery:end -->
 
 ## Install
@@ -86,7 +87,7 @@ command above; no execution-policy change is required.
 
 - **Primordial dragons:** Aerafal (`aerafal`), Ignemikhal (`ignemikhal`), Terrakourial (`terrakourial`), Dardondakal (`dardondakal`), Grougalorasalar (`grougalorasalar`).
 - **Primordial Dofus:** Emerald Dofus (`dofus-emerald`), Turquoise Dofus (`dofus-turquoise`), Crimson Dofus (`dofus-crimson`), Ochre Dofus (`dofus-ochre`), Ivory Dofus (`dofus-ivory`), Ebony Dofus (`dofus-ebony`).
-- **Krosmoz characters:** Goultard (Dark) (`goultard-dark`), Dark Vlad (`dark-vlad`).
+- **Krosmoz characters:** Dark Vlad (`dark-vlad`).
 
 Planned names reserve the future installation slugs. They are not downloadable
 until their complete animations pass QA and appear in the gallery.

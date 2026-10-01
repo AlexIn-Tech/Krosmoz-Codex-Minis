@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A has its nose and projecting cheek on the right edge of the exposed face; B has the projecting nose/face edge to the left with the jaw receding toward the right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's exposed cheek and nose terminate on the screen-right silhouette. B's nose projects left and the visible cheek slopes back toward the right ear."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A presents a left-projecting nose and left facial outline. B presents its nose and outer cheek on the right side of its head."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's nose and cheek point left beneath the foreground hair; B's nose/cheek edge projects right and its jaw recedes left."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A has a discernible left-pointing nose and left cheek silhouette. B shows both opaque eyes and a nearly centered lower face; hair obscures the nose edge, so horizontal turn is not reliably readable."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A's exposed nose and cheek protrude left. B is bowed and close to frontal, with both eyes visible and its nose/cheek silhouette too obscured by hair to resolve a horizontal direction."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "screen-left",
+      "reason": "A has a bowed, nearly frontal lower face and hair across the nose, preventing a dependable left/right reading. B has the nose and exposed cheek projecting screen-left."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A clearly lifts its chin, exposing the underside of the jaw and a long throat. B bows its head, with its chin tucked toward the upper chest and the crown visible."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A's head is bowed with the chin low against the chest and little underside visible. B raises its chin away from the chest, showing the lower jaw surface and stretched neck."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A bows its face toward the chest and hides the jaw underside. B's side-facing chin appears approximately level; a clear raised or lowered pitch cannot be distinguished from the hair-covered jaw."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A's side-facing jaw is nearly level and its underside is not sufficiently distinct to identify pitch. B lowers the chin toward the chest and shows the top of the bowed head."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A lowers its face and brings the chin close to the chest. B lifts the chin, visibly exposing the jaw underside and a longer throat."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A's face is bowed with a low tucked chin and compressed neck. B's left-facing chin lifts away from the chest and reveals the lower jaw plane above the throat."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A's left-facing chin is roughly level and the hair-covered lower jaw does not give a secure up/down cue. B bows its head with the chin closer to the chest and the jaw underside largely concealed."
+    }
+  ]
+}

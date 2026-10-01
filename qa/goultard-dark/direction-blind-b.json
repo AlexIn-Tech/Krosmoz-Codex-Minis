@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A has its nose and forward cheek at the right edge of the dark face, with ear behind on the left. B has the protruding nose and forward cheek on the left, with hair and ear behind to the right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's exposed cheek and nose contour point right. B's face silhouette projects left from the hair curtain, with the ear extending behind on the right."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A shows the nose along the left facial edge and the ear behind on the right. B shows the forward cheek at the right facial edge and its ear behind on the left."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's visible nose and cheek project left beyond the framing lock. B's nose and cheek sit at the right outline, with the opposite ear visible behind."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A has a clear leftward nose outline and cheek with the ear behind to the right. B exposes both white eyes and a near-central lower face; hair hides enough nose detail that I cannot confidently assign horizontal direction."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A's forward cheek and small nose edge point left. B has a bowed near-frontal face with both eye shapes visible; the central nose and cheek contours do not establish a reliable horizontal turn."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "screen-left",
+      "reason": "A's face is bowed with two eye shapes and an indistinct central nose, so its horizontal turn is ambiguous. B's nose edge and forward cheek are on the left, with the ear behind on the right."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A raises the chin and exposes a substantial jaw underside and long front neck. B tucks its chin toward the chest and presents the crown forward with the lower face angled down."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A bows its head toward the chest, with chin tucked and crown prominent. B lifts its chin away from the chest and exposes neck beneath the rear-sloping jaw."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A shows a bowed crown and chin close to the shoulder/chest line. B's chin is lifted and the neck is exposed beneath the jaw, giving a mild upward pitch."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A appears close to level: a little neck is visible but the chin/jaw underside does not give decisive upward pitch. B bows forward with its chin nearing the chest and crown tilted forward."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A tilts its crown forward and lowers the chin toward the shoulder line. B lifts the chin clearly and exposes the underside of the jaw above the long visible neck."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A's head is tipped forward with chin tucked and shortened neck. B's chin projects upward from a visible neck and the lower jaw slopes back toward the ear."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A looks near level; its jaw is visible but there is insufficient underside exposure to establish an upward pitch confidently. B lowers the chin toward the shoulder and angles the crown forward in a visible bow."
+    }
+  ]
+}
