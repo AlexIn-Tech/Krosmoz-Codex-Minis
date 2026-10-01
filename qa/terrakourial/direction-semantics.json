@@ -1,0 +1,165 @@
+{
+  "atlas_sha256": "ec0b005a5cb1fcae01ef7bf8e55ad9c17e5690b999c71d1c9900d2635e186f46",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "Raised-chin up pose with the long neck and angular snout aimed predominantly toward the top edge.",
+      "verdict": "pass",
+      "reason": "The jaw underside is exposed, the chin is lifted, and the original aqua eye remains present; this is unmistakably the up cardinal.",
+      "horizontal_evidence": "The face remains on the canonical oblique side of the body without turning into either horizontal cardinal.",
+      "vertical_evidence": "Nose tip, eye, and chin are stacked above the neck base, with the snout axis rising steeply toward the top edge.",
+      "coordinate_evidence": "In screen coordinates the nose tip is far above the shoulder and torso center; the feet and hips remain at the bottom anchor."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "Steep raised head with a small screen-right advance from 000.",
+      "verdict": "pass",
+      "reason": "The snout preserves the raised-jaw family while advancing rightward as the first clockwise intermediate.",
+      "horizontal_evidence": "The nose tip and visible aqua eye sit to the screen-right of the neck centerline.",
+      "vertical_evidence": "The nose and eye remain well above the shoulder and wing root.",
+      "coordinate_evidence": "The head endpoint moves right from 000 while remaining near the top of the cell; torso, feet, and tail base do not move."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "Balanced diagonal up-right head angle.",
+      "verdict": "pass",
+      "reason": "Both axes are visible: the long snout rises and projects right without losing the canonical face.",
+      "horizontal_evidence": "Nose tip is clearly screen-right of the eye socket and neck axis.",
+      "vertical_evidence": "Nose tip and eye remain clearly above the shoulder line.",
+      "coordinate_evidence": "The face occupies the upper-right sector relative to the fixed chest and hip anchor."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "Shallow up-right pose approaching the right cardinal.",
+      "verdict": "pass",
+      "reason": "The snout projects strongly right but remains visibly elevated before the horizontal 090 pose.",
+      "horizontal_evidence": "Nose tip extends far to screen-right of the neck and torso center.",
+      "vertical_evidence": "Eye and nose remain above the shoulder, with the chin still raised.",
+      "coordinate_evidence": "The head endpoint is upper-right of the fixed wing root; lower-body anchors match the preceding cells."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "Clear screen-right profile with a nearly horizontal snout.",
+      "verdict": "pass",
+      "reason": "The nose and eye lead toward the right edge while the neck settles from the raised family; this is unmistakably the right cardinal.",
+      "horizontal_evidence": "Nose tip is the rightmost facial landmark, distinctly right of the eye, jaw hinge, and neck center.",
+      "vertical_evidence": "The snout axis is approximately level rather than reading up or down.",
+      "coordinate_evidence": "Head extends from the torso toward the screen-right edge; hips, near and far feet, wing roots, and tail base retain their resting coordinates."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "Right-leading face with the snout beginning to dip.",
+      "verdict": "pass",
+      "reason": "The pose advances clockwise from 090 with a readable downward pitch and no horizontal reversal.",
+      "horizontal_evidence": "Nose tip and aqua eye remain screen-right of the neck center.",
+      "vertical_evidence": "Nose tip drops below the eye and below the 090 snout line.",
+      "coordinate_evidence": "The face endpoint is lower-right relative to the fixed chest and wing root."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "Balanced diagonal down-right bow.",
+      "verdict": "pass",
+      "reason": "The head is visibly bowed toward the right lower quadrant while the canonical angular face and eye remain readable.",
+      "horizontal_evidence": "The muzzle projects right of the neck and chest centerline.",
+      "vertical_evidence": "Nose tip is below the eye and approaches the upper chest level.",
+      "coordinate_evidence": "The head endpoint occupies the lower-right sector relative to the shoulder; feet and tail anchors remain fixed."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "Steep down-right pose immediately before the down cardinal.",
+      "verdict": "pass",
+      "reason": "The face bows strongly downward while retaining a smaller rightward component, providing a coherent approach to 180.",
+      "horizontal_evidence": "Nose tip remains slightly screen-right of the neck base and chest axis.",
+      "vertical_evidence": "Nose and eye are lowered toward the chest, with the snout axis steeply descending.",
+      "coordinate_evidence": "The face is below-right of the wing root while the oblique resting body stays registered."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "Original bowed-face family with the snout aimed down toward the chest.",
+      "verdict": "pass",
+      "reason": "The bowed head is unmistakably down; partial iris occlusion is natural to the eyelid and skull angle, and the original face remains present.",
+      "horizontal_evidence": "The nose settles near the chest axis instead of leading toward either screen edge.",
+      "vertical_evidence": "Nose tip lies below the aqua eye and the skull slopes down toward the forelimbs.",
+      "coordinate_evidence": "The face endpoint is directly above the anchored forefeet and below the crest root; torso and tail retain the resting coordinates."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "Bowed head begins moving to screen-left from 180.",
+      "verdict": "pass",
+      "reason": "The face remains down while the nose advances left as the first member of the left-turn family.",
+      "horizontal_evidence": "Nose tip shifts screen-left of the 180 chest axis and precedes the eye in that direction.",
+      "vertical_evidence": "The snout remains steeply lowered and the eye stays above the nose.",
+      "coordinate_evidence": "The head endpoint is lower-left relative to the neck base; hips, both feet sets, wing roots, and tail anchor match 180."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "Balanced diagonal down-left head turn.",
+      "verdict": "pass",
+      "reason": "The angular snout occupies the down-left quadrant with a continuous head-neck turn and no body pivot.",
+      "horizontal_evidence": "Nose tip and eye move further screen-left of the neck center.",
+      "vertical_evidence": "Nose remains below the eye and below the wing-root height.",
+      "coordinate_evidence": "The face occupies the lower-left sector while the resting torso silhouette and tail loop remain fixed."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "Shallow down-left pose approaching the left cardinal.",
+      "verdict": "pass",
+      "reason": "The leftward component dominates while the snout is still visibly below horizontal, giving a correct clockwise approach to 270.",
+      "horizontal_evidence": "Nose tip projects clearly screen-left of eye, neck, and torso center.",
+      "vertical_evidence": "Nose remains slightly below the eye and shoulder-level line.",
+      "coordinate_evidence": "The head endpoint is left and below the neck base; feet, hips, wing roots, and tail contact points are unchanged."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "Clear screen-left profile with the angular snout nearly horizontal.",
+      "verdict": "pass",
+      "reason": "The nose and aqua eye lead unmistakably toward the left edge while the oblique resting body stays fixed; this is the left cardinal, not a front-facing body pivot.",
+      "horizontal_evidence": "Nose tip is the leftmost facial landmark, left of the eye, jaw hinge, and neck center; crest spines trail to the right.",
+      "vertical_evidence": "The snout axis is approximately level rather than reading up or down.",
+      "coordinate_evidence": "Only head and neck extend toward screen-left; torso, hips, near and far feet, wing roots, and tail anchors remain in the row-10 resting coordinates."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "Left-leading face with a visible upward lift.",
+      "verdict": "pass",
+      "reason": "The pose advances clockwise from 270 by raising the chin and eye while retaining the leftward head family.",
+      "horizontal_evidence": "Nose tip remains screen-left of the eye and neck center.",
+      "vertical_evidence": "Nose and eye rise above the 270 snout line and shoulder level.",
+      "coordinate_evidence": "The head endpoint is upper-left of the wing root while all lower-body and tail anchors remain fixed."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "Balanced diagonal up-left head and neck lift.",
+      "verdict": "pass",
+      "reason": "Both required axes are strong, with the original aqua eye and angular snout retained and no whole-body rotation.",
+      "horizontal_evidence": "Nose tip and eye remain screen-left of the neck center.",
+      "vertical_evidence": "Raised chin and exposed jaw underside place the nose well above the shoulder.",
+      "coordinate_evidence": "The face occupies the upper-left sector relative to the fixed chest, hips, feet, wing root, and tail base."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "Steep up-left pose immediately before the up cardinal.",
+      "verdict": "pass",
+      "reason": "The head is strongly raised with a remaining leftward component, completing the left-family arc without reversal before 000.",
+      "horizontal_evidence": "Nose tip remains modestly screen-left of the neck axis and follows the 315 left-facing family.",
+      "vertical_evidence": "Nose and aqua eye are high above the shoulder, with the jaw underside prominently exposed.",
+      "coordinate_evidence": "The head endpoint is upper-left of the anchored torso; feet, hips, wing roots, and tail loop match the rest of row 10."
+    }
+  ]
+}

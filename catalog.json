@@ -38,7 +38,12 @@
       "id": "terrakourial",
       "name": "Terrakourial",
       "category": "dragons",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/terrakourial.gif",
+      "package": {
+        "pet.json": "95cecf02e5f69f6c3946863c1c835f129732b68bf4688110b0f1071264644428",
+        "spritesheet.webp": "ec0b005a5cb1fcae01ef7bf8e55ad9c17e5690b999c71d1c9900d2635e186f46"
+      }
     },
     {
       "id": "dardondakal",

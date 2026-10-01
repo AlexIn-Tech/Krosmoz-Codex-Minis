@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The pointed snout and eye-bearing skull extend to the left of the connected neck.",
+        "B": "The pointed snout and eye-bearing skull extend to the right of the connected neck."
+      },
+      "reason": "A: The pointed snout and eye-bearing skull extend to the left of the connected neck. B: The pointed snout and eye-bearing skull extend to the right of the connected neck."
+    },
+    {
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "landmark_reasons": {
+        "A": "The snout points right and the eye sits on the rightward-facing skull above the neck.",
+        "B": "The snout points left and the eye sits on the leftward-facing skull above the neck."
+      },
+      "reason": "A: The snout points right and the eye sits on the rightward-facing skull above the neck. B: The snout points left and the eye sits on the leftward-facing skull above the neck."
+    },
+    {
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "landmark_reasons": {
+        "A": "The beak-like snout projects right from the eye and skull, away from the neck.",
+        "B": "The beak-like snout projects left from the eye and skull, away from the neck."
+      },
+      "reason": "A: The beak-like snout projects right from the eye and skull, away from the neck. B: The beak-like snout projects left from the eye and skull, away from the neck."
+    },
+    {
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The nose and forehead point left; the connected neck trails to the right.",
+        "B": "The nose and forehead point right; the connected neck trails to the left."
+      },
+      "reason": "A: The nose and forehead point left; the connected neck trails to the right. B: The nose and forehead point right; the connected neck trails to the left."
+    },
+    {
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "landmark_reasons": {
+        "A": "The snout and eye-bearing face point right from the neck.",
+        "B": "The snout and eye-bearing face point left from the neck."
+      },
+      "reason": "A: The snout and eye-bearing face point right from the neck. B: The snout and eye-bearing face point left from the neck."
+    },
+    {
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The snout points left and the skull is in front of the neck on that side.",
+        "B": "The snout points right and the skull is in front of the neck on that side."
+      },
+      "reason": "A: The snout points left and the skull is in front of the neck on that side. B: The snout points right and the skull is in front of the neck on that side."
+    },
+    {
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The beak and eye-bearing skull angle left of the attached neck.",
+        "B": "The beak and eye-bearing skull angle right of the attached neck."
+      },
+      "reason": "A: The beak and eye-bearing skull angle left of the attached neck. B: The beak and eye-bearing skull angle right of the attached neck."
+    },
+    {
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "landmark_reasons": {
+        "A": "The snout and eye-bearing skull tip downward toward the lower-left, below the neck attachment.",
+        "B": "The snout and eye-bearing skull tip upward, above the neck attachment."
+      },
+      "reason": "A: The snout and eye-bearing skull tip downward toward the lower-left, below the neck attachment. B: The snout and eye-bearing skull tip upward, above the neck attachment."
+    },
+    {
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The snout and skull rise above the eye and connected neck.",
+        "B": "The snout and forehead angle downward below the eye and connected neck."
+      },
+      "reason": "A: The snout and skull rise above the eye and connected neck. B: The snout and forehead angle downward below the eye and connected neck."
+    },
+    {
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The beak and eye-bearing skull point upward above the neck.",
+        "B": "The beak and eye-bearing skull point downward below the neck."
+      },
+      "reason": "A: The beak and eye-bearing skull point upward above the neck. B: The beak and eye-bearing skull point downward below the neck."
+    },
+    {
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The snout and skull rise steeply above the eye and neck.",
+        "B": "The snout and skull project horizontally with a downward slope from the eye and neck."
+      },
+      "reason": "A: The snout and skull rise steeply above the eye and neck. B: The snout and skull project horizontally with a downward slope from the eye and neck."
+    },
+    {
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The snout and eye-bearing skull point upward, clearly above the neck.",
+        "B": "The snout and face angle downward below the eye and neck."
+      },
+      "reason": "A: The snout and eye-bearing skull point upward, clearly above the neck. B: The snout and face angle downward below the eye and neck."
+    },
+    {
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The snout points upward-left and the skull sits above the neck connection.",
+        "B": "The snout points downward-left and the skull sits below the neck connection."
+      },
+      "reason": "A: The snout points upward-left and the skull sits above the neck connection. B: The snout points downward-left and the skull sits below the neck connection."
+    },
+    {
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "landmark_reasons": {
+        "A": "The snout and eye-bearing skull angle down-left from the neck.",
+        "B": "The snout and skull angle up-left above the neck."
+      },
+      "reason": "A: The snout and eye-bearing skull angle down-left from the neck. B: The snout and skull angle up-left above the neck."
+    }
+  ]
+}

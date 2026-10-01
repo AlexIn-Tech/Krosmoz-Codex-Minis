@@ -1,0 +1,100 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "ec0b005a5cb1fcae01ef7bf8e55ad9c17e5690b999c71d1c9900d2635e186f46",
+  "motion_review": "Reviewed all 57 standard action frames at native 192x208 resolution and all nine final preview GIFs. The loops preserve adult physical mass and the same gold-ochre angular dragon identity: idle breathes and blinks; both directional runs alternate grounded extension, tuck, and recovery while facing the correct screen edge; waving raises and returns the foreclaw; jumping lifts, reaches an apex, descends, and settles; failed bows into a weighted slump and recovers; waiting presents an expectant foreclaw; running uses focused foreclaw and head activity without travel; review scans with deliberate head and eye changes. No missing frame, crop, detached effect, cadence reversal, inert non-idle loop, or unintended scale pop is visible.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": {
+      "frame_count": 6,
+      "phases": "open-eye rest, eyelid lowering, closed blink, reopen, second soft blink, settled open-eye rest",
+      "identity": "Adult gold-ochre angular snout, crest spines, aqua eye, purple membranes and claws, folded wings, and full curled tail remain intact in every frame.",
+      "scale": "Stable native-cell body height and grounded feet; only quiet breathing and blink variation.",
+      "verdict": "pass"
+    },
+    "running-right": {
+      "frame_count": 8,
+      "phases": "rightward extension, gather, alternate extension, compact tuck, push, airborne stretch, landing reach, recovery stride",
+      "identity": "Right-facing head, wing roots, crest, aqua eye, purple claws and membranes, and complete tail remain consistent.",
+      "scale": "Action silhouette changes with stride compression and extension but the torso volume and apparent character scale remain stable.",
+      "verdict": "pass"
+    },
+    "running-left": {
+      "frame_count": 8,
+      "phases": "leftward extension, gather, alternate extension, compact tuck, push, airborne stretch, landing reach, recovery stride",
+      "identity": "Left-facing angular head and the full original palette, wing construction, feet, and tail persist through all eight frames.",
+      "scale": "Stride compression and extension are physical motion rather than resizing; no extraction pop is visible.",
+      "verdict": "pass"
+    },
+    "waving": {
+      "frame_count": 4,
+      "phases": "rest, foreclaw lift, held greeting, foreclaw return",
+      "identity": "The waving claw stays attached and the face, wings, crest, feet, and tail keep the canonical adult identity.",
+      "scale": "Body and baseline stay fixed while the near foreclaw performs the gesture.",
+      "verdict": "pass"
+    },
+    "jumping": {
+      "frame_count": 5,
+      "phases": "launch, rise, apex, descent, landing settle",
+      "identity": "Head, eye, wings, purple claws, spines, and full tail remain complete through the airborne arc.",
+      "scale": "Vertical placement changes without a body-size change, floor cue, shadow, or clipped extremity.",
+      "verdict": "pass"
+    },
+    "failed": {
+      "frame_count": 8,
+      "phases": "upright concern, eyelid close, head dip, deeper shoulder collapse, lowest bow, held slump, recovery lift, restored stance",
+      "identity": "The same adult dragon remains readable even at the deepest bow; wings, feet, eye design, and tail never detach or disappear.",
+      "scale": "The apparent width increases naturally during the slump while torso volume and feet registration remain coherent.",
+      "verdict": "pass"
+    },
+    "waiting": {
+      "frame_count": 6,
+      "phases": "expectant rest, foreclaw presentation, two-claw request, held request, release, return to rest",
+      "identity": "Aqua eye, angular muzzle, crest, folded purple wings, claws, and tail match the canonical pet.",
+      "scale": "Stable seated mass and baseline; only forelimbs and attentive head posture change.",
+      "verdict": "pass"
+    },
+    "running": {
+      "frame_count": 6,
+      "phases": "focused rest, foreclaw engage, alternate engage, concentrated blink, second engage, reset",
+      "identity": "The dragon remains the same resting adult with attached limbs, wings, spines, and tail; the action reads as focused work rather than foot-running.",
+      "scale": "Torso, hips, feet, wing roots, and tail anchors remain fixed with no travel or size pop.",
+      "verdict": "pass"
+    },
+    "review": {
+      "frame_count": 6,
+      "phases": "neutral focus, downward inspection, forward scan, blink and reassess, close scrutiny, neutral return",
+      "identity": "All six frames preserve the same angular head, aqua eye construction, gold-ochre armor, purple wing membranes and claws, and full tail.",
+      "scale": "Head and neck lean within a stable grounded body; no whole-sprite enlargement or baseline jump.",
+      "verdict": "pass"
+    }
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "All 16 labeled cells were reviewed at normal and enlarged size against the canonical base and original user references. Row 9 progresses from a raised-jaw up family through a clear screen-right profile into a bowed down-right family. Row 10 begins with the original bowed 180 face, including natural iris occlusion, then turns only the head and neck through down-left, left, and up-left while the oblique resting torso, hips, near and far feet, wing roots, and tail anchors stay fixed. The up family shows the jaw underside and raised chin while retaining the angular snout and original aqua eye. The clockwise loop has no wrong quadrant, horizontal reversal, clipped part, body pivot, or visible scale pop.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "62d98a6566a2641ea4e3c2845c5a0eb9da6edbb03401dad45138098a62a23b92",
+    "reason": "Actual alpha-sheet inspection shows the purple bat membranes and aqua eyes filled and attached in all 16 look cells. The topology suspects resolve to natural negative space inside the curled tail and between folded wing, torso, limbs, crest spines, and tail: the only large enclosed components are left-side tail or fold gaps (for example x=30..66, y=87..141 in several row-9 cells and x=29..66, y=107..146 at 247.5); the remaining components are tiny antialiased spaces between outlined scales, claws, and spines. No transparent band, seam row, cut membrane, hollow eye, or see-through filled body material is visible."
+  },
+  "warnings": [
+    "Continuity metrics flag 067.5->090 (6719 changed pixels, 11.9px center shift); visual inspection shows a natural head-and-neck pitch change into the right cardinal while feet, hips, wing roots, and tail remain anchored.",
+    "Continuity metrics flag 157.5->180 (area ratio 1.094); this is approximately a 4.6% linear-size equivalent and visually reads as the bowed-face row boundary, without an actual scale pop or identity change.",
+    "Continuity metrics flag 337.5->000 (7149 changed pixels); the difference is the expected transition from the up-left head family to the raised up family, with stable lower-body registration and no loop reversal.",
+    "Alpha topology reports enclosed zero-alpha suspects, but actual high-contrast inspection confirms these are natural tail-loop and folded-wing/body spaces plus tiny outline gaps, not interior material holes."
+  ],
+  "repair_rows": [],
+  "notes": [
+    "Final atlas geometry is 1536x2288: eight 192px columns by eleven 208px rows.",
+    "The 57 standard action frames were reviewed separately from the dedicated neutral cell shown in the extended contact sheet.",
+    "All four hard cardinals pass: 000 up, 090 right, 180 down, and 270 left."
+  ]
+}

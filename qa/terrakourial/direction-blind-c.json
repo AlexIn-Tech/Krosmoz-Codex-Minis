@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The pointed snout and eye sit to the left of the attached neck; the head crest trails right.",
+        "B": "The pointed snout and eye sit to the right of the attached neck; the head crest trails left."
+      },
+      "reason": "A: The pointed snout and eye sit to the left of the attached neck; the head crest trails right. B: The pointed snout and eye sit to the right of the attached neck; the head crest trails left."
+    },
+    {
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "landmark_reasons": {
+        "A": "The beak-like snout extends right of the eye and connected neck; crest feathers trail left.",
+        "B": "The snout extends left of the eye and connected neck; crest feathers trail right."
+      },
+      "reason": "A: The beak-like snout extends right of the eye and connected neck; crest feathers trail left. B: The snout extends left of the eye and connected neck; crest feathers trail right."
+    },
+    {
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "landmark_reasons": {
+        "A": "The snout tip and eye are right of the long neck connection, with the crest swept left.",
+        "B": "The snout tip and eye point left of the neck connection; the crest sweeps right."
+      },
+      "reason": "A: The snout tip and eye are right of the long neck connection, with the crest swept left. B: The snout tip and eye point left of the neck connection; the crest sweeps right."
+    },
+    {
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The visible snout tip is left of the eye and neck; long crest spikes trail right.",
+        "B": "The visible snout tip is right of the eye and neck; crest spikes trail left."
+      },
+      "reason": "A: The visible snout tip is left of the eye and neck; long crest spikes trail right. B: The visible snout tip is right of the eye and neck; crest spikes trail left."
+    },
+    {
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "landmark_reasons": {
+        "A": "The snout projects right from the eye and neck, while the swept head feathers trail left.",
+        "B": "The snout points down-left from the eye and neck; the head crest extends back to the right."
+      },
+      "reason": "A: The snout projects right from the eye and neck, while the swept head feathers trail left. B: The snout points down-left from the eye and neck; the head crest extends back to the right."
+    },
+    {
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The snout tip sits left and below the eye, with the attached neck curving back right.",
+        "B": "The snout tip sits right and below the eye, with the neck curving back left."
+      },
+      "reason": "A: The snout tip sits left and below the eye, with the attached neck curving back right. B: The snout tip sits right and below the eye, with the neck curving back left."
+    },
+    {
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The nose and eye are on the left-facing front of the head; the neck continues behind them to the right.",
+        "B": "The nose and eye are on the right-facing front of the head; the neck continues behind them to the left."
+      },
+      "reason": "A: The nose and eye are on the left-facing front of the head; the neck continues behind them to the right. B: The nose and eye are on the right-facing front of the head; the neck continues behind them to the left."
+    },
+    {
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "landmark_reasons": {
+        "A": "The snout and eye are low, with the chin angled down into the connected neck; crest rises above the face.",
+        "B": "The snout tip and eye rise high above the neck connection; the chin and throat angle upward."
+      },
+      "reason": "A: The snout and eye are low, with the chin angled down into the connected neck; crest rises above the face. B: The snout tip and eye rise high above the neck connection; the chin and throat angle upward."
+    },
+    {
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The snout and eye are lifted above the neck, with the chin line slanting upward.",
+        "B": "The snout sits below the crest and angles down from the eye toward the connected neck."
+      },
+      "reason": "A: The snout and eye are lifted above the neck, with the chin line slanting upward. B: The snout sits below the crest and angles down from the eye toward the connected neck."
+    },
+    {
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The snout tip rises above the eye and neck junction; the throat follows an upward angle.",
+        "B": "The snout and eye point lower than the crest, and the chin slopes down into the neck."
+      },
+      "reason": "A: The snout tip rises above the eye and neck junction; the throat follows an upward angle. B: The snout and eye point lower than the crest, and the chin slopes down into the neck."
+    },
+    {
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "up",
+      "B": "ambiguous",
+      "landmark_reasons": {
+        "A": "The snout rises steeply above the eye and attached neck.",
+        "B": "The snout, eye, chin, and neck form an almost level right-facing profile without a clear upward or downward tilt."
+      },
+      "reason": "A: The snout rises steeply above the eye and attached neck. B: The snout, eye, chin, and neck form an almost level right-facing profile without a clear upward or downward tilt."
+    },
+    {
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The pointed snout and eye rise above the neck connection, with the throat angled upward.",
+        "B": "The snout and eye dip below the raised crest; the chin angles downward into the neck."
+      },
+      "reason": "A: The pointed snout and eye rise above the neck connection, with the throat angled upward. B: The snout and eye dip below the raised crest; the chin angles downward into the neck."
+    },
+    {
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The snout is elevated above the eye and neck, and the underside of the jaw rises toward its tip.",
+        "B": "The face slopes down from crest to snout, with the eye and chin lower against the connected neck."
+      },
+      "reason": "A: The snout is elevated above the eye and neck, and the underside of the jaw rises toward its tip. B: The face slopes down from crest to snout, with the eye and chin lower against the connected neck."
+    },
+    {
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "landmark_reasons": {
+        "A": "The snout and eye sit low relative to the high crest and attached neck; the chin drops toward the throat.",
+        "B": "The snout and eye lift above the neck connection, and the throat line angles upward."
+      },
+      "reason": "A: The snout and eye sit low relative to the high crest and attached neck; the chin drops toward the throat. B: The snout and eye lift above the neck connection, and the throat line angles upward."
+    }
+  ]
+}

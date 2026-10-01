@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The snout tip lies left of the turquoise eye and the face-neck line slopes up-left.",
+        "B": "The snout tip lies right of the turquoise eye and the face-neck line slopes up-right."
+      },
+      "reason": "A: The snout tip lies left of the turquoise eye and the face-neck line slopes up-left. B: The snout tip lies right of the turquoise eye and the face-neck line slopes up-right."
+    },
+    {
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "landmark_reasons": {
+        "A": "The pointed muzzle extends to the right of the eye, with the jaw continuing toward the neck on that side.",
+        "B": "The pointed muzzle extends left of the eye, with the jaw continuing toward the neck on that side."
+      },
+      "reason": "A: The pointed muzzle extends to the right of the eye, with the jaw continuing toward the neck on that side. B: The pointed muzzle extends left of the eye, with the jaw continuing toward the neck on that side."
+    },
+    {
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "landmark_reasons": {
+        "A": "The long snout tip is above and right of the eye; the throat connects down toward the neck behind it.",
+        "B": "The long snout tip is above and left of the eye; the throat connects down toward the neck behind it."
+      },
+      "reason": "A: The long snout tip is above and right of the eye; the throat connects down toward the neck behind it. B: The long snout tip is above and left of the eye; the throat connects down toward the neck behind it."
+    },
+    {
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The muzzle projects leftward from the eye and the jawline returns toward the neck on the right.",
+        "B": "The muzzle projects rightward from the eye and the jawline returns toward the neck on the left."
+      },
+      "reason": "A: The muzzle projects leftward from the eye and the jawline returns toward the neck on the right. B: The muzzle projects rightward from the eye and the jawline returns toward the neck on the left."
+    },
+    {
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "landmark_reasons": {
+        "A": "The snout extends to the right of the eye, while the underside of the head joins the neck behind it.",
+        "B": "The snout extends to the left of the eye, while the underside of the head joins the neck behind it."
+      },
+      "reason": "A: The snout extends to the right of the eye, while the underside of the head joins the neck behind it. B: The snout extends to the left of the eye, while the underside of the head joins the neck behind it."
+    },
+    {
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The nose and lower jaw sit left of the eye; the neck bends down behind the jaw toward the body.",
+        "B": "The nose and lower jaw sit right of the eye; the neck bends down behind the jaw toward the body."
+      },
+      "reason": "A: The nose and lower jaw sit left of the eye; the neck bends down behind the jaw toward the body. B: The nose and lower jaw sit right of the eye; the neck bends down behind the jaw toward the body."
+    },
+    {
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "landmark_reasons": {
+        "A": "The tapered snout points down-left from the eye, and the throat curves back into the neck to the right.",
+        "B": "The tapered snout points down-right from the eye, and the throat curves back into the neck to the left."
+      },
+      "reason": "A: The tapered snout points down-left from the eye, and the throat curves back into the neck to the right. B: The tapered snout points down-right from the eye, and the throat curves back into the neck to the left."
+    },
+    {
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "landmark_reasons": {
+        "A": "The nose and chin sit below the eye; the neck folds downward beneath the face.",
+        "B": "The snout rises above the eye and the connected neck extends upward behind the jaw."
+      },
+      "reason": "A: The nose and chin sit below the eye; the neck folds downward beneath the face. B: The snout rises above the eye and the connected neck extends upward behind the jaw."
+    },
+    {
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The muzzle tip is above the eye and the throat follows an upward curve into the neck.",
+        "B": "The snout tip and chin fall below the eye, with the connected throat bending down."
+      },
+      "reason": "A: The muzzle tip is above the eye and the throat follows an upward curve into the neck. B: The snout tip and chin fall below the eye, with the connected throat bending down."
+    },
+    {
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The snout ends well above the eye, and the neck stretches upward beneath the jaw.",
+        "B": "The muzzle and chin are below the eye, and the neck curves down from the jaw."
+      },
+      "reason": "A: The snout ends well above the eye, and the neck stretches upward beneath the jaw. B: The muzzle and chin are below the eye, and the neck curves down from the jaw."
+    },
+    {
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The nose is above the eye and the throat rises with the long neck behind it.",
+        "B": "The muzzle is nearly level but slightly below the eye, and the lower jaw slopes down into the neck."
+      },
+      "reason": "A: The nose is above the eye and the throat rises with the long neck behind it. B: The muzzle is nearly level but slightly below the eye, and the lower jaw slopes down into the neck."
+    },
+    {
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The snout tip is high above the eye and the neck rises in a tall curve.",
+        "B": "The nose and chin are below the eye; the head dips toward the bent neck."
+      },
+      "reason": "A: The snout tip is high above the eye and the neck rises in a tall curve. B: The nose and chin are below the eye; the head dips toward the bent neck."
+    },
+    {
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "landmark_reasons": {
+        "A": "The nose projects above the eye and the throat rises along the neck.",
+        "B": "The snout tip lies below the eye and the throat curves downward into the neck."
+      },
+      "reason": "A: The nose projects above the eye and the throat rises along the neck. B: The snout tip lies below the eye and the throat curves downward into the neck."
+    },
+    {
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "landmark_reasons": {
+        "A": "The pointed muzzle sits below the eye and the neck bends down behind the jaw.",
+        "B": "The nose is above the eye and the face-neck line angles upward."
+      },
+      "reason": "A: The pointed muzzle sits below the eye and the neck bends down behind the jaw. B: The nose is above the eye and the face-neck line angles upward."
+    }
+  ]
+}

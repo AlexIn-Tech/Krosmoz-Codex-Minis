@@ -1,0 +1,10 @@
+{
+  "source_sha256": "e4dda098881c2f1d5fd0fa3f5af6266f174895a04bba31477f2be78c9f4869ea",
+  "files": [
+    "blind-horizontal-1-4-heads.png",
+    "blind-horizontal-5-7-heads.png",
+    "blind-vertical-1-4-heads.png",
+    "blind-vertical-5-7-heads.png"
+  ],
+  "method": "Every original unlabeled pair retained, plus same-pixel head crop enlarged 3x nearest-neighbor; no degree labels, intended answers or invented pixels."
+}

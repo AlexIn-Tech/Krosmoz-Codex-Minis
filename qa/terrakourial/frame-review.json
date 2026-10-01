@@ -1,0 +1,1003 @@
+{
+  "ok": true,
+  "frames_root": "generation/terrakourial/qa/final-native-frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "idle used extraction method final-atlas-cells; component extraction is preferred",
+    "running-right used extraction method final-atlas-cells; component extraction is preferred",
+    "running-left used extraction method final-atlas-cells; component extraction is preferred",
+    "waving used extraction method final-atlas-cells; component extraction is preferred",
+    "jumping used extraction method final-atlas-cells; component extraction is preferred",
+    "failed used extraction method final-atlas-cells; component extraction is preferred",
+    "waiting used extraction method final-atlas-cells; component extraction is preferred",
+    "running used extraction method final-atlas-cells; component extraction is preferred",
+    "review used extraction method final-atlas-cells; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/terrakourial/qa/final-native-frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19579,
+          "bbox": [
+            9,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/terrakourial/qa/final-native-frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20878,
+          "bbox": [
+            5,
+            6,
+            187,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/terrakourial/qa/final-native-frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20767,
+          "bbox": [
+            6,
+            5,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/terrakourial/qa/final-native-frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19433,
+          "bbox": [
+            10,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/terrakourial/qa/final-native-frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20578,
+          "bbox": [
+            5,
+            7,
+            187,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/terrakourial/qa/final-native-frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19410,
+          "bbox": [
+            10,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/terrakourial/qa/final-native-frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15154,
+          "bbox": [
+            10,
+            22,
+            182,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/terrakourial/qa/final-native-frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15197,
+          "bbox": [
+            9,
+            24,
+            182,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/terrakourial/qa/final-native-frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15856,
+          "bbox": [
+            7,
+            28,
+            185,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/terrakourial/qa/final-native-frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14079,
+          "bbox": [
+            7,
+            42,
+            185,
+            189
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 3
+        },
+        {
+          "index": 4,
+          "file": "generation/terrakourial/qa/final-native-frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16047,
+          "bbox": [
+            7,
+            22,
+            184,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/terrakourial/qa/final-native-frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15414,
+          "bbox": [
+            7,
+            17,
+            185,
+            176
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/terrakourial/qa/final-native-frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15658,
+          "bbox": [
+            9,
+            29,
+            183,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "generation/terrakourial/qa/final-native-frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16390,
+          "bbox": [
+            5,
+            25,
+            187,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/terrakourial/qa/final-native-frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14700,
+          "bbox": [
+            8,
+            26,
+            184,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/terrakourial/qa/final-native-frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14327,
+          "bbox": [
+            8,
+            26,
+            183,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 2
+        },
+        {
+          "index": 2,
+          "file": "generation/terrakourial/qa/final-native-frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13945,
+          "bbox": [
+            9,
+            30,
+            183,
+            181
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/terrakourial/qa/final-native-frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13074,
+          "bbox": [
+            11,
+            43,
+            181,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 2
+        },
+        {
+          "index": 4,
+          "file": "generation/terrakourial/qa/final-native-frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14358,
+          "bbox": [
+            10,
+            30,
+            182,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 5,
+          "file": "generation/terrakourial/qa/final-native-frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13367,
+          "bbox": [
+            9,
+            22,
+            183,
+            172
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/terrakourial/qa/final-native-frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14733,
+          "bbox": [
+            5,
+            28,
+            187,
+            186
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 3
+        },
+        {
+          "index": 7,
+          "file": "generation/terrakourial/qa/final-native-frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14232,
+          "bbox": [
+            8,
+            28,
+            183,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/terrakourial/qa/final-native-frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19321,
+          "bbox": [
+            12,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/terrakourial/qa/final-native-frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19281,
+          "bbox": [
+            9,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/terrakourial/qa/final-native-frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19413,
+          "bbox": [
+            9,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/terrakourial/qa/final-native-frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19475,
+          "bbox": [
+            11,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/terrakourial/qa/final-native-frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16689,
+          "bbox": [
+            13,
+            20,
+            179,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/terrakourial/qa/final-native-frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17814,
+          "bbox": [
+            5,
+            17,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/terrakourial/qa/final-native-frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17150,
+          "bbox": [
+            8,
+            5,
+            184,
+            187
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/terrakourial/qa/final-native-frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17908,
+          "bbox": [
+            5,
+            17,
+            187,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/terrakourial/qa/final-native-frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17457,
+          "bbox": [
+            9,
+            18,
+            183,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 2
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/terrakourial/qa/final-native-frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19090,
+          "bbox": [
+            11,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/terrakourial/qa/final-native-frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19482,
+          "bbox": [
+            12,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 3
+        },
+        {
+          "index": 2,
+          "file": "generation/terrakourial/qa/final-native-frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20322,
+          "bbox": [
+            8,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 13
+        },
+        {
+          "index": 3,
+          "file": "generation/terrakourial/qa/final-native-frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20402,
+          "bbox": [
+            5,
+            11,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 41
+        },
+        {
+          "index": 4,
+          "file": "generation/terrakourial/qa/final-native-frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19202,
+          "bbox": [
+            5,
+            16,
+            187,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 5
+        },
+        {
+          "index": 5,
+          "file": "generation/terrakourial/qa/final-native-frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20062,
+          "bbox": [
+            5,
+            11,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 6,
+          "file": "generation/terrakourial/qa/final-native-frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19316,
+          "bbox": [
+            12,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 7,
+          "file": "generation/terrakourial/qa/final-native-frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18628,
+          "bbox": [
+            13,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 3
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/terrakourial/qa/final-native-frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19005,
+          "bbox": [
+            14,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/terrakourial/qa/final-native-frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18353,
+          "bbox": [
+            15,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 7
+        },
+        {
+          "index": 2,
+          "file": "generation/terrakourial/qa/final-native-frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18051,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/terrakourial/qa/final-native-frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18221,
+          "bbox": [
+            14,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/terrakourial/qa/final-native-frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18348,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/terrakourial/qa/final-native-frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18856,
+          "bbox": [
+            15,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/terrakourial/qa/final-native-frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19661,
+          "bbox": [
+            10,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 1,
+          "file": "generation/terrakourial/qa/final-native-frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20318,
+          "bbox": [
+            9,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 2
+        },
+        {
+          "index": 2,
+          "file": "generation/terrakourial/qa/final-native-frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20170,
+          "bbox": [
+            10,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 3,
+          "file": "generation/terrakourial/qa/final-native-frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19677,
+          "bbox": [
+            11,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/terrakourial/qa/final-native-frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20850,
+          "bbox": [
+            6,
+            5,
+            185,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/terrakourial/qa/final-native-frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19701,
+          "bbox": [
+            10,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 2
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/terrakourial/qa/final-native-frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19668,
+          "bbox": [
+            8,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/terrakourial/qa/final-native-frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20969,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/terrakourial/qa/final-native-frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19745,
+          "bbox": [
+            10,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 3,
+          "file": "generation/terrakourial/qa/final-native-frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20204,
+          "bbox": [
+            9,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/terrakourial/qa/final-native-frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21476,
+          "bbox": [
+            5,
+            5,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/terrakourial/qa/final-native-frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19645,
+          "bbox": [
+            9,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ],
+  "atlas_sha256": "ec0b005a5cb1fcae01ef7bf8e55ad9c17e5690b999c71d1c9900d2635e186f46",
+  "provenance": "All 57 cells are exact crops of the cleaned final native atlas; source extraction evidence is preserved separately. Inspector thresholds unchanged."
+}
