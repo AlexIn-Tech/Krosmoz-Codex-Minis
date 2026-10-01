@@ -93,19 +93,22 @@
       "id": "toross-mordal",
       "name": "Toross Mordal",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "yugo",
       "name": "Yugo",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "adamai",
       "name": "Adamai",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "qilby",
@@ -122,79 +125,92 @@
       "id": "nox",
       "name": "Nox",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "ogrest",
       "name": "Ogrest",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "dathura",
       "name": "Dathura",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "percedal",
       "name": "Percedal",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "evangelyne",
       "name": "Evangelyne",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "amalia",
       "name": "Amalia",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "ruel",
       "name": "Ruel",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "joris",
       "name": "Joris",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "kerubim",
       "name": "Kerubim",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "julith",
       "name": "Julith",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "goultard-dark",
       "name": "Goultard (Dark)",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "dark-vlad",
       "name": "Dark Vlad",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     },
     {
       "id": "ush",
       "name": "Ush",
       "category": "characters",
-      "status": "planned"
+      "status": "planned",
+      "generation": "deferred"
     }
   ]
 }

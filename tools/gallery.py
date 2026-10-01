@@ -13,7 +13,8 @@ from install import validate_catalog
 def render(catalog):
     pets = validate_catalog(catalog)
     ready = [pet for pet in pets if pet['status'] == 'ready']
-    planned = [pet for pet in pets if pet['status'] == 'planned']
+    ideas = [pet for pet in pets if pet['status'] == 'planned' and pet.get('generation') == 'deferred']
+    planned = [pet for pet in pets if pet['status'] == 'planned' and pet.get('generation') != 'deferred']
     table = ['| Animated mini | Name | Install name |', '| --- | --- | --- |']
     for pet in ready:
         preview = pet.get('preview', '')
@@ -115,6 +116,14 @@ command above; no execution-policy change is required.
 Planned names reserve the future installation slugs. They are not downloadable
 until their complete animations pass QA and appear in the gallery.
 
+## Ideas
+
+%s
+
+These character ideas are deferred. Reference images will be supplied gradually
+before generation resumes. Existing completed minis stay in the gallery;
+unfinished private base drawings are preserved for future work.
+
 ## Development and quality
 
 ```sh
@@ -136,7 +145,8 @@ style, genuine state-specific motion, full direction support, and Ankama credits
 Do not submit extracted game sprites, credentials, or private machine metadata.
 Code is MIT licensed; that license does not grant rights to Ankama's underlying
 intellectual property or the derivative character artwork.
-''' % ('\n'.join(table), '\n'.join(groups) if groups else 'All planned minis are complete.')
+''' % ('\n'.join(table), '\n'.join(groups) if groups else 'All planned minis are complete.',
+       ', '.join('%s (`%s`)' % (pet['name'], pet['id']) for pet in ideas) + '.' if ideas else 'No deferred character ideas.')
 
 
 def main():

@@ -86,10 +86,17 @@ command above; no execution-policy change is required.
 
 - **Primordial dragons:** Aerafal (`aerafal`), Ignemikhal (`ignemikhal`), Terrakourial (`terrakourial`), Dardondakal (`dardondakal`), Grougalorasalar (`grougalorasalar`).
 - **Primordial Dofus:** Emerald Dofus (`dofus-emerald`), Turquoise Dofus (`dofus-turquoise`), Crimson Dofus (`dofus-crimson`), Ochre Dofus (`dofus-ochre`), Ivory Dofus (`dofus-ivory`), Ebony Dofus (`dofus-ebony`).
-- **Krosmoz characters:** Toross Mordal (`toross-mordal`), Yugo (`yugo`), Adamai (`adamai`), Nox (`nox`), Ogrest (`ogrest`), Dathura (`dathura`), Percedal (`percedal`), Evangelyne (`evangelyne`), Amalia (`amalia`), Ruel (`ruel`), Joris (`joris`), Kerubim (`kerubim`), Julith (`julith`), Goultard (Dark) (`goultard-dark`), Dark Vlad (`dark-vlad`), Ush (`ush`).
 
 Planned names reserve the future installation slugs. They are not downloadable
 until their complete animations pass QA and appear in the gallery.
+
+## Ideas
+
+Toross Mordal (`toross-mordal`), Yugo (`yugo`), Adamai (`adamai`), Nox (`nox`), Ogrest (`ogrest`), Dathura (`dathura`), Percedal (`percedal`), Evangelyne (`evangelyne`), Amalia (`amalia`), Ruel (`ruel`), Joris (`joris`), Kerubim (`kerubim`), Julith (`julith`), Goultard (Dark) (`goultard-dark`), Dark Vlad (`dark-vlad`), Ush (`ush`).
+
+These character ideas are deferred. Reference images will be supplied gradually
+before generation resumes. Existing completed minis stay in the gallery;
+unfinished private base drawings are preserved for future work.
 
 ## Development and quality
 
