@@ -1,0 +1,165 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "89b2d64c77116e9c61d38c4e8e1b581bfa1f80cec71a3e6d99b8ef27c2443e5f",
+  "motion_review": "Fresh independent full-frame review of all 57 actual final GIF frames and corresponding 57 exact native WebP cells, grouped by state in QA-only layouts. Each frame was inspected in sequence, including intermediate poses, blink/wave/jump/crouch transitions and loop endpoints. Motion is readable, silhouettes stay complete and identity/scale remain consistent. GIF palette/alpha conversion makes edges rougher than native WebP; native atlas is the quality authority.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": {
+      "verdict": "pass",
+      "native_frames_reviewed": 6,
+      "final_gif_frames_reviewed": 6,
+      "frames_reviewed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finding": "Frames 0-5: planted stance with small crest/body movement; eye closes at 2 and reopens at 3; complete tail, wings and talons; repeat returns to open-eye stance."
+    },
+    "running-right": {
+      "verdict": "pass",
+      "native_frames_reviewed": 8,
+      "final_gif_frames_reviewed": 8,
+      "frames_reviewed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "finding": "Frames 0-7: right-facing head and left tail throughout; alternating stretched and gathered legs create a running stride; wing and crest movement follow the stride; no missing anatomy or cell clipping."
+    },
+    "running-left": {
+      "verdict": "pass",
+      "native_frames_reviewed": 8,
+      "final_gif_frames_reviewed": 8,
+      "frames_reviewed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "finding": "Frames 0-7: left-facing head and right tail throughout this locomotion state; alternating forward/back legs and gathered feet create the left stride; no missing anatomy or clipping."
+    },
+    "waving": {
+      "verdict": "pass",
+      "native_frames_reviewed": 4,
+      "final_gif_frames_reviewed": 4,
+      "frames_reviewed": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "finding": "Frames 0-3: rest, happy eye-close/right wing lift, broad raised wing, return to rest; crest and complete tail remain recognizable; raised wing and feet stay within the cell."
+    },
+    "jumping": {
+      "verdict": "pass",
+      "native_frames_reviewed": 5,
+      "final_gif_frames_reviewed": 5,
+      "frames_reviewed": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "finding": "Frames 0-4: initial low stance, takeoff, highest position at 2, descent, landing; native body/head scale stays consistent; full crest, tail and talons stay in bounds."
+    },
+    "failed": {
+      "verdict": "pass",
+      "native_frames_reviewed": 8,
+      "final_gif_frames_reviewed": 8,
+      "frames_reviewed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "finding": "Frames 0-7: open eye, eye closes/head lowers, deeper droop, crouch at 3-4, rise at 5, eye opens at 6, return at 7; recognizable olive/ivory bird throughout; complete feet and tail."
+    },
+    "waiting": {
+      "verdict": "pass",
+      "native_frames_reviewed": 6,
+      "final_gif_frames_reviewed": 6,
+      "frames_reviewed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finding": "Frames 0-5: rest, small upward head motion, blink, both wings spread at 3, settle at 4, rest at 5; feet remain grounded; full wings remain inside cell."
+    },
+    "running": {
+      "verdict": "pass",
+      "native_frames_reviewed": 6,
+      "final_gif_frames_reviewed": 6,
+      "frames_reviewed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finding": "Frames 0-5: alert stance, lowered head, wing raised to beak at 2-3 with blink at 3, lifted head at 4, return at 5; no prop or detached effect; stable scale and feet."
+    },
+    "review": {
+      "verdict": "pass",
+      "native_frames_reviewed": 6,
+      "final_gif_frames_reviewed": 6,
+      "frames_reviewed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "finding": "Frames 0-5: rest, head/tail gesture at 1, closed eye at 2, half-lidded at 3, lifted gaze at 4, return at 5; consistent olive/ivory identity and complete silhouette."
+    }
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "Fresh review of every exact native cell at 192x208, plus actual look-directions.png. Clockwise sequence travels from raised beak/chin UP through exposed RIGHT, progressive head bow to visible DOWN face, then bowed LEFT and exposed LEFT to raised UP-LEFT and back to UP. All eight row10 cells, including 180, visibly retain green irises with dark pupils and white highlights. Head size stays within the standard identity family. Torso, folded wings, left tail and planted gold talons preserve the resting scaffold; the head/neck drive the gaze. 022.5 and 045 are close to UP and 247.5 is closer to a neutral-left pitch than a strong downward pitch; these are minor intermediate distinctions within the correct ordered arc. Cardinals are unambiguous.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "fa9149147b1426fb0a13cfb128ff9d158d0cef3bbfe5392744f5196f4922e5cb",
+    "reason": "Inspected actual native alpha-zero areas in all16 cells alongside the exact alpha contact and flagged row ranges. Broad black openings at approximately x54-93,y83-148 lie between curved tail and wing/neck silhouettes; the lower x105-124,y165-185 opening lies between separated legs/talons. Head/neck gaps in side/up poses follow outside contours under the beak and crest, with continuous neck attachment on the opposite side. Small slit at feather overlaps follows separated feather contours. Four-neighbour enclosed components include diagonal antialias boundary fragments. No visible alpha-zero hole cuts the green iris/pupil/highlight, solid feather plates or torso. Flagged continuity jumps 157.5->180 and 337.5->000 correspond to real face pitch/yaw changes, not body spins."
+  },
+  "warnings": [
+    "Intermediate 022.5/045 yaw separation is subtle; 067.5 and 247.5 pitches are shallow. Ordered neighboring arc remains correct.",
+    "Native feather/neck overlap shadows retain small mauve/pink accents; GIF palette transparency also shows rougher edge fringes. These do not erase the green eyes or break the silhouette."
+  ],
+  "repair_rows": [],
+  "notes": [
+    "QA-only files are in qa/independent-final. No sprite generation or artwork edits performed.",
+    "Canonical base was viewed freshly; prior verdicts were not used as evidence.",
+    "All57 GIF frames and all73 occupied native cells (57 standard plus16 look) were freshly inspected.",
+    "All16 cardinal/intermediate directions reviewed; all4 cardinal verdicts pass."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A yellow beak projects right of the green eye with crest trailing left; B beak projects left of the eye with crest trailing right."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A beak and face point left from the eye and neck; B beak and face point right from the eye and neck."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A profile has its beak on the right and swept crest on the left; B has its beak on the left and crest on the right."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A beak protrudes to the right of the green eye; B beak protrudes to the left of the green eye."},
+    {"pair":"horizontal-5","A":"screen-right","B":"screen-left","reason":"A lowered face retains a beak right of the eye and crest swept left; B lowered face has beak left of the eye and crest swept right."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"A bowed head has its beak left of the eye and neck; B bowed head has its beak right of the eye and neck."},
+    {"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"A bowed face projects right from its green eye with crest behind to the left; B bowed face projects left with crest behind to the right."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A head bows toward the chest with beak below the eye and neck bent over; B beak is lifted above the eye on an extended upright neck."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A face is tilted skyward with beak above the green eye; B face slopes down toward the chest with low beak and bowed neck."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A head bends down and its beak points toward the breast; B beak rises above the eye with chin and neck extended upward."},
+    {"pair":"vertical-4","A":"ambiguous","B":"down","reason":"A head reads approximately level: beak projects sideways and the visible eye, forehead and neck do not establish a clear upward or downward pitch. B forehead slopes toward a low beak and neck bends toward the chest."},
+    {"pair":"vertical-5","A":"up","B":"down","reason":"A beak is raised above the eye and face extends upward from the long neck; B head bows with beak toward the chest below the green eye."},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A beak and forehead point upward with eye beneath the raised beak; B eye and beak are carried downward by the bowed head and bent neck."},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A face tilts down toward the breast with low beak and arched neck; B beak projects diagonally upward above the eye with the chin lifted."}
+  ]
+}

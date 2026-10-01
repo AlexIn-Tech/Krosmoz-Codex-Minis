@@ -1,0 +1,165 @@
+{
+  "atlas_sha256": "89b2d64c77116e9c61d38c4e8e1b581bfa1f80cec71a3e6d99b8ef27c2443e5f",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "Raised beak and chin, head pitched upward.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak near upper right of skull; no body turn.",
+      "vertical_evidence": "Beak above eye; exposed chin.",
+      "coordinate_evidence": "Exact atlas rowIndex=9, columnIndex=0; crop x=[0,192), y=[1872,2080), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "Raised beak, modest rightward yaw; close to 000.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Minor intermediate pitch/yaw distinction is subtle, but the clockwise arc remains correct.",
+      "horizontal_evidence": "Beak on right of face.",
+      "vertical_evidence": "Beak above eye; chin raised.",
+      "coordinate_evidence": "Exact atlas rowIndex=9, columnIndex=1; crop x=[192,384), y=[1872,2080), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "Raised beak, rightward yaw remains subtle; close to 022.5.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Minor intermediate pitch/yaw distinction is subtle, but the clockwise arc remains correct.",
+      "horizontal_evidence": "Beak on right of face.",
+      "vertical_evidence": "Beak above eye; chin raised.",
+      "coordinate_evidence": "Exact atlas rowIndex=9, columnIndex=2; crop x=[384,576), y=[1872,2080), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "Clearly rightward face with beak above neutral.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Minor intermediate pitch/yaw distinction is subtle, but the clockwise arc remains correct.",
+      "horizontal_evidence": "Beak extends to screen-right of eye.",
+      "vertical_evidence": "Beak at eye level with upward chin pitch.",
+      "coordinate_evidence": "Exact atlas rowIndex=9, columnIndex=3; crop x=[576,768), y=[1872,2080), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "Exposed screen-right face and hooked beak.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak extends clearly right of skull/eye.",
+      "vertical_evidence": "Beak below eye in neutral right profile.",
+      "coordinate_evidence": "Exact atlas rowIndex=9, columnIndex=4; crop x=[768,960), y=[1872,2080), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "Rightward beak tips below the eye and head starts bowing.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak right of eye.",
+      "vertical_evidence": "Beak below eye; starting head bow.",
+      "coordinate_evidence": "Exact atlas rowIndex=9, columnIndex=5; crop x=[960,1152), y=[1872,2080), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "Rightward bowed face, forehead moves toward beak.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak right of eye.",
+      "vertical_evidence": "Beak below eye; forehead leads downward.",
+      "coordinate_evidence": "Exact atlas rowIndex=9, columnIndex=6; crop x=[1152,1344), y=[1872,2080), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "Right/downward face with low beak and stronger bow.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak right of eye.",
+      "vertical_evidence": "Beak below eye; bowed crest.",
+      "coordinate_evidence": "Exact atlas rowIndex=9, columnIndex=7; crop x=[1344,1536), y=[1872,2080), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "Bowed visible face, forehead above low beak; green iris, dark pupil and highlight remain visible.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak under face with limited horizontal projection.",
+      "vertical_evidence": "Beak below eye and forehead; direct down bow.",
+      "coordinate_evidence": "Exact atlas rowIndex=10, columnIndex=0; crop x=[0,192), y=[2080,2288), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "Bowed face starts yawing toward left; green eye visible.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak below and slightly left of eye.",
+      "vertical_evidence": "Beak below eye with bowed forehead.",
+      "coordinate_evidence": "Exact atlas rowIndex=10, columnIndex=1; crop x=[192,384), y=[2080,2288), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "Bowed leftward face and exposed beak; green eye visible.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak left of eye.",
+      "vertical_evidence": "Beak below eye with bowed forehead.",
+      "coordinate_evidence": "Exact atlas rowIndex=10, columnIndex=2; crop x=[384,576), y=[2080,2288), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "Leftward face begins lifting from the downward arc; green eye visible.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Minor intermediate pitch/yaw distinction is subtle, but the clockwise arc remains correct.",
+      "horizontal_evidence": "Beak left of eye.",
+      "vertical_evidence": "Beak below eye but head less bowed than 225.",
+      "coordinate_evidence": "Exact atlas rowIndex=10, columnIndex=3; crop x=[576,768), y=[2080,2288), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "True exposed left-facing hooked beak, green iris/pupil/highlight.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak visibly left of skull/eye.",
+      "vertical_evidence": "Neutral left profile, beak near/below eye.",
+      "coordinate_evidence": "Exact atlas rowIndex=10, columnIndex=4; crop x=[768,960), y=[2080,2288), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "Leftward face raised, exposed underside of beak/chin; green eye visible.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak left of eye.",
+      "vertical_evidence": "Beak above eye; raised chin.",
+      "coordinate_evidence": "Exact atlas rowIndex=10, columnIndex=5; crop x=[960,1152), y=[2080,2288), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "Left/upward face with higher beak and raised chin; green eye visible.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak left of eye.",
+      "vertical_evidence": "Beak above eye; stronger upward pitch.",
+      "coordinate_evidence": "Exact atlas rowIndex=10, columnIndex=6; crop x=[1152,1344), y=[2080,2288), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "Near-up leftward face; beak raised toward top; green eye visible.",
+      "verdict": "pass",
+      "reason": "Native final WebP cell and ordered neighboring arc inspected; tail remains screen-left, folded wings/torso and planted talons retain the resting scaffold. Direction is visually readable.",
+      "horizontal_evidence": "Beak left and above eye.",
+      "vertical_evidence": "Beak above eye near top margin; chin raised.",
+      "coordinate_evidence": "Exact atlas rowIndex=10, columnIndex=7; crop x=[1344,1536), y=[2080,2288), native 192x208. Face, beak, neck, wings, left tail and feet inspected across the full cell."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A beak projects right of the green eye and rear feathers; B beak projects left of the green eye and rear feathers."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A beak and forehead face left with feathers trailing right; B beak and forehead face right with feathers trailing left."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A green eye sits behind a rightward projecting beak; B green eye sits behind a leftward projecting beak."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A beak extends right from the eye and neck; B beak extends left from the eye and neck."},
+    {"pair":"horizontal-5","A":"screen-right","B":"screen-left","reason":"A lowered beak projects to the right of the green eye; B lowered beak projects to the left of the green eye."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"A bowed head has its beak left of the eye and curved neck; B bowed head has its beak right of the eye and curved neck."},
+    {"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"A downward beak remains visibly on the rightward side of its eye; B downward beak remains visibly on the leftward side of its eye."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A bows its neck and points the beak toward its breast below the eye; B stretches its neck and raises the beak above the eye."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A raised forehead and beak sit above the eye on an extended neck; B pitches its forehead and beak downward toward its chest."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A has a bowed neck and downward pointing facial axis; B has an extended neck and upward pointing beak above the green eye."},
+    {"pair":"vertical-4","A":"ambiguous","B":"down","reason":"A presents a near-horizontal facial axis, with a hooked beak tip and no decisive upward neck pitch; B visibly bends the head down, placing the beak toward the breast."},
+    {"pair":"vertical-5","A":"up","B":"down","reason":"A tilts its face upward with beak above eye and neck extended; B curves the neck forward and points the beak below the eye toward the chest."},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A lifts the beak and forehead above the eye with an upright extended throat; B bows the forehead, eye, and beak toward the breast."},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A clearly bows the head with beak below eye and curled neck; B raises the beak base above the eye and tilts the face upward on an extended neck."}
+  ]
+}

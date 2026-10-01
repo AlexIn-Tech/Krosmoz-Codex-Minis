@@ -1,0 +1,103 @@
+{
+  "atlas_sha256": "89b2d64c77116e9c61d38c4e8e1b581bfa1f80cec71a3e6d99b8ef27c2443e5f",
+  "alpha_sheet_sha256": "fa9149147b1426fb0a13cfb128ff9d158d0cef3bbfe5392744f5196f4922e5cb",
+  "method": "Four-neighbour flood fill of exactly alpha-zero pixels from cell boundaries; alpha sheet preserves original alpha values",
+  "directions": [
+    {
+      "label": "000",
+      "external_pixels": 21213,
+      "enclosed_pixels": 1458,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "022.5",
+      "external_pixels": 20745,
+      "enclosed_pixels": 1625,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "045",
+      "external_pixels": 20760,
+      "enclosed_pixels": 1616,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "067.5",
+      "external_pixels": 21590,
+      "enclosed_pixels": 866,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "090",
+      "external_pixels": 20698,
+      "enclosed_pixels": 1859,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "112.5",
+      "external_pixels": 21885,
+      "enclosed_pixels": 875,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "135",
+      "external_pixels": 22704,
+      "enclosed_pixels": 841,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "157.5",
+      "external_pixels": 23022,
+      "enclosed_pixels": 839,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "180",
+      "external_pixels": 22122,
+      "enclosed_pixels": 1291,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "202.5",
+      "external_pixels": 20624,
+      "enclosed_pixels": 1440,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "225",
+      "external_pixels": 21010,
+      "enclosed_pixels": 1359,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "247.5",
+      "external_pixels": 20684,
+      "enclosed_pixels": 1499,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "270",
+      "external_pixels": 20641,
+      "enclosed_pixels": 2056,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "292.5",
+      "external_pixels": 22103,
+      "enclosed_pixels": 861,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "315",
+      "external_pixels": 21864,
+      "enclosed_pixels": 873,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    },
+    {
+      "label": "337.5",
+      "external_pixels": 23082,
+      "enclosed_pixels": 792,
+      "interpretation": "Enclosed pixels are suspects, not an automatic defect; intentional design openings require visual review."
+    }
+  ]
+}

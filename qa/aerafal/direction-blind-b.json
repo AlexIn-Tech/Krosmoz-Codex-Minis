@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A has its yellow beak above and right of the green eye, with trailing crest left; B has its beak left of the eye and crest trailing right."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A presents the beak on the left edge of the face and the green eye to its right; B presents the beak right of the eye with crest extending left."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A projects its beak right beyond the green eye; B projects its beak left and slightly up beyond the green eye."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A has a right-projecting beak and left-trailing crest; B has a left-projecting beak and right-trailing crest."},
+    {"pair":"horizontal-5","A":"screen-right","B":"screen-left","reason":"A bows its head with beak below and right of the green eye; B bows its head with beak below and left of the green eye."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"A's bowed beak lies left of its eye and neck; B's bowed beak lies right of its eye and neck."},
+    {"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"A's lowered beak is to the right of the eye with the crest extending left; B's lowered beak is to the left of the eye with the crest extending right."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A folds its neck toward the chest and places the beak below the eye; B stretches its neck and raises the beak above the eye toward the upper right."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A visibly elevates the beak above the green eye on an extended neck; B bows the head toward the chest with the beak below the eye."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A's forehead and beak slope down toward the chest on a curved neck; B's face and beak point upward with the throat extended."},
+    {"pair":"vertical-4","A":"ambiguous","B":"down","reason":"A's face is nearly level, with a forward-projecting hooked beak and upright neck; the visible landmarks do not establish a clear upward or downward pitch. B visibly bows its head, with beak below the eye and neck bent toward the chest."},
+    {"pair":"vertical-5","A":"up","B":"down","reason":"A has the beak high above the green eye and a stretched upright throat; B lowers its beak toward the chest beneath the eye on a folded neck."},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A raises its face and beak toward the upper left with an extended throat; B curls the neck forward and points its beak down toward the chest."},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A lowers its beak beneath the eye with its forehead pitched down and neck curved toward the chest; B raises the beak above and left of its eye with an extended throat and upward-sloping face."}
+  ]
+}

@@ -5,7 +5,12 @@
       "id": "aerafal",
       "name": "Aerafal",
       "category": "dragons",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/aerafal.gif",
+      "package": {
+        "pet.json": "8ab951ed75995fc1b19fe699b7627abbb317cfadb4fda5aa20ee31bf729f0943",
+        "spritesheet.webp": "89b2d64c77116e9c61d38c4e8e1b581bfa1f80cec71a3e6d99b8ef27c2443e5f"
+      }
     },
     {
       "id": "aguabrial",
