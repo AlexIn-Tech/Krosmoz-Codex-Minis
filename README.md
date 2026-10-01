@@ -16,6 +16,7 @@ states and sixteen look directions. Installation names match the catalog exactly
 <!-- gallery:start -->
 | Animated mini | Name | Install name |
 | --- | --- | --- |
+| ![Aguabrial](assets/previews/aguabrial.gif) | Aguabrial | `aguabrial` |
 | ![Goultard](assets/previews/goultard.gif) | Goultard | `goultard` |
 | ![Qilby](assets/previews/qilby.gif) | Qilby | `qilby` |
 <!-- gallery:end -->
@@ -83,7 +84,7 @@ command above; no execution-policy change is required.
 
 ## Planned collection
 
-- **Primordial dragons:** Aerafal (`aerafal`), Aguabrial (`aguabrial`), Ignemikhal (`ignemikhal`), Terrakourial (`terrakourial`), Dardondakal (`dardondakal`), Grougalorasalar (`grougalorasalar`).
+- **Primordial dragons:** Aerafal (`aerafal`), Ignemikhal (`ignemikhal`), Terrakourial (`terrakourial`), Dardondakal (`dardondakal`), Grougalorasalar (`grougalorasalar`).
 - **Primordial Dofus:** Emerald Dofus (`dofus-emerald`), Turquoise Dofus (`dofus-turquoise`), Crimson Dofus (`dofus-crimson`), Ochre Dofus (`dofus-ochre`), Ivory Dofus (`dofus-ivory`), Ebony Dofus (`dofus-ebony`).
 - **Gods:** Feca (`god-feca`), Osamodas (`god-osamodas`), Enutrof (`god-enutrof`), Sram (`god-sram`), Xelor (`god-xelor`), Ecaflip (`god-ecaflip`), Eniripsa (`god-eniripsa`), Iop (`god-iop`), Cra (`god-cra`), Sadida (`god-sadida`), Sacrier (`god-sacrier`), Pandawa (`god-pandawa`), Eliatrope (`goddess-eliatrope`), Great Dragon (`great-dragon`).
 - **Krosmoz characters:** Toross Mordal (`toross-mordal`), Yugo (`yugo`), Adamai (`adamai`), Nox (`nox`), Ogrest (`ogrest`), Dathura (`dathura`), Percedal (`percedal`), Evangelyne (`evangelyne`), Amalia (`amalia`), Ruel (`ruel`), Joris (`joris`), Kerubim (`kerubim`), Julith (`julith`), Goultard (Dark) (`goultard-dark`), Dark Vlad (`dark-vlad`), Ush (`ush`).

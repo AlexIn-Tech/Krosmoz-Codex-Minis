@@ -1,0 +1,172 @@
+{
+  "severity": "minor",
+  "decision": "accept",
+  "atlas_sha256": "2e50721590ba0f1a105b74bf587aa1a6e76ff073b498dafcf641e65e95845fa0",
+  "basis": "Native blind cardinals passed; actual independent ordered-loop semantics have no failed direction",
+  "warnings": [
+    "vertical-4 A vertical axis is ambiguous"
+  ],
+  "independent_review": "The head and upper neck turn through a coherent clockwise sequence while torso, feet, wings and tail remain planted and consistently oriented. Cardinal up/right/down/left are clear; intermediate poses stay ordered and mostly readable. Crest and whiskers remain connected. The 112.5 down-right pitch is shallow and independently ambiguous on vertical blind review, so it is recorded as a warning.",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "Definite up: centered crest and muzzle point vertically away; body axis remains upright.",
+      "verdict": "pass",
+      "reason": "Unambiguous cardinal anchor.",
+      "horizontal_evidence": "No strong horizontal lead at the cardinal.",
+      "vertical_evidence": "Vertical cardinal is clear from skull/crest orientation.",
+      "coordinate_evidence": "Nose centered on head/neck axis; highest facial point above jaw."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "Up-right: muzzle leads right with a slight upward pitch.",
+      "verdict": "pass",
+      "reason": "Clockwise turn begins without torso rotation.",
+      "horizontal_evidence": "Screen-right muzzle lead.",
+      "vertical_evidence": "Nose above eye line.",
+      "coordinate_evidence": "Nose right of neck centerline and above eye line."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "Up-right: readable right-facing muzzle with nose above the eye line.",
+      "verdict": "pass",
+      "reason": "Ordered intermediate pose; head and upper neck articulate.",
+      "horizontal_evidence": "Screen-right muzzle lead.",
+      "vertical_evidence": "Nose above eye line.",
+      "coordinate_evidence": "Nose clearly right of neck centerline and slightly above eye."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "Up-right: shallow upward pitch and clear right profile.",
+      "verdict": "pass",
+      "reason": "Ordered intermediate pose; still in upper-right quadrant.",
+      "horizontal_evidence": "Screen-right muzzle lead.",
+      "vertical_evidence": "Nose above eye line.",
+      "coordinate_evidence": "Right-facing muzzle; nose marginally above visible eye."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "Definite right: muzzle is level and points screen-right.",
+      "verdict": "pass",
+      "reason": "Unambiguous cardinal anchor.",
+      "horizontal_evidence": "The pointed muzzle extends clearly to screen right from the neck; the amber eye and visible facial profile face right.",
+      "vertical_evidence": "Muzzle approximately level with eye.",
+      "coordinate_evidence": "Muzzle tip lies screen-right of the amber eye and neck axis; muzzle is approximately level with the eye."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "Down-right: muzzle stays aimed right and sits slightly below the eye line; this shallow pitch is hard to distinguish in the blind vertical pair.",
+      "verdict": "warning",
+      "reason": "Normal-size labeled sheet supports down-right, but independent blind vertical review called this pose ambiguous; retained as warning.",
+      "horizontal_evidence": "Screen-right muzzle lead.",
+      "vertical_evidence": "Nose below eye line.",
+      "coordinate_evidence": "Nose and visible amber eye face right; nose marginally below eye."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "Down-right: nose clearly descends while the muzzle still leads right.",
+      "verdict": "pass",
+      "reason": "Ordered progression deeper into lower-right quadrant.",
+      "horizontal_evidence": "Screen-right muzzle lead.",
+      "vertical_evidence": "Nose below eye line.",
+      "coordinate_evidence": "Nose right of neck axis and distinctly below eye."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "Down-right: strong downward pitch approaching the back-facing down view.",
+      "verdict": "pass",
+      "reason": "Approaches down cardinal without reversal.",
+      "horizontal_evidence": "Screen-right muzzle lead.",
+      "vertical_evidence": "Nose below eye line.",
+      "coordinate_evidence": "Nose leads right and downward relative to neck."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "Definite down: rear of skull/crest faces viewer and head points down.",
+      "verdict": "pass",
+      "reason": "Unambiguous cardinal anchor.",
+      "horizontal_evidence": "No strong horizontal lead at the cardinal.",
+      "vertical_evidence": "Vertical cardinal is clear from skull/crest orientation.",
+      "coordinate_evidence": "No lateral lead; posterior crest centered over neck, head points down."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "Down-left: head turns left while pitching down.",
+      "verdict": "pass",
+      "reason": "Ordered transition from down toward left.",
+      "horizontal_evidence": "Screen-left muzzle lead.",
+      "vertical_evidence": "Nose below eye line.",
+      "coordinate_evidence": "Nose left of neck axis and below eye."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "Down-left: visible leftward muzzle progression with downward pitch.",
+      "verdict": "pass",
+      "reason": "Lower-left direction remains readable.",
+      "horizontal_evidence": "Screen-left muzzle lead.",
+      "vertical_evidence": "Nose below eye line.",
+      "coordinate_evidence": "Leftward muzzle lead with nose below eye."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "Down-left: profile leads left and remains below level.",
+      "verdict": "pass",
+      "reason": "Continues toward left cardinal without reversal.",
+      "horizontal_evidence": "Screen-left muzzle lead.",
+      "vertical_evidence": "Nose below eye line.",
+      "coordinate_evidence": "Nose leads left and downward."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "Definite left: muzzle is level and points screen-left.",
+      "verdict": "pass",
+      "reason": "Unambiguous cardinal anchor.",
+      "horizontal_evidence": "The pointed muzzle extends clearly to screen left from the neck; the amber eye and visible facial profile face left.",
+      "vertical_evidence": "Muzzle approximately level with eye.",
+      "coordinate_evidence": "Muzzle tip lies screen-left of the amber eye and neck axis; muzzle is approximately level with the eye."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "Up-left: muzzle leads left and rises above the eye line.",
+      "verdict": "pass",
+      "reason": "Ordered transition from left toward up.",
+      "horizontal_evidence": "Screen-left muzzle lead.",
+      "vertical_evidence": "Nose above eye line.",
+      "coordinate_evidence": "Nose left of neck axis and above eye."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "Up-left: clear leftward turn with upward pitch.",
+      "verdict": "pass",
+      "reason": "Upper-left direction remains readable.",
+      "horizontal_evidence": "Screen-left muzzle lead.",
+      "vertical_evidence": "Nose above eye line.",
+      "coordinate_evidence": "Leftward muzzle lead with nose above eye."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "Up-left: leftward profile continues rising toward the up endpoint.",
+      "verdict": "pass",
+      "reason": "Continues toward up cardinal without reversal.",
+      "horizontal_evidence": "Screen-left muzzle lead.",
+      "vertical_evidence": "Nose above eye line.",
+      "coordinate_evidence": "Nose leads left and upward toward centered up pose."
+    }
+  ]
+}

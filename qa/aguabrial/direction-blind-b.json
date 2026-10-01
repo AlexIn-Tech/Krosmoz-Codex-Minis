@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A's tapered muzzle runs toward the amber eye and tip on the right; B's muzzle and jaw angle left."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A's narrow snout and eye face left; B's pointed muzzle and jaw face right."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A's muzzle ends to the right of its amber eye; B's muzzle ends to the left of its eye."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A's slim muzzle extends right; B's jaw and muzzle taper left."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"A's eye sits behind a leftward-pointing narrow muzzle; B's muzzle points right past the eye."},
+    {"pair":"horizontal-6","A":"screen-right","B":"screen-left","reason":"A's lowered snout angles right of the amber eye; B's lowered snout angles left."},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","reason":"A's bowed head has its narrow muzzle to the left; B's bowed muzzle points right."},
+    {"pair":"vertical-1","A":"up","B":"down","reason":"A's muzzle and jaw lift above the neck; B's face points down toward the torso."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A's tapered muzzle rises to the right; B's head bends down toward the chest."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A's amber eye and muzzle are on a bowed, downward-facing head; B's muzzle lifts upward."},
+    {"pair":"vertical-4","A":"up","B":"up","reason":"Both heads sit above the necks with the muzzles angled upward to the right."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A's head droops with muzzle aimed down-left; B's neck rises into an upright, upward-facing head."},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A's muzzle is carried above the neck; B's long neck bends forward and its muzzle points down."},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A's head and muzzle dip leftward; B's head is raised with its muzzle above the neck."}
+  ]
+}

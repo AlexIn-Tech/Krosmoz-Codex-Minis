@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's narrow muzzle and amber eye face right; B's face landmarks face left."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's muzzle projects right of the neck; B's muzzle projects left."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's nose and eye line point right; B's point left."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "The narrow muzzle points right in A and left in B."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's amber eye and muzzle face right; B's face points left."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's muzzle angles down-right; B's angles down-left."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "The near-frontal A muzzle leans left; B's muzzle leans right."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A's muzzle rises along the neck; B's face and muzzle angle down toward the chest."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A's eye-to-muzzle line rises rightward; B's face bends down toward the body."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A's face points down-left; B's narrow muzzle points up-right."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Both faces are nearly level in the enlarged crops; the neck rises but the muzzle has no clear up/down tilt."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A's visible face angles down-left; B's face is clipped in the crop and the retained view gives no clear vertical muzzle tilt."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "down",
+      "reason": "Both muzzles tilt downward from their eyes, A to the right and B to the left."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A's muzzle angles down-left; B's face is nearly horizontal with no clear vertical tilt."
+    }
+  ]
+}

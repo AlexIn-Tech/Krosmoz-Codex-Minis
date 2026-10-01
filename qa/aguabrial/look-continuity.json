@@ -1,0 +1,265 @@
+{
+  "ok": true,
+  "reviewRequired": true,
+  "medianDiffPixels": 4133.0,
+  "warnings": [
+    "000 has transparent interior hole rows (y=79, y=96, y=97)",
+    "022.5 has transparent interior hole rows (y=95, y=96, y=97)",
+    "247.5 has transparent interior hole rows (y=85, y=86, y=87, y=88, +1 more)",
+    "292.5 has transparent interior hole rows (y=84)",
+    "315 has transparent interior hole rows (y=80, y=81, y=82, y=195)"
+  ],
+  "alphaHoles": [
+    {
+      "direction": "000",
+      "holes": [
+        {
+          "row": 79,
+          "transparentPixels": 34,
+          "spanPixels": 97
+        },
+        {
+          "row": 96,
+          "transparentPixels": 34,
+          "spanPixels": 118
+        },
+        {
+          "row": 97,
+          "transparentPixels": 33,
+          "spanPixels": 120
+        }
+      ]
+    },
+    {
+      "direction": "022.5",
+      "holes": [
+        {
+          "row": 95,
+          "transparentPixels": 35,
+          "spanPixels": 114
+        },
+        {
+          "row": 96,
+          "transparentPixels": 35,
+          "spanPixels": 116
+        },
+        {
+          "row": 97,
+          "transparentPixels": 33,
+          "spanPixels": 118
+        }
+      ]
+    },
+    {
+      "direction": "247.5",
+      "holes": [
+        {
+          "row": 85,
+          "transparentPixels": 35,
+          "spanPixels": 98
+        },
+        {
+          "row": 86,
+          "transparentPixels": 35,
+          "spanPixels": 99
+        },
+        {
+          "row": 87,
+          "transparentPixels": 35,
+          "spanPixels": 98
+        },
+        {
+          "row": 88,
+          "transparentPixels": 35,
+          "spanPixels": 99
+        },
+        {
+          "row": 89,
+          "transparentPixels": 34,
+          "spanPixels": 98
+        }
+      ]
+    },
+    {
+      "direction": "292.5",
+      "holes": [
+        {
+          "row": 84,
+          "transparentPixels": 34,
+          "spanPixels": 103
+        }
+      ]
+    },
+    {
+      "direction": "315",
+      "holes": [
+        {
+          "row": 80,
+          "transparentPixels": 34,
+          "spanPixels": 101
+        },
+        {
+          "row": 81,
+          "transparentPixels": 35,
+          "spanPixels": 101
+        },
+        {
+          "row": 82,
+          "transparentPixels": 33,
+          "spanPixels": 103
+        },
+        {
+          "row": 195,
+          "transparentPixels": 38,
+          "spanPixels": 64
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "from": "000",
+      "to": "022.5",
+      "firstPixels": 14310,
+      "secondPixels": 14504,
+      "diffPixels": 4220,
+      "centerDelta": 2.0,
+      "areaRatio": 1.0135569531795947
+    },
+    {
+      "from": "022.5",
+      "to": "045",
+      "firstPixels": 14504,
+      "secondPixels": 14385,
+      "diffPixels": 4206,
+      "centerDelta": 1.118033988749895,
+      "areaRatio": 1.0082725060827251
+    },
+    {
+      "from": "045",
+      "to": "067.5",
+      "firstPixels": 14385,
+      "secondPixels": 14436,
+      "diffPixels": 4060,
+      "centerDelta": 1.118033988749895,
+      "areaRatio": 1.0035453597497392
+    },
+    {
+      "from": "067.5",
+      "to": "090",
+      "firstPixels": 14436,
+      "secondPixels": 14677,
+      "diffPixels": 2770,
+      "centerDelta": 0.5,
+      "areaRatio": 1.016694375173178
+    },
+    {
+      "from": "090",
+      "to": "112.5",
+      "firstPixels": 14677,
+      "secondPixels": 14362,
+      "diffPixels": 3706,
+      "centerDelta": 2.1213203435596424,
+      "areaRatio": 1.0219328784291881
+    },
+    {
+      "from": "112.5",
+      "to": "135",
+      "firstPixels": 14362,
+      "secondPixels": 14167,
+      "diffPixels": 3465,
+      "centerDelta": 2.692582403567252,
+      "areaRatio": 1.0137643820145408
+    },
+    {
+      "from": "135",
+      "to": "157.5",
+      "firstPixels": 14167,
+      "secondPixels": 13699,
+      "diffPixels": 5185,
+      "centerDelta": 2.5,
+      "areaRatio": 1.0341630775969048
+    },
+    {
+      "from": "157.5",
+      "to": "180",
+      "firstPixels": 13699,
+      "secondPixels": 13903,
+      "diffPixels": 4902,
+      "centerDelta": 1.5811388300841898,
+      "areaRatio": 1.014891597926856
+    },
+    {
+      "from": "180",
+      "to": "202.5",
+      "firstPixels": 13903,
+      "secondPixels": 14188,
+      "diffPixels": 4210,
+      "centerDelta": 7.0178344238090995,
+      "areaRatio": 1.0204991728403943
+    },
+    {
+      "from": "202.5",
+      "to": "225",
+      "firstPixels": 14188,
+      "secondPixels": 14416,
+      "diffPixels": 3302,
+      "centerDelta": 1.118033988749895,
+      "areaRatio": 1.0160699182407669
+    },
+    {
+      "from": "225",
+      "to": "247.5",
+      "firstPixels": 14416,
+      "secondPixels": 14092,
+      "diffPixels": 3128,
+      "centerDelta": 1.5811388300841898,
+      "areaRatio": 1.0229917683792222
+    },
+    {
+      "from": "247.5",
+      "to": "270",
+      "firstPixels": 14092,
+      "secondPixels": 14195,
+      "diffPixels": 3799,
+      "centerDelta": 1.118033988749895,
+      "areaRatio": 1.007309111552654
+    },
+    {
+      "from": "270",
+      "to": "292.5",
+      "firstPixels": 14195,
+      "secondPixels": 14339,
+      "diffPixels": 4774,
+      "centerDelta": 1.5811388300841898,
+      "areaRatio": 1.0101444170482565
+    },
+    {
+      "from": "292.5",
+      "to": "315",
+      "firstPixels": 14339,
+      "secondPixels": 14802,
+      "diffPixels": 3818,
+      "centerDelta": 1.4142135623730951,
+      "areaRatio": 1.0322895599414186
+    },
+    {
+      "from": "315",
+      "to": "337.5",
+      "firstPixels": 14802,
+      "secondPixels": 14249,
+      "diffPixels": 5851,
+      "centerDelta": 2.8284271247461903,
+      "areaRatio": 1.0388097410344586
+    },
+    {
+      "from": "337.5",
+      "to": "000",
+      "firstPixels": 14249,
+      "secondPixels": 14310,
+      "diffPixels": 6387,
+      "centerDelta": 4.242640687119285,
+      "areaRatio": 1.0042810021755912
+    }
+  ]
+}

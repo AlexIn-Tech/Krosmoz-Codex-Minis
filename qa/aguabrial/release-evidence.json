@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "pet.json": "bfe293418e755fd9409ff1a3f1d432ef919d5d76e41573ff0c716de4761948e4",
+    "spritesheet.webp": "2e50721590ba0f1a105b74bf587aa1a6e76ff073b498dafcf641e65e95845fa0"
+  },
+  "previewSha256": "0282e5280fc42709c1c64f697ebda41484b2b98331d74a2cc0fc4390444387a3",
+  "reports": {
+    "atlas-validation.json": "ae240e607e0bcd98a5569ff30fdcb42b25a7543c2f33782670dcf2ed76cb4878",
+    "chroma-despill.json": "fa4e0ba203405b7b1ed003a5bf351cc1d4e42bcb741866c77f023c91f41e6988",
+    "frame-review.json": "436a4839a8a9f4ae0cf730e56ef8e93e26ac607fd1a0ef1dbfe09a33924b085e",
+    "direction-blind-validation.json": "c981a24d7bcf3be76726d619d06c6ce65b737c9f88eb06f21eb2c99564fe5738",
+    "pet-quality.json": "e9c40e671de1bfe6ce1f7324841795a30b67340605e19fcbd8bbdbec7ced2162",
+    "direction-semantics.json": "ca1e8afe9d207ccdd8033a162bacd6033e167e0b9e9d8d2050aa5b63e37fda0a",
+    "look-continuity.json": "5f7b3c9c83f8573d27b714e43575a92282ce0fc013b1b644f3b830589ea0042f",
+    "visual-qa.json": "c727d171b671446ac381633d7071363518b24f86292682a5267785bef997b14b"
+  },
+  "supplemental": {
+    "alpha-topology.json": "410b46047b765cc47b1463b6445fa34a7925da4c1f3245ef4d38435e68e85560",
+    "look-alpha-contact.png": "73e7701b6706a1043f7d901e575bd8417fde5d30ce07e21b311e7db47f564f17",
+    "direction-blind-a.json": "eeb324bc667fa2bce4781e10dc9bc964a01773d5b8c586c7d1812a95af2f63ff",
+    "direction-blind-b.json": "c1507eac6f2034bf589dba1689faae07291ba380d45deebf70139ffd7c1bc33e",
+    "direction-blind-c.json": "03947dc6842a535f03773f2876c4ef81216965bd905f1d9651242c47cf024449",
+    "blind-review-resolution.json": "ff5166a22e947b3d865a2123f5cccae6a5e44020a31487a5bac71980916d1c05",
+    "blind-head-panel-provenance.json": "78270f60e538eb147d3c8473583163e3b91279def046be1722b4327bf0574b3d",
+    "blind-horizontal-1-4-heads.png": "712a8ec4e81c7acf47e93d88909f93c8604b312fece3a7360354f2fe37b4fb30",
+    "blind-horizontal-5-7-heads.png": "ab835eca4a696d45dc242ba1da5a093415009bc67d58ea207502104af11b419b",
+    "blind-vertical-1-4-heads.png": "6d7dac7b49daa7e2f2b7a67dc8f2a0f3fe6e9025623d7c9440e4fe1db8ce1cc9",
+    "blind-vertical-5-7-heads.png": "ce811e9852c1da4e75b661435d4fc741d8bb134e495e27a9617702033ff8479d"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A's amber eye and narrow muzzle face right above a right-flexed upper neck; B's visible eye and jaw face left above a left-flexed neck."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A's pointed muzzle and jaw extend left with the eye above; B's muzzle extends right with the amber eye above it."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A's narrow jaw and muzzle point right; B's eye and muzzle are oriented left, with the upper neck following that turn."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A's eye sits above a muzzle extending to the right; B's eye sits above a muzzle extending to the left."},
+    {"pair":"horizontal-5","A":"screen-right","B":"screen-left","reason":"A's amber eye, jaw, and tapered muzzle face right; B's corresponding landmarks face left."},
+    {"pair":"horizontal-6","A":"screen-right","B":"screen-left","reason":"A's muzzle angles down-right and the eye is on its upper side; B's muzzle angles down-left with the eye above it."},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","reason":"A's visible eye and narrow muzzle point down-left; B's visible eye and muzzle point down-right."},
+    {"pair":"vertical-1","A":"up","B":"down","reason":"A's narrow muzzle rises above its amber eye and the upper neck extends upward; B's jaw and muzzle descend toward the chest."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A's eye and tapered muzzle angle up-right; B's face is lowered, with the muzzle angled down toward the body."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A's muzzle and jaw dip down-right below the visible eye; B's eye and narrow muzzle angle up-right."},
+    {"pair":"vertical-4","A":"down","B":"up","reason":"A's muzzle slopes slightly below the eye and the upper neck bends down; B's muzzle rises slightly above the eye with the neck bending up."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A's eye and snout angle down-left with the upper neck folded forward; B's head and neck extend upward."},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A's amber eye and tapered muzzle sit on an upward-angled head; B's eye and muzzle are lowered toward the torso."},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A's muzzle slopes down-left below its eye; B's muzzle rises to the right above its eye, following an upward neck line."}
+  ]
+}

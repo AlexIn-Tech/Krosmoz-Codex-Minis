@@ -1,0 +1,39 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "2e50721590ba0f1a105b74bf587aa1a6e76ff073b498dafcf641e65e95845fa0",
+  "motion_review": "Reviewed the actual GIF frames directly: qa/final-previews/idle.gif (6), running-right.gif (8), running-left.gif (8), waving.gif (4), jumping.gif (5), failed.gif (8), waiting.gif (6), running.gif (6), and review.gif (6), totaling 57 frames. The frame mosaic is qa/final-gif-frames-review.png. All cycles read clearly with stable framing and no conspicuous snap, body rotation, or identity drift. The turquoise aquatic dragon retains its amber-eyed face, branched crest, connected tendrils, oval wing openings, feet and curled tail.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": "6 frames: upright idle, blink visible; silhouette and details remain stable.",
+    "running-right": "8 frames: faces right throughout with alternating strides; appendages and tail stay in frame.",
+    "running-left": "8 actual frames in qa/final-previews/running-left.gif: a separately generated left-facing running cycle (not a mirror). All frames face left; alternating strides read clearly, with the same turquoise dragon identity and tail/wing details retained.",
+    "waving": "4 frames: forepaw lifts and returns while body scale and footing stay steady.",
+    "jumping": "5 frames: crouch, takeoff, apex, descent, landing; coherent arc with stable character scale.",
+    "failed": "8 frames: drooped opening pose progresses into upright recovery; identity and appendages remain intact.",
+    "waiting": "6 frames: quiet standing loop with subtle attentive head/gaze movement.",
+    "running": "6 frames: compact thinking stance with small body/arm/head adjustments; no locomotion confusion.",
+    "review": "6 frames: alert review stance and subtle head/forelimb movement."
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "The head and upper neck turn through a coherent clockwise sequence while torso, feet, wings and tail remain planted and consistently oriented. Cardinal up/right/down/left are clear; intermediate poses stay ordered and mostly readable. Crest and whiskers remain connected. The 112.5 down-right pitch is shallow and independently ambiguous on vertical blind review, so it is recorded as a warning.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "73e7701b6706a1043f7d901e575bd8417fde5d30ce07e21b311e7db47f564f17",
+    "reason": "Inspected the actual-alpha contact sheet: transparent oval openings are consistent with the designed wing apertures; no accidental transparent opening through the torso/body is visible. The isolated lower 315 suspect lies in the leg/foot separation, not a body puncture."
+  },
+  "warnings": [
+    "Direction 112.5 is only shallowly below level and was ambiguous to the blind vertical reviewer; labeled normal-size sequence supports down-right with no wrong quadrant or reversal."
+  ],
+  "repair_rows": [],
+  "notes": "Atlas SHA256 matches the requested final artifact. Existing deterministic chroma and validator PASS are accepted as authoritative; no chroma retry was performed. Cardinal landmark evidence for 090/right and 270/left was checked on enlarged crops from the actual final atlas (qa/cardinal-landmarks-090-270-review.png): muzzle tips extend screen-right and screen-left respectively, while the amber eye confirms each facing direction. "
+}

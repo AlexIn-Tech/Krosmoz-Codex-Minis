@@ -11,7 +11,12 @@
       "id": "aguabrial",
       "name": "Aguabrial",
       "category": "dragons",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/aguabrial.gif",
+      "package": {
+        "pet.json": "bfe293418e755fd9409ff1a3f1d432ef919d5d76e41573ff0c716de4761948e4",
+        "spritesheet.webp": "2e50721590ba0f1a105b74bf587aa1a6e76ff073b498dafcf641e65e95845fa0"
+      }
     },
     {
       "id": "ignemikhal",
