@@ -1,0 +1,416 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "7153c9ce1d83ff7af3970c56cace2e96cfeb12cceee4a065293eedcd3bf013ad",
+  "motion_review": "Fresh inspection of exact final WebP contact sheet and all nine GIFs decoded into every ordered 192x208 frame: all 57 state frames read correctly, with no conspicuous scale/baseline pop, clipping, new props, loose effects or detached paws. Grounded jumps lift and land; work is paw-to-jaw contemplation and review bows/blinks. Heavy red reference identity remains recognizable across all states.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "standard_frames_reviewed": 57,
+  "state_reviews": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames_reviewed": 6,
+      "verdict": "pass",
+      "evidence": "0: Resting open amber eyes and planted heavy forelegs; 1: Small calm head/breath change, same planted stance; 2: Breath settles with jaw and gold belly intact; 3: Eyelids lowered in blink approach; 4: Eyes closed in actual blink, body remains rooted; 5: Original eyes reopen into rest",
+      "ordered_frame_evidence": [
+        {
+          "frame": 0,
+          "observed": "Resting open amber eyes and planted heavy forelegs",
+          "verdict": "pass"
+        },
+        {
+          "frame": 1,
+          "observed": "Small calm head/breath change, same planted stance",
+          "verdict": "pass"
+        },
+        {
+          "frame": 2,
+          "observed": "Breath settles with jaw and gold belly intact",
+          "verdict": "pass"
+        },
+        {
+          "frame": 3,
+          "observed": "Eyelids lowered in blink approach",
+          "verdict": "pass"
+        },
+        {
+          "frame": 4,
+          "observed": "Eyes closed in actual blink, body remains rooted",
+          "verdict": "pass"
+        },
+        {
+          "frame": 5,
+          "observed": "Original eyes reopen into rest",
+          "verdict": "pass"
+        }
+      ],
+      "motion": "Ordered native-size GIF frames preserve red torso, oversized attached forelegs, gold jaw/belly/claws, dark bat wings and plated tail; no clipped limbs, detached effects, unexpected size pop or travel."
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames_reviewed": 8,
+      "verdict": "pass",
+      "evidence": "0: Right snout and long near foreleg reach; 1: Near foreleg compresses and other forepaw advances; 2: Near reach extends again with rear-foot exchange; 3: Heavy reach and back-foot lift; 4: Compressed foreleg phase and opposite paw down; 5: Near paw bends and lifts ahead of body; 6: Next reach extends with changed rear support; 7: Long rightward extension returns toward first phase",
+      "ordered_frame_evidence": [
+        {
+          "frame": 0,
+          "observed": "Right snout and long near foreleg reach",
+          "verdict": "pass"
+        },
+        {
+          "frame": 1,
+          "observed": "Near foreleg compresses and other forepaw advances",
+          "verdict": "pass"
+        },
+        {
+          "frame": 2,
+          "observed": "Near reach extends again with rear-foot exchange",
+          "verdict": "pass"
+        },
+        {
+          "frame": 3,
+          "observed": "Heavy reach and back-foot lift",
+          "verdict": "pass"
+        },
+        {
+          "frame": 4,
+          "observed": "Compressed foreleg phase and opposite paw down",
+          "verdict": "pass"
+        },
+        {
+          "frame": 5,
+          "observed": "Near paw bends and lifts ahead of body",
+          "verdict": "pass"
+        },
+        {
+          "frame": 6,
+          "observed": "Next reach extends with changed rear support",
+          "verdict": "pass"
+        },
+        {
+          "frame": 7,
+          "observed": "Long rightward extension returns toward first phase",
+          "verdict": "pass"
+        }
+      ],
+      "motion": "Ordered native-size GIF frames preserve red torso, oversized attached forelegs, gold jaw/belly/claws, dark bat wings and plated tail; no clipped limbs, detached effects, unexpected size pop or travel."
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames_reviewed": 8,
+      "verdict": "pass",
+      "evidence": "0: Left snout and near foreleg extends left; 1: Near paw compresses and opposite paw comes forward; 2: Near foreleg reaches left again; 3: Far foot changes support below belly; 4: Near paw lifts into curled compression; 5: Long near foreleg reaches with rear exchange; 6: Another compressed support phase; 7: Reach returns toward initial left stride",
+      "ordered_frame_evidence": [
+        {
+          "frame": 0,
+          "observed": "Left snout and near foreleg extends left",
+          "verdict": "pass"
+        },
+        {
+          "frame": 1,
+          "observed": "Near paw compresses and opposite paw comes forward",
+          "verdict": "pass"
+        },
+        {
+          "frame": 2,
+          "observed": "Near foreleg reaches left again",
+          "verdict": "pass"
+        },
+        {
+          "frame": 3,
+          "observed": "Far foot changes support below belly",
+          "verdict": "pass"
+        },
+        {
+          "frame": 4,
+          "observed": "Near paw lifts into curled compression",
+          "verdict": "pass"
+        },
+        {
+          "frame": 5,
+          "observed": "Long near foreleg reaches with rear exchange",
+          "verdict": "pass"
+        },
+        {
+          "frame": 6,
+          "observed": "Another compressed support phase",
+          "verdict": "pass"
+        },
+        {
+          "frame": 7,
+          "observed": "Reach returns toward initial left stride",
+          "verdict": "pass"
+        }
+      ],
+      "motion": "Ordered native-size GIF frames preserve red torso, oversized attached forelegs, gold jaw/belly/claws, dark bat wings and plated tail; no clipped limbs, detached effects, unexpected size pop or travel."
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames_reviewed": 4,
+      "verdict": "pass",
+      "evidence": "0: Resting connected forelegs; 1: Screen-left paw raises at elbow, connected to shoulder; 2: Same attached paw lifted high with gold claws; 3: Paw returns to planted rest",
+      "ordered_frame_evidence": [
+        {
+          "frame": 0,
+          "observed": "Resting connected forelegs",
+          "verdict": "pass"
+        },
+        {
+          "frame": 1,
+          "observed": "Screen-left paw raises at elbow, connected to shoulder",
+          "verdict": "pass"
+        },
+        {
+          "frame": 2,
+          "observed": "Same attached paw lifted high with gold claws",
+          "verdict": "pass"
+        },
+        {
+          "frame": 3,
+          "observed": "Paw returns to planted rest",
+          "verdict": "pass"
+        }
+      ],
+      "motion": "Ordered native-size GIF frames preserve red torso, oversized attached forelegs, gold jaw/belly/claws, dark bat wings and plated tail; no clipped limbs, detached effects, unexpected size pop or travel."
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames_reviewed": 5,
+      "verdict": "pass",
+      "evidence": "0: Grounded crouch, low body and bent legs; 1: Whole body lifts with feet above crouch baseline; 2: Peak higher than lift with tucked legs, same head mass; 3: Descending whole body with feet still lifted; 4: Grounded crouch restores first baseline",
+      "ordered_frame_evidence": [
+        {
+          "frame": 0,
+          "observed": "Grounded crouch, low body and bent legs",
+          "verdict": "pass"
+        },
+        {
+          "frame": 1,
+          "observed": "Whole body lifts with feet above crouch baseline",
+          "verdict": "pass"
+        },
+        {
+          "frame": 2,
+          "observed": "Peak higher than lift with tucked legs, same head mass",
+          "verdict": "pass"
+        },
+        {
+          "frame": 3,
+          "observed": "Descending whole body with feet still lifted",
+          "verdict": "pass"
+        },
+        {
+          "frame": 4,
+          "observed": "Grounded crouch restores first baseline",
+          "verdict": "pass"
+        }
+      ],
+      "motion": "Ordered native-size GIF frames preserve red torso, oversized attached forelegs, gold jaw/belly/claws, dark bat wings and plated tail; no clipped limbs, detached effects, unexpected size pop or travel."
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames_reviewed": 8,
+      "verdict": "pass",
+      "evidence": "0: Closed eyes and chest/head slumped close to ground; 1: Closed eyes with crouched foreleg support; 2: Low bowed head and closed eyelids; 3: Head and chest begin rising, eyes remain closed; 4: Recovered stance, amber eyes reopen; 5: Planted heavy body with recovering raised jaw; 6: Eyes and posture return toward rest; 7: Stable recovered pose closes loop",
+      "ordered_frame_evidence": [
+        {
+          "frame": 0,
+          "observed": "Closed eyes and chest/head slumped close to ground",
+          "verdict": "pass"
+        },
+        {
+          "frame": 1,
+          "observed": "Closed eyes with crouched foreleg support",
+          "verdict": "pass"
+        },
+        {
+          "frame": 2,
+          "observed": "Low bowed head and closed eyelids",
+          "verdict": "pass"
+        },
+        {
+          "frame": 3,
+          "observed": "Head and chest begin rising, eyes remain closed",
+          "verdict": "pass"
+        },
+        {
+          "frame": 4,
+          "observed": "Recovered stance, amber eyes reopen",
+          "verdict": "pass"
+        },
+        {
+          "frame": 5,
+          "observed": "Planted heavy body with recovering raised jaw",
+          "verdict": "pass"
+        },
+        {
+          "frame": 6,
+          "observed": "Eyes and posture return toward rest",
+          "verdict": "pass"
+        },
+        {
+          "frame": 7,
+          "observed": "Stable recovered pose closes loop",
+          "verdict": "pass"
+        }
+      ],
+      "motion": "Ordered native-size GIF frames preserve red torso, oversized attached forelegs, gold jaw/belly/claws, dark bat wings and plated tail; no clipped limbs, detached effects, unexpected size pop or travel."
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames_reviewed": 6,
+      "verdict": "pass",
+      "evidence": "0: Rooted rest with eyes open; 1: One attached paw extends palm outward, expectant eyes raised; 2: Asking paw higher, body stays supported; 3: Same asking paw and closed blink; 4: Paw lowers toward ground while expectant eyes reopen; 5: Rooted open-eyed finish, paw near baseline",
+      "ordered_frame_evidence": [
+        {
+          "frame": 0,
+          "observed": "Rooted rest with eyes open",
+          "verdict": "pass"
+        },
+        {
+          "frame": 1,
+          "observed": "One attached paw extends palm outward, expectant eyes raised",
+          "verdict": "pass"
+        },
+        {
+          "frame": 2,
+          "observed": "Asking paw higher, body stays supported",
+          "verdict": "pass"
+        },
+        {
+          "frame": 3,
+          "observed": "Same asking paw and closed blink",
+          "verdict": "pass"
+        },
+        {
+          "frame": 4,
+          "observed": "Paw lowers toward ground while expectant eyes reopen",
+          "verdict": "pass"
+        },
+        {
+          "frame": 5,
+          "observed": "Rooted open-eyed finish, paw near baseline",
+          "verdict": "pass"
+        }
+      ],
+      "motion": "Ordered native-size GIF frames preserve red torso, oversized attached forelegs, gold jaw/belly/claws, dark bat wings and plated tail; no clipped limbs, detached effects, unexpected size pop or travel."
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames_reviewed": 6,
+      "verdict": "pass",
+      "evidence": "0: Rooted heavy body and resting forepaws; 1: One paw bends up under gold jaw in thinking pose; 2: Paw maintains jaw contact, original belly segments stay visible; 3: Thoughtful closed-eye blink with paw at jaw; 4: Open eyes and continued jaw/paw contemplation; 5: Paw returns to ground without gait or travel",
+      "ordered_frame_evidence": [
+        {
+          "frame": 0,
+          "observed": "Rooted heavy body and resting forepaws",
+          "verdict": "pass"
+        },
+        {
+          "frame": 1,
+          "observed": "One paw bends up under gold jaw in thinking pose",
+          "verdict": "pass"
+        },
+        {
+          "frame": 2,
+          "observed": "Paw maintains jaw contact, original belly segments stay visible",
+          "verdict": "pass"
+        },
+        {
+          "frame": 3,
+          "observed": "Thoughtful closed-eye blink with paw at jaw",
+          "verdict": "pass"
+        },
+        {
+          "frame": 4,
+          "observed": "Open eyes and continued jaw/paw contemplation",
+          "verdict": "pass"
+        },
+        {
+          "frame": 5,
+          "observed": "Paw returns to ground without gait or travel",
+          "verdict": "pass"
+        }
+      ],
+      "motion": "Ordered native-size GIF frames preserve red torso, oversized attached forelegs, gold jaw/belly/claws, dark bat wings and plated tail; no clipped limbs, detached effects, unexpected size pop or travel."
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames_reviewed": 6,
+      "verdict": "pass",
+      "evidence": "0: Resting open-eyed inspection start; 1: Head bows to inspect low/front area; 2: Deeper bow with original eye region naturally under brow; 3: Head raises back into inspection stance; 4: Blink closes eyes while feet remain planted; 5: Original eyes reopen, head settles to beginning",
+      "ordered_frame_evidence": [
+        {
+          "frame": 0,
+          "observed": "Resting open-eyed inspection start",
+          "verdict": "pass"
+        },
+        {
+          "frame": 1,
+          "observed": "Head bows to inspect low/front area",
+          "verdict": "pass"
+        },
+        {
+          "frame": 2,
+          "observed": "Deeper bow with original eye region naturally under brow",
+          "verdict": "pass"
+        },
+        {
+          "frame": 3,
+          "observed": "Head raises back into inspection stance",
+          "verdict": "pass"
+        },
+        {
+          "frame": 4,
+          "observed": "Blink closes eyes while feet remain planted",
+          "verdict": "pass"
+        },
+        {
+          "frame": 5,
+          "observed": "Original eyes reopen, head settles to beginning",
+          "verdict": "pass"
+        }
+      ],
+      "motion": "Ordered native-size GIF frames preserve red torso, oversized attached forelegs, gold jaw/belly/claws, dark bat wings and plated tail; no clipped limbs, detached effects, unexpected size pop or travel."
+    }
+  ],
+  "look_directions_reviewed": 16,
+  "look_review": "Fresh native row 9 and row 10 pixels and labeled sheet show clockwise raised centered UP -> raised RIGHT -> RIGHT -> bowed RIGHT -> centered DOWN -> bowed LEFT -> LEFT -> raised LEFT -> UP. Head/gold jaw/neck lead; torso, feet, wing roots, tail plating remain registered. 000 has raised chin/exposed face; 090 actual right snout; 180 bowed original red face with natural brow eye occlusion; 270 actual left snout. The repaired sixth row-10 cell 292.5 has slight chin elevation and remains left/up. Compressed intermediate pitch is advisory; no wrong cardinal, wrong quadrant, turntable, reversal or conspicuous snap.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "033fc6695f113848b1157f2e55adbf49e7d5b9201a110d99321416ea60c6e842",
+    "reason": "Inspected actual alpha contact and all native look cells on cyan high-contrast background, with alpha-topology and continuity suspect locations. Lower y=164-169 spans are spaces between claws/legs and below belly; head-level suspects lie on wing/horn/head silhouette notches. Four-neighbor alpha-zero components include tiny antialiased boundary enclosures; no visible punched-through red torso, gold jaw/belly or amber iris, no seam band or broken attachment. 157.5->180 changes head orientation while same body anchors remain fixed."
+  },
+  "warnings": [
+    "Intermediate 022.5/045 raised-right poses have compressed angular spacing.",
+    "247.5 downward-left pitch is mild near left cardinal.",
+    "292.5 upward-left chin raise is slight near left cardinal.",
+    "180 brows naturally occlude eyes in deep bow; original red face and gold jaw remain intact.",
+    "Minor natural far-leg occlusion in moving poses; visible feet remain attached."
+  ],
+  "repair_rows": [],
+  "inspection_artifacts": [
+    "qa/contact-sheet-extended.png",
+    "qa/look-directions.png",
+    "qa/look-alpha-contact.png",
+    "qa/fresh-final-review/*.png"
+  ],
+  "blind_review": "Independent blind reviewers are handled separately; this report does not assert their outcome."
+}

@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-left","B":"screen-right","reason":"A's raised gold muzzle projects left of the eye and neck; B's gold snout and chin project right of the eye, with the neck rising toward that tip."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A's broad snout extends to the left of the cheek and throat; B's snout tip is right of its eye and its gold throat bends toward the right."},
+    {"pair":"horizontal-3","A":"screen-left","B":"screen-right","reason":"A has a leftmost gold muzzle beyond the cheek; B's broad gold jaw ends to the right of the cheek, with the eye looking along that rightward head axis."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A's eye-to-nose line and broad chin extend right from the neck; B's muzzle extends left beyond the eye and cheek despite the unchanged body."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"A's gold snout is left of the cheek and neck; B's gold chin and red nose project right of the visible eye and throat."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"A's lowered snout reaches down-left from its skull and cheek; B's lowered nose and gold chin reach down-right from the eye and neck."},
+    {"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"A's steeply lowered head ends in a muzzle to the right of the neck and cheek; B's nose and gold jaw descend toward the left of its visible cheek."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A's crown and eyes sit above a deeply lowered nose and chin; B exposes the underside of its raised gold jaw over an extended upright throat."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A's nose rises above its cheek with an exposed gold jaw underside and rising neck; B's nose and chin descend below the eye as the skull pitches forward."},
+    {"pair":"vertical-3","A":"up","B":"down","reason":"A's broad gold muzzle tilts upward and shows its underside; B's red brow slopes down toward the nose and the gold chin is lowered in front of the neck."},
+    {"pair":"vertical-4","A":"down","B":"up","reason":"A's brow and eye-to-snout line descend toward the rightmost nose, with the chin lowered; B's nose rises from the cheek and the visible jaw underside and curved throat lead upward."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A's skull pitches toward a low leftward muzzle and chin; B lifts its leftward snout above the cheek and stretches the gold throat beneath the raised jaw."},
+    {"pair":"vertical-6","A":"down","B":"ambiguous","reason":"A's nose and gold chin visibly descend from the crown toward the left; B has an upright throat but its muzzle and eye-to-nose axis are close to horizontal, without a clear enough head pitch."},
+    {"pair":"vertical-7","A":"ambiguous","B":"ambiguous","reason":"Both broad gold muzzles extend primarily left, with nearly level eye-to-snout lines and only slight chin-height differences; neither image establishes a convincing upward or downward head axis."}
+  ]
+}

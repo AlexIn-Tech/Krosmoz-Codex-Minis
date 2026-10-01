@@ -1,0 +1,174 @@
+{
+  "severity": "minor",
+  "decision": "accept",
+  "atlas_sha256": "7153c9ce1d83ff7af3970c56cace2e96cfeb12cceee4a065293eedcd3bf013ad",
+  "basis": "Native blind cardinals passed; actual independent ordered-loop semantics have no failed direction",
+  "warnings": [
+    "vertical-6 B vertical axis is ambiguous",
+    "vertical-7 A vertical axis is ambiguous",
+    "vertical-7 B vertical axis is ambiguous"
+  ],
+  "independent_review": "Fresh native row 9 and row 10 pixels and labeled sheet show clockwise raised centered UP -> raised RIGHT -> RIGHT -> bowed RIGHT -> centered DOWN -> bowed LEFT -> LEFT -> raised LEFT -> UP. Head/gold jaw/neck lead; torso, feet, wing roots, tail plating remain registered. 000 has raised chin/exposed face; 090 actual right snout; 180 bowed original red face with natural brow eye occlusion; 270 actual left snout. The repaired sixth row-10 cell 292.5 has slight chin elevation and remains left/up. Compressed intermediate pitch is advisory; no wrong cardinal, wrong quadrant, turntable, reversal or conspicuous snap.",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Head centered over throat",
+      "vertical_evidence": "Chin strongly raised; long gold throat exposed and face points upward",
+      "coordinate_evidence": "Actual native atlas row 9, cell 0; viewer x increases right and y increases down. Head centered over throat; Chin strongly raised; long gold throat exposed and face points upward."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed. Similar raised-right pitch to neighbor; degree spacing compressed but correct quadrant.",
+      "horizontal_evidence": "Snout projects right of neck",
+      "vertical_evidence": "Raised gold chin and lengthened throat",
+      "coordinate_evidence": "Actual native atlas row 9, cell 1; viewer x increases right and y increases down. Snout projects right of neck; Raised gold chin and lengthened throat."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed. Similar raised-right pitch to neighbor; degree spacing compressed but correct quadrant.",
+      "horizontal_evidence": "Nose projects strongly right",
+      "vertical_evidence": "Raised chin above neck and visible amber eye",
+      "coordinate_evidence": "Actual native atlas row 9, cell 2; viewer x increases right and y increases down. Nose projects strongly right; Raised chin above neck and visible amber eye."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Gold jaw still projects right",
+      "vertical_evidence": "Chin still raised, pitch easing toward level",
+      "coordinate_evidence": "Actual native atlas row 9, cell 3; viewer x increases right and y increases down. Gold jaw still projects right; Chin still raised, pitch easing toward level."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Actual snout distinctly screen-right",
+      "vertical_evidence": "Jaw approximately level with clear side-facing amber eye",
+      "coordinate_evidence": "Actual native atlas row 9, cell 4; viewer x increases right and y increases down. Actual snout distinctly screen-right; Jaw approximately level with clear side-facing amber eye."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Snout stays to right of neck",
+      "vertical_evidence": "Gold jaw dips below prior right pose",
+      "coordinate_evidence": "Actual native atlas row 9, cell 5; viewer x increases right and y increases down. Snout stays to right of neck; Gold jaw dips below prior right pose."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Nose points right as brow lowers",
+      "vertical_evidence": "Head bows down, nose lower and throat compressed",
+      "coordinate_evidence": "Actual native atlas row 9, cell 6; viewer x increases right and y increases down. Nose points right as brow lowers; Head bows down, nose lower and throat compressed."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Rightward nose remains visible while head bows",
+      "vertical_evidence": "Deep right/down bow, nose near chest",
+      "coordinate_evidence": "Actual native atlas row 9, cell 7; viewer x increases right and y increases down. Rightward nose remains visible while head bows; Deep right/down bow, nose near chest."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Centered lowered nose between jaw plates",
+      "vertical_evidence": "Deep head bow and nose toward feet; red brows naturally occlude original eyes",
+      "coordinate_evidence": "Actual native atlas row 10, cell 0; viewer x increases right and y increases down. Centered lowered nose between jaw plates; Deep head bow and nose toward feet; red brows naturally occlude original eyes."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Nose shifts screen-left of neck",
+      "vertical_evidence": "Lowered nose and shortened throat while turning left",
+      "coordinate_evidence": "Actual native atlas row 10, cell 1; viewer x increases right and y increases down. Nose shifts screen-left of neck; Lowered nose and shortened throat while turning left."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Leftward snout emerges from bow",
+      "vertical_evidence": "Gold jaw still below left-facing level",
+      "coordinate_evidence": "Actual native atlas row 10, cell 2; viewer x increases right and y increases down. Leftward snout emerges from bow; Gold jaw still below left-facing level."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "warning",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed. Downward pitch is subtle near left cardinal, but nose remains lower than 270.",
+      "horizontal_evidence": "Snout extends screen-left",
+      "vertical_evidence": "Slight downward pitch remains as bow relaxes",
+      "coordinate_evidence": "Actual native atlas row 10, cell 3; viewer x increases right and y increases down. Snout extends screen-left; Slight downward pitch remains as bow relaxes."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Actual snout clearly screen-left",
+      "vertical_evidence": "Level left-facing jaw, original amber eye visible",
+      "coordinate_evidence": "Actual native atlas row 10, cell 4; viewer x increases right and y increases down. Actual snout clearly screen-left; Level left-facing jaw, original amber eye visible."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "warning",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed. Upward pitch is slight near left cardinal; raised chin is present, no reversal.",
+      "horizontal_evidence": "Snout remains clearly left of neck",
+      "vertical_evidence": "Chin slightly raised from 270, slight upward throat extension",
+      "coordinate_evidence": "Actual native atlas row 10, cell 5; viewer x increases right and y increases down. Snout remains clearly left of neck; Chin slightly raised from 270, slight upward throat extension."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Leftward snout remains while chin rises",
+      "vertical_evidence": "Clear raised gold chin and extended segmented throat",
+      "coordinate_evidence": "Actual native atlas row 10, cell 6; viewer x increases right and y increases down. Leftward snout remains while chin rises; Clear raised gold chin and extended segmented throat."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Head, gold jaw and neck carry the indicated look while torso, feet, wings and plated tail remain fixed.",
+      "horizontal_evidence": "Snout still left as face tilts upward toward 000",
+      "vertical_evidence": "Strong upward chin and exposed throat returning toward 000",
+      "coordinate_evidence": "Actual native atlas row 10, cell 7; viewer x increases right and y increases down. Snout still left as face tilts upward toward 000; Strong upward chin and exposed throat returning toward 000."
+    }
+  ]
+}

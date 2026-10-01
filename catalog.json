@@ -27,7 +27,12 @@
       "id": "ignemikhal",
       "name": "Ignemikhal",
       "category": "dragons",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/ignemikhal.gif",
+      "package": {
+        "pet.json": "ccc275164fb2e2ef14f465f1998301614a31b8b5c8bf40c47af0d0703229226f",
+        "spritesheet.webp": "7153c9ce1d83ff7af3970c56cace2e96cfeb12cceee4a065293eedcd3bf013ad"
+      }
     },
     {
       "id": "terrakourial",
