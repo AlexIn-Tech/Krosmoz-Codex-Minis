@@ -6,7 +6,7 @@ import tempfile
 import unittest
 import json
 import hashlib
-from PIL import Image
+from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -54,6 +54,32 @@ class ReleaseTests(unittest.TestCase):
             result = subprocess.run([sys.executable, str(ROOT / 'tools/validate_release.py'), '--root', str(root)], capture_output=True, text=True)
             self.assertNotEqual(result.returncode, 0)
             self.assertIn('empty', result.stderr.lower())
+
+    def test_all_eight_failed_state_cells_are_allowed(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            package = root / 'pets/test-mini'
+            package.mkdir(parents=True)
+            (package / 'pet.json').write_text(json.dumps({'id': 'test-mini', 'displayName': 'Test',
+                'description': 'Synthetic test only', 'spriteVersionNumber': 2, 'spritesheetPath': 'spritesheet.webp'}), encoding='utf-8')
+            image = Image.new('RGBA', (1536, 2288))
+            draw = ImageDraw.Draw(image)
+            for row, count in enumerate([6, 8, 8, 4, 5, 8, 6, 6, 6, 8, 8]):
+                for column in range(count):
+                    draw.rectangle((column * 192 + 20, row * 208 + 20,
+                                    column * 192 + 80, row * 208 + 80), fill='blue')
+            image.save(package / 'spritesheet.webp', lossless=True)
+            preview = root / 'assets/previews/test-mini.gif'
+            preview.parent.mkdir(parents=True)
+            Image.new('RGB', (20, 20), 'blue').save(preview, save_all=True,
+                append_images=[Image.new('RGB', (20, 20), 'red')], duration=100, loop=0)
+            hashes = {name: hashlib.sha256((package / name).read_bytes()).hexdigest()
+                      for name in ('pet.json', 'spritesheet.webp')}
+            (root / 'catalog.json').write_text(json.dumps({'schemaVersion': 1, 'pets': [
+                {'id': 'test-mini', 'name': 'Test', 'category': 'characters', 'status': 'ready',
+                 'package': hashes, 'preview': 'assets/previews/test-mini.gif'}]}), encoding='utf-8')
+            result = subprocess.run([sys.executable, str(ROOT / 'tools/validate_release.py'), '--root', str(root)], capture_output=True, text=True)
+            self.assertIn('atlas-validation.json', result.stderr)
 
 
 if __name__ == '__main__':

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from install import validate_catalog, validate_package
 
-COUNTS = [6, 8, 8, 4, 5, 4, 6, 6, 6, 8, 8]
+COUNTS = [6, 8, 8, 4, 5, 8, 6, 6, 6, 8, 8]
 
 
 def check(root):

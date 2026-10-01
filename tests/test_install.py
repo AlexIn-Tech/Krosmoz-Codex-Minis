@@ -8,6 +8,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from PIL import Image
 
@@ -117,6 +118,26 @@ class InstallTests(unittest.TestCase):
             self.skipTest('Creating symlinks requires privileges on this host')
         self.assertNotEqual(self.run_install('test-mini', '--force').returncode, 0)
         self.assertEqual(list(outside.iterdir()), [])
+
+    def test_failed_replacement_restores_old_package(self):
+        spec = importlib.util.spec_from_file_location('mini_installer', INSTALLER)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        files = {name: (self.package / name).read_bytes() for name in self.entry['package']}
+        module.install_pet(self.entry, files, self.dest)
+        old = (self.dest / 'pets/test-mini/pet.json').read_bytes()
+        real_rename = Path.rename
+
+        def interrupted_rename(path, target):
+            if path.name.startswith('.test-mini-') and '-backup-' not in path.name:
+                raise OSError('Simulated installation failure')
+            return real_rename(path, target)
+
+        with patch.object(Path, 'rename', interrupted_rename):
+            with self.assertRaises(OSError):
+                module.install_pet(self.entry, files, self.dest, force=True)
+        self.assertEqual((self.dest / 'pets/test-mini/pet.json').read_bytes(), old)
+        self.assertEqual([p.name for p in (self.dest / 'pets').iterdir()], ['test-mini'])
 
 
 if __name__ == '__main__':
