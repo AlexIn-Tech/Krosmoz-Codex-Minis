@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Install verified fan-art minis. Python 3.9+, no third-party dependencies."""
 import argparse
+import base64
 import hashlib
 import json
 import os
@@ -96,7 +97,7 @@ def https_get(url):
     return data
 
 
-def gh_get(endpoint, raw=False):
+def gh_get(endpoint, raw=False, max_bytes=MAX_DOWNLOAD):
     args = ['gh', 'api', endpoint]
     if raw:
         args += ['-H', 'Accept: application/vnd.github.raw+json']
@@ -104,7 +105,7 @@ def gh_get(endpoint, raw=False):
     if result.returncode:
         # Deliberately do not echo CLI stderr or authentication details.
         raise ValueError('Private GitHub access failed. Run gh auth login and confirm repository access.')
-    if len(result.stdout) > MAX_DOWNLOAD:
+    if len(result.stdout) > max_bytes:
         raise ValueError('Download exceeds size limit')
     return result.stdout
 
@@ -137,7 +138,26 @@ class Source:
                 raise ValueError('Source file exceeds size limit')
             return target.read_bytes()
         if self.private:
-            return gh_get('repos/%s/contents/%s?ref=%s' % (self.repository, relative, self.commit), raw=True)
+            metadata = read_json(gh_get('repos/%s/contents/%s?ref=%s' %
+                                       (self.repository, relative, self.commit)))
+            if not isinstance(metadata, dict):
+                raise ValueError('Invalid private file metadata')
+            size, blob_sha = metadata.get('size'), metadata.get('sha')
+            if (not isinstance(size, int) or isinstance(size, bool) or size < 0
+                    or not isinstance(blob_sha, str) or not re.fullmatch('[0-9a-f]{40}', blob_sha)):
+                raise ValueError('Invalid private file metadata')
+            if size > MAX_DOWNLOAD:
+                raise ValueError('Download exceeds size limit')
+            # JSON base64 avoids CLI text/charset transformations of raw WebP bytes.
+            blob = read_json(gh_get('repos/%s/git/blobs/%s' % (self.repository, blob_sha),
+                                    max_bytes=MAX_DOWNLOAD * 2 + 4096))
+            if (not isinstance(blob, dict) or blob.get('encoding') != 'base64'
+                    or not isinstance(blob.get('content'), str)):
+                raise ValueError('Invalid private file encoding')
+            data = base64.b64decode(''.join(blob['content'].split()), validate=True)
+            if len(data) != size or len(data) > MAX_DOWNLOAD:
+                raise ValueError('Invalid private file size')
+            return data
         return https_get('https://raw.githubusercontent.com/%s/%s/%s' % (self.repository, self.commit, relative))
 
 
