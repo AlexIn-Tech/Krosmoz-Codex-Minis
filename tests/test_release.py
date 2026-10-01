@@ -55,7 +55,7 @@ class ReleaseTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0)
             self.assertIn('empty', result.stderr.lower())
 
-    def test_all_eight_failed_state_cells_are_allowed(self):
+    def test_native_v2_counts_include_failure_loop_and_neutral_cell(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             package = root / 'pets/test-mini'
@@ -68,6 +68,7 @@ class ReleaseTests(unittest.TestCase):
                 for column in range(count):
                     draw.rectangle((column * 192 + 20, row * 208 + 20,
                                     column * 192 + 80, row * 208 + 80), fill='blue')
+            draw.rectangle((6 * 192 + 20, 20, 6 * 192 + 80, 80), fill='blue')
             image.save(package / 'spritesheet.webp', lossless=True)
             preview = root / 'assets/previews/test-mini.gif'
             preview.parent.mkdir(parents=True)

@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 import re
 import shutil
+import stat
 import struct
 import subprocess
 import sys
@@ -144,6 +145,13 @@ def reject_links(path):
     for item in (path, *path.parents):
         if item.is_symlink() or (hasattr(item, 'is_junction') and item.is_junction()):
             raise ValueError('Refusing symlink or junction destination')
+        if os.name == 'nt':
+            try:
+                attributes = item.lstat().st_file_attributes
+            except FileNotFoundError:
+                continue
+            if attributes & stat.FILE_ATTRIBUTE_REPARSE_POINT:
+                raise ValueError('Refusing reparse-point destination')
 
 
 def install_pet(pet, files, codex_home, force=False, dry_run=False):

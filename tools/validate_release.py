@@ -32,9 +32,10 @@ def check(root):
                 for column in range(8):
                     cell = atlas.crop((column * 192, row * 208, (column + 1) * 192, (row + 1) * 208))
                     bbox = cell.getchannel('A').getbbox()
-                    if column < count and not bbox:
+                    used = column < count or (row, column) == (0, 6)
+                    if used and not bbox:
                         raise ValueError('%s: empty required cell %s/%s' % (slug, row, column))
-                    if column >= count and bbox:
+                    if not used and bbox:
                         raise ValueError('%s: nonempty unused cell %s/%s' % (slug, row, column))
                     if bbox and (bbox[0] <= 0 or bbox[1] <= 0 or bbox[2] >= 192 or bbox[3] >= 208):
                         raise ValueError('%s: clipped cell %s/%s' % (slug, row, column))

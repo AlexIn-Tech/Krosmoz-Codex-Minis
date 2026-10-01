@@ -176,6 +176,36 @@ class InstallTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertTrue((real / 'codex/pets/test-mini/pet.json').is_file())
 
+    @unittest.skipUnless(os.name == 'nt', 'Windows junction regression')
+    def test_junction_destination_rejected_on_older_python(self):
+        shell = shutil.which('pwsh') or shutil.which('powershell')
+        if not shell:
+            self.skipTest('PowerShell unavailable')
+        outside = self.root / 'outside'
+        outside.mkdir()
+        target = self.dest / 'pets/test-mini'
+        target.parent.mkdir(parents=True)
+        result = subprocess.run([shell, '-NoProfile', '-Command',
+            'New-Item -ItemType Junction -Path $env:MINI_TEST_LINK -Target $env:MINI_TEST_REAL | Out-Null'],
+            env=dict(os.environ, MINI_TEST_LINK=str(target), MINI_TEST_REAL=str(outside)), capture_output=True)
+        if result.returncode:
+            self.skipTest('Junction creation unavailable')
+        spec = importlib.util.spec_from_file_location('older_python_installer', INSTALLER)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        original_hasattr = hasattr
+        files = {name: (self.package / name).read_bytes() for name in self.entry['package']}
+        # Python 3.9 lacks Path.is_junction; exercise that API boundary on newer hosts too.
+        with patch.object(module, 'hasattr', lambda obj, name: False if name == 'is_junction'
+                          else original_hasattr(obj, name), create=True):
+            rejection = None
+            try:
+                module.install_pet(self.entry, files, self.dest, force=True)
+            except Exception as error:
+                rejection = error
+            self.assertIsInstance(rejection, ValueError)
+        self.assertEqual(list(outside.iterdir()), [])
+
 
 if __name__ == '__main__':
     unittest.main()
