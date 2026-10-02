@@ -71,7 +71,12 @@
       "id": "dofus-emerald",
       "name": "Emerald Dofus",
       "category": "eggs",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/dofus-emerald.gif",
+      "package": {
+        "pet.json": "037ab8dd2b2faa2f93dda02840eaf8a7269172e08fa26a73b48f4a9d62fb5fe2",
+        "spritesheet.webp": "58b44d1874e6eccae278127e5e0058ecd21923b168f39c66cf8642bdbd3da2bc"
+      }
     },
     {
       "id": "dofus-turquoise",

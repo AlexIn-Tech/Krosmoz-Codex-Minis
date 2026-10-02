@@ -22,6 +22,7 @@ states and sixteen look directions. Installation names match the catalog exactly
 | ![Terrakourial](assets/previews/terrakourial.gif) | Terrakourial | `terrakourial` |
 | ![Dardondakal](assets/previews/dardondakal.gif) | Dardondakal | `dardondakal` |
 | ![Grougalorasalar](assets/previews/grougalorasalar.gif) | Grougalorasalar | `grougalorasalar` |
+| ![Emerald Dofus](assets/previews/dofus-emerald.gif) | Emerald Dofus | `dofus-emerald` |
 | ![Turquoise Dofus](assets/previews/dofus-turquoise.gif) | Turquoise Dofus | `dofus-turquoise` |
 | ![Goultard](assets/previews/goultard.gif) | Goultard | `goultard` |
 | ![Qilby](assets/previews/qilby.gif) | Qilby | `qilby` |
@@ -92,7 +93,7 @@ command above; no execution-policy change is required.
 
 ## Planned collection
 
-- **Primordial Dofus:** Emerald Dofus (`dofus-emerald`), Crimson Dofus (`dofus-crimson`), Ochre Dofus (`dofus-ochre`), Ivory Dofus (`dofus-ivory`), Ebony Dofus (`dofus-ebony`).
+- **Primordial Dofus:** Crimson Dofus (`dofus-crimson`), Ochre Dofus (`dofus-ochre`), Ivory Dofus (`dofus-ivory`), Ebony Dofus (`dofus-ebony`).
 
 Planned names reserve the future installation slugs. They are not downloadable
 until their complete animations pass QA and appear in the gallery.

@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "A: The original S motif sits right of the fixed glass chamber center, with visibly less clearance to the right inner rim. B: The original S motif is essentially centered in the fixed chamber, with balanced left and right rim clearance, so the horizontal axis is unreadable.",
+      "landmark_reasons": {
+        "A": "The original S motif sits right of the fixed glass chamber center, with visibly less clearance to the right inner rim.",
+        "B": "The original S motif is essentially centered in the fixed chamber, with balanced left and right rim clearance, so the horizontal axis is unreadable."
+      }
+    },
+    {
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The original S motif centroid is left of the chamber midline and leaves less clearance to the left inner rim. B: The original S motif centroid is right of the chamber midline and leaves less clearance to the right inner rim.",
+      "landmark_reasons": {
+        "A": "The original S motif centroid is left of the chamber midline and leaves less clearance to the left inner rim.",
+        "B": "The original S motif centroid is right of the chamber midline and leaves less clearance to the right inner rim."
+      }
+    },
+    {
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The original S motif is displaced left within the fixed shell, with its left edge closer to the glass rim. B: The original S motif is displaced right within the fixed shell, with its right edge closer to the glass rim.",
+      "landmark_reasons": {
+        "A": "The original S motif is displaced left within the fixed shell, with its left edge closer to the glass rim.",
+        "B": "The original S motif is displaced right within the fixed shell, with its right edge closer to the glass rim."
+      }
+    },
+    {
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The original S motif has a strong leftward offset from the chamber center and noticeably tighter left rim clearance. B: The original S motif lies right of center and has tighter clearance to the right inner rim.",
+      "landmark_reasons": {
+        "A": "The original S motif has a strong leftward offset from the chamber center and noticeably tighter left rim clearance.",
+        "B": "The original S motif lies right of center and has tighter clearance to the right inner rim."
+      }
+    },
+    {
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The original S motif centroid is right of the fixed chamber midline, with the motif approaching the right rim. B: The original S motif centroid is clearly left of the fixed chamber midline, with tighter left rim clearance.",
+      "landmark_reasons": {
+        "A": "The original S motif centroid is right of the fixed chamber midline, with the motif approaching the right rim.",
+        "B": "The original S motif centroid is clearly left of the fixed chamber midline, with tighter left rim clearance."
+      }
+    },
+    {
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The original S motif is shifted right inside the unchanged glass outline, leaving more open chamber space on its left. B: The original S motif is shifted left inside the unchanged glass outline, leaving more open chamber space on its right.",
+      "landmark_reasons": {
+        "A": "The original S motif is shifted right inside the unchanged glass outline, leaving more open chamber space on its left.",
+        "B": "The original S motif is shifted left inside the unchanged glass outline, leaving more open chamber space on its right."
+      }
+    },
+    {
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The original S motif centroid falls left of the chamber center and the left rim gap is smaller. B: The original S motif centroid falls right of the chamber center and the right rim gap is smaller.",
+      "landmark_reasons": {
+        "A": "The original S motif centroid falls left of the chamber center and the left rim gap is smaller.",
+        "B": "The original S motif centroid falls right of the chamber center and the right rim gap is smaller."
+      }
+    },
+    {
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The original S motif sits low in the fixed glass chamber, with tighter clearance to the bottom rim. B: The original S motif sits high in the fixed glass chamber, with tighter clearance to the top rim.",
+      "landmark_reasons": {
+        "A": "The original S motif sits low in the fixed glass chamber, with tighter clearance to the bottom rim.",
+        "B": "The original S motif sits high in the fixed glass chamber, with tighter clearance to the top rim."
+      }
+    },
+    {
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The original S motif centroid is above the chamber midpoint and leaves less space to the upper glass. B: The original S motif centroid is below the chamber midpoint and approaches the bottom glass rim.",
+      "landmark_reasons": {
+        "A": "The original S motif centroid is above the chamber midpoint and leaves less space to the upper glass.",
+        "B": "The original S motif centroid is below the chamber midpoint and approaches the bottom glass rim."
+      }
+    },
+    {
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The original S motif is visibly elevated within the fixed shell, with greater open chamber space beneath it. B: The original S motif is visibly lowered within the fixed shell, with greater open chamber space above it.",
+      "landmark_reasons": {
+        "A": "The original S motif is visibly elevated within the fixed shell, with greater open chamber space beneath it.",
+        "B": "The original S motif is visibly lowered within the fixed shell, with greater open chamber space above it."
+      }
+    },
+    {
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The original S motif centroid lies above the shell's vertical center, and its upper rim clearance is smaller than its lower clearance. B: The original S motif centroid lies below the shell's vertical center, and its lower rim clearance is smaller than its upper clearance.",
+      "landmark_reasons": {
+        "A": "The original S motif centroid lies above the shell's vertical center, and its upper rim clearance is smaller than its lower clearance.",
+        "B": "The original S motif centroid lies below the shell's vertical center, and its lower rim clearance is smaller than its upper clearance."
+      }
+    },
+    {
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The original S motif is strongly shifted toward the top of the glass chamber, leaving a broad open area below. B: The original S motif is strongly shifted toward the bottom of the glass chamber, leaving a broad open area above.",
+      "landmark_reasons": {
+        "A": "The original S motif is strongly shifted toward the top of the glass chamber, leaving a broad open area below.",
+        "B": "The original S motif is strongly shifted toward the bottom of the glass chamber, leaving a broad open area above."
+      }
+    },
+    {
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The original S motif sits above the chamber midpoint, with visibly more empty glass below it. B: The original S motif sits near the chamber floor, with its lower edge close to the bottom rim and ample space above.",
+      "landmark_reasons": {
+        "A": "The original S motif sits above the chamber midpoint, with visibly more empty glass below it.",
+        "B": "The original S motif sits near the chamber floor, with its lower edge close to the bottom rim and ample space above."
+      }
+    },
+    {
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The original S motif is low in the chamber, with tighter bottom rim clearance and more open space overhead. B: The original S motif is above the chamber midpoint, with tighter top clearance and more open space below.",
+      "landmark_reasons": {
+        "A": "The original S motif is low in the chamber, with tighter bottom rim clearance and more open space overhead.",
+        "B": "The original S motif is above the chamber midpoint, with tighter top clearance and more open space below."
+      }
+    }
+  ]
+}

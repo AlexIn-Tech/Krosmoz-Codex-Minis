@@ -1,0 +1,341 @@
+{
+  "atlas_sha256": "58b44d1874e6eccae278127e5e0058ecd21923b168f39c66cf8642bdbd3da2bc",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up; the S is raised and centered inside the fixed upright shell",
+      "verdict": "pass",
+      "reason": "Unmistakable up cardinal matching the approved up family.",
+      "horizontal_evidence": "Centered; no left or right cardinal claim is introduced.",
+      "vertical_evidence": "The motif occupies the upper shell with proxy centroid y=91.49.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          21,
+          6,
+          170,
+          203
+        ],
+        "motif_proxy_centroid": [
+          101.79,
+          91.49
+        ]
+      }
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right; a subtle clockwise advance from 000",
+      "verdict": "pass",
+      "reason": "The native pose is subtle but remains in the upper-right quadrant and begins the monotonic ordered arc without reversal.",
+      "horizontal_evidence": "The upper curl advances right and the proxy centroid moves from x=101.79 at 000 to x=103.83.",
+      "vertical_evidence": "The motif remains high at proxy centroid y=93.36.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          20,
+          6,
+          170,
+          203
+        ],
+        "motif_proxy_centroid": [
+          103.83,
+          93.36
+        ]
+      }
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right; high motif with a clear rightward curl bias",
+      "verdict": "pass",
+      "reason": "Correct upper-right quadrant and smooth clockwise continuation.",
+      "horizontal_evidence": "Upper curl and motif mass are biased screen-right; proxy centroid x=104.96.",
+      "vertical_evidence": "The motif remains above the right-cardinal position at y=97.98.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          20,
+          6,
+          170,
+          203
+        ],
+        "motif_proxy_centroid": [
+          104.96,
+          97.98
+        ]
+      }
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right approaching right",
+      "verdict": "pass",
+      "reason": "Correct quadrant with no side flip or backtrack.",
+      "horizontal_evidence": "The right-facing curl remains explicit at native size.",
+      "vertical_evidence": "The motif descends toward 090 with proxy centroid y=105.22.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          20,
+          6,
+          170,
+          203
+        ],
+        "motif_proxy_centroid": [
+          99.73,
+          105.22
+        ]
+      }
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right; centered-height S faces screen-right",
+      "verdict": "pass",
+      "reason": "Unmistakable right cardinal matching the approved right family.",
+      "horizontal_evidence": "The head curl and broad face point screen-right.",
+      "vertical_evidence": "The motif is centered between the up and down positions at y=117.47.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          21,
+          6,
+          171,
+          203
+        ],
+        "motif_proxy_centroid": [
+          102.89,
+          117.47
+        ]
+      }
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right; the motif drops below 090 while retaining rightward orientation",
+      "verdict": "pass",
+      "reason": "Correct lower-right quadrant and continuous departure from the right cardinal.",
+      "horizontal_evidence": "The rightward head curl remains readable.",
+      "vertical_evidence": "The proxy centroid descends to y=126.37.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          21,
+          6,
+          171,
+          203
+        ],
+        "motif_proxy_centroid": [
+          100.61,
+          126.37
+        ]
+      }
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right; lower placement strengthens without losing the right axis",
+      "verdict": "pass",
+      "reason": "Correct quadrant with no snap, flip, or identity break.",
+      "horizontal_evidence": "The S retains a right-facing upper curl.",
+      "vertical_evidence": "Proxy centroid y=129.67 continues downward.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          21,
+          6,
+          171,
+          203
+        ],
+        "motif_proxy_centroid": [
+          101.56,
+          129.67
+        ]
+      }
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right approaching down",
+      "verdict": "pass",
+      "reason": "Correct final lower-right intermediate with no reversal or conspicuous motif contraction.",
+      "horizontal_evidence": "Residual screen-right curl remains visible before 180.",
+      "vertical_evidence": "This is the lowest row-9 proxy centroid at y=135.01.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          20,
+          5,
+          170,
+          203
+        ],
+        "motif_proxy_centroid": [
+          100.45,
+          135.01
+        ]
+      }
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down; the S is low and centered inside the upright shell",
+      "verdict": "pass",
+      "reason": "Unmistakable down cardinal matching the approved down family; the 157.5-to-180 seam remains semantically smooth.",
+      "horizontal_evidence": "Centered down cardinal with neither left nor right substituted.",
+      "vertical_evidence": "The motif remains in the lower shell; proxy centroid y=123.37 reflects the row-10 redraw geometry.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          22,
+          8,
+          168,
+          203
+        ],
+        "motif_proxy_centroid": [
+          87.55,
+          123.37
+        ]
+      }
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left; the motif moves left while staying low",
+      "verdict": "pass",
+      "reason": "Correct lower-left quadrant and visible clockwise departure from 180.",
+      "horizontal_evidence": "The native curl and motif mass shift screen-left from the down cardinal.",
+      "vertical_evidence": "The motif remains low at proxy centroid y=127.32.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          21,
+          8,
+          169,
+          203
+        ],
+        "motif_proxy_centroid": [
+          85.81,
+          127.32
+        ]
+      }
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left; lower-left placement is explicit",
+      "verdict": "pass",
+      "reason": "Correct quadrant and coherent continuation.",
+      "horizontal_evidence": "The motif body and curl read screen-left at native size.",
+      "vertical_evidence": "This is the lowest row-10 proxy centroid at y=132.44.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          21,
+          8,
+          169,
+          203
+        ],
+        "motif_proxy_centroid": [
+          87.67,
+          132.44
+        ]
+      }
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left approaching left",
+      "verdict": "pass",
+      "reason": "Correct lower-left intermediate with no axis reversal.",
+      "horizontal_evidence": "Strong leftward placement and left-family curl lead into 270.",
+      "vertical_evidence": "The motif remains below the left-cardinal midpoint at y=123.51.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          21,
+          8,
+          169,
+          203
+        ],
+        "motif_proxy_centroid": [
+          74.88,
+          123.51
+        ]
+      }
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left; centered-height S clearly faces screen-left",
+      "verdict": "pass",
+      "reason": "Unmistakable left cardinal matching the approved left family.",
+      "horizontal_evidence": "The upper curl and motif face are directed screen-left.",
+      "vertical_evidence": "The motif returns toward mid-height at y=114.40.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          22,
+          8,
+          170,
+          203
+        ],
+        "motif_proxy_centroid": [
+          77.22,
+          114.4
+        ]
+      }
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left; the motif rises while retaining left orientation",
+      "verdict": "pass",
+      "reason": "Correct upper-left quadrant and smooth clockwise departure from 270.",
+      "horizontal_evidence": "The left-family curl remains explicit.",
+      "vertical_evidence": "The proxy centroid rises to y=99.36.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          21,
+          8,
+          170,
+          203
+        ],
+        "motif_proxy_centroid": [
+          80.49,
+          99.36
+        ]
+      }
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left; high-left placement strengthens",
+      "verdict": "pass",
+      "reason": "Correct quadrant with consistent identity and scale.",
+      "horizontal_evidence": "The motif still reads screen-left rather than centered or up-only.",
+      "vertical_evidence": "The proxy centroid rises to y=92.63.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          21,
+          8,
+          170,
+          203
+        ],
+        "motif_proxy_centroid": [
+          82.53,
+          92.63
+        ]
+      }
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left approaching up; horizontal component is subtle at native size",
+      "verdict": "warning",
+      "reason": "The blind majority called the horizontal axis ambiguous near 000, but labeled ordered-loop evidence confirms a residual leftward position with no wrong quadrant or reversal.",
+      "horizontal_evidence": "The motif remains left of centered 000: proxy centroid x=86.74 versus x=101.79 at 000, continuing from x=82.53 at 315 toward center.",
+      "vertical_evidence": "The motif is high at proxy centroid y=82.28 and leads naturally into the up cardinal.",
+      "coordinate_evidence": {
+        "shell_alpha_bbox_exclusive": [
+          22,
+          8,
+          170,
+          203
+        ],
+        "motif_proxy_centroid": [
+          86.74,
+          82.28
+        ]
+      }
+    }
+  ]
+}

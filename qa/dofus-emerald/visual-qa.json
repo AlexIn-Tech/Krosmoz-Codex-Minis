@@ -1,0 +1,102 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "58b44d1874e6eccae278127e5e0058ecd21923b168f39c66cf8642bdbd3da2bc",
+  "motion_review": "All 57 cleaned native frames and all nine final preview loops were reviewed in state order. Every row preserves the literal lime-glass egg, complete dark-rimmed shell, original same-handed S, bubbles and highlights, with no face or invented anatomy. Motion is readable at native size, frame counts match the contract, scale is stable within each loop, and no crop, overlap, detached effect, shadow, guide mark, blank used cell, or semantic substitution is present.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": [
+    {
+      "state": "idle",
+      "verdict": "pass",
+      "frame_count": 6,
+      "evidence": "Six distinct native frames form a restrained rise-and-settle cycle of the enclosed S while the full egg stays planted; the loop is visibly animated and returns to rest without scale or baseline pop."
+    },
+    {
+      "state": "running-right",
+      "verdict": "pass",
+      "frame_count": 8,
+      "evidence": "Two readable whole-shell rocks peak toward screen-right and recover with alternating silhouette phases; the complete shell and S move together and the row never reverses its named direction."
+    },
+    {
+      "state": "running-left",
+      "verdict": "pass",
+      "frame_count": 8,
+      "evidence": "The independent eight-frame loop develops a clear screen-left lean, reaches a strong left peak, then recovers through a small overshoot; the original S handedness is preserved and the cadence is not a mirrored or static substitute."
+    },
+    {
+      "state": "waving",
+      "verdict": "pass",
+      "frame_count": 4,
+      "evidence": "A four-phase friendly side-to-side whole-egg greeting reads cleanly for this rigid limbless object, returning upright with no wave marks, limbs, or detached effects."
+    },
+    {
+      "state": "jumping",
+      "verdict": "pass",
+      "frame_count": 5,
+      "evidence": "The complete egg rises through a clear apex and descends to the exact opening baseline; its internally constant smaller row fit does not pop during the loop and no shadow, dust, landing mark, or fragment appears."
+    },
+    {
+      "state": "failed",
+      "verdict": "pass",
+      "frame_count": 8,
+      "evidence": "The intact egg dims, bows rigidly toward viewer-left, holds, and recovers upright; shell and S rotate together with no damage, face, symbol, loose tear, or detached effect."
+    },
+    {
+      "state": "waiting",
+      "verdict": "pass",
+      "frame_count": 6,
+      "evidence": "Existing enclosed bubbles travel through a contained arc and return while the shell remains upright, producing an expectant loop distinct from idle and active work without adding props or anatomy."
+    },
+    {
+      "state": "running",
+      "verdict": "pass",
+      "frame_count": 6,
+      "evidence": "Three enclosed-bubble layouts combine with purposeful internal S/core pulses to read as active processing while the egg stays planted; there is no literal locomotion, trail, aura, or external prop."
+    },
+    {
+      "state": "review",
+      "verdict": "pass",
+      "frame_count": 6,
+      "evidence": "A small rigid tilt and held nod create a readable review gesture before the complete egg returns upright; silhouette motion is visible at native size with no paper, magnifier, punctuation, or new prop."
+    }
+  ],
+  "look_directions_reviewed16": [
+    "000",
+    "022.5",
+    "045",
+    "067.5",
+    "090",
+    "112.5",
+    "135",
+    "157.5",
+    "180",
+    "202.5",
+    "225",
+    "247.5",
+    "270",
+    "292.5",
+    "315",
+    "337.5"
+  ],
+  "look_directions_reviewed": 16,
+  "look_review": "The labeled native loop advances clockwise through all sixteen required directions inside a fixed upright shell. The S remains fully contained and original-handed, all four cardinals pass the hard gate, every diagonal stays in its required quadrant, and no adjacent step reverses or substitutes an axis. Continuity metric outliers correspond to the cardinal transition redraws and do not produce a visible snap or identity break. At 337.5 the isolated blind majority found the horizontal axis ambiguous, but the labeled loop shows a residual leftward motif position between 315 and centered 000, so it is accepted as a minor warning rather than a wrong-quadrant pose.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "c3118629c857d5adff3e686b043e55e0ca93646bd19954d8f93de1e19a6f917c",
+    "reason": "The alpha contact sheet shows sixteen solid filled egg silhouettes. Exact-alpha-zero flood fill reports 197-235 four-connected suspect pixels per cell, but they split into roughly 157-181 tiny contour components whose largest component is only 3-6 pixels. Located examples sit on the outer antialiased rim, including 000 at x64-67/y196-197, 090 at x68-72/y198-199, 135 at x119-123/y198-199, and side-rim runs near x22-26 or x163-167. None lies in the central lime glass or the S material. At alpha threshold 16 every cell has one connected component and zero enclosed transparent pixels. Raw and cleaned atlas alpha channels are identical, confirming despill did not create or conceal holes; these are subpixel outer-rim antialias wedges rather than material perforations."
+  },
+  "warnings": [
+    "337.5 up-left has a real minor blind-review warning: the three-reviewer majority called its horizontal axis ambiguous near the up cardinal. Labeled native ordered-loop evidence still places the motif left of centered 000 and between 315 and 000 with no wrong quadrant or reversal."
+  ],
+  "repair_rows": [],
+  "notes": "Final v2 validator and chroma cleanup reports are ok. The packaged WebP is 1536x2288 RGBA, unused cells are transparent, and the reviewed atlas SHA-256 exactly matches the requested immutable final."
+}

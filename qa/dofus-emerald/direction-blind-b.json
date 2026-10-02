@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "A: The contained S motif is displaced to the right of the fixed egg chamber, leaving a visibly tighter right-side rim gap than left-side gap. B: The contained S motif is almost centered in the chamber and its left and right rim clearances are essentially balanced, so no reliable horizontal direction is readable.",
+      "landmark_reasons": {
+        "A": "The contained S motif is displaced to the right of the fixed egg chamber, leaving a visibly tighter right-side rim gap than left-side gap.",
+        "B": "The contained S motif is almost centered in the chamber and its left and right rim clearances are essentially balanced, so no reliable horizontal direction is readable."
+      }
+    },
+    {
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The S motif's mass sits left of the chamber midline, with its left outer curve closer to the glass rim. B: The S motif's mass sits right of the chamber midline, with the right-side rim clearance smaller than the left.",
+      "landmark_reasons": {
+        "A": "The S motif's mass sits left of the chamber midline, with its left outer curve closer to the glass rim.",
+        "B": "The S motif's mass sits right of the chamber midline, with the right-side rim clearance smaller than the left."
+      }
+    },
+    {
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The whole S core is visibly left-shifted inside the fixed shell, leaving more open chamber space on its right. B: The whole S core is visibly right-shifted, leaving more open chamber space on its left.",
+      "landmark_reasons": {
+        "A": "The whole S core is visibly left-shifted inside the fixed shell, leaving more open chamber space on its right.",
+        "B": "The whole S core is visibly right-shifted, leaving more open chamber space on its left."
+      }
+    },
+    {
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The S motif is strongly offset toward the lower-left chamber wall, and the left rim gap is clearly the tighter side. B: The motif is offset to the right of the egg's centerline, with its right curve closer to the fixed glass rim.",
+      "landmark_reasons": {
+        "A": "The S motif is strongly offset toward the lower-left chamber wall, and the left rim gap is clearly the tighter side.",
+        "B": "The motif is offset to the right of the egg's centerline, with its right curve closer to the fixed glass rim."
+      }
+    },
+    {
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The contained S is right of the chamber midline and crowds the lower-right interior more than the left. B: The contained S is markedly left-shifted, with its left curve much nearer the shell wall and broad empty space to the right.",
+      "landmark_reasons": {
+        "A": "The contained S is right of the chamber midline and crowds the lower-right interior more than the left.",
+        "B": "The contained S is markedly left-shifted, with its left curve much nearer the shell wall and broad empty space to the right."
+      }
+    },
+    {
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The S motif's centroid lies to the right of the fixed chamber center and its right rim clearance is visibly reduced. B: The motif's centroid lies left of center, with the lower-left curve closer to the glass than the corresponding right side.",
+      "landmark_reasons": {
+        "A": "The S motif's centroid lies to the right of the fixed chamber center and its right rim clearance is visibly reduced.",
+        "B": "The motif's centroid lies left of center, with the lower-left curve closer to the glass than the corresponding right side."
+      }
+    },
+    {
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The low S motif sits left of the egg's centerline, with a smaller left rim gap than right rim gap. B: The low motif sits right of center and leaves the tighter clearance against the right interior wall.",
+      "landmark_reasons": {
+        "A": "The low S motif sits left of the egg's centerline, with a smaller left rim gap than right rim gap.",
+        "B": "The low motif sits right of center and leaves the tighter clearance against the right interior wall."
+      }
+    },
+    {
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The S motif is concentrated in the lower chamber, close to the bottom rim with a large empty cap above. B: The motif is concentrated high in the chamber, close to the top dome with much more open space below.",
+      "landmark_reasons": {
+        "A": "The S motif is concentrated in the lower chamber, close to the bottom rim with a large empty cap above.",
+        "B": "The motif is concentrated high in the chamber, close to the top dome with much more open space below."
+      }
+    },
+    {
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The S core sits in the upper half of the fixed glass egg, leaving substantially more chamber below it. B: The S core sits low near the bottom interior, leaving a tall empty chamber above.",
+      "landmark_reasons": {
+        "A": "The S core sits in the upper half of the fixed glass egg, leaving substantially more chamber below it.",
+        "B": "The S core sits low near the bottom interior, leaving a tall empty chamber above."
+      }
+    },
+    {
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The motif's centroid is above the chamber midpoint and its top-loop clearance is tighter than its bottom clearance. B: The motif's centroid is below the midpoint, with the lower loop much nearer the bottom rim.",
+      "landmark_reasons": {
+        "A": "The motif's centroid is above the chamber midpoint and its top-loop clearance is tighter than its bottom clearance.",
+        "B": "The motif's centroid is below the midpoint, with the lower loop much nearer the bottom rim."
+      }
+    },
+    {
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The S motif occupies the upper-middle chamber and leaves a larger clear band beneath it than above. B: The S motif occupies the lower-middle chamber and leaves the larger clear band above it.",
+      "landmark_reasons": {
+        "A": "The S motif occupies the upper-middle chamber and leaves a larger clear band beneath it than above.",
+        "B": "The S motif occupies the lower-middle chamber and leaves the larger clear band above it."
+      }
+    },
+    {
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The motif is high beneath the egg's dome, while the lower chamber remains broadly open. B: The motif is very low, crowding the bottom interior and leaving most of the upper chamber empty.",
+      "landmark_reasons": {
+        "A": "The motif is high beneath the egg's dome, while the lower chamber remains broadly open.",
+        "B": "The motif is very low, crowding the bottom interior and leaving most of the upper chamber empty."
+      }
+    },
+    {
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The S core lies above the chamber midpoint, with its upper loop nearer the dome than its lower loop is to the base. B: The S core lies near the bottom rim and has a conspicuously larger empty region above it.",
+      "landmark_reasons": {
+        "A": "The S core lies above the chamber midpoint, with its upper loop nearer the dome than its lower loop is to the base.",
+        "B": "The S core lies near the bottom rim and has a conspicuously larger empty region above it."
+      }
+    },
+    {
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The motif sits deep in the lower chamber with tight bottom clearance and extensive open glass above. B: The motif is raised above the chamber midpoint, leaving more clear interior below than above.",
+      "landmark_reasons": {
+        "A": "The motif sits deep in the lower chamber with tight bottom clearance and extensive open glass above.",
+        "B": "The motif is raised above the chamber midpoint, leaving more clear interior below than above."
+      }
+    }
+  ]
+}
