@@ -1,0 +1,37 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "ba6d670bff93340fa117f58575d5e3c27396fa23bd8af55ba5b854f1c18a88ac",
+  "motion_review": "Fresh review of the exact final WebP, the labeled final contact sheet, all nine final GIFs, and all 57 chronological 192x208 native frames confirms real ordered motion in every required state. The literal amber egg, original pale-gold creature-head motif, bubble arrangement, motif handedness, dark rim, and faceless/limbless construction persist throughout. The shell stays contained without clipping, neighboring-cell bleed, detached effects, shadows, new props, or anatomy. Idle breathes subtly; the directional rows rock toward their named screen sides; waving uses a contained side-to-side shell greeting; jumping lifts and lands at its original baseline; failed bows and dims before recovery; waiting circulates existing bubbles calmly; active work uses contained bubble circulation and a painted core pulse without locomotion; review performs the prompted lean, restrained nod/hold, and upright recovery. Pose-driven width and height changes follow the visible lean or bow, and no conspicuous scale flash or contraction appears in playback.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": "6 actual frames: quiet rest, small inhale/rise, held living peak, controlled settle, and rest closure; subtle motif/shell motion is visible and identity stays stable.",
+    "running-right": "8 actual frames: upright approach, progressive screen-right rock, rightward peak/hold, controlled recovery, and upright settle; the whole intact egg moves rightward with fixed physical mass and no reversal.",
+    "running-left": "8 actual frames: upright approach, progressive screen-left rock, leftward peak, controlled recovery, and upright settle; the original motif handedness is preserved and the strong lean is a coherent pose rather than resizing.",
+    "waving": "4 actual frames: upright start, friendly screen-left lean, friendly screen-right lean, and upright closure; the greeting is entirely attached to the intact shell with no invented hand or wave mark.",
+    "jumping": "5 actual frames: baseline rest, ascent, clear airborne apex, descent, and landing at the original baseline; shell size remains visually stable and the full egg stays contained.",
+    "failed": "8 actual frames: upright start, shudder/bow, deeper disappointed bow, dim held low point, brightness/posture recovery, and upright settle; no crack, fragment, symbol, or detached effect is added.",
+    "waiting": "6 actual frames: patient rest, existing bubbles begin a small drift, drift apex, return, and quiet loop closure; the restrained internal circulation is distinct from idle and work.",
+    "running": "6 actual frames: planted processing start, internal circulation, energy build, bright contained core peak, energy recession, and restored loop; the existing bubble/core pulse is real motion and does not become literal running.",
+    "review": "6 actual frames: upright inspection start, forward lean, deeper attentive lean, restrained nod/held inspection, upright recovery, and closure; this matches the source prompt and remains visibly distinct from idle, waiting, and work."
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "Fresh labeled and native-row review confirms the literal pale-gold head motif centroid travels clockwise inside a fixed upright amber shell: UP; three progressively right-positive upper poses; RIGHT; three progressively lower right-positive poses; DOWN; three progressively left-positive lower poses; LEFT; and three progressively higher left-positive poses closing at UP. The hard cardinals 000, 090, 180, and 270 are unmistakable at normal size. Every intermediate remains in its expected quadrant, the 157.5-to-180 and 337.5-to-000 boundaries close smoothly, and there is no backtrack, reversal, shell rotation, scale pop, clipping, motif loss, or invented eye direction.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "06101257ab378c9d290da4e349cb066693b510031313938dbd2cc182c9235b98",
+    "reason": "The actual alpha contact sheet shows sixteen continuously filled egg silhouettes with no visible transparent puncture through the glass chamber or pale core. Every listed largest suspect is only 3-5 pixels and lies on the outer antialiased rim: left edge around x=36-39/y=105-158, right edge around x=149-154/y=97-159, top edge around x=81-111/y=44-45, or bottom edge around x=65-122/y=195-200. These are tiny four-connected boundary wedges within the curved fringe, not material holes in the filled shell or core."
+  },
+  "warnings": [],
+  "repair_rows": [],
+  "notes": "Verdict is bound to the current exact final WebP SHA256 and was made from fresh final pixels. Original references confirm the pale-gold internal creature-head motif; direction was judged from that complete motif centroid relative to the fixed broad shell chamber, never from bubbles, highlights, tuft direction alone, or invented eyes."
+}

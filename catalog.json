@@ -99,7 +99,12 @@
       "id": "dofus-ochre",
       "name": "Ochre Dofus",
       "category": "eggs",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/dofus-ochre.gif",
+      "package": {
+        "pet.json": "df11b01c170cf4e0f3ccc39c72d22f0c30c5e7c5a374a9ded5044a564db25387",
+        "spritesheet.webp": "ba6d670bff93340fa117f58575d5e3c27396fa23bd8af55ba5b854f1c18a88ac"
+      }
     },
     {
       "id": "dofus-ivory",
