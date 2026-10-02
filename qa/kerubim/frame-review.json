@@ -1,0 +1,1003 @@
+{
+  "ok": true,
+  "frames_root": "generation/kerubim/qa/final-native-frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "idle used extraction method final-atlas-cells; component extraction is preferred",
+    "running-right used extraction method final-atlas-cells; component extraction is preferred",
+    "running-left used extraction method final-atlas-cells; component extraction is preferred",
+    "waving used extraction method final-atlas-cells; component extraction is preferred",
+    "jumping used extraction method final-atlas-cells; component extraction is preferred",
+    "failed used extraction method final-atlas-cells; component extraction is preferred",
+    "waiting used extraction method final-atlas-cells; component extraction is preferred",
+    "running used extraction method final-atlas-cells; component extraction is preferred",
+    "review used extraction method final-atlas-cells; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/kerubim/qa/final-native-frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13539,
+          "bbox": [
+            31,
+            53,
+            158,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/kerubim/qa/final-native-frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13657,
+          "bbox": [
+            29,
+            54,
+            164,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/kerubim/qa/final-native-frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13656,
+          "bbox": [
+            31,
+            55,
+            167,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/kerubim/qa/final-native-frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13564,
+          "bbox": [
+            29,
+            53,
+            159,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/kerubim/qa/final-native-frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13516,
+          "bbox": [
+            32,
+            55,
+            159,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/kerubim/qa/final-native-frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13593,
+          "bbox": [
+            31,
+            54,
+            162,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/kerubim/qa/final-native-frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12219,
+          "bbox": [
+            34,
+            53,
+            163,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 5
+        },
+        {
+          "index": 1,
+          "file": "generation/kerubim/qa/final-native-frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12135,
+          "bbox": [
+            31,
+            53,
+            162,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/kerubim/qa/final-native-frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12240,
+          "bbox": [
+            34,
+            53,
+            163,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 4
+        },
+        {
+          "index": 3,
+          "file": "generation/kerubim/qa/final-native-frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12221,
+          "bbox": [
+            31,
+            53,
+            163,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/kerubim/qa/final-native-frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12189,
+          "bbox": [
+            34,
+            53,
+            163,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 4
+        },
+        {
+          "index": 5,
+          "file": "generation/kerubim/qa/final-native-frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12171,
+          "bbox": [
+            31,
+            53,
+            163,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/kerubim/qa/final-native-frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12193,
+          "bbox": [
+            34,
+            53,
+            163,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 6
+        },
+        {
+          "index": 7,
+          "file": "generation/kerubim/qa/final-native-frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12243,
+          "bbox": [
+            31,
+            53,
+            163,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/kerubim/qa/final-native-frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11724,
+          "bbox": [
+            46,
+            53,
+            171,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 9
+        },
+        {
+          "index": 1,
+          "file": "generation/kerubim/qa/final-native-frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11431,
+          "bbox": [
+            43,
+            54,
+            171,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/kerubim/qa/final-native-frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11568,
+          "bbox": [
+            41,
+            54,
+            169,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 10
+        },
+        {
+          "index": 3,
+          "file": "generation/kerubim/qa/final-native-frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11464,
+          "bbox": [
+            42,
+            53,
+            170,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 4,
+          "file": "generation/kerubim/qa/final-native-frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11549,
+          "bbox": [
+            42,
+            53,
+            168,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 5
+        },
+        {
+          "index": 5,
+          "file": "generation/kerubim/qa/final-native-frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11408,
+          "bbox": [
+            43,
+            53,
+            170,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 18
+        },
+        {
+          "index": 6,
+          "file": "generation/kerubim/qa/final-native-frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11582,
+          "bbox": [
+            40,
+            53,
+            168,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 6
+        },
+        {
+          "index": 7,
+          "file": "generation/kerubim/qa/final-native-frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11271,
+          "bbox": [
+            47,
+            53,
+            169,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/kerubim/qa/final-native-frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13725,
+          "bbox": [
+            30,
+            53,
+            156,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/kerubim/qa/final-native-frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14527,
+          "bbox": [
+            31,
+            53,
+            173,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/kerubim/qa/final-native-frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13973,
+          "bbox": [
+            32,
+            53,
+            156,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/kerubim/qa/final-native-frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13723,
+          "bbox": [
+            30,
+            53,
+            156,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/kerubim/qa/final-native-frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12466,
+          "bbox": [
+            22,
+            73,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/kerubim/qa/final-native-frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14407,
+          "bbox": [
+            24,
+            27,
+            167,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/kerubim/qa/final-native-frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15044,
+          "bbox": [
+            16,
+            5,
+            175,
+            157
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/kerubim/qa/final-native-frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11313,
+          "bbox": [
+            21,
+            88,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/kerubim/qa/final-native-frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14017,
+          "bbox": [
+            26,
+            51,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/kerubim/qa/final-native-frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12662,
+          "bbox": [
+            43,
+            53,
+            157,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/kerubim/qa/final-native-frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11291,
+          "bbox": [
+            46,
+            64,
+            161,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/kerubim/qa/final-native-frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10542,
+          "bbox": [
+            50,
+            74,
+            164,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/kerubim/qa/final-native-frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12766,
+          "bbox": [
+            44,
+            56,
+            168,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 4,
+          "file": "generation/kerubim/qa/final-native-frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10585,
+          "bbox": [
+            47,
+            78,
+            170,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/kerubim/qa/final-native-frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12494,
+          "bbox": [
+            52,
+            56,
+            168,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/kerubim/qa/final-native-frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12763,
+          "bbox": [
+            48,
+            53,
+            166,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "generation/kerubim/qa/final-native-frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12885,
+          "bbox": [
+            40,
+            53,
+            155,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/kerubim/qa/final-native-frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12600,
+          "bbox": [
+            39,
+            56,
+            156,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/kerubim/qa/final-native-frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12733,
+          "bbox": [
+            38,
+            53,
+            153,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/kerubim/qa/final-native-frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12775,
+          "bbox": [
+            38,
+            53,
+            155,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/kerubim/qa/final-native-frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12677,
+          "bbox": [
+            38,
+            53,
+            149,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/kerubim/qa/final-native-frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12367,
+          "bbox": [
+            37,
+            58,
+            163,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/kerubim/qa/final-native-frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12516,
+          "bbox": [
+            38,
+            53,
+            154,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/kerubim/qa/final-native-frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12919,
+          "bbox": [
+            33,
+            57,
+            159,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/kerubim/qa/final-native-frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13862,
+          "bbox": [
+            33,
+            53,
+            169,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/kerubim/qa/final-native-frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13118,
+          "bbox": [
+            34,
+            53,
+            169,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/kerubim/qa/final-native-frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13779,
+          "bbox": [
+            31,
+            55,
+            167,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/kerubim/qa/final-native-frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13238,
+          "bbox": [
+            31,
+            58,
+            172,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/kerubim/qa/final-native-frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13086,
+          "bbox": [
+            32,
+            56,
+            158,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/kerubim/qa/final-native-frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12443,
+          "bbox": [
+            37,
+            56,
+            155,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/kerubim/qa/final-native-frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12368,
+          "bbox": [
+            38,
+            57,
+            158,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/kerubim/qa/final-native-frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12356,
+          "bbox": [
+            37,
+            55,
+            156,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/kerubim/qa/final-native-frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11614,
+          "bbox": [
+            40,
+            53,
+            147,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/kerubim/qa/final-native-frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12700,
+          "bbox": [
+            38,
+            59,
+            162,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/kerubim/qa/final-native-frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12421,
+          "bbox": [
+            40,
+            54,
+            153,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ],
+  "atlas_sha256": "ec0c69f2f45244556bf74cf1b3d617e6266239b4596d318a292bb3a63c316cd5",
+  "provenance": "All 57 cells are exact crops of the cleaned final native atlas; source extraction evidence is preserved separately. Inspector thresholds unchanged."
+}

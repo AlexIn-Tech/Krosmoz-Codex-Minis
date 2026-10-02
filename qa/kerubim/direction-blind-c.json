@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: Nose and small far eye sit left of the broad skull; both pupils touch the upper-left parts of the eye openings. B: Nose and narrow far eye sit right of the broad skull; the pupils sit toward the upper-right eye rims.",
+      "landmark_reasons": {
+        "A": "Nose and small far eye sit left of the broad skull; both pupils touch the upper-left parts of the eye openings.",
+        "B": "Nose and narrow far eye sit right of the broad skull; the pupils sit toward the upper-right eye rims."
+      }
+    },
+    {
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The nose projects to the right of the large eye and the far eye is compressed at the right face edge. B: The nose is on the left edge of the face beside a narrow far eye; the large pupil is leftward.",
+      "landmark_reasons": {
+        "A": "The nose projects to the right of the large eye and the far eye is compressed at the right face edge.",
+        "B": "The nose is on the left edge of the face beside a narrow far eye; the large pupil is leftward."
+      }
+    },
+    {
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The profile nose projects beyond the large eye on screen-right, with the pupil against that eye's right edge. B: The small nose is left of the large near eye; the pupils collect at the left eye edges.",
+      "landmark_reasons": {
+        "A": "The profile nose projects beyond the large eye on screen-right, with the pupil against that eye's right edge.",
+        "B": "The small nose is left of the large near eye; the pupils collect at the left eye edges."
+      }
+    },
+    {
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The nose projects at the right outline beyond the single broad visible eye; its pupil is at the right rim. B: The nose protrudes at the left outline, and the visible pupil sits at the left rim of the broad eye.",
+      "landmark_reasons": {
+        "A": "The nose projects at the right outline beyond the single broad visible eye; its pupil is at the right rim.",
+        "B": "The nose protrudes at the left outline, and the visible pupil sits at the left rim of the broad eye."
+      }
+    },
+    {
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The muzzle and nose are at the right side of the skull, beside the compressed far eye; the near pupil is rightward. B: The nose projects left of the broad near eye and the pupils sit toward the left edges.",
+      "landmark_reasons": {
+        "A": "The muzzle and nose are at the right side of the skull, beside the compressed far eye; the near pupil is rightward.",
+        "B": "The nose projects left of the broad near eye and the pupils sit toward the left edges."
+      }
+    },
+    {
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The lowered nose and chin are displaced right of the skull and neck; the face occupies the right side of the head. B: The lowered nose is left of the broad near eye, and the muzzle and chin occupy the left side of the skull.",
+      "landmark_reasons": {
+        "A": "The lowered nose and chin are displaced right of the skull and neck; the face occupies the right side of the head.",
+        "B": "The lowered nose is left of the broad near eye, and the muzzle and chin occupy the left side of the skull."
+      }
+    },
+    {
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The small nose and chin sit to the right of the broad skull and connected neck; the face is grouped on that right side. B: The nose and chin sit left of the near eye and left of the skull center; the pupils collect toward screen-left.",
+      "landmark_reasons": {
+        "A": "The small nose and chin sit to the right of the broad skull and connected neck; the face is grouped on that right side.",
+        "B": "The nose and chin sit left of the near eye and left of the skull center; the pupils collect toward screen-left."
+      }
+    },
+    {
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: Both pupils touch the tops of the wide open eyes, with a lifted muzzle and a long exposed lower face above the neck. B: Both pupils sit at the bottom eye rims; the nose and chin drop close to the neck beneath a broad exposed forehead.",
+      "landmark_reasons": {
+        "A": "Both pupils touch the tops of the wide open eyes, with a lifted muzzle and a long exposed lower face above the neck.",
+        "B": "Both pupils sit at the bottom eye rims; the nose and chin drop close to the neck beneath a broad exposed forehead."
+      }
+    },
+    {
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The skull dominates above the face; the nose and chin are lowered toward the neck and pupils sit at the bottom edges. B: The pupils sit high in the open eyes and the snout is lifted, leaving an exposed lower cheek and chin above the neck.",
+      "landmark_reasons": {
+        "A": "The skull dominates above the face; the nose and chin are lowered toward the neck and pupils sit at the bottom edges.",
+        "B": "The pupils sit high in the open eyes and the snout is lifted, leaving an exposed lower cheek and chin above the neck."
+      }
+    },
+    {
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The open near eye has its pupil toward its upper-right rim, and the muzzle is raised above the long lower cheek. B: The nose and chin are low against the neck, with both pupils pressed to the lower edges below a large forehead.",
+      "landmark_reasons": {
+        "A": "The open near eye has its pupil toward its upper-right rim, and the muzzle is raised above the long lower cheek.",
+        "B": "The nose and chin are low against the neck, with both pupils pressed to the lower edges below a large forehead."
+      }
+    },
+    {
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A: The upper lids partly cover the eyes, the pupils sit low, and the short muzzle points down toward the chin and neck. B: The profile nose points almost horizontally from the eye; the pupil is chiefly at the right rim, and the native pixels do not establish a definite upward or downward pitch.",
+      "landmark_reasons": {
+        "A": "The upper lids partly cover the eyes, the pupils sit low, and the short muzzle points down toward the chin and neck.",
+        "B": "The profile nose points almost horizontally from the eye; the pupil is chiefly at the right rim, and the native pixels do not establish a definite upward or downward pitch."
+      }
+    },
+    {
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The half-lidded near eye has a low pupil; the nose and chin tilt down toward the neck under the exposed forehead. B: The wide eye pupils sit at their upper edges and the nose is lifted, with a broad lower cheek between the muzzle and neck.",
+      "landmark_reasons": {
+        "A": "The half-lidded near eye has a low pupil; the nose and chin tilt down toward the neck under the exposed forehead.",
+        "B": "The wide eye pupils sit at their upper edges and the nose is lifted, with a broad lower cheek between the muzzle and neck."
+      }
+    },
+    {
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The lids narrow the low-set eyes and the muzzle drops toward the neck; the near pupil rests along the lower rim. B: The pupils sit high-left in the open eyes and the nose is raised above the long lower cheek and connected neck.",
+      "landmark_reasons": {
+        "A": "The lids narrow the low-set eyes and the muzzle drops toward the neck; the near pupil rests along the lower rim.",
+        "B": "The pupils sit high-left in the open eyes and the nose is raised above the long lower cheek and connected neck."
+      }
+    },
+    {
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The half-closed near eye and low nose sit beneath a tall exposed forehead; the chin folds down toward the neck. B: The open near eye has its pupil at the upper-left rim and the snout is lifted, leaving a substantial lower cheek above the neck.",
+      "landmark_reasons": {
+        "A": "The half-closed near eye and low nose sit beneath a tall exposed forehead; the chin folds down toward the neck.",
+        "B": "The open near eye has its pupil at the upper-left rim and the snout is lifted, leaving a substantial lower cheek above the neck."
+      }
+    }
+  ]
+}

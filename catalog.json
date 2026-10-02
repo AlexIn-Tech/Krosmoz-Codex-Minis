@@ -243,10 +243,14 @@
     },
     {
       "id": "kerubim",
-      "name": "Kerubim",
+      "name": "Kerubim Crepin",
       "category": "characters",
-      "status": "planned",
-      "generation": "deferred"
+      "status": "ready",
+      "preview": "assets/previews/kerubim.gif",
+      "package": {
+        "pet.json": "f8a998c7dfccf61cc6740645edb8832984761df1442dcb64ee92d686315f3811",
+        "spritesheet.webp": "ec0c69f2f45244556bf74cf1b3d617e6266239b4596d318a292bb3a63c316cd5"
+      }
     },
     {
       "id": "julith",

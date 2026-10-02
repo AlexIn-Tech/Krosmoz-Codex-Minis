@@ -1,0 +1,165 @@
+{
+  "atlas_sha256": "ec0c69f2f45244556bf74cf1b3d617e6266239b4596d318a292bb3a63c316cd5",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "reason": "Actual final pose reads up; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Frontal face, nose near central head axis.",
+      "vertical_evidence": "Raised eyes/pupils and tipped-back head; nose below upward gaze.",
+      "coordinate_evidence": "Inspected final atlas cell row9/column0, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Actual final pose reads up-right; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Nose/face moves viewer right of frontal axis.",
+      "vertical_evidence": "Both pupils high in eyes with upward head pitch.",
+      "coordinate_evidence": "Inspected final atlas cell row9/column1, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Actual final pose reads up-right; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Rightward three-quarter turn strengthens.",
+      "vertical_evidence": "High pupil gaze and elevated muzzle/head orientation.",
+      "coordinate_evidence": "Inspected final atlas cell row9/column2, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Actual final pose reads up-right; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Right-facing near-profile; muzzle is on right edge.",
+      "vertical_evidence": "Upward pupil gaze remains above level-right profile.",
+      "coordinate_evidence": "Inspected final atlas cell row9/column3, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "reason": "Actual final pose reads right; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Clear right profile with right-edge muzzle.",
+      "vertical_evidence": "Head and muzzle face horizontally right, without downward bow.",
+      "coordinate_evidence": "Inspected final atlas cell row9/column4, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Actual final pose reads down-right; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Rightward three-quarter face remains visible.",
+      "vertical_evidence": "Pupils/muzzle lower and head begins downward pitch.",
+      "coordinate_evidence": "Inspected final atlas cell row9/column5, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Actual final pose reads down-right; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Face is right of center while bowed.",
+      "vertical_evidence": "Pupils sit toward lower eye rims and muzzle bows downward.",
+      "coordinate_evidence": "Inspected final atlas cell row9/column6, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Actual final pose reads down-right; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Right bias remains as bow approaches DOWN.",
+      "vertical_evidence": "Low pupils, lowered muzzle and crown-forward bow.",
+      "coordinate_evidence": "Inspected final atlas cell row9/column7, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "reason": "Actual final pose reads down; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Frontal face returns to central horizontal axis.",
+      "vertical_evidence": "Both pupils low; nose/muzzle below eye line and crown exposed in full bow.",
+      "coordinate_evidence": "Inspected final atlas cell row10/column0, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Actual final pose reads down-left; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Nose and face shift viewer left of frontal axis.",
+      "vertical_evidence": "Low pupils and lowered muzzle maintain downward pitch.",
+      "coordinate_evidence": "Inspected final atlas cell row10/column1, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Actual final pose reads down-left; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Leftward three-quarter turn strengthens.",
+      "vertical_evidence": "Low gaze remains while head turns left.",
+      "coordinate_evidence": "Inspected final atlas cell row10/column2, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Actual final pose reads down-left; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Near-left profile with muzzle at left edge.",
+      "vertical_evidence": "Head/muzzle remain below level-left profile.",
+      "coordinate_evidence": "Inspected final atlas cell row10/column3, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "reason": "Actual final pose reads left; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Clear left profile; broad original left-eye patch remains visible.",
+      "vertical_evidence": "Level left muzzle and horizontally directed pupil.",
+      "coordinate_evidence": "Inspected final atlas cell row10/column4, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Actual final pose reads up-left; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Leftward three-quarter face with muzzle left of center.",
+      "vertical_evidence": "High pupil gaze and lifted leftward muzzle.",
+      "coordinate_evidence": "Inspected final atlas cell row10/column5, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Actual final pose reads up-left; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Leftward muzzle and original patched near eye, not a right turn.",
+      "vertical_evidence": "High gaze and upturned left muzzle.",
+      "coordinate_evidence": "Inspected final atlas cell row10/column6, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Actual final pose reads up-left; horizontal head turn and vertical gaze agree. Original anatomical left-eye marking remains consistent.",
+      "horizontal_evidence": "Face retains viewer-left bias while approaching frontal UP.",
+      "vertical_evidence": "High pupils and tipped-back head lead back into UP.",
+      "coordinate_evidence": "Inspected final atlas cell row10/column7, local192x208 coordinates. Foot alpha bottom y202 matches idle00 y202; muzzle/head relation described above determines direction rather than body translation."
+    }
+  ]
+}

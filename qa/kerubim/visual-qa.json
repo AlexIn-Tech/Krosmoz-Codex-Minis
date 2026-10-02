@@ -1,0 +1,89 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "ec0c69f2f45244556bf74cf1b3d617e6266239b4596d318a292bb3a63c316cd5",
+  "motion_review": "Fresh review of all 57 chronological final-native frames and all nine actual GIFs decoded in order: counts 6,8,8,4,5,8,6,6,6. Every state has real facial, paw, head or leg action. Identity matches the elderly ivory cat reference, broad beige anatomical LEFT eye patch, green shirt, dice pendant, red waist accent and attached tan tail. Containment and two-arm/two-leg anatomy remain coherent. Actual GIF palette edges are rougher than final WebP edges.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": {
+      "frames_reviewed": 6,
+      "gif_frames_reviewed": 6,
+      "verdict": "pass",
+      "evidence": "6 native frames and 6 actual GIF frames: open resting eyes, closed blink held in 01/02, reopening 03, half-lidded 04, open 05; small head/tail changes. Feet stay planted and identity remains stable."
+    },
+    "running-right": {
+      "frames_reviewed": 8,
+      "gif_frames_reviewed": 8,
+      "verdict": "pass",
+      "evidence": "8 native frames and 8 actual GIF frames: alternating forward lifted knee and rear swing/support leg in 00 through 07. Rightward head/body lean, front fist and rear arm form two arms; connected tail follows. No extra foot or clipped limb."
+    },
+    "running-left": {
+      "frames_reviewed": 8,
+      "gif_frames_reviewed": 8,
+      "verdict": "pass",
+      "evidence": "8 native frames and 8 actual GIF frames: leftward lean with alternating leading foot and rear swing/support leg. Arms held behind torso with visible rear sleeve; no duplicated front paw. Anatomical left-eye patch remains on the original side rather than a mirrored rightward pose."
+    },
+    "waving": {
+      "frames_reviewed": 4,
+      "gif_frames_reviewed": 4,
+      "verdict": "pass",
+      "evidence": "4 native frames and 4 actual GIF frames: resting 00, raised viewer-right greeting paw 01, other paw raised with joyful closed eyes and open mouth 02, settled 03. The alternation is a two-paw greeting, without an additional limb."
+    },
+    "jumping": {
+      "frames_reviewed": 5,
+      "gif_frames_reviewed": 5,
+      "verdict": "pass",
+      "evidence": "5 native frames and 5 actual GIF frames: crouch 00, upward rise 01, higher open-arm apex 02, compressed landing 03, settled stand 04. Both paws, feet and attached tail remain contained, with deliberate elevation rather than size inflation."
+    },
+    "failed": {
+      "frames_reviewed": 8,
+      "gif_frames_reviewed": 8,
+      "verdict": "pass",
+      "evidence": "8 native frames and 8 actual GIF frames: thoughtful start 00, lowered head/clasp 01, slump 02, forehead paw 03, deeper bow 04, shrug 05, raised fists/frustrated face 06, hands at sides/settle 07. Physical head, arm and torso changes convey failure; no detached effect."
+    },
+    "waiting": {
+      "frames_reviewed": 6,
+      "gif_frames_reviewed": 6,
+      "verdict": "pass",
+      "evidence": "6 native frames and 6 actual GIF frames: rest 00, eyes widen and paw approaches chin 01, held thoughtful chin paw 02, purposeful tilt 03, opposite thoughtful lean 04, return 05. Small size changes read as head tilt rather than a conspicuous material contraction."
+    },
+    "running": {
+      "frames_reviewed": 6,
+      "gif_frames_reviewed": 6,
+      "verdict": "pass",
+      "evidence": "6 native frames and 6 actual GIF frames: rest 00, index finger points upward 01, open-mouth storyteller with counting/open paws 02, two-finger counting 03, open-palm explanation 04, rest 05. Planted feet and empty paws distinguish WORK from locomotion."
+    },
+    "review": {
+      "frames_reviewed": 6,
+      "gif_frames_reviewed": 6,
+      "verdict": "pass",
+      "evidence": "6 native frames and 6 actual GIF frames: calm chin-paw 00, wide eyes and approaching paws 01, clasped empty paws 02, closed-eye open-mouth laugh with slight head change and small bounce 03, relaxed grin/open hands 04, happy rest 05. Bounce retains two legs and two paws; no extra anatomy or effect."
+    }
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "Fresh ordered review of all16 actual final atlas directions: UP, three UP-RIGHT, RIGHT, three DOWN-RIGHT, DOWN, three DOWN-LEFT, LEFT, three UP-LEFT, returning UP. 315 and337.5 face upper LEFT, not right. Eye pupils, nose placement and head pitch agree with their quadrants. Profile foreshortening hides the far eye naturally. Four cardinals are clear. Head turns preserve the broad anatomical LEFT eye patch, head mass, torso, attached tail and planted foot baseline; all look cells bottom at y202, matching idle00. Neutral cell(0,6) is byte-identical to idle00, and is separate from directional000.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "308e0806fe0638b9e66e5af48492cf50565d5e8ad7dbf49c6f340a1ef65b796d",
+    "reason": "Reviewed the exact alpha sheet and all16 final atlas crops with enclosed alpha-zero suspects highlighted. Suspects are slender outer silhouette antialias wedges around ears, crown, tufts, tail and trouser/foot edges: e.g000 x106–121/y59–60 at crown rim, x141–142/y175–183 at trouser rim;045 x109–123/y55 at crown rim;270 x73–83/y65 at crown/ear rim;315 x55/y87–96 at facial exterior rim. No alpha-zero material holes cross filled eyes, eye patch, head, shirt, tail or trousers. Native standard frames on dark background likewise show no interior cutout."
+  },
+  "warnings": [
+    "Preserve native continuity warnings:000→022.5 and270→292.5 have larger pixel differences; actual head-turn changes remain coherent without wrong quadrant or conspicuous size pop.",
+    "Actual GIF palette quantization roughens antialiased silhouette edges relative to the clean final WebP.",
+    "Waving alternates the raised paw across01/02; both poses remain anatomically valid."
+  ],
+  "repair_rows": [],
+  "notes": [
+    "All74 used cells reviewed:57 standard frames,16look poses,1 separate neutral. No blind answer key or blind verdict was read.",
+    "Fresh review used original identity board, exact final pixels, actual GIF decoded sequences and alpha coordinate overlays; no artwork was changed."
+  ]
+}
