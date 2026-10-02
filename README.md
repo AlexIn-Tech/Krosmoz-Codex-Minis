@@ -29,6 +29,7 @@ states and sixteen look directions. Installation names match the catalog exactly
 | ![Ivory Dofus](assets/previews/dofus-ivory.gif) | Ivory Dofus | `dofus-ivory` |
 | ![Ebony Dofus](assets/previews/dofus-ebony.gif) | Ebony Dofus | `dofus-ebony` |
 | ![Goultard](assets/previews/goultard.gif) | Goultard | `goultard` |
+| ![Toross Mordal](assets/previews/toross-mordal.gif) | Toross Mordal | `toross-mordal` |
 | ![Qilby](assets/previews/qilby.gif) | Qilby | `qilby` |
 | ![Goultard (Dark)](assets/previews/goultard-dark.gif) | Goultard (Dark) | `goultard-dark` |
 | ![Dark Vlad](assets/previews/dark-vlad.gif) | Dark Vlad | `dark-vlad` |
@@ -104,7 +105,7 @@ until their complete animations pass QA and appear in the gallery.
 
 ## Ideas
 
-Toross Mordal (`toross-mordal`), Yugo (`yugo`), Adamai (`adamai`), Nox (`nox`), Ogrest (`ogrest`), Dathura (`dathura`), Percedal (`percedal`), Evangelyne (`evangelyne`), Amalia (`amalia`), Ruel (`ruel`), Joris (`joris`), Kerubim (`kerubim`), Julith (`julith`), Ush (`ush`).
+Yugo (`yugo`), Adamai (`adamai`), Nox (`nox`), Ogrest (`ogrest`), Dathura (`dathura`), Percedal (`percedal`), Evangelyne (`evangelyne`), Amalia (`amalia`), Ruel (`ruel`), Joris (`joris`), Kerubim (`kerubim`), Julith (`julith`), Ush (`ush`).
 
 These character ideas are deferred. Reference images will be supplied gradually
 before generation resumes. Existing completed minis stay in the gallery;

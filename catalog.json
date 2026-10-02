@@ -148,8 +148,13 @@
       "id": "toross-mordal",
       "name": "Toross Mordal",
       "category": "characters",
-      "status": "planned",
-      "generation": "deferred"
+      "status": "ready",
+      "generation": "active",
+      "preview": "assets/previews/toross-mordal.gif",
+      "package": {
+        "pet.json": "6d7ae20092207b7af02044e63239d61a814e71aeb72d777dc8d1f0a9455d6df9",
+        "spritesheet.webp": "e2af32f582a1256417b7dd0fd557b19ae662f38363247a60cbf99eae356fcb71"
+      }
     },
     {
       "id": "yugo",

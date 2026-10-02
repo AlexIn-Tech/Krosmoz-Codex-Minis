@@ -1,0 +1,165 @@
+{
+  "atlas_sha256": "e2af32f582a1256417b7dd0fd557b19ae662f38363247a60cbf99eae356fcb71",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "reason": "Hard UP is distinct from neutral and begins the clockwise loop.",
+      "horizontal_evidence": "Bone muzzle, jaw point, paired sockets, and neck are centered with no left/right yaw.",
+      "vertical_evidence": "The chin lifts, skull underside and both sockets face upward, and the crown recedes.",
+      "coordinate_evidence": "Centered skull axis above the fixed neck; symmetric pink sockets flank that axis."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "First clockwise diagonal combines a slight right yaw with retained upward pitch.",
+      "horizontal_evidence": "Connected bone muzzle and jaw shift screen-right of the neck; right socket dominance begins.",
+      "vertical_evidence": "Raised chin and visible skull underside remain close to 000.",
+      "coordinate_evidence": "Jaw tip is right of the 000 centerline while the socket band remains high."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Mid up-right advances both yaw and pitch smoothly.",
+      "horizontal_evidence": "Muzzle, jaw, and forward socket sit farther screen-right of the connected neck than at 022.5.",
+      "vertical_evidence": "Chin remains raised and underside remains visible, less steeply than at 022.5.",
+      "coordinate_evidence": "Bone facial centroid is right of neck center and above the neutral socket height."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Near-right diagonal keeps a smaller but genuine upward component.",
+      "horizontal_evidence": "Right-facing nasal ridge, jaw projection, and dominant socket approach the 090 profile.",
+      "vertical_evidence": "Muzzle and socket band remain slightly elevated relative to the horizontal 090 pose.",
+      "coordinate_evidence": "Facial bone projects screen-right of the neck with its jaw endpoint still above the 090 endpoint."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "reason": "Hard RIGHT is an unambiguous bone profile.",
+      "horizontal_evidence": "Nasal ridge and jaw project screen-right from the neck and the forward pink socket dominates.",
+      "vertical_evidence": "Muzzle is approximately level, without meaningful up/down pitch.",
+      "coordinate_evidence": "Jaw endpoint and socket center are maximally right of the connected neck axis."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "The first lower-right cell preserves right yaw while beginning a visible downward pitch.",
+      "horizontal_evidence": "Bone muzzle, jaw, and active socket remain screen-right of the neck despite the crossing ivory lock.",
+      "vertical_evidence": "Brow and muzzle tip lower from 090 and more crown surface becomes visible.",
+      "coordinate_evidence": "Jaw endpoint is right of neck center and below its 090 position."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Mid down-right has clear bone-side yaw and stronger downward pitch.",
+      "horizontal_evidence": "Connected muzzle and jaw remain screen-right of neck; the visible socket is on the right-facing skull plane.",
+      "vertical_evidence": "Crown area expands while socket and jaw descend toward the chest.",
+      "coordinate_evidence": "Bone facial centroid is right of the neck axis and lower than at 112.5."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "Near-down cell retains a small genuine right yaw before the centered DOWN cardinal.",
+      "horizontal_evidence": "Jaw seam, lower muzzle, and surviving socket remain subtly screen-right of connected neck center; hair-tip direction is disregarded.",
+      "vertical_evidence": "Top of skull dominates and the face points steeply toward the chest.",
+      "coordinate_evidence": "Low facial features are just right of the neck axis and converge toward centered 180."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "reason": "Hard DOWN is centered and clearly distinct from both lower diagonals.",
+      "horizontal_evidence": "Skull cap and neck connection are centered without left/right jaw projection.",
+      "vertical_evidence": "Crown faces the viewer while muzzle, jaw, and sockets tuck toward the chest.",
+      "coordinate_evidence": "Crown apex and neck share a vertical centerline; facial features occupy their lowest centered placement."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "First post-DOWN diagonal opens toward screen-left while remaining steeply pitched down.",
+      "horizontal_evidence": "Bone jaw seam, muzzle, and socket emerge screen-left of the connected neck.",
+      "vertical_evidence": "Large crown area and tucked muzzle preserve the near-down pitch.",
+      "coordinate_evidence": "Low facial centroid is just left of the neck axis and rises slightly from 180."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Mid down-left advances left yaw without quadrant reversal.",
+      "horizontal_evidence": "Connected muzzle and jaw project screen-left; the visible socket belongs to the left-facing skull plane.",
+      "vertical_evidence": "Socket and jaw remain lowered while crown surface stays broad.",
+      "coordinate_evidence": "Bone facial centroid is left of neck center and higher than 202.5 but below 270."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Near-left diagonal retains a smaller clear downward component.",
+      "horizontal_evidence": "Nasal ridge, jaw point, and dominant socket approach the screen-left 270 profile.",
+      "vertical_evidence": "Muzzle and socket band remain below the level left-facing cardinal.",
+      "coordinate_evidence": "Jaw endpoint is left of the neck axis and below its 270 endpoint."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "reason": "Hard LEFT is an unambiguous opposing bone profile.",
+      "horizontal_evidence": "Nasal ridge and jaw project screen-left from the neck and the forward socket dominates.",
+      "vertical_evidence": "Muzzle is approximately level, without meaningful up/down pitch.",
+      "coordinate_evidence": "Jaw endpoint and socket center are maximally left of the connected neck axis."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "First upper-left diagonal keeps left yaw and starts a visible chin lift.",
+      "horizontal_evidence": "Bone muzzle, jaw, and active socket remain screen-left of neck center.",
+      "vertical_evidence": "Jaw and socket band rise above their 270 placements and skull underside starts to show.",
+      "coordinate_evidence": "Jaw endpoint is left of neck center and above its 270 endpoint."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Mid up-left combines clear left yaw with stronger upward pitch.",
+      "horizontal_evidence": "Connected muzzle and jaw sit screen-left of neck, with the left-facing socket plane dominant.",
+      "vertical_evidence": "Raised chin and visible underside move toward the UP pose.",
+      "coordinate_evidence": "Bone facial centroid is left of neck center and higher than at 292.5."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Near-UP retains a small genuine left yaw and closes the clockwise loop cleanly.",
+      "horizontal_evidence": "Jaw point, muzzle seam, and socket remain subtly screen-left of connected neck center, independent of the ivory lock.",
+      "vertical_evidence": "Chin is steeply raised and both-socket/underside presentation approaches centered 000.",
+      "coordinate_evidence": "High facial features sit just left of the neck axis and converge toward centered 000."
+    }
+  ]
+}

@@ -1,0 +1,1003 @@
+{
+  "ok": true,
+  "frames_root": "generation/toross-mordal/qa/final-native-frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "idle used extraction method final-atlas-cells; component extraction is preferred",
+    "running-right used extraction method final-atlas-cells; component extraction is preferred",
+    "running-left used extraction method final-atlas-cells; component extraction is preferred",
+    "waving used extraction method final-atlas-cells; component extraction is preferred",
+    "jumping used extraction method final-atlas-cells; component extraction is preferred",
+    "failed used extraction method final-atlas-cells; component extraction is preferred",
+    "waiting used extraction method final-atlas-cells; component extraction is preferred",
+    "running used extraction method final-atlas-cells; component extraction is preferred",
+    "review used extraction method final-atlas-cells; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/toross-mordal/qa/final-native-frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8542,
+          "bbox": [
+            45,
+            70,
+            144,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/toross-mordal/qa/final-native-frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8548,
+          "bbox": [
+            46,
+            70,
+            145,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/toross-mordal/qa/final-native-frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8459,
+          "bbox": [
+            46,
+            70,
+            144,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/toross-mordal/qa/final-native-frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8549,
+          "bbox": [
+            46,
+            70,
+            145,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/toross-mordal/qa/final-native-frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8497,
+          "bbox": [
+            47,
+            70,
+            146,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/toross-mordal/qa/final-native-frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8469,
+          "bbox": [
+            46,
+            70,
+            144,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6405,
+          "bbox": [
+            53,
+            72,
+            144,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 1,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6295,
+          "bbox": [
+            44,
+            70,
+            132,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 3
+        },
+        {
+          "index": 2,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6573,
+          "bbox": [
+            42,
+            70,
+            138,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 3,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6081,
+          "bbox": [
+            54,
+            72,
+            146,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6041,
+          "bbox": [
+            50,
+            72,
+            142,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 2
+        },
+        {
+          "index": 5,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6232,
+          "bbox": [
+            55,
+            72,
+            148,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6244,
+          "bbox": [
+            56,
+            73,
+            149,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 7,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6261,
+          "bbox": [
+            45,
+            73,
+            139,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5937,
+          "bbox": [
+            51,
+            77,
+            148,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5741,
+          "bbox": [
+            50,
+            70,
+            140,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5457,
+          "bbox": [
+            65,
+            73,
+            149,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5731,
+          "bbox": [
+            55,
+            73,
+            152,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5826,
+          "bbox": [
+            51,
+            78,
+            147,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5781,
+          "bbox": [
+            50,
+            71,
+            140,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5624,
+          "bbox": [
+            65,
+            73,
+            152,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "generation/toross-mordal/qa/final-native-frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5895,
+          "bbox": [
+            53,
+            73,
+            155,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/toross-mordal/qa/final-native-frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8287,
+          "bbox": [
+            45,
+            70,
+            144,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/toross-mordal/qa/final-native-frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8578,
+          "bbox": [
+            46,
+            70,
+            144,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 2,
+          "file": "generation/toross-mordal/qa/final-native-frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8660,
+          "bbox": [
+            46,
+            70,
+            144,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 3,
+          "file": "generation/toross-mordal/qa/final-native-frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8246,
+          "bbox": [
+            47,
+            70,
+            143,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/toross-mordal/qa/final-native-frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7881,
+          "bbox": [
+            41,
+            68,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/toross-mordal/qa/final-native-frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8718,
+          "bbox": [
+            43,
+            34,
+            148,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/toross-mordal/qa/final-native-frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9103,
+          "bbox": [
+            40,
+            5,
+            151,
+            161
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/toross-mordal/qa/final-native-frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8559,
+          "bbox": [
+            41,
+            34,
+            150,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/toross-mordal/qa/final-native-frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7660,
+          "bbox": [
+            44,
+            72,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/toross-mordal/qa/final-native-frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7972,
+          "bbox": [
+            48,
+            70,
+            139,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/toross-mordal/qa/final-native-frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6927,
+          "bbox": [
+            49,
+            77,
+            134,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/toross-mordal/qa/final-native-frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6391,
+          "bbox": [
+            47,
+            82,
+            132,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 6
+        },
+        {
+          "index": 3,
+          "file": "generation/toross-mordal/qa/final-native-frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5671,
+          "bbox": [
+            54,
+            90,
+            136,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/toross-mordal/qa/final-native-frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5916,
+          "bbox": [
+            52,
+            89,
+            136,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/toross-mordal/qa/final-native-frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6791,
+          "bbox": [
+            53,
+            82,
+            137,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/toross-mordal/qa/final-native-frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7597,
+          "bbox": [
+            50,
+            70,
+            138,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "generation/toross-mordal/qa/final-native-frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7555,
+          "bbox": [
+            52,
+            70,
+            136,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/toross-mordal/qa/final-native-frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7823,
+          "bbox": [
+            53,
+            70,
+            141,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/toross-mordal/qa/final-native-frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8042,
+          "bbox": [
+            52,
+            71,
+            144,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/toross-mordal/qa/final-native-frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7800,
+          "bbox": [
+            54,
+            70,
+            140,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/toross-mordal/qa/final-native-frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7540,
+          "bbox": [
+            55,
+            71,
+            140,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/toross-mordal/qa/final-native-frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8079,
+          "bbox": [
+            52,
+            71,
+            144,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/toross-mordal/qa/final-native-frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7866,
+          "bbox": [
+            53,
+            70,
+            141,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/toross-mordal/qa/final-native-frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8023,
+          "bbox": [
+            50,
+            70,
+            141,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/toross-mordal/qa/final-native-frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7464,
+          "bbox": [
+            52,
+            73,
+            139,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/toross-mordal/qa/final-native-frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7352,
+          "bbox": [
+            50,
+            75,
+            139,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/toross-mordal/qa/final-native-frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7869,
+          "bbox": [
+            50,
+            74,
+            140,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/toross-mordal/qa/final-native-frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7765,
+          "bbox": [
+            51,
+            72,
+            140,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/toross-mordal/qa/final-native-frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7698,
+          "bbox": [
+            52,
+            71,
+            139,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/toross-mordal/qa/final-native-frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8644,
+          "bbox": [
+            49,
+            70,
+            142,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/toross-mordal/qa/final-native-frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8420,
+          "bbox": [
+            49,
+            70,
+            141,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/toross-mordal/qa/final-native-frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8549,
+          "bbox": [
+            47,
+            70,
+            140,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/toross-mordal/qa/final-native-frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8324,
+          "bbox": [
+            50,
+            70,
+            141,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/toross-mordal/qa/final-native-frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8414,
+          "bbox": [
+            48,
+            70,
+            141,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/toross-mordal/qa/final-native-frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8513,
+          "bbox": [
+            50,
+            70,
+            140,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ],
+  "atlas_sha256": "e2af32f582a1256417b7dd0fd557b19ae662f38363247a60cbf99eae356fcb71",
+  "provenance": "All 57 cells are exact crops of the cleaned final native atlas; source extraction evidence is preserved separately. Inspector thresholds unchanged."
+}

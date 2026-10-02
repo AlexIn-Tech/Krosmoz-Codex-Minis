@@ -1,0 +1,91 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "e2af32f582a1256417b7dd0fd557b19ae662f38363247a60cbf99eae356fcb71",
+  "motion_review": "Fresh inspection of all 57 chronological native cells and all nine GIF previews passes. Idle breathes and blinks; both directional runs have genuine opposing travel and leg exchange; waving uses the free anatomical-left hand; jumping follows crouch, lift, apex, descent, and a zero-offset landing over the measured 41 px arc; failed slumps and recovers; waiting questions; running is a planted work gesture rather than locomotion; review performs a small deliberate head/torso nod with hold and recovery. Toross retains the solid pink pupil-free eyes, elongated skeletal skull, attached ivory locks, two front gems, hips, boots, cape, and complete anatomical-right double blade without physical mass pop, clipping, or material loss.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": [
+    {
+      "state": "idle",
+      "actual_frames": 6,
+      "phases": "settle, blink, reopen, settle",
+      "verdict": "pass",
+      "evidence": "Breathing and eyelid change are visible while stance, baseline, sword, cape, gems, boots, and skull mass stay stable."
+    },
+    {
+      "state": "running-right",
+      "actual_frames": 8,
+      "phases": "rightward contact, passing, flight, opposite contact",
+      "verdict": "pass",
+      "evidence": "Legs exchange through a real rightward gait; torso lean, locks, and cape trail consistently, and the full anatomical-right double blade remains attached."
+    },
+    {
+      "state": "running-left",
+      "actual_frames": 8,
+      "phases": "leftward contact, passing, flight, opposite contact",
+      "verdict": "pass",
+      "evidence": "Leg exchange and lean form a real opposite-direction gait with coherent cape/lock drag and complete sword geometry."
+    },
+    {
+      "state": "waving",
+      "actual_frames": 4,
+      "phases": "neutral, raise, high wave, return",
+      "verdict": "pass",
+      "evidence": "The free anatomical-left arm raises and opens clearly while the sword hand and frontal body remain stable."
+    },
+    {
+      "state": "jumping",
+      "actual_frames": 5,
+      "phases": "crouch, lift, apex, descent, land",
+      "verdict": "pass",
+      "evidence": "A real 41 px vertical arc resolves to the original landing baseline with readable leg compression and extension; all props remain contained."
+    },
+    {
+      "state": "failed",
+      "actual_frames": 8,
+      "phases": "startle, slump, low hold, recover",
+      "verdict": "pass",
+      "evidence": "Head, shoulders, torso, and free hand descend into a sustained defeated pose and recover without detached anatomy or lost material."
+    },
+    {
+      "state": "waiting",
+      "actual_frames": 6,
+      "phases": "expectant raise, questioning hold, return",
+      "verdict": "pass",
+      "evidence": "The planted figure makes a readable questioning free-hand gesture with restrained head movement and stable body mass."
+    },
+    {
+      "state": "running",
+      "actual_frames": 6,
+      "phases": "focus, head dip, hand work, release",
+      "verdict": "pass",
+      "evidence": "This working state remains stationary while head and free hand perform a clear task gesture; feet, cape, sword, and torso do not locomote."
+    },
+    {
+      "state": "review",
+      "actual_frames": 6,
+      "phases": "ready, nod, hold, recover",
+      "verdict": "pass",
+      "evidence": "A small deliberate head and upper-torso lean is held and recovered; it is visible motion with stable frontal stance and complete props."
+    }
+  ],
+  "look_directions_reviewed": 16,
+  "look_review": "The exact final presents a continuous clockwise skull-yaw and skull-pitch cycle: 000 UP, three up-rights, 090 RIGHT, three down-rights, 180 DOWN, three down-lefts, 270 LEFT, and three up-lefts back to UP. Direction was judged from the connected bone muzzle, jaw, pink socket placement, and neck attachment rather than the crossing ivory lock. Neutral remains distinct from directional 000. All four hard cardinals are unambiguous, the five formerly difficult lower diagonals show the correct bone-side yaw, and both 157.5-to-180 and 337.5-to-000 seams are visually coherent. The frontal body, two gems, hips, boots, cape, and complete anatomical-right double blade remain fixed and contained through all 16 cells.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "d27665a69a7d84ec111009361420246602314b72d9ee8e8ba3ade21524e5fbb4",
+    "reason": "Direct mask and color review clears the listed alpha suspects as designed negative spaces. The repeated y=186 spans lie between the separated legs/boots and curled cape; x52-84,y80-127 covers the long double-blade center gap plus guard, hand, hair, and weapon openings; x107-118,y90-123 and x136,y171-181 are neck, lock, arm, cape, or limb separations. The largest enclosed components, 42 px at 315 (bbox 73,100-84,107) and 53 px at 337.5 (bbox 73,98-81,108), sit in the same intentional blade/guard/hand opening and do not erase painted blade or body material. No alpha-zero component interrupts either solid pink eye, either gem, the skull core, torso, boots, cape fabric, or either blade slab."
+  },
+  "warnings": [],
+  "repair_rows": [],
+  "notes": "Reviewed the exact frozen final atlas and current alpha sheet identified by the recorded lowercase SHA-256 values. The continuity analyzer's local numerical outliers at 157.5-to-180 and 337.5-to-000 were checked against the actual pixels and are expected changes into the hard DOWN and UP cardinals, without visible pop or reversal."
+}

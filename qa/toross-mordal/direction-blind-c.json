@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The connected bony muzzle and jaw project to the right of the magenta eye socket. B: The pointed bony muzzle projects left of the socket, with the rounded skull mass behind it on the right.",
+      "landmark_reasons": {
+        "A": "The connected bony muzzle and jaw project to the right of the magenta eye socket.",
+        "B": "The pointed bony muzzle projects left of the socket, with the rounded skull mass behind it on the right."
+      }
+    },
+    {
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The short bony snout extends left from the socket while the rounded cranium sits to its right. B: The muzzle and lower jaw extend right from the socket and the back of the skull remains on the left.",
+      "landmark_reasons": {
+        "A": "The short bony snout extends left from the socket while the rounded cranium sits to its right.",
+        "B": "The muzzle and lower jaw extend right from the socket and the back of the skull remains on the left."
+      }
+    },
+    {
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The long bony muzzle and jaw run rightward from the socket in a clear side profile. B: The wedge-shaped muzzle points left of the socket, opposite the rounded rear skull.",
+      "landmark_reasons": {
+        "A": "The long bony muzzle and jaw run rightward from the socket in a clear side profile.",
+        "B": "The wedge-shaped muzzle points left of the socket, opposite the rounded rear skull."
+      }
+    },
+    {
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The socket sits on the left face of the skull and the connected muzzle edge falls left of the skull center. B: The socket leads into a muzzle and jaw that extend distinctly to the right.",
+      "landmark_reasons": {
+        "A": "The socket sits on the left face of the skull and the connected muzzle edge falls left of the skull center.",
+        "B": "The socket leads into a muzzle and jaw that extend distinctly to the right."
+      }
+    },
+    {
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The socket is followed by a bony snout projecting to the right, with the rear skull behind it on the left. B: The socket lies on the left side of the rounded skull and the small connected muzzle turns left.",
+      "landmark_reasons": {
+        "A": "The socket is followed by a bony snout projecting to the right, with the rear skull behind it on the left.",
+        "B": "The socket lies on the left side of the rounded skull and the small connected muzzle turns left."
+      }
+    },
+    {
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: Despite the downward pitch, the socket and connected jaw slope toward a muzzle on the right side of the skull. B: The socket is left of the skull center and the connected face plane descends toward a leftward muzzle.",
+      "landmark_reasons": {
+        "A": "Despite the downward pitch, the socket and connected jaw slope toward a muzzle on the right side of the skull.",
+        "B": "The socket is left of the skull center and the connected face plane descends toward a leftward muzzle."
+      }
+    },
+    {
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The visible socket sits on the right-facing side and the attached muzzle/chin angles down-right from the skull dome. B: The socket is on the left-facing side and the attached muzzle/chin angles down-left from the dome.",
+      "landmark_reasons": {
+        "A": "The visible socket sits on the right-facing side and the attached muzzle/chin angles down-right from the skull dome.",
+        "B": "The socket is on the left-facing side and the attached muzzle/chin angles down-left from the dome."
+      }
+    },
+    {
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The skull is tipped back above the connected neck, exposing the dark underside of the muzzle and jaw beneath the high sockets. B: The broad skull crown faces the viewer while the muzzle and chin tuck downward over the neck.",
+      "landmark_reasons": {
+        "A": "The skull is tipped back above the connected neck, exposing the dark underside of the muzzle and jaw beneath the high sockets.",
+        "B": "The broad skull crown faces the viewer while the muzzle and chin tuck downward over the neck."
+      }
+    },
+    {
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The muzzle is lifted above the socket-to-neck line and the underside of the jaw is exposed. B: The skull dome rolls forward and the connected muzzle/jaw descends toward the chest.",
+      "landmark_reasons": {
+        "A": "The muzzle is lifted above the socket-to-neck line and the underside of the jaw is exposed.",
+        "B": "The skull dome rolls forward and the connected muzzle/jaw descends toward the chest."
+      }
+    },
+    {
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The crown dominates above a low socket and the attached muzzle/chin points down toward the neck. B: The socket and muzzle sit high, with the bony jaw lifted away from the neck in an upward profile.",
+      "landmark_reasons": {
+        "A": "The crown dominates above a low socket and the attached muzzle/chin points down toward the neck.",
+        "B": "The socket and muzzle sit high, with the bony jaw lifted away from the neck in an upward profile."
+      }
+    },
+    {
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The muzzle ridge rises from the neck toward a high nose tip, leaving the lower jaw underside visible. B: The rounded crown rolls forward and the muzzle and chin drop below the socket toward the chest.",
+      "landmark_reasons": {
+        "A": "The muzzle ridge rises from the neck toward a high nose tip, leaving the lower jaw underside visible.",
+        "B": "The rounded crown rolls forward and the muzzle and chin drop below the socket toward the chest."
+      }
+    },
+    {
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The long muzzle is raised above the neck attachment and its underside is plainly exposed. B: The socket is low under the skull dome and the short muzzle pitches down toward the neck.",
+      "landmark_reasons": {
+        "A": "The long muzzle is raised above the neck attachment and its underside is plainly exposed.",
+        "B": "The socket is low under the skull dome and the short muzzle pitches down toward the neck."
+      }
+    },
+    {
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The socket and snout sit high while the jaw underside opens above the neck line. B: The crown leans forward over a low socket and the connected muzzle/chin descends toward the chest.",
+      "landmark_reasons": {
+        "A": "The socket and snout sit high while the jaw underside opens above the neck line.",
+        "B": "The crown leans forward over a low socket and the connected muzzle/chin descends toward the chest."
+      }
+    },
+    {
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The socket is low on the forward-rolled skull and the attached muzzle/chin points down toward the neck. B: The muzzle projects above the neck line with visible jaw underside, placing the socket and nose in a lifted profile.",
+      "landmark_reasons": {
+        "A": "The socket is low on the forward-rolled skull and the attached muzzle/chin points down toward the neck.",
+        "B": "The muzzle projects above the neck line with visible jaw underside, placing the socket and nose in a lifted profile."
+      }
+    }
+  ]
+}
