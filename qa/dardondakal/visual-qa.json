@@ -1,0 +1,97 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "96dfdda7cbffc2dabd14d4631b09b1acbaec0f9728e551666cb352aabb675102",
+  "motion_review": "Inspected all 57 native 192x208 standard cells in chronological row order and all nine state GIFs. Running-right and running-left each alternate gathered, extended, airborne, contact, and recovery poses while facing the required screen direction; jumping follows crouch, rise, apex, descent, and landing; waving raises and returns the connected forepaw; failed droops and recovers; waiting raises a connected forepaw with an expectant mouth change; running uses connected forepaw/head working motion without travel; review uses a restrained head/eye focus cycle; idle uses a valid blink plus minute breathing changes. No loop contains a missing frame, reversal, cut, detached effect, inert duplication, or visible extraction-driven scale pop.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": {
+      "frames_reviewed": 6,
+      "verdict": "pass",
+      "phases": "calm open-eye hold, small blink/eyelid change, tiny breathing and tail/feather settling, return",
+      "identity": "adult ivory-white dragon, aqua eyes and cheek fins, white crest and horns, both full wings, four clawed feet, connected long whiskers, and curled tail remain intact",
+      "scale": "stable 150-151 px wide by 198 px high footprint; alpha center stays within 0.7 px horizontally and 0.2 px vertically"
+    },
+    "running-right": {
+      "frames_reviewed": 8,
+      "verdict": "pass",
+      "phases": "gather, forward extension, airborne stretch, right-facing contact, compact recovery, second stretch, landing, return",
+      "identity": "same white/aqua adult dragon with connected whiskers, full white wings, claws, and complete curled tail in every stride",
+      "scale": "shared 182 px horizontal footprint with 151-162 px pose-height changes caused by the gait; no clipped edge or perceived scale pop"
+    },
+    "running-left": {
+      "frames_reviewed": 8,
+      "verdict": "pass",
+      "phases": "left-facing contact, extension, airborne stretch, recovery contact, gather, second stretch, landing, return",
+      "identity": "same white/aqua adult dragon; face, wing mass, claws, whiskers, and full curled tail remain coherent while facing screen-left",
+      "scale": "shared 182 px horizontal footprint with 147-163 px pose-height changes caused by the gait; no clipped edge or perceived scale pop"
+    },
+    "waving": {
+      "frames_reviewed": 4,
+      "verdict": "pass",
+      "phases": "neutral, connected forepaw lift with open expression, high wave, connected return",
+      "identity": "aqua face fins and eyes, crest/horns, both wings, remaining claws, whiskers, and curled tail remain the canonical dragon",
+      "scale": "164-173 px wide with a fixed 198 px height and stable body baseline; width change comes from the attached waving limb"
+    },
+    "jumping": {
+      "frames_reviewed": 5,
+      "verdict": "pass",
+      "phases": "deep crouch, rising tuck, airborne apex, descent, landing crouch",
+      "identity": "white body mass, aqua facial accents, full wings, all visible claws, whiskers, and curled tail remain physically connected across the arc",
+      "scale": "body width remains 151-158 px while the bbox rises from y=70 to y=5 and returns to y=54; apparent size change follows foreshortened crouch/tuck, not rescaling"
+    },
+    "failed": {
+      "frames_reviewed": 8,
+      "verdict": "pass",
+      "phases": "upright concern, progressive head/shoulder droop, lowest held slump, recovery, return",
+      "identity": "same adult white dragon with aqua eyes/fins, full white wing and tail mass, claws, crest, horns, and attached whiskers",
+      "scale": "147-162 px wide by 198 px high; center remains near x=96 and the wider middle silhouette is the deliberate slump, with no extraction pop"
+    },
+    "waiting": {
+      "frames_reviewed": 6,
+      "verdict": "pass",
+      "phases": "neutral, attached forepaw request, open-mouth appeal, held request, release, neutral",
+      "identity": "raised dark-tipped shape is the connected forepaw/claws rather than a detached prop; all canonical white/aqua dragon anatomy remains present",
+      "scale": "151-155 px wide by 198 px high; center movement is under 2.5 px and baseline is fixed"
+    },
+    "running": {
+      "frames_reviewed": 6,
+      "verdict": "pass",
+      "phases": "focused neutral, attached forepaw reach, alternating working paw/head focus, settle, repeat",
+      "identity": "same adult white/aqua dragon with full connected wings, whiskers, claws, and curled tail; no literal travel or new prop",
+      "scale": "156-159 px wide by 198 px high with sub-pixel center stability and no practical scale change"
+    },
+    "review": {
+      "frames_reviewed": 6,
+      "verdict": "pass",
+      "phases": "neutral focus, eyelid/head lean, closest inspection hold, release, return",
+      "identity": "crest, horns, aqua eyes/fins, white wings, long connected whiskers, claws, torso, and curled tail remain canonical",
+      "scale": "153-159 px wide by 198 px high; center and baseline remain stable and the slight width change follows the restrained lean"
+    }
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "The ordered native-size loop reads 000 up, three up-right intermediates, 090 right, three down-right intermediates, 180 down, three down-left intermediates, 270 left, and three up-left intermediates. In 000, the centered nose is above visible paired aqua eye pixels and the cream jaw underside continues into the ventral neck, so the view is an actual vertical-up face rather than the rear of the head. Across all 16 cells the original frontal/rest body remains fixed: torso, hips, four-foot baseline, wing roots, full white wings, and curled tail do not rotate with the gaze. The head and attached neck turn continuously; long whiskers stay connected. All four hard cardinals are unmistakable, every diagonal remains in its principal quadrant, and there is no wrong-quadrant step, reversal, clipping, or visible scale pop.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "b049af472ef3022c9969015ccb48620b9c0ee6c178da899f555d425d1535236d",
+    "reason": "Inspected the alpha contact sheet and compared raw spritesheet-extended-raw.png with cleaned spritesheet-extended.png: their complete alpha channels are byte-identical. Coordinates below are local to each 192x208 look cell. Row-9 recurring enclosed alpha-zero regions are natural air in the tail curl (approximately x=131-154,y=142-163), between wing/hip/tail layers (x=133-154,y=107-121), and between feet/claws (x=67-78,y=168-187 and x=89-104,y=167-183). The larger 045 and 067.5 regions around x=101-119,y=56-116 are air enclosed by the long connected whisker, jaw/neck, and wing edge. Row-10 recurring regions are the natural wing-to-back opening (x=132-162,y=85-108), curled-tail center (x=135-158,y=129-153), and leg/claw air (x=66-78,y=159-181 and x=91-107,y=159-176); the 292.5 region x=101-118,y=28-80 is the open space bounded by raised jaw/neck, whisker, and wing. RGB despill changes boundary color while preserving alpha and white anatomy. No suspect crosses filled white wing membrane, crest, horn, face, torso, limb, whisker, claw, or tail material, and no seam band or scanline cut is present."
+  },
+  "warnings": [
+    "Adjacent-pixel metrics flag 157.5->180 and 337.5->000 because exposed head/ventral-neck area changes sharply near vertical cardinals; native-size review shows a continuous head/neck turn with fixed body scale, baseline, wing roots, hips, feet, and tail, so these are advisory rather than visible defects."
+  ],
+  "repair_rows": [],
+  "notes": [
+    "Reviewed the current final WebP whose lowercase SHA-256 is recorded above; native dimensions are 1536x2288 with 192x208 cells.",
+    "Canonical and user-reference comparison supports the adult ivory-white dragon identity: aqua eyes and cheek fins, white crest/horns, long connected whiskers, full white wings, gray claws, and a complete curled tail are retained.",
+    "No blind answer key, blind verdict file, or prior peer visual-QA report was consulted."
+  ]
+}

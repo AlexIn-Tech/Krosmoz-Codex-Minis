@@ -49,7 +49,12 @@
       "id": "dardondakal",
       "name": "Dardondakal",
       "category": "dragons",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/dardondakal.gif",
+      "package": {
+        "pet.json": "0b4f453e4d37f6eeb80ab345c20f236d7d3a801ae923473390b899df71ffd988",
+        "spritesheet.webp": "96dfdda7cbffc2dabd14d4631b09b1acbaec0f9728e551666cb352aabb675102"
+      }
     },
     {
       "id": "grougalorasalar",

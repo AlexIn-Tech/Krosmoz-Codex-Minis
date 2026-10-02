@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "ambiguous",
+      "B": "screen-right",
+      "reason": "A: the snout points toward the viewer and is centered above the chest, with no clear left or right projection. B: the visible eye and long muzzle lead to the screen-right, away from the connected neck.",
+      "landmark_reasons": {
+        "A": "The snout points toward the viewer and is centered above the chest, with no clear left or right projection.",
+        "B": "The visible eye and long muzzle lead to the screen-right, away from the connected neck."
+      }
+    },
+    {
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose tip projects left of the eye and the connected neck. B: the nose tip projects right of the eye and connected neck.",
+      "landmark_reasons": {
+        "A": "The nose tip projects left of the eye and the connected neck.",
+        "B": "The nose tip projects right of the eye and connected neck."
+      }
+    },
+    {
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the muzzle and nose extend left from the visible eye, away from the neck. B: the visible eye and muzzle extend to the right of the neck.",
+      "landmark_reasons": {
+        "A": "The muzzle and nose extend left from the visible eye, away from the neck.",
+        "B": "The visible eye and muzzle extend to the right of the neck."
+      }
+    },
+    {
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the pointed snout sits to the left of the eye and neck line. B: the eye and pointed muzzle sit to the right of the neck line.",
+      "landmark_reasons": {
+        "A": "The pointed snout sits to the left of the eye and neck line.",
+        "B": "The eye and pointed muzzle sit to the right of the neck line."
+      }
+    },
+    {
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose is at the left end of the muzzle, left of the eye and connected neck. B: the nose is at the right end of the muzzle, right of the eye and connected neck.",
+      "landmark_reasons": {
+        "A": "The nose is at the left end of the muzzle, left of the eye and connected neck.",
+        "B": "The nose is at the right end of the muzzle, right of the eye and connected neck."
+      }
+    },
+    {
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the visible eye and muzzle point right from the connected neck. B: the nose and face turn left of the eye and neck, though the view is partly frontal.",
+      "landmark_reasons": {
+        "A": "The visible eye and muzzle point right from the connected neck.",
+        "B": "The nose and face turn left of the eye and neck, though the view is partly frontal."
+      }
+    },
+    {
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "A: the nose projects to the right of the eye and neck. B: the face is nearly frontal; the snout is centered over the chest and has no clear left/right projection.",
+      "landmark_reasons": {
+        "A": "The nose projects to the right of the eye and neck.",
+        "B": "The face is nearly frontal; the snout is centered over the chest and has no clear left/right projection."
+      }
+    },
+    {
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the face and snout angle down toward the chest, with the eye below the forehead. B: the snout points straight upward from the neck and the eyes are not visible.",
+      "landmark_reasons": {
+        "A": "The face and snout angle down toward the chest, with the eye below the forehead.",
+        "B": "The snout points straight upward from the neck and the eyes are not visible."
+      }
+    },
+    {
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A: the nose and muzzle angle down-left below the eye toward the chest. B: the snout is nearly level relative to the visible eye and connected neck, without a clear up/down tilt.",
+      "landmark_reasons": {
+        "A": "The nose and muzzle angle down-left below the eye toward the chest.",
+        "B": "The snout is nearly level relative to the visible eye and connected neck, without a clear up/down tilt."
+      }
+    },
+    {
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A: the muzzle slopes downward from the eye toward the chest. B: the eye and nose form an almost level profile above the neck, with no decisive vertical pitch.",
+      "landmark_reasons": {
+        "A": "The muzzle slopes downward from the eye toward the chest.",
+        "B": "The eye and nose form an almost level profile above the neck, with no decisive vertical pitch."
+      }
+    },
+    {
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A: the nose, eye, and connected neck make a nearly level profile with no clear vertical tilt. B: the muzzle angles slightly down from the eye toward the chest.",
+      "landmark_reasons": {
+        "A": "The nose, eye, and connected neck make a nearly level profile with no clear vertical tilt.",
+        "B": "The muzzle angles slightly down from the eye toward the chest."
+      }
+    },
+    {
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the snout is lowered toward the chest, below the eye and brow. B: the snout rises steeply above the neck and the face is viewed from below.",
+      "landmark_reasons": {
+        "A": "The snout is lowered toward the chest, below the eye and brow.",
+        "B": "The snout rises steeply above the neck and the face is viewed from below."
+      }
+    },
+    {
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A: the nose sits below the eye and the muzzle slopes down toward the chest. B: the face is a side view with nose and eye nearly level relative to the connected neck.",
+      "landmark_reasons": {
+        "A": "The nose sits below the eye and the muzzle slopes down toward the chest.",
+        "B": "The face is a side view with nose and eye nearly level relative to the connected neck."
+      }
+    },
+    {
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A: the nose and muzzle dip below the eye toward the chest. B: the snout is near level; the eye-to-nose line shows no confident up/down tilt.",
+      "landmark_reasons": {
+        "A": "The nose and muzzle dip below the eye toward the chest.",
+        "B": "The snout is near level; the eye-to-nose line shows no confident up/down tilt."
+      }
+    }
+  ]
+}

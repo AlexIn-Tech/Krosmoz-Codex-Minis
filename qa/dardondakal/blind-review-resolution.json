@@ -1,0 +1,179 @@
+{
+  "severity": "minor",
+  "decision": "accept",
+  "atlas_sha256": "96dfdda7cbffc2dabd14d4631b09b1acbaec0f9728e551666cb352aabb675102",
+  "basis": "Native blind cardinals passed; actual independent ordered-loop semantics have no failed direction",
+  "warnings": [
+    "horizontal-1 A horizontal axis is ambiguous",
+    "horizontal-7 B horizontal axis is ambiguous",
+    "vertical-2 B vertical axis is ambiguous",
+    "vertical-3 B vertical axis is ambiguous",
+    "vertical-4 A vertical axis is ambiguous",
+    "vertical-6 B vertical axis is ambiguous",
+    "vertical-7 A vertical axis is ambiguous",
+    "vertical-7 B vertical axis is ambiguous"
+  ],
+  "independent_review": "The ordered native-size loop reads 000 up, three up-right intermediates, 090 right, three down-right intermediates, 180 down, three down-left intermediates, 270 left, and three up-left intermediates. In 000, the centered nose is above visible paired aqua eye pixels and the cream jaw underside continues into the ventral neck, so the view is an actual vertical-up face rather than the rear of the head. Across all 16 cells the original frontal/rest body remains fixed: torso, hips, four-foot baseline, wing roots, full white wings, and curled tail do not rotate with the gaze. The head and attached neck turn continuously; long whiskers stay connected. All four hard cardinals are unmistakable, every diagonal remains in its principal quadrant, and there is no wrong-quadrant step, reversal, clipping, or visible scale pop.",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "reason": "The face pitches vertically upward: paired aqua eye pixels remain visible below the centered nose, while the cream jaw underside and ventral neck face the viewer; this is not a rear-head view.",
+      "horizontal_evidence": "Nose and chin remain centered over the neck axis with no left/right bias.",
+      "vertical_evidence": "Nose is above the visible eyes; the jaw underside opens into the long cream ventral neck below.",
+      "coordinate_evidence": "Local cell coordinates: nose tip approximately (80,38); visible eye pixels span x=69-90,y=46-51; chin approximately (82,58); cream ventral neck runs near x=82-96,y=60-116."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "The connected head turns slightly toward screen-right while remaining strongly elevated; the rightward nose displacement and visible underside of jaw/neck supply both axes.",
+      "horizontal_evidence": "Nose sits screen-right of the neck axis and the near aqua eye/fin advances rightward.",
+      "vertical_evidence": "Nose remains above the eye cluster and the cream underside remains broadly exposed.",
+      "coordinate_evidence": "Local coordinates: nose approximately (101,49); dark aqua eye centroid (85.5,57.6); chin approximately (94,67); neck axis approximately x=86,y=88-116."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "The nose and eye move farther right while the muzzle still rises above the neck, producing a clear diagonal rather than horizontal right.",
+      "horizontal_evidence": "Nose is clearly right of the eye/neck center and the right cheek fin leads.",
+      "vertical_evidence": "Muzzle is elevated and the underside of the jaw remains visible above the ventral neck.",
+      "coordinate_evidence": "Local coordinates: nose approximately (109,53); dark aqua eye centroid (91.2,57.4); chin approximately (99,70); neck center approximately (87,94)."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "The face approaches the right cardinal but the nose is still visibly higher than the jaw/neck attachment, preserving the upward component.",
+      "horizontal_evidence": "Nose and near eye project screen-right of the anchored neck.",
+      "vertical_evidence": "Nose remains above the eye/chin line and the neck slopes upward into the head.",
+      "coordinate_evidence": "Local coordinates: nose approximately (115,63); dark aqua eye centroid (94.3,67.3); chin approximately (103,78); neck center approximately (89,96)."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "reason": "The muzzle forms a clean screen-right profile with the eye behind the nose and a nearly horizontal jaw line.",
+      "horizontal_evidence": "Nose is the rightmost facial landmark and lies well right of the eye and neck axis.",
+      "vertical_evidence": "Eye, nose, and jaw are approximately level; there is no dominant up/down pitch.",
+      "coordinate_evidence": "Local coordinates: nose approximately (119,74); dark aqua eye centroid (92.4,76.1); chin approximately (105,84); neck center approximately (88,99)."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "The muzzle remains screen-right but drops below the eye/upper-neck line, beginning the downward arc without reversing horizontally.",
+      "horizontal_evidence": "Nose remains to the right of the eye and neck axis.",
+      "vertical_evidence": "Nose/chin descend relative to the preceding right cardinal and the eye sits higher on the skull.",
+      "coordinate_evidence": "Local coordinates: nose approximately (116,83); dark aqua eye centroid (97.6,82.5); chin approximately (104,93); neck center approximately (89,102)."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "The right-facing muzzle pitches farther down, with the connected chin and neck forming a continuous descending diagonal.",
+      "horizontal_evidence": "Nose remains screen-right of the neck center and the visible near eye stays on the right-facing profile.",
+      "vertical_evidence": "Nose and chin are lower than the eye/crest base, clearly adding a downward component.",
+      "coordinate_evidence": "Local coordinates: nose approximately (112,92); dark aqua eye centroid (97.4,90.4); chin approximately (101,102); neck center approximately (89,105)."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "The head is steeply lowered toward down while the nose remains slightly screen-right of the neck, forming the final down-right step before 180.",
+      "horizontal_evidence": "Nose remains right of the neck axis without crossing center.",
+      "vertical_evidence": "Eye, nose, and chin are at their lowest row-9 positions and the muzzle points toward the feet.",
+      "coordinate_evidence": "Local coordinates: nose approximately (106,101); dark aqua eye centroid (97.0,95.7); chin approximately (97,110); neck center approximately (89,107)."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "reason": "The face is centered and lowered between the shoulders; paired eyes flank the centered muzzle and the nose/chin point toward the forefeet.",
+      "horizontal_evidence": "Centered muzzle and paired eye placement show no left/right preference.",
+      "vertical_evidence": "Eyes sit above the nose/chin and the connected neck descends straight into the centered lowered head.",
+      "coordinate_evidence": "Local coordinates: nose approximately (77,97); dark aqua eye pixels span x=58-95,y=77-93 with centroid (76.5,87.6); chin approximately (78,104); neck center approximately x=82-91,y=104-123."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "The lowered muzzle shifts screen-left of the neck while maintaining its downward pitch, beginning the down-left quadrant cleanly.",
+      "horizontal_evidence": "Nose and visible eye move left of the anchored neck center.",
+      "vertical_evidence": "Muzzle stays below the eye and upper-neck line.",
+      "coordinate_evidence": "Local coordinates: nose approximately (48,91); dark aqua eye centroid (56.0,80.2); chin approximately (58,100); neck center approximately (82,105)."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "The profile advances farther screen-left while the nose remains lowered; eye, muzzle, chin, and attached neck form one coherent diagonal.",
+      "horizontal_evidence": "Nose is left of both the eye and neck axis.",
+      "vertical_evidence": "Nose/chin remain below the visible eye and the jaw slopes downward-left.",
+      "coordinate_evidence": "Local coordinates: nose approximately (40,83); dark aqua eye cluster centers near (49,81); chin approximately (52,94); neck center approximately (82,103)."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "The head approaches left profile but the muzzle remains visibly below the eye/neck attachment, retaining the downward axis.",
+      "horizontal_evidence": "Nose is strongly screen-left of the eye and fixed body center.",
+      "vertical_evidence": "Nose/chin remain lower than the eye and the lower jaw angles down-left.",
+      "coordinate_evidence": "Local coordinates: nose approximately (35,69); dark aqua eye centroid (53.6,61.0); chin approximately (48,78); neck center approximately (83,96)."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "reason": "The muzzle forms an unmistakable screen-left profile with the nose leftmost and the eye behind it on a near-horizontal head line.",
+      "horizontal_evidence": "Nose is the leftmost facial landmark, well left of the eye and neck axis.",
+      "vertical_evidence": "Eye, nose, and jaw are approximately level with no dominant upward or downward pitch.",
+      "coordinate_evidence": "Local coordinates: nose approximately (31,57); dark aqua eye pixels center near (45,50); chin approximately (45,66); neck center approximately (84,90)."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "The nose remains screen-left while rising above the jaw/neck line; the visible eye and cheek fin follow the same upward-left turn.",
+      "horizontal_evidence": "Nose and eye remain left of the fixed neck/body axis.",
+      "vertical_evidence": "Nose rises above the eye/chin relationship and more cream jaw underside becomes visible.",
+      "coordinate_evidence": "Local coordinates: nose approximately (37,47); dark aqua eye centroid (57.0,41.8); chin approximately (51,58); neck center approximately (84,82)."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "The head pitches more steeply upward while retaining a screen-left nose offset, continuing toward the vertical-up pose without reversal.",
+      "horizontal_evidence": "Nose stays left of the eye/neck center.",
+      "vertical_evidence": "Muzzle and eye move higher and the jaw underside lengthens into the visible ventral neck.",
+      "coordinate_evidence": "Local coordinates: nose approximately (44,32); dark aqua eye centroid (57.1,31.2); chin approximately (56,45); neck center approximately (84,75)."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "The face is nearly vertical-up but retains a small screen-left nose/eye offset; the exposed jaw underside connects smoothly into 000.",
+      "horizontal_evidence": "Nose remains slightly left of the centered ventral neck axis.",
+      "vertical_evidence": "Nose is high above the chin and long cream underside, one step short of the centered up cardinal.",
+      "coordinate_evidence": "Local coordinates: nose approximately (65,24); dark aqua eye pixels center near (63,25); chin approximately (68,39); cream neck center approximately x=82-92,y=46-113."
+    }
+  ]
+}
