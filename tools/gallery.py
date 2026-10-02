@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the README from the catalog; --check is used by CI."""
+"""Build the end-user README gallery from the release catalog."""
 import argparse
 import json
 from pathlib import Path
@@ -9,40 +9,62 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from install import validate_catalog
 
+GALLERY_ORDER = [
+    'goultard', 'qilby', 'toross-mordal',
+    'ignemikhal', 'terrakourial', 'dardondakal', 'grougalorasalar', 'aguabrial', 'aerafal',
+    'dofus-emerald', 'dofus-turquoise', 'dofus-crimson', 'dofus-ochre', 'dofus-ivory', 'dofus-ebony',
+    'goultard-dark', 'dark-vlad',
+]
+
+
+def render_cards(pets):
+    rows = []
+    for start in range(0, len(pets), 4):
+        cards = []
+        for pet in pets[start:start + 4]:
+            preview = pet.get('preview', '')
+            if preview != 'assets/previews/%s.gif' % pet['id']:
+                raise ValueError('Invalid gallery preview path')
+            cards.append('<img src="%s" alt="%s" width="160"><br><strong>%s</strong><br><code>%s</code>' %
+                         (preview, pet['name'], pet['name'], pet['id']))
+        cards.extend([''] * (4 - len(cards)))
+        rows.append('| ' + ' | '.join(cards) + ' |')
+    return '\n'.join(['| | | | |', '| --- | --- | --- | --- |', *rows])
+
 
 def render(catalog):
     pets = validate_catalog(catalog)
     ready = [pet for pet in pets if pet['status'] == 'ready']
-    ideas = [pet for pet in pets if pet['status'] == 'planned' and pet.get('generation') == 'deferred']
-    planned = [pet for pet in pets if pet['status'] == 'planned' and pet.get('generation') != 'deferred']
-    table = ['| Animated mini | Name | Install name |', '| --- | --- | --- |']
-    for pet in ready:
-        preview = pet.get('preview', '')
-        if preview != 'assets/previews/%s.gif' % pet['id']:
-            raise ValueError('Invalid gallery preview path')
-        table.append('| ![%s](%s) | %s | `%s` |' % (pet['name'], preview, pet['name'], pet['id']))
-    if not ready:
-        table = ['The first minis are in production. No animation package is marked ready yet.']
-    groups = []
-    for category, title in [('dragons', 'Primordial dragons'), ('eggs', 'Primordial Dofus'),
-                            ('gods', 'Gods'), ('characters', 'Krosmoz characters')]:
-        names = ['%s (`%s`)' % (pet['name'], pet['id']) for pet in planned if pet['category'] == category]
-        if names:
-            groups.append('- **%s:** %s.' % (title, ', '.join(names)))
+    ideas = [pet for pet in pets if pet['status'] == 'planned']
+    by_id = {pet['id']: pet for pet in ready}
+    rank = {name: index for index, name in enumerate(GALLERY_ORDER)}
+    ordered = sorted(ready, key=lambda pet: (rank.get(pet['id'], len(rank)), pet['name'].casefold()))
+    featured_ids = set(GALLERY_ORDER[:3])
+    dragon_ids = set(GALLERY_ORDER[3:9])
+    dofus_ids = set(GALLERY_ORDER[9:15])
+    featured = [pet for pet in ordered if pet['id'] in featured_ids]
+    dragons = [pet for pet in ordered if pet['id'] in dragon_ids and pet['category'] == 'dragons']
+    dofus = [pet for pet in ordered if pet['id'] in dofus_ids and pet['category'] == 'eggs']
+    other_characters = [pet for pet in ordered if pet not in featured + dragons + dofus]
+    gallery = []
+    for title, group in [('Goultard, Qilby & Toross Mordal', featured), ('Dragons', dragons),
+                         ('Dofus', dofus), ('Other characters', other_characters)]:
+        if group:
+            if gallery:
+                gallery.append('')
+            gallery.extend(['### ' + title, '', render_cards(group)])
+    if not gallery:
+        gallery = ['No minis are available yet.']
+    idea_names = ', '.join(pet['name'] for pet in ideas) + '.' if ideas else 'No future ideas listed.'
     return '''# Krosmoz Codex Minis
 
-Original animated **Dofus / Wakfu / Krosmoz fan-art minis for Codex**, made by a
-huge fan of Ankama's universe. This repository is being reviewed privately
-before any public release. Nothing here is official Ankama or OpenAI artwork.
+Unofficial animated fan art for **Codex**. This project is not affiliated with
+or endorsed by Ankama or OpenAI. See [credits](CREDITS.md).
 
-**Original characters and intellectual property: Ankama Games / Ankama.**
-See [credits](CREDITS.md), [code license](LICENSE), and [artwork scope](assets/README.md).
+## Animated minis
 
-## Animated gallery
-
-Only fully validated, installable minis appear here. Each preview cycles through
-the mini's actual animation frames; each native package includes nine animation
-states and sixteen look directions. Installation names match the catalog exactly.
+Choose a mini below. Each preview shows its animations. Use the code beneath it
+as the install name.
 
 <!-- gallery:start -->
 %s
@@ -50,103 +72,26 @@ states and sixteen look directions. Installation names match the catalog exactly
 
 ## Install
 
-Requirements: **Python 3.9+** and a Codex desktop version that supports custom
-v2 pets. The installer runs on Windows, macOS, and Linux; availability of the
-Codex app itself depends on your platform and version.
-
-First clone the repository. During private review you need repository access
-and the [GitHub CLI](https://cli.github.com/):
-
-```sh
-gh auth login
-gh repo clone AlexIn-Tech/Krosmoz-Codex-Minis
-cd Krosmoz-Codex-Minis
-```
-
-After a public release, a regular clone also works:
+Requires Python 3.9+ and a Codex desktop version with custom pet support.
+Clone the repository, then run:
 
 ```sh
 git clone https://github.com/AlexIn-Tech/Krosmoz-Codex-Minis.git
 cd Krosmoz-Codex-Minis
-```
-
-List completed pets:
-
-```sh
 python install.py --source . --list
+python install.py goultard --source .
 ```
 
-Use a name from the animated gallery (replace `<pet-name>` below):
-
-| Platform | Install from your clone |
-| --- | --- |
-| Windows PowerShell | `./install.ps1 <pet-name> --source .` |
-| macOS / Linux | `sh ./install.sh <pet-name> --source .` |
-| Any OS | `python install.py <pet-name> --source .` |
-
-Once you have a copy of the installer, it can fetch a pet directly from GitHub:
-
-```sh
-# Authenticated access while this repository is private:
-python install.py <pet-name> --private
-# Public access after you choose to publish:
-python install.py <pet-name>
-# Validate without installing; use --source . for a local clone:
-python install.py <pet-name> --source . --dry-run
-```
-
-On macOS/Linux use `python3` if `python` is unavailable. Native wrappers detect
-an available Python command. The remote installer resolves `--ref` (default:
-`main`) to one commit before downloading, and verifies package SHA-256 hashes.
-Hashes detect corruption and mismatched files; trust still comes from the
-repository and the commit you choose. For reproducible installs, use
-`--ref <commit-or-tag>`. Inspect scripts before running downloaded code.
-
-Packages install under `${CODEX_HOME:-~/.codex}/pets/<pet-name>`.
-You can override this with `--codex-home <folder>`. Existing pets are preserved
-unless you explicitly pass `--force`. Restart Codex if needed, then select your
-mini in the pet picker. Installation does not change your selected pet or other
-Codex settings. If PowerShell execution policy blocks a script, use the Python
-command above; no execution-policy change is required.
-
-## Planned collection
-
-%s
-
-Planned names reserve the future installation slugs. They are not downloadable
-until their complete animations pass QA and appear in the gallery.
+Replace `goultard` with any install name in the gallery. On Windows, use
+`py` if `python` is unavailable; on macOS or Linux, use `python3`. Restart
+Codex if needed, then choose the mini in the pet picker.
 
 ## Ideas
 
 %s
 
-These character ideas are deferred. Reference images will be supplied gradually
-before generation resumes. Existing completed minis stay in the gallery;
-unfinished private base drawings are preserved for future work.
-
-## Development and quality
-
-```sh
-python -m pip install -r requirements-dev.txt
-python -m unittest discover -s tests -v
-python tools/gallery.py --check
-python tools/validate_release.py
-```
-
-The release validator checks package hashes, manifest identity, alpha, atlas
-geometry, populated animation cells, previews, and stored QA evidence. GitHub
-Actions runs installer tests on Windows, macOS, and Linux. Artwork is generated
-using ImageGen, assembled and reviewed with the Codex hatch-pet pipeline, then
-committed one mini at a time. Local generation runs, credentials, caches, and
-machine-specific paths are excluded from Git.
-
-Contributions should preserve recognizable character designs, consistent chibi
-style, genuine state-specific motion, full direction support, and Ankama credits.
-Do not submit extracted game sprites, credentials, or private machine metadata.
-Code is MIT licensed; that license does not grant rights to Ankama's underlying
-intellectual property or the derivative character artwork.
-''' % ('\n'.join(table), '\n'.join(groups) if groups else 'All planned minis are complete.',
-       ', '.join('%s (`%s`)' % (pet['name'], pet['id']) for pet in ideas) + '.' if ideas else 'No deferred character ideas.')
+Code is licensed under MIT; that license does not cover the character artwork.
+''' % ('\n'.join(gallery), idea_names)
 
 
 def main():

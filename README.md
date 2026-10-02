@@ -1,134 +1,59 @@
 # Krosmoz Codex Minis
 
-Original animated **Dofus / Wakfu / Krosmoz fan-art minis for Codex**, made by a
-huge fan of Ankama's universe. This repository is being reviewed privately
-before any public release. Nothing here is official Ankama or OpenAI artwork.
+Unofficial animated fan art for **Codex**. This project is not affiliated with
+or endorsed by Ankama or OpenAI. See [credits](CREDITS.md).
 
-**Original characters and intellectual property: Ankama Games / Ankama.**
-See [credits](CREDITS.md), [code license](LICENSE), and [artwork scope](assets/README.md).
+## Animated minis
 
-## Animated gallery
-
-Only fully validated, installable minis appear here. Each preview cycles through
-the mini's actual animation frames; each native package includes nine animation
-states and sixteen look directions. Installation names match the catalog exactly.
+Choose a mini below. Each preview shows its animations. Use the code beneath it
+as the install name.
 
 <!-- gallery:start -->
-| Animated mini | Name | Install name |
-| --- | --- | --- |
-| ![Aerafal](assets/previews/aerafal.gif) | Aerafal | `aerafal` |
-| ![Aguabrial](assets/previews/aguabrial.gif) | Aguabrial | `aguabrial` |
-| ![Ignemikhal](assets/previews/ignemikhal.gif) | Ignemikhal | `ignemikhal` |
-| ![Terrakourial](assets/previews/terrakourial.gif) | Terrakourial | `terrakourial` |
-| ![Dardondakal](assets/previews/dardondakal.gif) | Dardondakal | `dardondakal` |
-| ![Grougalorasalar](assets/previews/grougalorasalar.gif) | Grougalorasalar | `grougalorasalar` |
-| ![Emerald Dofus](assets/previews/dofus-emerald.gif) | Emerald Dofus | `dofus-emerald` |
-| ![Turquoise Dofus](assets/previews/dofus-turquoise.gif) | Turquoise Dofus | `dofus-turquoise` |
-| ![Crimson Dofus](assets/previews/dofus-crimson.gif) | Crimson Dofus | `dofus-crimson` |
-| ![Ochre Dofus](assets/previews/dofus-ochre.gif) | Ochre Dofus | `dofus-ochre` |
-| ![Ivory Dofus](assets/previews/dofus-ivory.gif) | Ivory Dofus | `dofus-ivory` |
-| ![Ebony Dofus](assets/previews/dofus-ebony.gif) | Ebony Dofus | `dofus-ebony` |
-| ![Goultard](assets/previews/goultard.gif) | Goultard | `goultard` |
-| ![Toross Mordal](assets/previews/toross-mordal.gif) | Toross Mordal | `toross-mordal` |
-| ![Qilby](assets/previews/qilby.gif) | Qilby | `qilby` |
-| ![Goultard (Dark)](assets/previews/goultard-dark.gif) | Goultard (Dark) | `goultard-dark` |
-| ![Dark Vlad](assets/previews/dark-vlad.gif) | Dark Vlad | `dark-vlad` |
+### Goultard, Qilby & Toross Mordal
+
+| | | | |
+| --- | --- | --- | --- |
+| <img src="assets/previews/goultard.gif" alt="Goultard" width="160"><br><strong>Goultard</strong><br><code>goultard</code> | <img src="assets/previews/qilby.gif" alt="Qilby" width="160"><br><strong>Qilby</strong><br><code>qilby</code> | <img src="assets/previews/toross-mordal.gif" alt="Toross Mordal" width="160"><br><strong>Toross Mordal</strong><br><code>toross-mordal</code> |  |
+
+### Dragons
+
+| | | | |
+| --- | --- | --- | --- |
+| <img src="assets/previews/ignemikhal.gif" alt="Ignemikhal" width="160"><br><strong>Ignemikhal</strong><br><code>ignemikhal</code> | <img src="assets/previews/terrakourial.gif" alt="Terrakourial" width="160"><br><strong>Terrakourial</strong><br><code>terrakourial</code> | <img src="assets/previews/dardondakal.gif" alt="Dardondakal" width="160"><br><strong>Dardondakal</strong><br><code>dardondakal</code> | <img src="assets/previews/grougalorasalar.gif" alt="Grougalorasalar" width="160"><br><strong>Grougalorasalar</strong><br><code>grougalorasalar</code> |
+| <img src="assets/previews/aguabrial.gif" alt="Aguabrial" width="160"><br><strong>Aguabrial</strong><br><code>aguabrial</code> | <img src="assets/previews/aerafal.gif" alt="Aerafal" width="160"><br><strong>Aerafal</strong><br><code>aerafal</code> |  |  |
+
+### Dofus
+
+| | | | |
+| --- | --- | --- | --- |
+| <img src="assets/previews/dofus-emerald.gif" alt="Emerald Dofus" width="160"><br><strong>Emerald Dofus</strong><br><code>dofus-emerald</code> | <img src="assets/previews/dofus-turquoise.gif" alt="Turquoise Dofus" width="160"><br><strong>Turquoise Dofus</strong><br><code>dofus-turquoise</code> | <img src="assets/previews/dofus-crimson.gif" alt="Crimson Dofus" width="160"><br><strong>Crimson Dofus</strong><br><code>dofus-crimson</code> | <img src="assets/previews/dofus-ochre.gif" alt="Ochre Dofus" width="160"><br><strong>Ochre Dofus</strong><br><code>dofus-ochre</code> |
+| <img src="assets/previews/dofus-ivory.gif" alt="Ivory Dofus" width="160"><br><strong>Ivory Dofus</strong><br><code>dofus-ivory</code> | <img src="assets/previews/dofus-ebony.gif" alt="Ebony Dofus" width="160"><br><strong>Ebony Dofus</strong><br><code>dofus-ebony</code> |  |  |
+
+### Other characters
+
+| | | | |
+| --- | --- | --- | --- |
+| <img src="assets/previews/goultard-dark.gif" alt="Goultard (Dark)" width="160"><br><strong>Goultard (Dark)</strong><br><code>goultard-dark</code> | <img src="assets/previews/dark-vlad.gif" alt="Dark Vlad" width="160"><br><strong>Dark Vlad</strong><br><code>dark-vlad</code> |  |  |
 <!-- gallery:end -->
 
 ## Install
 
-Requirements: **Python 3.9+** and a Codex desktop version that supports custom
-v2 pets. The installer runs on Windows, macOS, and Linux; availability of the
-Codex app itself depends on your platform and version.
-
-First clone the repository. During private review you need repository access
-and the [GitHub CLI](https://cli.github.com/):
-
-```sh
-gh auth login
-gh repo clone AlexIn-Tech/Krosmoz-Codex-Minis
-cd Krosmoz-Codex-Minis
-```
-
-After a public release, a regular clone also works:
+Requires Python 3.9+ and a Codex desktop version with custom pet support.
+Clone the repository, then run:
 
 ```sh
 git clone https://github.com/AlexIn-Tech/Krosmoz-Codex-Minis.git
 cd Krosmoz-Codex-Minis
-```
-
-List completed pets:
-
-```sh
 python install.py --source . --list
+python install.py goultard --source .
 ```
 
-Use a name from the animated gallery (replace `<pet-name>` below):
-
-| Platform | Install from your clone |
-| --- | --- |
-| Windows PowerShell | `./install.ps1 <pet-name> --source .` |
-| macOS / Linux | `sh ./install.sh <pet-name> --source .` |
-| Any OS | `python install.py <pet-name> --source .` |
-
-Once you have a copy of the installer, it can fetch a pet directly from GitHub:
-
-```sh
-# Authenticated access while this repository is private:
-python install.py <pet-name> --private
-# Public access after you choose to publish:
-python install.py <pet-name>
-# Validate without installing; use --source . for a local clone:
-python install.py <pet-name> --source . --dry-run
-```
-
-On macOS/Linux use `python3` if `python` is unavailable. Native wrappers detect
-an available Python command. The remote installer resolves `--ref` (default:
-`main`) to one commit before downloading, and verifies package SHA-256 hashes.
-Hashes detect corruption and mismatched files; trust still comes from the
-repository and the commit you choose. For reproducible installs, use
-`--ref <commit-or-tag>`. Inspect scripts before running downloaded code.
-
-Packages install under `${CODEX_HOME:-~/.codex}/pets/<pet-name>`.
-You can override this with `--codex-home <folder>`. Existing pets are preserved
-unless you explicitly pass `--force`. Restart Codex if needed, then select your
-mini in the pet picker. Installation does not change your selected pet or other
-Codex settings. If PowerShell execution policy blocks a script, use the Python
-command above; no execution-policy change is required.
-
-## Planned collection
-
-All planned minis are complete.
-
-Planned names reserve the future installation slugs. They are not downloadable
-until their complete animations pass QA and appear in the gallery.
+Replace `goultard` with any install name in the gallery. On Windows, use
+`py` if `python` is unavailable; on macOS or Linux, use `python3`. Restart
+Codex if needed, then choose the mini in the pet picker.
 
 ## Ideas
 
-Yugo (`yugo`), Adamai (`adamai`), Nox (`nox`), Ogrest (`ogrest`), Dathura (`dathura`), Percedal (`percedal`), Evangelyne (`evangelyne`), Amalia (`amalia`), Ruel (`ruel`), Joris (`joris`), Kerubim (`kerubim`), Julith (`julith`), Ush (`ush`).
+Yugo, Adamai, Nox, Ogrest, Dathura, Percedal, Evangelyne, Amalia, Ruel, Joris, Kerubim, Julith, Ush.
 
-These character ideas are deferred. Reference images will be supplied gradually
-before generation resumes. Existing completed minis stay in the gallery;
-unfinished private base drawings are preserved for future work.
-
-## Development and quality
-
-```sh
-python -m pip install -r requirements-dev.txt
-python -m unittest discover -s tests -v
-python tools/gallery.py --check
-python tools/validate_release.py
-```
-
-The release validator checks package hashes, manifest identity, alpha, atlas
-geometry, populated animation cells, previews, and stored QA evidence. GitHub
-Actions runs installer tests on Windows, macOS, and Linux. Artwork is generated
-using ImageGen, assembled and reviewed with the Codex hatch-pet pipeline, then
-committed one mini at a time. Local generation runs, credentials, caches, and
-machine-specific paths are excluded from Git.
-
-Contributions should preserve recognizable character designs, consistent chibi
-style, genuine state-specific motion, full direction support, and Ankama credits.
-Do not submit extracted game sprites, credentials, or private machine metadata.
-Code is MIT licensed; that license does not grant rights to Ankama's underlying
-intellectual property or the derivative character artwork.
+Code is licensed under MIT; that license does not cover the character artwork.

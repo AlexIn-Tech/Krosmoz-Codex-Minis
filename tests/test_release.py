@@ -65,7 +65,7 @@ class ReleaseTests(unittest.TestCase):
                 seal_evidence(root)
                 self.assertNotEqual(self.validate(root).returncode, 0)
 
-    def test_gallery_renders_ready_names_and_animated_preview(self):
+    def test_gallery_renders_ready_names_and_ideas(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             catalog = {'schemaVersion': 1, 'pets': [
@@ -77,11 +77,11 @@ class ReleaseTests(unittest.TestCase):
             result = subprocess.run([sys.executable, str(ROOT / 'tools/gallery.py'), '--root', str(root)], capture_output=True, text=True)
             self.assertEqual(result.returncode, 0, result.stderr)
             readme = (root / 'README.md').read_text(encoding='utf-8')
-            self.assertIn('![Goultard](assets/previews/goultard.gif)', readme)
+            self.assertIn('<img src="assets/previews/goultard.gif"', readme)
             self.assertIn('`goultard`', readme)
             gallery = readme.split('<!-- gallery:start -->')[1].split('<!-- gallery:end -->')[0]
             self.assertNotIn('nox', gallery)
-            self.assertIn('Nox', readme.split('Planned collection')[1])
+            self.assertIn('Nox', readme.split('## Ideas', 1)[1])
 
     def test_gallery_check_detects_stale_readme(self):
         with tempfile.TemporaryDirectory() as directory:
