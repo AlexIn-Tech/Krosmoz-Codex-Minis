@@ -9,11 +9,12 @@ Choose a mini below. Each preview shows its animations. Use the code beneath it
 as the install name.
 
 <!-- gallery:start -->
-### Goultard, Qilby & Toross Mordal
+### Characters
 
 | | | | |
 | --- | --- | --- | --- |
-| <img src="assets/previews/goultard.gif" alt="Goultard" width="160"><br><strong>Goultard</strong><br><code>goultard</code> | <img src="assets/previews/qilby.gif" alt="Qilby" width="160"><br><strong>Qilby</strong><br><code>qilby</code> | <img src="assets/previews/toross-mordal.gif" alt="Toross Mordal" width="160"><br><strong>Toross Mordal</strong><br><code>toross-mordal</code> |  |
+| <img src="assets/previews/goultard.gif" alt="Goultard" width="160"><br><strong>Goultard</strong><br><code>goultard</code> | <img src="assets/previews/qilby.gif" alt="Qilby" width="160"><br><strong>Qilby</strong><br><code>qilby</code> | <img src="assets/previews/toross-mordal-gallery.gif" alt="Toross Mordal" width="160"><br><strong>Toross Mordal</strong><br><code>toross-mordal</code> | <img src="assets/previews/goultard-dark.gif" alt="Goultard (Dark)" width="160"><br><strong>Goultard (Dark)</strong><br><code>goultard-dark</code> |
+| <img src="assets/previews/dark-vlad.gif" alt="Dark Vlad" width="160"><br><strong>Dark Vlad</strong><br><code>dark-vlad</code> |  |  |  |
 
 ### Dragons
 
@@ -28,12 +29,6 @@ as the install name.
 | --- | --- | --- | --- |
 | <img src="assets/previews/dofus-emerald.gif" alt="Emerald Dofus" width="160"><br><strong>Emerald Dofus</strong><br><code>dofus-emerald</code> | <img src="assets/previews/dofus-turquoise.gif" alt="Turquoise Dofus" width="160"><br><strong>Turquoise Dofus</strong><br><code>dofus-turquoise</code> | <img src="assets/previews/dofus-crimson.gif" alt="Crimson Dofus" width="160"><br><strong>Crimson Dofus</strong><br><code>dofus-crimson</code> | <img src="assets/previews/dofus-ochre.gif" alt="Ochre Dofus" width="160"><br><strong>Ochre Dofus</strong><br><code>dofus-ochre</code> |
 | <img src="assets/previews/dofus-ivory.gif" alt="Ivory Dofus" width="160"><br><strong>Ivory Dofus</strong><br><code>dofus-ivory</code> | <img src="assets/previews/dofus-ebony.gif" alt="Ebony Dofus" width="160"><br><strong>Ebony Dofus</strong><br><code>dofus-ebony</code> |  |  |
-
-### Other characters
-
-| | | | |
-| --- | --- | --- | --- |
-| <img src="assets/previews/goultard-dark.gif" alt="Goultard (Dark)" width="160"><br><strong>Goultard (Dark)</strong><br><code>goultard-dark</code> | <img src="assets/previews/dark-vlad.gif" alt="Dark Vlad" width="160"><br><strong>Dark Vlad</strong><br><code>dark-vlad</code> |  |  |
 <!-- gallery:end -->
 
 ## Install

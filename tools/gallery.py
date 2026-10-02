@@ -10,10 +10,9 @@ sys.path.insert(0, str(ROOT))
 from install import validate_catalog
 
 GALLERY_ORDER = [
-    'goultard', 'qilby', 'toross-mordal',
+    'goultard', 'qilby', 'toross-mordal', 'goultard-dark', 'dark-vlad',
     'ignemikhal', 'terrakourial', 'dardondakal', 'grougalorasalar', 'aguabrial', 'aerafal',
     'dofus-emerald', 'dofus-turquoise', 'dofus-crimson', 'dofus-ochre', 'dofus-ivory', 'dofus-ebony',
-    'goultard-dark', 'dark-vlad',
 ]
 
 
@@ -25,6 +24,8 @@ def render_cards(pets):
             preview = pet.get('preview', '')
             if preview != 'assets/previews/%s.gif' % pet['id']:
                 raise ValueError('Invalid gallery preview path')
+            if pet['id'] == 'toross-mordal':
+                preview = 'assets/previews/toross-mordal-gallery.gif'
             cards.append('<img src="%s" alt="%s" width="160"><br><strong>%s</strong><br><code>%s</code>' %
                          (preview, pet['name'], pet['name'], pet['id']))
         cards.extend([''] * (4 - len(cards)))
@@ -36,19 +37,13 @@ def render(catalog):
     pets = validate_catalog(catalog)
     ready = [pet for pet in pets if pet['status'] == 'ready']
     ideas = [pet for pet in pets if pet['status'] == 'planned']
-    by_id = {pet['id']: pet for pet in ready}
     rank = {name: index for index, name in enumerate(GALLERY_ORDER)}
     ordered = sorted(ready, key=lambda pet: (rank.get(pet['id'], len(rank)), pet['name'].casefold()))
-    featured_ids = set(GALLERY_ORDER[:3])
-    dragon_ids = set(GALLERY_ORDER[3:9])
-    dofus_ids = set(GALLERY_ORDER[9:15])
-    featured = [pet for pet in ordered if pet['id'] in featured_ids]
-    dragons = [pet for pet in ordered if pet['id'] in dragon_ids and pet['category'] == 'dragons']
-    dofus = [pet for pet in ordered if pet['id'] in dofus_ids and pet['category'] == 'eggs']
-    other_characters = [pet for pet in ordered if pet not in featured + dragons + dofus]
+    featured = [pet for pet in ordered if pet['category'] == 'characters']
+    dragons = [pet for pet in ordered if pet['category'] == 'dragons']
+    dofus = [pet for pet in ordered if pet['category'] == 'eggs']
     gallery = []
-    for title, group in [('Goultard, Qilby & Toross Mordal', featured), ('Dragons', dragons),
-                         ('Dofus', dofus), ('Other characters', other_characters)]:
+    for title, group in [('Characters', featured), ('Dragons', dragons), ('Dofus', dofus)]:
         if group:
             if gallery:
                 gallery.append('')
