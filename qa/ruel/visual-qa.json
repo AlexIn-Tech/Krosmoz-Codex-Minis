@@ -1,0 +1,89 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "9ba63184a45cd5f248a98e73823d1c6bb4e926b7cc26c67650356a6e757124b6",
+  "motion_review": "Reviewed all 57 chronological current native standard-state frames plus nine current GIF previews and decoded GIF counts/timings. All nine states show actual pose motion with the original Ruel identity, sleeveless outfit, broad nose, bald head, pointed white beard, sandals, belt and shovel, plus the original small green companion. Both jogging directions alternate lifted knees and planted sandals with the correct anatomical left shovel hand. Waiting contains crouching scritch and snout boop; running is coin search/reach/pickup; review is wide-eyed delighted coin inspection with small deliberate head lean/nod, raised coin and held recovery. Jump has actual airborne apex and landing. No missing body part, added shadow/effect, conspicuous scale contraction or clipped shovel was seen.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": {
+      "frames": 6,
+      "verdict": "pass",
+      "phases": "00 open-eyed planted stance; 01 blink and companion dip; 02 reopen; 03 small head and shoulder settle; 04 second blink; 05 recover. Beard, outfit and shovel remain intact.",
+      "evidence": "Chronological final-native-frames and current encoded atlas inspected; corresponding GIF decoded frame count and timing checked."
+    },
+    "running-right": {
+      "frames": 8,
+      "verdict": "pass",
+      "phases": "00/04 one sandal planted while opposite knee and foot lift; 01/05 exchange support and rear heel; 02/06 alternate knee lift; 03/07 rear-leg recovery and opposite foot plant. Forward lean, free-arm swing and companion carried at waist give real jogging. Shovel remains in anatomical left hand, at screen right for rightward travel.",
+      "evidence": "Chronological final-native-frames and current encoded atlas inspected; corresponding GIF decoded frame count and timing checked."
+    },
+    "running-left": {
+      "frames": 8,
+      "verdict": "pass",
+      "phases": "00/04 forward lifted sandal and rear support; 01/05 exchange support; 02/06 rear leg extends while leading sandal plants; 03/07 rear foot curls and recovers. Actual leg articulation and planted support, not whole-sprite sliding. Shovel stays in anatomical left hand on the visible leading side, screen left for leftward travel; companion remains at waist.",
+      "evidence": "Chronological final-native-frames and current encoded atlas inspected; corresponding GIF decoded frame count and timing checked."
+    },
+    "waving": {
+      "frames": 4,
+      "verdict": "pass",
+      "phases": "00 free arm down; 01 palm raised beside cheek; 02 palm raised above head; 03 arm lowers to shoulder height. Five-finger palm reads as a wave, shovel hand stays occupied.",
+      "evidence": "Chronological final-native-frames and current encoded atlas inspected; corresponding GIF decoded frame count and timing checked."
+    },
+    "jumping": {
+      "frames": 5,
+      "verdict": "pass",
+      "phases": "00 knees bend and body compresses; 01 lift with both feet clear; 02 raised fist and airborne apex; 03 crouched landing; 04 standing settle. Companion rides at waist; full shovel blade and shaft are contained.",
+      "evidence": "Chronological final-native-frames and current encoded atlas inspected; corresponding GIF decoded frame count and timing checked."
+    },
+    "failed": {
+      "frames": 8,
+      "verdict": "pass",
+      "phases": "00 neutral; 01/02 head dips and free hand draws toward belt; 03 shoulders and arm droop; 04 palm-up complaint; 05 free hand returns toward chest; 06 knees dip with palm extended; 07 recovers. Disappointment is visible through head, arm and leg changes.",
+      "evidence": "Chronological final-native-frames and current encoded atlas inspected; corresponding GIF decoded frame count and timing checked."
+    },
+    "waiting": {
+      "frames": 6,
+      "verdict": "pass",
+      "phases": "00 standing; 01 crouch and hand on companion head; 02 lean in for affectionate scritch; 03 fingertip meets companion snout in a boop; 04 palm returns to head; 05 standing recovery. Companion lifts and turns its snout into the interaction, keeping its eyes, paws and tusks.",
+      "evidence": "Chronological final-native-frames and current encoded atlas inspected; corresponding GIF decoded frame count and timing checked."
+    },
+    "running": {
+      "frames": 6,
+      "verdict": "pass",
+      "phases": "00 looks at ground coin; 01 crouches and reaches; 02 fingers meet coin; 03 lifts it near knee; 04 raises coin to chin; 05 smiles with coin at chest. Coin is intentionally present for the search/pickup task, with companion beside the sandal.",
+      "evidence": "Chronological final-native-frames and current encoded atlas inspected; corresponding GIF decoded frame count and timing checked."
+    },
+    "review": {
+      "frames": 6,
+      "verdict": "pass",
+      "phases": "00 coin held beside face with enlarged attentive eyes; 01 small head lean while inspecting; 02 chin dips back toward coin; 03 eyes and smile widen; 04 coin raised above face in delight; 05 coin returns beside cheek in held recovery. Deliberate head lean/nod and arm motion are visible.",
+      "evidence": "Chronological final-native-frames and current encoded atlas inspected; corresponding GIF decoded frame count and timing checked."
+    }
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "Fresh current final ordered 16-loop inspected: 000 up, three up-right, 090 right, three down-right, 180 down, three down-left, 270 left, three up-left, back to up. All four cardinals are unmistakable actual head/eye directions. Bald skull, broad nose, eyebrows, moustache, beard, torso, belt, sandals, companion and upright shovel remain intact; no replacement face or whole-body turntable. Clockwise yaw/pitch progression has no wrong quadrant or reversal. Near-horizontal pitch differences at 067.5, 247.5 and 292.5 are subtle. The numerically flagged 090->112.5, 157.5->180, 292.5->315 and wrap transitions are head-pose differences, without conspicuous physical-size flash. Current neutral is byte-identical to idle00 and directional sandals now share its y=202 lower extent.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "78d4b4640afe7f9570159e1463c46e296bef6a82fd148413438ca569a2880c94",
+    "reason": "Inspected current alpha sheet and exact final atlas, with four-connected alpha-zero components checked in native cell coordinates. Largest enclosed spaces lie between body and shaft: e.g. 000 x117-129/y124-154 (168 pixels) and 180 x114-130/y121-189 (378 pixels); bent free-arm opening is 000 x76-85/y111-120 (56 pixels), and lateral face-to-shovel opening is 270 x112-127/y76-108 (240 pixels). Sandal-to-shaft gaps such as 000 x116-127/y176-188 (85 pixels) explain lower-row span flags. Numerous 1-pixel and thin boundary components are four-connected antialias wedges along outer contours. These are intentional negative spaces and contour wedges, not holes through filled skin, clothing, beard, companion or shovel blade. No material alpha hole or clipping observed."
+  },
+  "warnings": [
+    "067.5 upward pitch, 247.5 downward pitch and 292.5 upward pitch are subtle beside their horizontal cardinals at native size.",
+    "Native continuity flags remain recorded: lower-row gaps are body/sandal-to-shaft negative space; four transition difference outliers show head-pose changes without a conspicuous size flash."
+  ],
+  "repair_rows": [],
+  "notes": [
+    "Exact current final atlas reviewed after neutral/baseline registration correction. All 74 used cells comprise 57 animation frames, one neutral cell and 16 directions.",
+    "Original identity reference contact reviewed; public report contains no private original source paths.",
+    "GIF previews use palette transparency; detailed anatomy and alpha verdict are based on exact encoded atlas cells and byte-identical native PNG frames."
+  ]
+}

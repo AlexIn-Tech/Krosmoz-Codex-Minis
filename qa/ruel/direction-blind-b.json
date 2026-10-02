@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "landmark_reasons": {
+        "B": "Nose projects to the right of the large eye, with the visible ear behind it on the left and the pupil toward the right.",
+        "A": "Nose and upper lip project left of the visible eye; the ear and rounded rear skull sit to their right."
+      },
+      "B": "screen-right",
+      "reason": "A: Nose and upper lip project left of the visible eye; the ear and rounded rear skull sit to their right. B: Nose projects to the right of the large eye, with the visible ear behind it on the left and the pupil toward the right.",
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "screen-left"
+    },
+    {
+      "landmark_reasons": {
+        "B": "Nose and open mouth project right of the eye; the ear and rear scalp lie to the left.",
+        "A": "Left-projecting nose and mouth lead the face; the ear sits to the right of the eye."
+      },
+      "B": "screen-right",
+      "reason": "A: Left-projecting nose and mouth lead the face; the ear sits to the right of the eye. B: Nose and open mouth project right of the eye; the ear and rear scalp lie to the left.",
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-left"
+    },
+    {
+      "landmark_reasons": {
+        "B": "Nose and smiling lip extend right of the eye, and the brown ear lies on the left rear of the head.",
+        "A": "Nose tip extends left of the eye and beard root, while the brown ear lies behind the eye to the right."
+      },
+      "B": "screen-right",
+      "reason": "A: Nose tip extends left of the eye and beard root, while the brown ear lies behind the eye to the right. B: Nose and smiling lip extend right of the eye, and the brown ear lies on the left rear of the head.",
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-left"
+    },
+    {
+      "landmark_reasons": {
+        "B": "The eye and nose occupy the right front of the skull, with the ear and swept hair behind them on the left.",
+        "A": "The eye and nose occupy the left front of the skull, with the ear and swept hair behind them on the right."
+      },
+      "B": "screen-right",
+      "reason": "A: The eye and nose occupy the left front of the skull, with the ear and swept hair behind them on the right. B: The eye and nose occupy the right front of the skull, with the ear and swept hair behind them on the left.",
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-left"
+    },
+    {
+      "landmark_reasons": {
+        "B": "Nose and lip project right beyond the eye; ear and bald rear skull are to the left.",
+        "A": "Nose and lip project left beyond the eye; ear and bald rear skull are to the right."
+      },
+      "B": "screen-right",
+      "reason": "A: Nose and lip project left beyond the eye; ear and bald rear skull are to the right. B: Nose and lip project right beyond the eye; ear and bald rear skull are to the left.",
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-left"
+    },
+    {
+      "landmark_reasons": {
+        "B": "Lowered nose projects right of the eye, with the ear on the left rear side of the skull.",
+        "A": "Lowered nose still projects left of the eye, with the ear visible on the right side of the skull."
+      },
+      "B": "screen-right",
+      "reason": "A: Lowered nose still projects left of the eye, with the ear visible on the right side of the skull. B: Lowered nose projects right of the eye, with the ear on the left rear side of the skull.",
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-left"
+    },
+    {
+      "landmark_reasons": {
+        "B": "The nose and lower eye face project right, with the ear and rear skull clearly behind them to the left.",
+        "A": "The bowed face shows paired brows around a nearly central nose beneath the broad scalp; no definite lateral nose projection is readable."
+      },
+      "B": "screen-right",
+      "reason": "A: The bowed face shows paired brows around a nearly central nose beneath the broad scalp; no definite lateral nose projection is readable. B: The nose and lower eye face project right, with the ear and rear skull clearly behind them to the left.",
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "ambiguous"
+    },
+    {
+      "landmark_reasons": {
+        "B": "Nose is raised above the open mouth, with the chin and beard lifted away from the neck and the eyes directed high.",
+        "A": "Broad top of the bald skull is exposed; eyes and nose compress low over the beard and the chin tucks toward the chest."
+      },
+      "B": "up",
+      "reason": "A: Broad top of the bald skull is exposed; eyes and nose compress low over the beard and the chin tucks toward the chest. B: Nose is raised above the open mouth, with the chin and beard lifted away from the neck and the eyes directed high.",
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "down"
+    },
+    {
+      "landmark_reasons": {
+        "B": "The crown tilts forward over the eye; nose and chin descend toward the chest and the pupil sits low in the eye.",
+        "A": "The face and chin lift above the connected neck, and the large eye looks toward the upper front of the raised nose."
+      },
+      "B": "down",
+      "reason": "A: The face and chin lift above the connected neck, and the large eye looks toward the upper front of the raised nose. B: The crown tilts forward over the eye; nose and chin descend toward the chest and the pupil sits low in the eye.",
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "up"
+    },
+    {
+      "landmark_reasons": {
+        "B": "Nose and open mouth are raised, pupil points high, and beard root lifts away from the connected neck.",
+        "A": "Bald crown leans forward over the eye and the nose points down toward the beard and staff hand; neck is compressed."
+      },
+      "B": "up",
+      "reason": "A: Bald crown leans forward over the eye and the nose points down toward the beard and staff hand; neck is compressed. B: Nose and open mouth are raised, pupil points high, and beard root lifts away from the connected neck.",
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "down"
+    },
+    {
+      "landmark_reasons": {
+        "B": "The face clearly projects right, but the nose and lip form a nearly level profile; pupil and neck do not give a definite upward or downward aim.",
+        "A": "The face clearly projects right, but nose and chin are close to level and the eye pixels do not establish a definite vertical aim."
+      },
+      "B": "ambiguous",
+      "reason": "A: The face clearly projects right, but nose and chin are close to level and the eye pixels do not establish a definite vertical aim. B: The face clearly projects right, but the nose and lip form a nearly level profile; pupil and neck do not give a definite upward or downward aim.",
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "ambiguous"
+    },
+    {
+      "landmark_reasons": {
+        "B": "Eye and nose lift toward the upper left, mouth and beard underside rise, and the connected neck is extended.",
+        "A": "Large scalp is exposed above lowered brows, nose and chin tuck down over the beard close to the chest."
+      },
+      "B": "up",
+      "reason": "A: Large scalp is exposed above lowered brows, nose and chin tuck down over the beard close to the chest. B: Eye and nose lift toward the upper left, mouth and beard underside rise, and the connected neck is extended.",
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "down"
+    },
+    {
+      "landmark_reasons": {
+        "B": "Nose and mouth lift at the front of the head, eye looks high, and the chin is held up from the neck.",
+        "A": "Crown leans over the low eye and nose, the pupil aims low, and the beard is tucked against the chest."
+      },
+      "B": "up",
+      "reason": "A: Crown leans over the low eye and nose, the pupil aims low, and the beard is tucked against the chest. B: Nose and mouth lift at the front of the head, eye looks high, and the chin is held up from the neck.",
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "down"
+    },
+    {
+      "landmark_reasons": {
+        "B": "Forward crown dominates above the eye, nose points low into the beard, and the chin is tucked toward the connected neck.",
+        "A": "Leftward profile is clear, but nose and chin remain close to level with the ear; the small pupil does not resolve a definite vertical aim."
+      },
+      "B": "down",
+      "reason": "A: Leftward profile is clear, but nose and chin remain close to level with the ear; the small pupil does not resolve a definite vertical aim. B: Forward crown dominates above the eye, nose points low into the beard, and the chin is tucked toward the connected neck.",
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "ambiguous"
+    }
+  ]
+}

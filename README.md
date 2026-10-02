@@ -14,7 +14,7 @@ as the install name.
 | | | | |
 | --- | --- | --- | --- |
 | <img src="assets/previews/goultard.gif" alt="Goultard" width="160"><br><strong>Goultard</strong><br><code>goultard</code> | <img src="assets/previews/qilby.gif" alt="Qilby" width="160"><br><strong>Qilby</strong><br><code>qilby</code> | <img src="assets/previews/toross-mordal-gallery.gif" alt="Toross Mordal" width="160"><br><strong>Toross Mordal</strong><br><code>toross-mordal</code> | <img src="assets/previews/goultard-dark.gif" alt="Goultard (Dark)" width="160"><br><strong>Goultard (Dark)</strong><br><code>goultard-dark</code> |
-| <img src="assets/previews/dark-vlad.gif" alt="Dark Vlad" width="160"><br><strong>Dark Vlad</strong><br><code>dark-vlad</code> |  |  |  |
+| <img src="assets/previews/dark-vlad.gif" alt="Dark Vlad" width="160"><br><strong>Dark Vlad</strong><br><code>dark-vlad</code> | <img src="assets/previews/ruel.gif" alt="Ruel Stroud" width="160"><br><strong>Ruel Stroud</strong><br><code>ruel</code> |  |  |
 
 ### Dragons
 
@@ -49,6 +49,6 @@ Codex if needed, then choose the mini in the pet picker.
 
 ## Ideas
 
-Yugo, Adamai, Nox, Ogrest, Dathura, Percedal, Evangelyne, Amalia, Ruel, Joris, Kerubim, Julith, Ush.
+Yugo, Adamai, Nox, Ogrest, Dathura, Percedal, Evangelyne, Amalia, Joris, Kerubim, Julith, Ush.
 
 Code is licensed under MIT; that license does not cover the character artwork.

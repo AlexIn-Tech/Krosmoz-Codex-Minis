@@ -225,10 +225,14 @@
     },
     {
       "id": "ruel",
-      "name": "Ruel",
+      "name": "Ruel Stroud",
       "category": "characters",
-      "status": "planned",
-      "generation": "deferred"
+      "status": "ready",
+      "preview": "assets/previews/ruel.gif",
+      "package": {
+        "pet.json": "79148b45ead66ee74e52c9e972f2defb0a806556ee0b85e029e1b692c6db4257",
+        "spritesheet.webp": "9ba63184a45cd5f248a98e73823d1c6bb4e926b7cc26c67650356a6e757124b6"
+      }
     },
     {
       "id": "joris",

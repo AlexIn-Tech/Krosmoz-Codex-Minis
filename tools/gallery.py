@@ -10,7 +10,7 @@ sys.path.insert(0, str(ROOT))
 from install import validate_catalog
 
 GALLERY_ORDER = [
-    'goultard', 'qilby', 'toross-mordal', 'goultard-dark', 'dark-vlad',
+    'goultard', 'qilby', 'toross-mordal', 'goultard-dark', 'dark-vlad', 'ruel', 'kerubim',
     'ignemikhal', 'terrakourial', 'dardondakal', 'grougalorasalar', 'aguabrial', 'aerafal',
     'dofus-emerald', 'dofus-turquoise', 'dofus-crimson', 'dofus-ochre', 'dofus-ivory', 'dofus-ebony',
 ]
