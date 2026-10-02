@@ -121,7 +121,12 @@
       "id": "dofus-ebony",
       "name": "Ebony Dofus",
       "category": "eggs",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/dofus-ebony.gif",
+      "package": {
+        "pet.json": "881dd6736f243b67d532239660f74b099b921aa1a7cf36859d08bbb09228079f",
+        "spritesheet.webp": "e9bacf2cd28905ca99ff3263ff51974be9789a47ffacc82fa80223db5f703714"
+      }
     },
     {
       "id": "goultard",

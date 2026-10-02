@@ -1,0 +1,91 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "e9bacf2cd28905ca99ff3263ff51974be9789a47ffacc82fa80223db5f703714",
+  "motion_review": "Fresh independent review of the exact encoded FINAL atlas, the extended contact sheet, all nine final GIF previews, and all 57 chronological native cells confirms real state motion with required counts 6, 8, 8, 4, 5, 8, 6, 6, 6. The intact brown-plum glass egg keeps a practical common shell size, grounded baseline, complete outline, enclosed bronze sphere, and the original dark curl fixed on viewer-right with unchanged inward spiral and handed construction. IDLE uses restrained enclosed core and bubble motion; the two directional rows rock toward their named screen directions and recover; WAVE uses an attached whole-shell greeting rock; JUMP leaves and returns to the baseline with a clear apex; FAILED bows, holds a dim low phase, and recovers; WAIT uses a contained expectant circulation; WORK uses contained positional bubble circulation with a painted core pulse; REVIEW makes the requested small deliberate nod, holds, and recovers. There are no invented eyes, face, limbs, new props, loose effects, shadows, clipped parts, neighboring-cell bleed, static-only substitutes, reversals, or conspicuous shell-mass pops.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": [
+    {
+      "state": "idle",
+      "actual_frames": 6,
+      "verdict": "pass",
+      "phases": "calm rest; subtle enclosed rise; held living phase; internal shift; settle; loop closure",
+      "evidence": "The bronze sphere and existing enclosed bubbles shift subtly and return while the shell remains upright, planted, and complete; the motion is restrained but visibly more than a lighting-only change."
+    },
+    {
+      "state": "running-right",
+      "actual_frames": 8,
+      "verdict": "pass",
+      "phases": "upright launch; increasing screen-right rock; rightward extreme; controlled counter-rock; recovery; upright return",
+      "evidence": "The intact egg performs a chronological screen-right rock and recovery. The viewer-right curl never flips, and no trail, dust, shadow, loose fragment, clipping, or baseline jump appears."
+    },
+    {
+      "state": "running-left",
+      "actual_frames": 8,
+      "verdict": "pass",
+      "phases": "upright launch; increasing screen-left rock; leftward extreme; controlled counter-rock; recovery; upright return",
+      "evidence": "The intact egg performs the opposite chronological screen-left rock and recovery while the original viewer-right curl construction and complete bronze sphere remain recognizable."
+    },
+    {
+      "state": "waving",
+      "actual_frames": 4,
+      "verdict": "pass",
+      "phases": "upright greeting start; modest rock one way; answering rock the other way; upright return",
+      "evidence": "The rigid faceless artifact uses its complete attached shell for a readable friendly greeting and introduces no anatomy, wave mark, arc, symbol, or detached effect."
+    },
+    {
+      "state": "jumping",
+      "actual_frames": 5,
+      "verdict": "pass",
+      "phases": "grounded departure; ascent; clear airborne apex; descent; grounded landing",
+      "evidence": "The complete shell rises bodily and returns to the original baseline; width and practical mass remain coherent, with no squash substitute, shadow, dust, landing mark, impact effect, or clipping."
+    },
+    {
+      "state": "failed",
+      "actual_frames": 8,
+      "verdict": "pass",
+      "phases": "upright start; bow begins; deeper dim bow; held failure low point; posture and light recovery; upright return",
+      "evidence": "Failure reads through a real shell bow plus contained dimming, hold, and recovery. The shell stays intact and adds no crack, red X, tear, smoke, star, fragment, or anatomy."
+    },
+    {
+      "state": "waiting",
+      "actual_frames": 6,
+      "verdict": "pass",
+      "phases": "attentive rest; contained bubble and core drift; held expectant phase; enclosed return; attentive settle",
+      "evidence": "Existing enclosed elements move through a restrained expectant cycle distinct from idle while the planted shell, fixed curl, practical mass, and full containment remain stable."
+    },
+    {
+      "state": "running",
+      "actual_frames": 6,
+      "verdict": "pass",
+      "phases": "quiet work start; internal circulation; bronze pulse builds; focused peak; circulation and pulse recede; calm return",
+      "evidence": "Work reads as active processing through real enclosed bubble circulation accompanying the painted bronze pulse. The egg does not locomote and adds no tool, UI, text, anatomy, scenery, or detached glow."
+    },
+    {
+      "state": "review",
+      "actual_frames": 6,
+      "verdict": "pass",
+      "phases": "upright inspection start; tiny thoughtful nod begins; deeper diagonal nod; held inspection posture; controlled recovery; upright return",
+      "evidence": "The actual shell makes a small deliberate nod, holds it, and recovers. The source prompt requires a forward thoughtful nod and does not mandate screen-left; no paper, magnifier, UI, punctuation, face, limb, or new prop appears."
+    }
+  ],
+  "look_directions_reviewed": 16,
+  "look_review": "Fresh normal-size and zoomed review of the exact final cells confirms one ordered clockwise loop: 000 places the existing full bronze sphere high and centered; 022.5, 045, and 067.5 progress through the upper-right quadrant; 090 is clearly right; 112.5, 135, and 157.5 descend through lower-right; 180 is clearly centered below; 202.5, 225, and 247.5 progress through lower-left; 270 is clearly left; and 292.5, 315, and 337.5 rise through upper-left back to 000. The broad glass chamber and shell stay fixed, with visible rim clearance around the whole sphere at every angle. The viewer-right dark curl remains a fixed material marking with the original inward spiral, arch, side nub, lower fingers, orientation, and handedness; it never behaves as eyes or a face. The sphere retains practical mass and full containment at the row seam and loop seam, with no reversal, wrong quadrant, clipping, conspicuous scale pop, or shell translation.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "b515f3aa4782a696bc9bb1db52a5c19a88e90bfce42f40c325d8ce1c28fca5bf",
+    "reason": "The exact alpha contact is a solid filled egg silhouette in all 16 cells. Every listed largest enclosed zero-alpha component is only 3 to 7 pixels and falls on the outer antialiased shell contour: side-rim coordinates x=30-36 or x=150-158, top-rim y=29-31, or bottom-rim y=192-200 (including the small lower contour groups near x=61-63, 75-80, 109-114, and 125-127). Direct comparison with the color cells shows these are tiny four-connected contour wedges around the glass rim, not holes in filled glass, the bronze sphere, or the dark curl. No seam band or material-breaking transparency is visible."
+  },
+  "warnings": [],
+  "repair_rows": [],
+  "notes": "Verdict is bound to the exact FINAL WebP and alpha-contact hashes above. The neutral reference is IDLE frame 00; direction 000 is the separate UP look pose. Minor source-drawn highlight and bubble variations do not create a visible flash, size contraction, or identity break."
+}

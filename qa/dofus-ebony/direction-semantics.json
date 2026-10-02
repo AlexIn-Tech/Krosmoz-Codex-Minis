@@ -1,0 +1,165 @@
+{
+  "atlas_sha256": "e9bacf2cd28905ca99ff3263ff51974be9789a47ffacc82fa80223db5f703714",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "reason": "The full bronze sphere is unmistakably high inside the fixed broad chamber with substantially more glass below than above.",
+      "horizontal_evidence": "The sphere is centered on the chamber's vertical axis rather than displaced to either side.",
+      "vertical_evidence": "Top rim clearance is tightest and the sphere occupies the upper chamber.",
+      "coordinate_evidence": "In cell coordinates the sphere is centered near the upper third, fully inside the shell; the fixed dark curl remains on viewer-right."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right, first clockwise step",
+      "verdict": "pass",
+      "reason": "The sphere leaves the high center toward screen-right while remaining clearly above the chamber equator.",
+      "horizontal_evidence": "Right-side clearance decreases from 000 and left-side chamber space increases.",
+      "vertical_evidence": "The sphere remains high with much more chamber below than above.",
+      "coordinate_evidence": "The full sphere sits in the upper-right sector between the 000 and 045 placements, with rim clearance intact."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right, middle step",
+      "verdict": "pass",
+      "reason": "Both screen-right displacement and elevation are plainly present at the middle upper-right pose.",
+      "horizontal_evidence": "The sphere center is materially right of the 000 vertical axis.",
+      "vertical_evidence": "The sphere center remains above the chamber midpoint.",
+      "coordinate_evidence": "The sphere occupies the upper-right chamber with balanced diagonal clearance and no contact with the curl or shell."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right, near-right step",
+      "verdict": "pass",
+      "reason": "The sphere remains above center while approaching the right cardinal without crossing into the lower quadrant.",
+      "horizontal_evidence": "Rightward displacement is stronger than at 045 and the sphere approaches the viewer-right curl side.",
+      "vertical_evidence": "A smaller but still visible upper bias remains before 090.",
+      "coordinate_evidence": "The full sphere lies in the upper-right sector and preserves glass and curl clearance."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "reason": "The bronze sphere is unmistakably on the screen-right side at approximately chamber-mid height.",
+      "horizontal_evidence": "Right rim and curl-side clearance are tightest, with substantially more open chamber to the sphere's left.",
+      "vertical_evidence": "The sphere is near the chamber equator rather than visibly high or low.",
+      "coordinate_evidence": "The sphere occupies the right sector without touching the fixed viewer-right dark curl or shell rim."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right, first clockwise step",
+      "verdict": "pass",
+      "reason": "The sphere moves below the right cardinal while retaining a clear screen-right bias.",
+      "horizontal_evidence": "It remains right of the chamber's vertical axis with reduced right-side clearance.",
+      "vertical_evidence": "More chamber is visible above the sphere than at 090, placing it below the equator.",
+      "coordinate_evidence": "The sphere occupies the lower-right sector with its complete circumference and rim clearance visible."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right, middle step",
+      "verdict": "pass",
+      "reason": "The middle diagonal clearly combines screen-right and downward displacement.",
+      "horizontal_evidence": "The sphere remains on the viewer-right half of the glass chamber.",
+      "vertical_evidence": "The sphere is clearly below the chamber midpoint with increasing glass above.",
+      "coordinate_evidence": "The full practical-mass sphere is centered in the lower-right chamber, not recentered or shrunk."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right, near-down step",
+      "verdict": "pass",
+      "reason": "The sphere approaches the down cardinal from screen-right and stays in the correct lower-right quadrant.",
+      "horizontal_evidence": "A remaining rightward offset distinguishes it from centered 180.",
+      "vertical_evidence": "Lower clearance is tight and the majority of open chamber is above.",
+      "coordinate_evidence": "The complete sphere lies low and right, joining 180 without a snap at the row seam."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "reason": "The full bronze sphere is unmistakably centered below the chamber equator with the tightest lower clearance.",
+      "horizontal_evidence": "The sphere returns to the chamber's central vertical axis rather than favoring left or right.",
+      "vertical_evidence": "Open glass above is maximal and lower rim clearance is minimal but intact.",
+      "coordinate_evidence": "The sphere occupies the lower-center chamber, fully contained and unchanged in practical mass."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left, first clockwise step",
+      "verdict": "pass",
+      "reason": "The sphere leaves centered DOWN toward screen-left while staying low.",
+      "horizontal_evidence": "Left-side clearance decreases from 180 and open chamber increases on the right.",
+      "vertical_evidence": "The sphere remains below the chamber midpoint with substantial glass above.",
+      "coordinate_evidence": "The sphere occupies the lower-left sector immediately after 180 with no row-seam discontinuity."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left, middle step",
+      "verdict": "pass",
+      "reason": "Both screen-left displacement and downward placement are clear at the middle lower-left pose.",
+      "horizontal_evidence": "The sphere center is materially left of the chamber's vertical axis.",
+      "vertical_evidence": "The sphere center stays below the chamber equator.",
+      "coordinate_evidence": "The full sphere sits diagonally in the lower-left chamber with visible glass on all sides."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left, near-left step",
+      "verdict": "pass",
+      "reason": "The sphere approaches the left cardinal from below and does not enter the upper-left quadrant early.",
+      "horizontal_evidence": "Its leftward displacement is strong and left rim clearance is reduced.",
+      "vertical_evidence": "A visible lower bias remains before the near-level 270 pose.",
+      "coordinate_evidence": "The full sphere lies left and low with practical mass and containment preserved."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "reason": "The bronze sphere is unmistakably on the screen-left side at approximately chamber-mid height.",
+      "horizontal_evidence": "Left rim clearance is tightest and substantially more chamber is visible to the sphere's right.",
+      "vertical_evidence": "The sphere is near level rather than materially above or below the chamber equator.",
+      "coordinate_evidence": "The sphere occupies the left sector, far from the fixed viewer-right curl and fully inside the shell."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left, first clockwise step",
+      "verdict": "pass",
+      "reason": "The sphere rises above the left cardinal while retaining a clear screen-left bias.",
+      "horizontal_evidence": "It remains left of the chamber's vertical axis with reduced left-side clearance.",
+      "vertical_evidence": "More chamber opens below the sphere than at 270, placing it above the equator.",
+      "coordinate_evidence": "The complete sphere occupies the upper-left sector with shell clearance intact."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left, middle step",
+      "verdict": "pass",
+      "reason": "The middle diagonal clearly combines screen-left and upward displacement.",
+      "horizontal_evidence": "The sphere remains on the viewer-left half of the broad chamber.",
+      "vertical_evidence": "The sphere is clearly above the chamber midpoint with increasing space below.",
+      "coordinate_evidence": "The full practical-mass sphere sits in the upper-left chamber without shell translation or clipping."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left, near-up step",
+      "verdict": "pass",
+      "reason": "The sphere approaches the UP cardinal from screen-left and stays in the correct upper-left quadrant.",
+      "horizontal_evidence": "A remaining leftward offset distinguishes it from centered 000.",
+      "vertical_evidence": "Top clearance is tight and most open chamber lies below.",
+      "coordinate_evidence": "The complete sphere lies high and left, joining 000 smoothly across the loop seam with no reversal."
+    }
+  ]
+}
