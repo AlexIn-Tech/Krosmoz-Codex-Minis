@@ -26,6 +26,7 @@ states and sixteen look directions. Installation names match the catalog exactly
 | ![Turquoise Dofus](assets/previews/dofus-turquoise.gif) | Turquoise Dofus | `dofus-turquoise` |
 | ![Crimson Dofus](assets/previews/dofus-crimson.gif) | Crimson Dofus | `dofus-crimson` |
 | ![Ochre Dofus](assets/previews/dofus-ochre.gif) | Ochre Dofus | `dofus-ochre` |
+| ![Ivory Dofus](assets/previews/dofus-ivory.gif) | Ivory Dofus | `dofus-ivory` |
 | ![Ebony Dofus](assets/previews/dofus-ebony.gif) | Ebony Dofus | `dofus-ebony` |
 | ![Goultard](assets/previews/goultard.gif) | Goultard | `goultard` |
 | ![Qilby](assets/previews/qilby.gif) | Qilby | `qilby` |
@@ -96,7 +97,7 @@ command above; no execution-policy change is required.
 
 ## Planned collection
 
-- **Primordial Dofus:** Ivory Dofus (`dofus-ivory`).
+All planned minis are complete.
 
 Planned names reserve the future installation slugs. They are not downloadable
 until their complete animations pass QA and appear in the gallery.

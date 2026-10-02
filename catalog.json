@@ -115,7 +115,12 @@
       "id": "dofus-ivory",
       "name": "Ivory Dofus",
       "category": "eggs",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/dofus-ivory.gif",
+      "package": {
+        "pet.json": "b90d8ffa396ea30d895913a030967ed64b754672018e00bf2c4db42748a22cac",
+        "spritesheet.webp": "876afd9616ab26e48baeba82b0f378696de6c1d50c8ab3f7cdbc9dfa963f9333"
+      }
     },
     {
       "id": "dofus-ebony",

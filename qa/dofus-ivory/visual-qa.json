@@ -1,0 +1,160 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "876afd9616ab26e48baeba82b0f378696de6c1d50c8ab3f7cdbc9dfa963f9333",
+  "motion_review": "Fresh review of the exact current final WebP, qa/contact-sheet-extended.png, all 57 chronological native cells in qa/final-native-frames, and all nine qa/final-previews GIFs confirms frame counts 6, 8, 8, 4, 5, 8, 6, 6, and 6. IDLE uses calm contained rise and settle; RUNNING-RIGHT and RUNNING-LEFT use named whole-egg rocks with controlled returns; WAVING gives a readable rigid-object greeting rock; JUMPING leaves and returns to the shared baseline; FAILED bows and dims before recovery; WAITING cycles contained bubbles; RUNNING shows contained bubble circulation with a painted amber pulse; REVIEW makes a small deliberate screen-right nod, holds, and recovers. Across all states the original ivory-gold glass shell, handed intricate filigree, broad curled chamber, long diagonal cross-strand, practical scale, baseline, containment, and alpha treatment remain coherent, with no anatomy, new prop, detached effect, clipping, neighboring-cell bleed, static-lighting-only substitute, or conspicuous size flash.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": [
+    {
+      "state": "idle",
+      "actual_frames": 6,
+      "phases": [
+        "rest",
+        "gentle internal rise",
+        "raised calm hold",
+        "held raised phase",
+        "internal descent",
+        "settled return"
+      ],
+      "verdict": "pass",
+      "evidence": "The contained motif and bubbles rise, hold, descend, and settle while the complete shell stays planted and unchanged."
+    },
+    {
+      "state": "running-right",
+      "actual_frames": 8,
+      "phases": [
+        "neutral launch",
+        "right rock begins",
+        "stronger right lean",
+        "maximum right lean",
+        "held extreme",
+        "recovery begins",
+        "near neutral",
+        "neutral return"
+      ],
+      "verdict": "pass",
+      "evidence": "The complete rigid egg rocks progressively toward screen-right and returns without changing mass, baseline, or identity."
+    },
+    {
+      "state": "running-left",
+      "actual_frames": 8,
+      "phases": [
+        "neutral launch",
+        "left rock begins",
+        "stronger left lean",
+        "maximum left lean",
+        "counter-rock",
+        "smaller recovery overshoot",
+        "near neutral",
+        "neutral return"
+      ],
+      "verdict": "pass",
+      "evidence": "The complete rigid egg establishes screen-left motion before a readable counter-rock and controlled return."
+    },
+    {
+      "state": "waving",
+      "actual_frames": 4,
+      "phases": [
+        "neutral",
+        "screen-left greeting rock",
+        "screen-right greeting rock",
+        "neutral return"
+      ],
+      "verdict": "pass",
+      "evidence": "The faceless rigid egg communicates a greeting through a friendly two-sided rock without invented limbs, wave marks, or loose effects."
+    },
+    {
+      "state": "jumping",
+      "actual_frames": 5,
+      "phases": [
+        "grounded departure",
+        "rising",
+        "apex",
+        "descending",
+        "grounded landing"
+      ],
+      "verdict": "pass",
+      "evidence": "The complete egg visibly lifts to an apex and lands on its starting baseline at stable apparent size, with no shadow or impact effect."
+    },
+    {
+      "state": "failed",
+      "actual_frames": 8,
+      "phases": [
+        "neutral",
+        "bow begins",
+        "deeper bow and dim",
+        "deepest dim bow",
+        "held failure",
+        "recovery begins",
+        "near neutral",
+        "neutral return"
+      ],
+      "verdict": "pass",
+      "evidence": "A chronological bow and contained dimming produce a readable failure reaction without symbols, tears, smoke, or identity loss."
+    },
+    {
+      "state": "waiting",
+      "actual_frames": 6,
+      "phases": [
+        "attentive rest",
+        "bubble cycle begins",
+        "internal shift",
+        "expectant hold",
+        "bubble return",
+        "attentive settle"
+      ],
+      "verdict": "pass",
+      "evidence": "Contained bubbles and motif relationships shift, hold, and return in an expectant loop distinct from idle."
+    },
+    {
+      "state": "running",
+      "actual_frames": 6,
+      "phases": [
+        "work rest",
+        "circulation begins",
+        "amber pulse appears",
+        "pulse peak and circulation",
+        "pulse release",
+        "calm work return"
+      ],
+      "verdict": "pass",
+      "evidence": "Real contained bubble circulation supplies active processing motion while the painted amber pulse remains inside the shell; there is no literal foot-running."
+    },
+    {
+      "state": "review",
+      "actual_frames": 6,
+      "phases": [
+        "neutral",
+        "poised inspection",
+        "screen-right nod begins",
+        "held deepest nod",
+        "controlled recovery",
+        "neutral return"
+      ],
+      "verdict": "pass",
+      "evidence": "The actual sequence contains a small deliberate screen-right nod, hold, and recovery. The authoritative prompt requires a thoughtful tiny nod and does not mandate LEFT."
+    }
+  ],
+  "look_directions_reviewed": 16,
+  "look_review": "Fresh normal-size and enlarged review of qa/look-directions.png and all sixteen exact current atlas cells confirms one coherent clockwise loop: absolute centered UP; three upper-right steps; RIGHT; three down-right steps; absolute centered DOWN; three down-left steps; LEFT; three up-left steps; and return to UP. All four hard cardinals pass. The upper seam is 337.5 high-left -> 000 centered/high -> 022.5 high-right, and the lower seam is 157.5 down-right -> 180 centered/low -> 202.5 down-left. In every direction the complete broad curled chamber and long connected cross-strand carry the centroid together inside a fixed upright shell. The modest uniform contained fit preserves the original same-handed full filigree, crest, material, bubbles, highlights, and fine outline; no cell collapses into a generic S, replacement glyph, detached piece, tip-only cue, or lighting-only cue. Row 9's seven non-first motifs are right-biased and row 10's seven non-first motifs are left-biased, including all six upper diagonals. No pose enters a wrong quadrant, reverses, clips, breaks attachment, or produces a conspicuous identity contraction or physical-size pop.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "d27b424576bece8a47e7436564c0377701238ddba2c08e927eddade6a9d47a79",
+    "reason": "Direct inspection of qa/look-alpha-contact.png and qa/alpha-suspect-components-readonly.json shows solid filled shell silhouettes in all sixteen cells. The largest reported components are 7-pixel wedges on the antialiased side rim: 067.5 bbox x=37..38 y=109..114; 202.5 and 225 bbox x=38..39 y=106..111; 270 bbox x=37..38 y=107..112; and 337.5 bbox x=150..151 y=106..111. Other suspects are 3-to-6-pixel crown, side-contour, or bottom-rim fragments near x=37..45, x=149..152, y=42..44, and y=197..200. None lies inside the filled broad chamber, curled filigree core, or long cross-strand, so these are tiny four-connected outer-rim antialias wedges rather than material holes."
+  },
+  "warnings": [
+    "Row 10's outer alpha bound reaches 1-to-3 pixels higher than row 9, but both rows retain 116-to-117-pixel width, the same y=201 baseline, and stable visible shell mass; no native-size seam flash or physical-size pop is visible.",
+    "Minor numerical continuity variations are advisory because the actual ordered loop preserves whole-motif direction, fixed-shell registration, identity, attachment, and containment without a conspicuous snap."
+  ],
+  "repair_rows": [],
+  "notes": "This independent verdict is bound to the exact current final WebP and current alpha contact-sheet hashes. Prior archived failures were not reused. Standard motion, all sixteen current labeled directions, original identity, containment, continuity, and alpha integrity pass fresh actual-pixel review. After this independent judgment was completed, the frozen current blind validation also reported ok true with all 28 axis-majority observations passing, zero warnings, zero unconfirmed items, and reviewRequired false."
+}
