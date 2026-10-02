@@ -1,0 +1,1003 @@
+{
+  "ok": true,
+  "frames_root": "generation/grougalorasalar/qa/final-native-frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "idle used extraction method final-atlas-cells; component extraction is preferred",
+    "running-right used extraction method final-atlas-cells; component extraction is preferred",
+    "running-left used extraction method final-atlas-cells; component extraction is preferred",
+    "waving used extraction method final-atlas-cells; component extraction is preferred",
+    "jumping used extraction method final-atlas-cells; component extraction is preferred",
+    "failed used extraction method final-atlas-cells; component extraction is preferred",
+    "waiting used extraction method final-atlas-cells; component extraction is preferred",
+    "running used extraction method final-atlas-cells; component extraction is preferred",
+    "review used extraction method final-atlas-cells; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/grougalorasalar/qa/final-native-frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20218,
+          "bbox": [
+            13,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 20
+        },
+        {
+          "index": 1,
+          "file": "generation/grougalorasalar/qa/final-native-frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20255,
+          "bbox": [
+            13,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 2,
+          "file": "generation/grougalorasalar/qa/final-native-frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19720,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/grougalorasalar/qa/final-native-frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19476,
+          "bbox": [
+            17,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 15
+        },
+        {
+          "index": 4,
+          "file": "generation/grougalorasalar/qa/final-native-frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20147,
+          "bbox": [
+            13,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 15
+        },
+        {
+          "index": 5,
+          "file": "generation/grougalorasalar/qa/final-native-frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19899,
+          "bbox": [
+            14,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 16
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17315,
+          "bbox": [
+            5,
+            16,
+            187,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 8
+        },
+        {
+          "index": 1,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18545,
+          "bbox": [
+            5,
+            15,
+            187,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 2,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16895,
+          "bbox": [
+            5,
+            14,
+            187,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 5
+        },
+        {
+          "index": 3,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17548,
+          "bbox": [
+            5,
+            17,
+            187,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 2
+        },
+        {
+          "index": 4,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18353,
+          "bbox": [
+            5,
+            12,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 10
+        },
+        {
+          "index": 5,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16167,
+          "bbox": [
+            5,
+            20,
+            187,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 8
+        },
+        {
+          "index": 6,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18023,
+          "bbox": [
+            5,
+            15,
+            187,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 7,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17254,
+          "bbox": [
+            5,
+            18,
+            187,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 7
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18184,
+          "bbox": [
+            5,
+            13,
+            187,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 10
+        },
+        {
+          "index": 1,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19487,
+          "bbox": [
+            5,
+            12,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 4
+        },
+        {
+          "index": 2,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16891,
+          "bbox": [
+            5,
+            14,
+            187,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 5
+        },
+        {
+          "index": 3,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16833,
+          "bbox": [
+            5,
+            20,
+            187,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 3
+        },
+        {
+          "index": 4,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17283,
+          "bbox": [
+            5,
+            15,
+            187,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 8
+        },
+        {
+          "index": 5,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16167,
+          "bbox": [
+            5,
+            20,
+            187,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 8
+        },
+        {
+          "index": 6,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18023,
+          "bbox": [
+            5,
+            15,
+            187,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 7,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17254,
+          "bbox": [
+            5,
+            18,
+            187,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 7
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20975,
+          "bbox": [
+            9,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 1,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20632,
+          "bbox": [
+            8,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        },
+        {
+          "index": 2,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20402,
+          "bbox": [
+            5,
+            6,
+            187,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 13
+        },
+        {
+          "index": 3,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21029,
+          "bbox": [
+            9,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/grougalorasalar/qa/final-native-frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15082,
+          "bbox": [
+            17,
+            49,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 12
+        },
+        {
+          "index": 1,
+          "file": "generation/grougalorasalar/qa/final-native-frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15308,
+          "bbox": [
+            20,
+            28,
+            172,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 10
+        },
+        {
+          "index": 2,
+          "file": "generation/grougalorasalar/qa/final-native-frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15070,
+          "bbox": [
+            20,
+            5,
+            172,
+            170
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 10
+        },
+        {
+          "index": 3,
+          "file": "generation/grougalorasalar/qa/final-native-frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15597,
+          "bbox": [
+            17,
+            34,
+            175,
+            197
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 11
+        },
+        {
+          "index": 4,
+          "file": "generation/grougalorasalar/qa/final-native-frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15231,
+          "bbox": [
+            17,
+            47,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 10
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/grougalorasalar/qa/final-native-frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18583,
+          "bbox": [
+            23,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 8
+        },
+        {
+          "index": 1,
+          "file": "generation/grougalorasalar/qa/final-native-frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18557,
+          "bbox": [
+            23,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/grougalorasalar/qa/final-native-frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18288,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/grougalorasalar/qa/final-native-frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20084,
+          "bbox": [
+            19,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/grougalorasalar/qa/final-native-frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22333,
+          "bbox": [
+            5,
+            9,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/grougalorasalar/qa/final-native-frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21191,
+          "bbox": [
+            14,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/grougalorasalar/qa/final-native-frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18036,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 8
+        },
+        {
+          "index": 7,
+          "file": "generation/grougalorasalar/qa/final-native-frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18146,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 12
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20336,
+          "bbox": [
+            12,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 18
+        },
+        {
+          "index": 1,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19734,
+          "bbox": [
+            14,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 16
+        },
+        {
+          "index": 2,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19259,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 18
+        },
+        {
+          "index": 3,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19427,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 3
+        },
+        {
+          "index": 4,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19738,
+          "bbox": [
+            16,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        },
+        {
+          "index": 5,
+          "file": "generation/grougalorasalar/qa/final-native-frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19692,
+          "bbox": [
+            16,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 15
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20123,
+          "bbox": [
+            14,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 20
+        },
+        {
+          "index": 1,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19762,
+          "bbox": [
+            17,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 2,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19710,
+          "bbox": [
+            17,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 12
+        },
+        {
+          "index": 3,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19816,
+          "bbox": [
+            17,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19703,
+          "bbox": [
+            17,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 13
+        },
+        {
+          "index": 5,
+          "file": "generation/grougalorasalar/qa/final-native-frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19846,
+          "bbox": [
+            17,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/grougalorasalar/qa/final-native-frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20369,
+          "bbox": [
+            12,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 1,
+          "file": "generation/grougalorasalar/qa/final-native-frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21869,
+          "bbox": [
+            5,
+            5,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/grougalorasalar/qa/final-native-frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20068,
+          "bbox": [
+            17,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 8
+        },
+        {
+          "index": 3,
+          "file": "generation/grougalorasalar/qa/final-native-frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19599,
+          "bbox": [
+            14,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 19
+        },
+        {
+          "index": 4,
+          "file": "generation/grougalorasalar/qa/final-native-frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20544,
+          "bbox": [
+            13,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 7
+        },
+        {
+          "index": 5,
+          "file": "generation/grougalorasalar/qa/final-native-frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19886,
+          "bbox": [
+            15,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 16
+        }
+      ]
+    }
+  ],
+  "atlas_sha256": "e91fc60b6146b393a5b1222cdbab5c727feb8154864129b3acd98db97d72be80",
+  "provenance": "All 57 cells are exact crops of the cleaned final native atlas; source extraction evidence is preserved separately. Inspector thresholds unchanged."
+}

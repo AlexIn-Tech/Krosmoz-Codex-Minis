@@ -1,0 +1,158 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The gray pointed snout projects to the right of the purple eye, with the chin joining the neck behind it on the left. B: The gray pointed snout projects to the left of the purple eye, while the connected neck falls behind it to the right.",
+      "landmark_reasons": {
+        "A": "The gray pointed snout projects to the right of the purple eye, with the chin joining the neck behind it on the left.",
+        "B": "The gray pointed snout projects to the left of the purple eye, while the connected neck falls behind it to the right."
+      }
+    },
+    {
+      "pair": "horizontal-2",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The actual gray snout tip lies left of the purple eye and the chin runs back into the neck on the right. B: The gray snout wedge extends rightward past the purple eye, with the cheek and neck mass trailing on the left.",
+      "landmark_reasons": {
+        "A": "The actual gray snout tip lies left of the purple eye and the chin runs back into the neck on the right.",
+        "B": "The gray snout wedge extends rightward past the purple eye, with the cheek and neck mass trailing on the left."
+      }
+    },
+    {
+      "pair": "horizontal-3",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The pointed gray nose is visibly left of the purple eye, and the lower jaw connects into the neck to its right. B: The pointed gray nose extends to the right of the purple eye, ahead of the chin and connected neck.",
+      "landmark_reasons": {
+        "A": "The pointed gray nose is visibly left of the purple eye, and the lower jaw connects into the neck to its right.",
+        "B": "The pointed gray nose extends to the right of the purple eye, ahead of the chin and connected neck."
+      }
+    },
+    {
+      "pair": "horizontal-4",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The gray snout point sits to the right of the purple eye, with the throat and neck continuing down-left. B: The gray snout point sits to the left of the purple eye, with the cheek and connected neck mass behind it on the right.",
+      "landmark_reasons": {
+        "A": "The gray snout point sits to the right of the purple eye, with the throat and neck continuing down-left.",
+        "B": "The gray snout point sits to the left of the purple eye, with the cheek and connected neck mass behind it on the right."
+      }
+    },
+    {
+      "pair": "horizontal-5",
+      "axis": "horizontal",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The long gray pointed snout reaches leftward from the purple eye; the chin returns into the neck on the right. B: The gray pointed snout reaches rightward from the purple eye, with the lower jaw and neck set behind it on the left.",
+      "landmark_reasons": {
+        "A": "The long gray pointed snout reaches leftward from the purple eye; the chin returns into the neck on the right.",
+        "B": "The gray pointed snout reaches rightward from the purple eye, with the lower jaw and neck set behind it on the left."
+      }
+    },
+    {
+      "pair": "horizontal-6",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The gray nose point is right of the purple eye and the visible chin joins the neck back toward the left. B: The gray nose point is left of the purple eye, while the jaw and connected neck recede toward the right.",
+      "landmark_reasons": {
+        "A": "The gray nose point is right of the purple eye and the visible chin joins the neck back toward the left.",
+        "B": "The gray nose point is left of the purple eye, while the jaw and connected neck recede toward the right."
+      }
+    },
+    {
+      "pair": "horizontal-7",
+      "axis": "horizontal",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The pointed gray snout extends right of the purple eye even though the head is lowered, and the neck attaches behind on the left. B: The pointed gray snout extends left of the purple eye, with the chin and neck attachment trailing to the right.",
+      "landmark_reasons": {
+        "A": "The pointed gray snout extends right of the purple eye even though the head is lowered, and the neck attaches behind on the left.",
+        "B": "The pointed gray snout extends left of the purple eye, with the chin and neck attachment trailing to the right."
+      }
+    },
+    {
+      "pair": "vertical-1",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The gray snout and purple eye are lifted above the chin, and the throat stretches upward away from the connected neck. B: The gray snout is pitched toward the chest, with the chin tucked down into the neck junction.",
+      "landmark_reasons": {
+        "A": "The gray snout and purple eye are lifted above the chin, and the throat stretches upward away from the connected neck.",
+        "B": "The gray snout is pitched toward the chest, with the chin tucked down into the neck junction."
+      }
+    },
+    {
+      "pair": "vertical-2",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The pointed gray snout tilts above the purple eye line and the chin is raised clear of the neck. B: The snout tip and purple eye angle downward, and the chin closes toward the connected neck and chest.",
+      "landmark_reasons": {
+        "A": "The pointed gray snout tilts above the purple eye line and the chin is raised clear of the neck.",
+        "B": "The snout tip and purple eye angle downward, and the chin closes toward the connected neck and chest."
+      }
+    },
+    {
+      "pair": "vertical-3",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The gray snout points toward the forequarters and the chin is tucked close to the neck. B: The snout is carried above the chin, with an open throat line rising from the connected neck.",
+      "landmark_reasons": {
+        "A": "The gray snout points toward the forequarters and the chin is tucked close to the neck.",
+        "B": "The snout is carried above the chin, with an open throat line rising from the connected neck."
+      }
+    },
+    {
+      "pair": "vertical-4",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The gray snout tip sits slightly above the purple eye and the chin lifts away from the neck attachment. B: The snout slopes slightly below the purple eye while the chin angles down toward the connected neck.",
+      "landmark_reasons": {
+        "A": "The gray snout tip sits slightly above the purple eye and the chin lifts away from the neck attachment.",
+        "B": "The snout slopes slightly below the purple eye while the chin angles down toward the connected neck."
+      }
+    },
+    {
+      "pair": "vertical-5",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The gray muzzle and purple eye are raised high, with the throat elongated above the connected neck. B: The gray muzzle is directed toward the ground and the chin is folded into the neck and chest.",
+      "landmark_reasons": {
+        "A": "The gray muzzle and purple eye are raised high, with the throat elongated above the connected neck.",
+        "B": "The gray muzzle is directed toward the ground and the chin is folded into the neck and chest."
+      }
+    },
+    {
+      "pair": "vertical-6",
+      "axis": "vertical",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The pointed gray snout rises above the eye-to-neck line and the underside of the jaw opens upward from the neck. B: The pointed snout descends toward the chest and the chin sits tight against the connected neck.",
+      "landmark_reasons": {
+        "A": "The pointed gray snout rises above the eye-to-neck line and the underside of the jaw opens upward from the neck.",
+        "B": "The pointed snout descends toward the chest and the chin sits tight against the connected neck."
+      }
+    },
+    {
+      "pair": "vertical-7",
+      "axis": "vertical",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The gray snout is lowered beneath the purple eye and the chin turns toward the neck and forequarters. B: The gray snout and eye are elevated, with the throat stretched upward from the neck connection.",
+      "landmark_reasons": {
+        "A": "The gray snout is lowered beneath the purple eye and the chin turns toward the neck and forequarters.",
+        "B": "The gray snout and eye are elevated, with the throat stretched upward from the neck connection."
+      }
+    }
+  ]
+}

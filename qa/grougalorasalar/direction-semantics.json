@@ -1,0 +1,165 @@
+{
+  "atlas_sha256": "e91fc60b6146b393a5b1222cdbab5c727feb8154864129b3acd98db97d72be80",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up with a readable right-profile component",
+      "verdict": "pass",
+      "reason": "The actual pointed gray nose, exposed lower jaw, purple eye and long connected neck rise steeply; the visible face is not a rear skull, and the tall horn was not treated as the aiming landmark.",
+      "horizontal_evidence": "The nose is about 16 px right of the eye, preserving readable side profile without turning the anchored body right.",
+      "vertical_evidence": "The nose is about 8 px above the eye and about 65 px above the neck/chest join; the jaw and neck axis rise strongly.",
+      "coordinate_evidence": "Local cell: nose=(90,40), eye=(74,48), chin=(87,66), neck=(75,105)."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right, close to up",
+      "verdict": "pass",
+      "reason": "The pointed gray muzzle advances clockwise to screen-right while the exposed jaw and attached neck remain strongly raised.",
+      "horizontal_evidence": "The nose is about 23 px right of the purple eye.",
+      "vertical_evidence": "The nose is about 6 px above the eye and about 60 px above the neck join.",
+      "coordinate_evidence": "Local cell: nose=(102,47), eye=(79,53), chin=(92,66), neck=(80,107)."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "The gray snout projects right and the head remains lifted from the fixed neck base.",
+      "horizontal_evidence": "The nose is about 23 px right of the eye and right of the neck centerline.",
+      "vertical_evidence": "The nose is about 37 px above the neck join and the chin-to-neck line rises toward the target.",
+      "coordinate_evidence": "Local cell: nose=(105,72), eye=(82,66), chin=(98,78), neck=(81,109)."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right with a shallow vertical step",
+      "verdict": "pass",
+      "reason": "The real gray nose remains decisively right of the face while the attached jaw-to-neck axis still rises toward it.",
+      "horizontal_evidence": "The nose is about 24 px right of the eye and 26 px right of the neck join.",
+      "vertical_evidence": "The nose remains about 33 px above the neck join even though it is close to the eye band.",
+      "coordinate_evidence": "Local cell: nose=(106,78), eye=(82,70), chin=(98,85), neck=(80,111)."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "hard screen-right profile",
+      "verdict": "pass",
+      "reason": "The actual pointed gray snout projects unmistakably screen-right of the purple eye, chin and neck; neither horn is mistaken for the nose.",
+      "horizontal_evidence": "The nose is about 23 px right of the eye and about 26 px right of the neck join.",
+      "vertical_evidence": "Nose and eye occupy the same horizontal face band with only the natural neck pitch.",
+      "coordinate_evidence": "Local cell: nose=(106,79), eye=(83,71), chin=(98,86), neck=(80,111)."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right with modest down pitch",
+      "verdict": "pass",
+      "reason": "The gray nose stays right of the face and drops below the purple eye, starting the lower-right arc without body rotation.",
+      "horizontal_evidence": "The nose is about 20 px right of the eye and 24 px right of the neck join.",
+      "vertical_evidence": "The nose is about 9 px below the eye and the chin is lower again.",
+      "coordinate_evidence": "Local cell: nose=(103,87), eye=(83,78), chin=(97,93), neck=(79,112)."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "The muzzle and chin descend clearly while remaining right of the eye and connected neck.",
+      "horizontal_evidence": "The nose is about 18 px right of the eye and 21 px right of the neck join.",
+      "vertical_evidence": "The nose is about 16 px below the eye and the chin about 23 px below it.",
+      "coordinate_evidence": "Local cell: nose=(95,109), eye=(77,93), chin=(88,116), neck=(74,121)."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right approaching down",
+      "verdict": "pass",
+      "reason": "The bowed face approaches the down cardinal while retaining a visible screen-right nose projection; the ordered motion does not reverse.",
+      "horizontal_evidence": "The nose remains about 14 px right of the eye and 17 px right of the neck join.",
+      "vertical_evidence": "The nose is about 17 px below the eye and the chin about 24 px below it.",
+      "coordinate_evidence": "Local cell: nose=(89,122), eye=(75,105), chin=(83,129), neck=(72,127)."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down with a readable left-profile component",
+      "verdict": "pass",
+      "reason": "The actual nose, purple eye, chin and connected neck form the deepest bowed pose; the curved horns remain above the skull and are not used as nose landmarks.",
+      "horizontal_evidence": "The nose is about 10 px left of the eye, preserving face readability in the dominant downward pose.",
+      "vertical_evidence": "The nose is about 21 px below the eye and reaches the low chin/neck band.",
+      "coordinate_evidence": "Local cell: nose=(50,148), eye=(60,127), chin=(56,151), neck=(74,147)."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left, close to down",
+      "verdict": "pass",
+      "reason": "The bowed gray muzzle begins the clockwise move toward screen-left while keeping the eye, jaw and neck physically connected.",
+      "horizontal_evidence": "The nose is about 6 px left of the eye and 27 px left of the neck join.",
+      "vertical_evidence": "The nose is about 24 px below the eye and the chin remains in the lowest head band.",
+      "coordinate_evidence": "Local cell: nose=(43,150), eye=(49,126), chin=(49,151), neck=(70,148)."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "The pointed gray muzzle projects down-left from the purple eye and feeds continuously into the fixed neck base.",
+      "horizontal_evidence": "The nose is about 10 px left of the eye and 31 px left of the neck join.",
+      "vertical_evidence": "The nose is about 18 px below the eye and the chin another 4 px lower.",
+      "coordinate_evidence": "Local cell: nose=(31,125), eye=(41,107), chin=(37,129), neck=(62,133)."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left approaching left",
+      "verdict": "pass",
+      "reason": "The face is decisively screen-left and retains a visible downward component before the left cardinal.",
+      "horizontal_evidence": "The nose is about 25 px left of the eye and 41 px left of the neck join.",
+      "vertical_evidence": "The nose is about 13 px below the eye and the chin about 17 px below it.",
+      "coordinate_evidence": "Local cell: nose=(18,109), eye=(43,96), chin=(27,113), neck=(59,122)."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "hard screen-left profile",
+      "verdict": "pass",
+      "reason": "The actual pointed gray snout projects unmistakably screen-left of the purple eye, chin and attached neck while the torso and wings keep their orientation.",
+      "horizontal_evidence": "The nose is about 27 px left of the eye and 46 px left of the neck join.",
+      "vertical_evidence": "The mild nose-to-eye drop is inherited physical pitch and does not weaken the horizontal cardinal.",
+      "coordinate_evidence": "Local cell: nose=(11,82), eye=(38,69), chin=(21,87), neck=(57,113)."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left, close to left",
+      "verdict": "pass",
+      "reason": "The screen-left snout begins the upward return through a strongly rising nose-to-neck axis; the first up-left step is intentionally shallow at the eye line.",
+      "horizontal_evidence": "The nose is about 28 px left of the eye and 51 px left of the neck join.",
+      "vertical_evidence": "The nose is 50 px above the neck join and the chin-to-neck axis rises clearly up-left, despite the nose sitting 6 px below the eye.",
+      "coordinate_evidence": "Local cell: nose=(8,57), eye=(36,51), chin=(20,65), neck=(59,107)."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "The pointed muzzle and purple eye occupy a clear upper-left pose while the plated neck remains connected to the unchanged chest.",
+      "horizontal_evidence": "The nose is about 25 px left of the eye and 44 px left of the neck join.",
+      "vertical_evidence": "The nose is about 8 px above the eye and 71 px above the neck join.",
+      "coordinate_evidence": "Local cell: nose=(18,31), eye=(43,39), chin=(29,53), neck=(62,102)."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left approaching up",
+      "verdict": "pass",
+      "reason": "The raised face closes the loop toward 000 while keeping definite screen-left projection, visible eye and attached jaw/neck construction.",
+      "horizontal_evidence": "The nose is about 32 px left of the eye and 48 px left of the neck join.",
+      "vertical_evidence": "The nose is about 13 px above the eye and 83 px above the neck join; the chin is also high on the rising neck axis.",
+      "coordinate_evidence": "Local cell: nose=(18,16), eye=(50,29), chin=(31,45), neck=(66,99)."
+    }
+  ]
+}

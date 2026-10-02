@@ -60,7 +60,12 @@
       "id": "grougalorasalar",
       "name": "Grougalorasalar",
       "category": "dragons",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/grougalorasalar.gif",
+      "package": {
+        "pet.json": "9b1c38a5ca94c14abc13efe4bd693c0c227243e5ee372c9ceade2cad690078c1",
+        "spritesheet.webp": "e91fc60b6146b393a5b1222cdbab5c727feb8154864129b3acd98db97d72be80"
+      }
     },
     {
       "id": "dofus-emerald",

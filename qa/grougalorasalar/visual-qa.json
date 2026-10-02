@@ -1,0 +1,88 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "e91fc60b6146b393a5b1222cdbab5c727feb8154864129b3acd98db97d72be80",
+  "motion_review": "Independent native-size review covered all 57 populated standard cells in final/spritesheet-extended.webp and every actual frame of the nine final GIFs: idle 6/6, running-right 8/8, running-left 8/8, waving 4/4, jumping 5/5, failed 8/8, waiting 6/6, running 6/6, and review 6/6. The adult charcoal dragon, layered mauve mane, gray pointed snout, curved segmented gray horns, purple eyes, full bat wings, spiked tail and claws remain recognizable in every state. Idle breathes and blinks; both travel rows alternate their gaits in the named directions; the wave raises and returns an attached forepaw; the jump crouches, lifts clearly off the baseline, peaks and lands; failed bows into a deep slump and recovers; waiting extends an asking paw; running uses small focused forepaw/head activity without foot-running; review scans with head and eye changes. No detached effects, clipped parts, missing frames, reversal, conspicuous scale pop or identity substitution is visible.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": {
+      "frames": 6,
+      "phases": "calm planted loop with small torso/head breathing changes, purple-eye blink/softening, and return",
+      "identity": "adult charcoal face, mauve mane, gray horns and snout, purple eye, wings, tail and claws stay consistent in all 6 frames",
+      "scale": "stable native-cell size and baseline; only modest breathing motion"
+    },
+    "running-right": {
+      "frames": 8,
+      "phases": "screen-right profile with alternating fore/hind extension, gathered suspension, opposite extension and recovery",
+      "identity": "same adult dragon, full wing pair, mane, horn, eye, tail and claw construction through all 8 gait phases",
+      "scale": "stable shared travel-row scale; stride deformation is physical and does not pop"
+    },
+    "running-left": {
+      "frames": 8,
+      "phases": "screen-left profile with alternating extension, gathered suspension, opposite extension and recovery",
+      "identity": "same adult dragon and palette; gray snout and purple eye point left while wings and tail remain complete",
+      "scale": "stable shared travel-row scale; no single-frame enlargement or shrink"
+    },
+    "waving": {
+      "frames": 4,
+      "phases": "planted stance, attached forepaw rises with pad exposed, reaches the greeting pose, then returns",
+      "identity": "head, mane, horns, bat wings, tail and non-waving limbs stay on-model",
+      "scale": "stable body mass and foot baseline across all 4 frames"
+    },
+    "jumping": {
+      "frames": 5,
+      "phases": "grounded crouch, takeoff, clearly airborne peak, descent, and grounded landing/recovery",
+      "identity": "adult face, horns, mane, wing membranes, tail and all claws remain attached throughout the 5-frame arc",
+      "scale": "apparent body size is stable; vertical displacement supplies the jump rather than resizing"
+    },
+    "failed": {
+      "frames": 8,
+      "phases": "upright reaction, progressive head/shoulder drop, deepest collapsed slump around frames 3-5, then recovery",
+      "identity": "same dragon remains readable even at deepest bow; no new prop, symbol or detached effect appears",
+      "scale": "stable overall size and ground contact; compression follows the physical slump"
+    },
+    "waiting": {
+      "frames": 6,
+      "phases": "expectant stance, forepaw extends with purple pad visible, holds the asking gesture, and retracts",
+      "identity": "same adult head, mane, horns, wings and tail; gesture uses an attached limb",
+      "scale": "stable torso and planted feet; no playback pop"
+    },
+    "running": {
+      "frames": 6,
+      "phases": "focused planted work loop with alternating small forepaw tap/reach and head/eye attention changes",
+      "identity": "same dragon and fixed body construction; no tool, UI, paper or added prop",
+      "scale": "stable standing scale and baseline; does not become literal foot-running"
+    },
+    "review": {
+      "frames": 6,
+      "phases": "planted inspection loop with head dip, eye-line sweep, lifted look and return",
+      "identity": "adult gray snout, curved horns, purple eye, mane, wings, tail and claws stay consistent",
+      "scale": "stable body size and registration; head motion remains attached to the neck"
+    }
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "All 16 exact final WebP cells were reviewed clockwise at 192x208 and against the canonical and user references. The actual gray nose, purple eye, lower jaw/chin and neck axis control the reading; horns were not used as direction landmarks. 000 exposes the raised face and jaw rather than showing a rear skull, 090 is a hard screen-right profile, 180 is the deepest downward bow, and 270 is a hard screen-left profile. Every intermediate stays in its required quadrant with no reversal. Torso, hips, planted feet, wing roots/membranes and tail remain anchored while head and connected neck carry the turn. Row-boundary silhouette metrics are elevated because physical head/mane occlusion changes near down and up, but native review shows no global scale pop, severed attachment or body jump.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "519dc2690f4ba152b1c10955dd3e1f0fb94ab0be26817d886c50c98522cadf48",
+    "sheet": "qa/look-alpha-contact.png",
+    "reason": "The exact final WebP alpha silhouettes were inspected for every look cell. Suspect black regions are open to the exterior or form anatomically expected air channels between the upright wing and head/body, beneath the wing above the tail, inside the tail curl, and between planted legs. The mauve wing membranes themselves remain continuously filled, and no enclosed alpha perforation cuts through horn, snout, mane, torso, limb, wing membrane or tail material. Raw-versus-final inspection also shows edge despill without topology loss.",
+    "actual_suspect_coordinates": "Representative local-cell regions checked: x=92-126,y=54-108 between head/neck and raised wing; x=111-158,y=116-181 beneath wing above curled tail/limbs; x=55-101,y=164-199 between legs. These regions connect to exterior air and are not filled material. Small dark notches near claws and tail spikes likewise follow outer contours."
+  },
+  "warnings": [
+    "Intermediate angular spacing is modestly compressed around 045-112.5 and 225-292.5; each cell still occupies the correct quadrant and the ordered sweep never reverses.",
+    "Continuity metrics flag 157.5->180 and 337.5->000 because of head/mane occlusion and silhouette-area changes. Native comparison shows stable torso, feet, wings and tail rather than a physically conspicuous whole-sprite scale or registration pop.",
+    "The 000 and 180 cardinals retain small side-profile components so the face, jaw and purple eye remain readable; their dominant neck-to-nose axes are unmistakably up and down."
+  ],
+  "repair_rows": [],
+  "notes": "Final artifact inspected: final/spritesheet-extended.webp, 1536x2288, SHA-256 e91fc60b6146b393a5b1222cdbab5c727feb8154864129b3acd98db97d72be80. Evidence artifacts: qa/final-gif-frames-contact.png, qa/exactlook-alpha-contact.png, and qa/raw-vs-final-look-contact.png. No pet artwork was generated or edited during this review."
+}
