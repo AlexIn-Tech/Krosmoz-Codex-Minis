@@ -1,0 +1,165 @@
+{
+  "atlas_sha256": "c66d65a32e03c9f5a84d0ab90a5faceb72000c0e1fd580a588fd37189358c71b",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "reason": "The full gold flame core is centered distinctly above the fixed shell chamber center.",
+      "horizontal_evidence": "Core offset is only +2.7 px, effectively centered on the shell axis.",
+      "vertical_evidence": "Core offset is -26.3 px, the strongest upward placement in the loop.",
+      "coordinate_evidence": "shell center (93.5,122.5); full-core centroid (96.2,96.2); relative (+2.7,-26.3)."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "The same complete core moves clockwise into the upper-right chamber quadrant.",
+      "horizontal_evidence": "Core is +10.1 px right of shell center.",
+      "vertical_evidence": "Core is -17.8 px above shell center.",
+      "coordinate_evidence": "shell center (94.0,122.5); full-core centroid (104.1,104.7); relative (+10.1,-17.8)."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "Both upper and right components are clear in the full flame mass.",
+      "horizontal_evidence": "Core is +12.8 px right of shell center.",
+      "vertical_evidence": "Core is -12.5 px above shell center.",
+      "coordinate_evidence": "shell center (94.0,122.5); full-core centroid (106.8,110.0); relative (+12.8,-12.5)."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "reason": "The core remains above center while approaching the right cardinal without reversal.",
+      "horizontal_evidence": "Core is +13.4 px right of shell center.",
+      "vertical_evidence": "Core is -8.2 px above shell center.",
+      "coordinate_evidence": "shell center (93.5,122.5); full-core centroid (106.9,114.3); relative (+13.4,-8.2)."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "reason": "The full core is laterally right of the fixed chamber; the small high bias comes from natural flame curvature and does not change the cardinal.",
+      "horizontal_evidence": "Core is +7.1 px right of shell center and visually occupies the right chamber.",
+      "vertical_evidence": "Core is -6.5 px high, a restrained secondary bias smaller than the rightward displacement.",
+      "coordinate_evidence": "shell center (93.5,122.5); full-core centroid (100.6,116.0); relative (+7.1,-6.5)."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "The same connected core crosses below center while retaining a rightward mass component.",
+      "horizontal_evidence": "Core is +2.6 px right of shell center, with the connected flame tongue extending right.",
+      "vertical_evidence": "Core is +1.4 px below shell center, beginning the required downward arc.",
+      "coordinate_evidence": "shell center (93.0,122.5); full-core centroid (95.6,123.9); relative (+2.6,+1.4)."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "The full core is visibly lower-right and continues clockwise.",
+      "horizontal_evidence": "Core is +5.9 px right of shell center.",
+      "vertical_evidence": "Core is +4.1 px below shell center.",
+      "coordinate_evidence": "shell center (94.0,122.5); full-core centroid (99.9,126.6); relative (+5.9,+4.1)."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "reason": "The row-9 endpoint is strongly down and remains right of center before the down cardinal.",
+      "horizontal_evidence": "Core is +6.7 px right of shell center.",
+      "vertical_evidence": "Core is +11.2 px below shell center.",
+      "coordinate_evidence": "shell center (93.5,122.5); full-core centroid (100.2,133.7); relative (+6.7,+11.2)."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "reason": "The full gold core is centered low in the chamber; the tiny left bias does not obscure the hard DOWN cardinal.",
+      "horizontal_evidence": "Core is only -2.5 px left of shell center, effectively centered compared with the vertical move.",
+      "vertical_evidence": "Core is +12.6 px below shell center.",
+      "coordinate_evidence": "shell center (94.0,120.5); full-core centroid (91.5,133.1); relative (-2.5,+12.6)."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "The connected core leaves DOWN toward the lower-left quadrant.",
+      "horizontal_evidence": "Core is -2.7 px left of shell center and its full flame mass bends left.",
+      "vertical_evidence": "Core is +13.5 px below shell center.",
+      "coordinate_evidence": "shell center (94.0,120.5); full-core centroid (91.3,134.0); relative (-2.7,+13.5)."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Both lower and left axes strengthen in the full flame core.",
+      "horizontal_evidence": "Core is -4.9 px left of shell center.",
+      "vertical_evidence": "Core is +13.8 px below shell center.",
+      "coordinate_evidence": "shell center (93.0,120.5); full-core centroid (88.1,134.3); relative (-4.9,+13.8)."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "The core is clearly lower-left while approaching the left cardinal.",
+      "horizontal_evidence": "Core is -8.1 px left of shell center.",
+      "vertical_evidence": "Core is +13.3 px below shell center.",
+      "coordinate_evidence": "shell center (94.0,120.5); full-core centroid (85.9,133.8); relative (-8.1,+13.3)."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "reason": "The full core is level and distinctly left of the fixed chamber center, making the hard LEFT cardinal unambiguous.",
+      "horizontal_evidence": "Core is -9.7 px left of shell center.",
+      "vertical_evidence": "Core is only -0.7 px high, effectively level.",
+      "coordinate_evidence": "shell center (94.0,120.5); full-core centroid (84.3,119.8); relative (-9.7,-0.7)."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "The first upper-left intermediate has both required signs and continues clockwise from LEFT.",
+      "horizontal_evidence": "Core is -4.6 px left of shell center.",
+      "vertical_evidence": "Core is -5.5 px above shell center.",
+      "coordinate_evidence": "shell center (93.5,120.5); full-core centroid (88.9,115.0); relative (-4.6,-5.5)."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "The same full core is strongly high and clearly left.",
+      "horizontal_evidence": "Core is -8.8 px left of shell center.",
+      "vertical_evidence": "Core is -14.2 px above shell center.",
+      "coordinate_evidence": "shell center (94.0,120.5); full-core centroid (85.2,106.3); relative (-8.8,-14.2)."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "The endpoint remains left while rising toward centered UP and closes the loop without crossing right.",
+      "horizontal_evidence": "Core is -4.6 px left of shell center.",
+      "vertical_evidence": "Core is -22.3 px above shell center.",
+      "coordinate_evidence": "shell center (94.0,120.5); full-core centroid (89.4,98.2); relative (-4.6,-22.3)."
+    }
+  ]
+}

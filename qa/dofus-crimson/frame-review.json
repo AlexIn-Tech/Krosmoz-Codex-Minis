@@ -1,0 +1,1003 @@
+{
+  "ok": true,
+  "frames_root": "generation/dofus-crimson/qa/final-native-frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "idle used extraction method final-atlas-cells; component extraction is preferred",
+    "running-right used extraction method final-atlas-cells; component extraction is preferred",
+    "running-left used extraction method final-atlas-cells; component extraction is preferred",
+    "waving used extraction method final-atlas-cells; component extraction is preferred",
+    "jumping used extraction method final-atlas-cells; component extraction is preferred",
+    "failed used extraction method final-atlas-cells; component extraction is preferred",
+    "waiting used extraction method final-atlas-cells; component extraction is preferred",
+    "running used extraction method final-atlas-cells; component extraction is preferred",
+    "review used extraction method final-atlas-cells; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/dofus-crimson/qa/final-native-frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14148,
+          "bbox": [
+            36,
+            45,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/dofus-crimson/qa/final-native-frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14119,
+          "bbox": [
+            36,
+            44,
+            154,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/dofus-crimson/qa/final-native-frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14985,
+          "bbox": [
+            35,
+            37,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/dofus-crimson/qa/final-native-frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15143,
+          "bbox": [
+            35,
+            35,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/dofus-crimson/qa/final-native-frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14603,
+          "bbox": [
+            36,
+            40,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/dofus-crimson/qa/final-native-frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14175,
+          "bbox": [
+            36,
+            45,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15594,
+          "bbox": [
+            34,
+            35,
+            157,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15411,
+          "bbox": [
+            35,
+            36,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15278,
+          "bbox": [
+            35,
+            38,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15245,
+          "bbox": [
+            35,
+            40,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15408,
+          "bbox": [
+            35,
+            36,
+            157,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15366,
+          "bbox": [
+            34,
+            36,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15446,
+          "bbox": [
+            34,
+            37,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15434,
+          "bbox": [
+            35,
+            40,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14999,
+          "bbox": [
+            32,
+            42,
+            153,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14882,
+          "bbox": [
+            34,
+            40,
+            153,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15041,
+          "bbox": [
+            36,
+            36,
+            154,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15173,
+          "bbox": [
+            35,
+            35,
+            154,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15220,
+          "bbox": [
+            35,
+            36,
+            154,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15049,
+          "bbox": [
+            34,
+            37,
+            152,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15032,
+          "bbox": [
+            31,
+            41,
+            152,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14906,
+          "bbox": [
+            32,
+            40,
+            151,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15724,
+          "bbox": [
+            32,
+            36,
+            158,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16606,
+          "bbox": [
+            32,
+            35,
+            160,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16317,
+          "bbox": [
+            28,
+            36,
+            159,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15748,
+          "bbox": [
+            32,
+            36,
+            158,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/dofus-crimson/qa/final-native-frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16128,
+          "bbox": [
+            30,
+            33,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/dofus-crimson/qa/final-native-frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16091,
+          "bbox": [
+            30,
+            18,
+            162,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/dofus-crimson/qa/final-native-frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16197,
+          "bbox": [
+            30,
+            5,
+            162,
+            176
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/dofus-crimson/qa/final-native-frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16119,
+          "bbox": [
+            30,
+            21,
+            162,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/dofus-crimson/qa/final-native-frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16131,
+          "bbox": [
+            30,
+            33,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/dofus-crimson/qa/final-native-frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15494,
+          "bbox": [
+            34,
+            35,
+            157,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/dofus-crimson/qa/final-native-frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15318,
+          "bbox": [
+            34,
+            35,
+            154,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/dofus-crimson/qa/final-native-frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15309,
+          "bbox": [
+            30,
+            40,
+            153,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/dofus-crimson/qa/final-native-frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15227,
+          "bbox": [
+            30,
+            40,
+            152,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/dofus-crimson/qa/final-native-frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15146,
+          "bbox": [
+            31,
+            40,
+            153,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/dofus-crimson/qa/final-native-frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15383,
+          "bbox": [
+            36,
+            35,
+            157,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "generation/dofus-crimson/qa/final-native-frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15259,
+          "bbox": [
+            36,
+            35,
+            157,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "generation/dofus-crimson/qa/final-native-frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15428,
+          "bbox": [
+            34,
+            35,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14425,
+          "bbox": [
+            35,
+            43,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14611,
+          "bbox": [
+            35,
+            41,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15124,
+          "bbox": [
+            35,
+            37,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15396,
+          "bbox": [
+            35,
+            35,
+            157,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14815,
+          "bbox": [
+            35,
+            39,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/dofus-crimson/qa/final-native-frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14507,
+          "bbox": [
+            35,
+            42,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14619,
+          "bbox": [
+            35,
+            42,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14717,
+          "bbox": [
+            35,
+            41,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15421,
+          "bbox": [
+            34,
+            35,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15126,
+          "bbox": [
+            35,
+            38,
+            157,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14719,
+          "bbox": [
+            35,
+            41,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/dofus-crimson/qa/final-native-frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14547,
+          "bbox": [
+            35,
+            42,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "final-atlas-cells",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method final-atlas-cells; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "generation/dofus-crimson/qa/final-native-frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15270,
+          "bbox": [
+            34,
+            39,
+            158,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "generation/dofus-crimson/qa/final-native-frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15256,
+          "bbox": [
+            31,
+            40,
+            156,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "generation/dofus-crimson/qa/final-native-frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15672,
+          "bbox": [
+            25,
+            44,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "generation/dofus-crimson/qa/final-native-frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15076,
+          "bbox": [
+            27,
+            45,
+            154,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "generation/dofus-crimson/qa/final-native-frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15570,
+          "bbox": [
+            33,
+            35,
+            157,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "generation/dofus-crimson/qa/final-native-frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15276,
+          "bbox": [
+            33,
+            39,
+            157,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ],
+  "atlas_sha256": "c66d65a32e03c9f5a84d0ab90a5faceb72000c0e1fd580a588fd37189358c71b",
+  "provenance": "All 57 cells are exact crops of the cleaned final native atlas; source extraction evidence is preserved separately. Inspector thresholds unchanged."
+}

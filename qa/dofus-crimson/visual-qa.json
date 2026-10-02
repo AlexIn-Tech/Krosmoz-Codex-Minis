@@ -1,0 +1,77 @@
+{
+  "visual_qa": "pass",
+  "atlas_sha256": "c66d65a32e03c9f5a84d0ab90a5faceb72000c0e1fd580a588fd37189358c71b",
+  "motion_review": "Fresh review of the exact final WebP, the all-rows contact sheet, all nine final GIFs, and all 57 chronological native cells confirms nine distinct, readable loops. The fractured red-orange glass egg, full gold flame core, facet layout, opacity treatment, and faceless identity remain consistent. Every pose is contained and free of detached effects, shadows, neighbors, or invented anatomy. Directional rows rock and travel toward their named side; the jump is a real lift and return; idle, waiting, work, failure, and review use visible internal or shell motion rather than static lighting alone.",
+  "standard_states_reviewed": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "state_reviews": {
+    "idle": {
+      "actual_count": 6,
+      "phases": "rest, core rise, brighter crest, held high point, settle, return",
+      "evidence": "The shell stays planted and full sized while the original gold core rises and settles inside it; the cycle returns to the same calm resting construction without a face, limbs, or added effects."
+    },
+    "running-right": {
+      "actual_count": 8,
+      "phases": "upright departure, progressive right rock, rightmost travel emphasis, rebound, repeat",
+      "evidence": "The intact egg leans and shifts toward screen-right across an alternating eight-frame cadence, with a stable bottom region and no feet, speed lines, shadow, or neighbor bleed."
+    },
+    "running-left": {
+      "actual_count": 8,
+      "phases": "upright departure, progressive left rock, leftmost travel emphasis, rebound, repeat",
+      "evidence": "The intact egg leans and shifts toward screen-left in the opposite travel family, preserving the same red-orange facets and full gold core with no handed motif change."
+    },
+    "waving": {
+      "actual_count": 4,
+      "phases": "upright, friendly side lean, opposite side lean, upright recovery",
+      "evidence": "The literal egg greets through a contained whole-shell rock around its base; all four frames retain the original motif and introduce no arms, wave marks, or detached decoration."
+    },
+    "jumping": {
+      "actual_count": 5,
+      "phases": "grounded launch, lift, airborne peak, descent, baseline landing",
+      "evidence": "Frames 1-3 move the same-size shell visibly upward and frame 4 returns to the original baseline. The motion reads as positional lift rather than resizing and has no shadow, dust, impact mark, or clipping."
+    },
+    "failed": {
+      "actual_count": 8,
+      "phases": "rest, shudder, forward bow, dim held reaction, recovery, rest",
+      "evidence": "The egg bows and the existing core visibly dims through the middle frames before recovering. The shell remains intact, with no red cross, new damage, tears, or detached symbols."
+    },
+    "waiting": {
+      "actual_count": 6,
+      "phases": "rest, restrained core drift, expectant raised hold, return",
+      "evidence": "The planted shell waits while the existing gold core and bubbles move through a small contained arc. The slower held motion is distinct from idle and work and adds no clock, punctuation, or face."
+    },
+    "running": {
+      "actual_count": 6,
+      "phases": "low pulse, rising internal circulation, bright work crest, falling pulse, return",
+      "evidence": "The shell remains planted with no locomotion while the original contained flame core circulates and pulses purposefully. This is real positional and painted-energy motion, not a static light-only loop."
+    },
+    "review": {
+      "actual_count": 6,
+      "phases": "upright, forward lean, tiny deliberate nod, held inspection, recover, upright",
+      "evidence": "The shell makes a visible restrained lean and nod in frames 1-4 and recovers in frame 5; the gold core follows inside the chamber, with no magnifier, paper, UI, face, or new prop."
+    }
+  },
+  "look_directions_reviewed": 16,
+  "look_review": "All sixteen final look cells were reviewed in the required clockwise order using the centroid and mass of the same full gold flame core relative to the broad fixed red-orange shell chamber: UP; three UP-RIGHT intermediates; RIGHT; three DOWN-RIGHT intermediates; DOWN; three DOWN-LEFT intermediates; LEFT; and three UP-LEFT intermediates. The four cardinals are unmistakable at native size, all intermediate signs remain in their required quadrant, and the loop has no reversal or backtrack. The shell stays anchored to the same baseline. Row 10 extends 4 px higher than row 9 while remaining exactly baseline aligned; the 2.6% height difference is visible only as a mild top-rim change and produces no conspicuous playback flash.",
+  "alpha_review": {
+    "verdict": "pass",
+    "sheet_sha256": "6352812aed04e249e9d19b33382d99a2e31452404ecdc7be5f3a3a74c8bab26f",
+    "reason": "The exact alpha contact and every reported component were reviewed against the colored look cells. The largest suspects are narrow 1-2 px zero-alpha strips at the outer shell rim, notably direction 022.5 at x=36-37/y=114-134 and directions 180-337.5 near x=150-151/y=115-132 (plus the mirrored x=36 strip at 247.5). Their immediate neighbors transition from alpha 0-5 fringe coverage to alpha 80-255 shell coverage, locating them on the antialiased outer contour. They do not cut through the filled glass chamber or gold flame core, create a visible silhouette notch, or form a material hole at normal size. The smaller 3-7 px suspects likewise sit on the top, side, or bottom rim/facet contour."
+  },
+  "warnings": [
+    "Row 10 is 4 px taller than row 9 (160 px versus 156 px), extending upward by 4 px while sharing the exact baseline; native playback shows no conspicuous flash.",
+    "The RIGHT and first/final diagonal intermediates use restrained centroid displacement, but the full core mass remains in the correct quadrant and the ordered loop is coherent.",
+    "Continuity metrics flag 045->067.5 and the two row-boundary transitions as numerical outliers; direct native-size inspection finds no visible snap, reversal, or identity break."
+  ],
+  "repair_rows": [],
+  "notes": "Independent final review only. No pixels, alpha, chroma, registration, source art, or atlas bytes were modified. The final visual verdict is pass with advisory continuity and row-height observations preserved."
+}

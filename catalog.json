@@ -93,7 +93,12 @@
       "id": "dofus-crimson",
       "name": "Crimson Dofus",
       "category": "eggs",
-      "status": "planned"
+      "status": "ready",
+      "preview": "assets/previews/dofus-crimson.gif",
+      "package": {
+        "pet.json": "d2c0e4b88042a0b511154f57423ff3e7828fcedd5c5c6e1abb4f35d62d5619f0",
+        "spritesheet.webp": "c66d65a32e03c9f5a84d0ab90a5faceb72000c0e1fd580a588fd37189358c71b"
+      }
     },
     {
       "id": "dofus-ochre",
